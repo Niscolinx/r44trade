@@ -554,7 +554,7 @@ function Layout(props) {
                         <div class="progrInfoFirst">
                             <div class="inner">
                                 <span class="num">6</span>
-                                <span>1ST <br>LEVEL</span>
+                                <span>1ST <br> </br>LEVEL</span>
                                 <span class="pct">%</span>
                             </div>
                         </div>
@@ -563,7 +563,7 @@ function Layout(props) {
                         <div class="progrInfoSecond">
                             <div class="inner">
                                 <span class="num">2</span>
-                                <span>2ND <br>LEVEL</span>
+                                <span>2ND <br> </br>LEVEL</span>
                                 <span class="pct">%</span>
                             </div>
                         </div>
@@ -621,9 +621,6 @@ function Layout(props) {
                     <div class="row">
                         <div class="item col6">
 
-
-
-
                             <div class="inner">
                                 <div class="title">
                                     <span>latest deposit</span>
@@ -633,26 +630,26 @@ function Layout(props) {
                                     <li class="tRow"><span class="tCell middle name">Deposit </span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$</span><span class="tCell bottom right pay"><img
-                                                src="img/ps_b/1000.png" alt="pay"></span></li>
+                                                src="img/ps_b/1000.png" alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Torres</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$53,000.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Hensley</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$201.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Hensley</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$34,000.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Frank Jason</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$</span><span class="tCell bottom right pay"><img
-                                                src="img/ps_b/1000.png" alt="pay"></span></li>
+                                                src="img/ps_b/1000.png" alt="pay"/></span></li>
 
 
                                 </ul>
@@ -670,27 +667,27 @@ function Layout(props) {
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$95,100.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Ms. Willie Hoppe III</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$134,000.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Elissa Murazik</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$87,000.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Dr. Velma Larson PhD</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$262,800.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
                                     <li class="tRow"><span class="tCell middle name">Takalani Letsoalo</span><span
                                             class="tCell middle date"> </span><span
                                             class="tCell middle sum">$76,000.00</span><span
                                             class="tCell bottom right pay"><img src="img/ps_b/1000.png"
-                                                alt="pay"></span></li>
+                                                alt="pay"/></span></li>
 
 
 
@@ -775,21 +772,15 @@ function Layout(props) {
     <div class="payments">
         <div class="container">
             <ul class="table full">
-                <li class="tCell bottom left"><img src="img/payment_1.png" alt="payment"></li>
-                <li class="tCell middle left"><img src="img/payment_2.png" alt="payment"></li>
-                <li class="tCell middle right"><img src="img/payment_4.png" alt="payment"></li>
-                <li class="tCell middle right"><img src="img/payment_5.png" alt="payment"></li>
-                <li class="tCell middle right"><img src="img/payment_6.png" alt="payment"></li>
-                <li class="tCell middle right"><img src="img/payment_8.png" alt="payment"></li>
+                <li class="tCell bottom left"><img src="img/payment_1.png" alt="payment"/></li>
+                <li class="tCell middle left"><img src="img/payment_2.png" alt="payment"/></li>
+                <li class="tCell middle right"><img src="img/payment_4.png" alt="payment"/></li>
+                <li class="tCell middle right"><img src="img/payment_5.png" alt="payment"/></li>
+                <li class="tCell middle right"><img src="img/payment_6.png" alt="payment"/></li>
+                <li class="tCell middle right"><img src="img/payment_8.png" alt="payment"/></li>
             </ul>
         </div>
     </div>
-    <!----VisualHyip.com Footer---->
-
-
-
-
-
 
 
     <footer>
