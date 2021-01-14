@@ -518,31 +518,6 @@ function Layout(props) {
         </div>
     </div>
 
-    {/* <script type="text/javascript">
-        function calc() {
-            percent = jQuery('#calc_plan option:checked').data('perc');
-            period = jQuery('#calc_plan option:checked').data('per');
-            amount = jQuery('#calc_amount').val();
-            jQuery('#profit').html((period * amount * percent / 100).toFixed(2));
-        }
-
-        jQuery(document).ready(function () {
-            calc();
-
-            jQuery('#calc_amount').on('change keyup', function () {
-                calc();
-            });
-
-            jQuery('#calc_plan').on('change', function () {
-                jQuery('#calc_amount').val(jQuery('#calc_plan option:checked').data('min'));
-                jQuery('#calc_amount').attr('min', jQuery('#calc_plan option:checked').data('min'));
-                jQuery('#calc_amount').attr('max', jQuery('#calc_plan option:checked').data('max'));
-
-                calc();
-            });
-        })
-    </script> */}
-
 
 
     <div class="program gradBack">
