@@ -38,8 +38,8 @@ function Layout(props) {
     </div>
 
     <div class="bodyWrap">
-        {/* <header>
-            {/* <div class="topLine">
+        <header>
+           <div class="topLine">
                 <div class="container">
                     <div class="table full">
                         <div class="logoWrap tCell">
@@ -75,13 +75,13 @@ function Layout(props) {
 
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             <script src="../widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
             <coingecko-coin-price-marquee-widget coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd"
                 background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
 
-            {/* <div class="menu">
+            <div class="menu">
                 <div class="container">
                     <center>
                         <ul>
@@ -96,7 +96,7 @@ function Layout(props) {
                     </center>
                 </div>
             </div> 
-        </header> */}
+        </header> 
 
 
 
