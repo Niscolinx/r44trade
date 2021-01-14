@@ -262,12 +262,6 @@ function Layout(props) {
 
         <div class="plan page" style="background-image: url(img/chart_bg.png), url(img/grey_bg.png);">
 
-
-
-
-
-
-
             <div class="container">
                 <div class="textBlock">
                     <p>
