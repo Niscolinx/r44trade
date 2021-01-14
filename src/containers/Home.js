@@ -26,6 +26,7 @@ import Payment_5 from '../images/payment_1.png'
 import Payment_6 from '../images/payment_6.png'
 import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
+import B1000 from '../images/1000.png'
 
 const storyStyle = {
     backgroundImage: `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .7)), url(${Back})`,
@@ -1063,7 +1064,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1071,7 +1072,7 @@ function Layout(props) {
                                         </ul>
                                     </div>
                                 </div>
-                                <div class='item col6' style='display: none;'>
+                                <div class='item col6' style={{display: 'none'}}>
                                     <div class='inner'>
                                         <div class='title'>
                                             <span>last WITHDRAWALS</span>
@@ -1089,7 +1090,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1106,7 +1107,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1123,7 +1124,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1140,7 +1141,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1157,7 +1158,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
