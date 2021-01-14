@@ -1,9 +1,19 @@
 import React from 'react'
 
-import Back from '../images/back.jpg'
-import Hero from '../images/hero.jpg'
-import WhyUs from '../images/whyChooseUs.jpg'
 
+import A1 from '../images/A1.png'
+import About_bg from '../images/about_bg.png'
+import Adv_bg from '../images/adv_bg.png'
+import B from '../images/B.png'
+import Bg_11 from '../images/bg-11.png'
+import C from '../images/C.png'
+import Card_bg_1 from '../images/card_bg_1.png'
+import Card_bg_2 from '../images/card_bg_2.png'
+import Case from '../images/case.png'
+import Chart_bg from '../images/chart_bg.png'
+import D from '../images/D.png'
+import E from '../images/E.png'
+import E from '../images/E.png'
 import A1 from '../images/A1.png'
 
 const storyStyle = {
