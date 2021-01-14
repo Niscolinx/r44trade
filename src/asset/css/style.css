@@ -219,7 +219,7 @@ span.color2 {
     bottom: 0;
     left: 50%;
     margin-left: -960px;
-    /* background-image: url(../img/grad_bg.png); */
+    background-image: url(../img/grad_bg.png);
     background-position: center bottom;
     background-repeat: no-repeat;
     z-index: -1;
@@ -2543,7 +2543,7 @@ footer .cont+.cont {
     left: 50%;
     bottom: 0;
     margin-left: -960px;
-    background-image: url(../img/grad_bg_2.png);
+    /* background-image: url(../img/grad_bg_2.png); */
     z-index: -1;
 }
 
@@ -3103,7 +3103,7 @@ footer .cont+.cont {
 }
 
 .cabContent {
-    background-image: url(../img/grad_bg_rev.png), url(../img/white_bg.png);
+    /* background-image: url(../img/grad_bg_rev.png), url(../img/white_bg.png); */
     background-position: center top, center bottom;
     background-repeat: no-repeat, no-repeat;
     background-color: #e6edf4;
@@ -4692,7 +4692,7 @@ footer .cont+.cont {
     width: 28px;
     height: 28px;
     margin-top: -14px;
-    /* background-image: url(../img/check.png); */
+    background-image: url(../img/D.png); 
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
