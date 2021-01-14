@@ -273,7 +273,7 @@ span.color2 {
     margin-left: -960px;
     width: 1920px;
     height: 1071px;
-    background-image: url(../img/grey_bg_rev.png);
+    /* background-image: url(../img/grey_bg_rev.png); */
     background-position: center top;
     background-repeat: no-repeat;
     z-index: -1;
@@ -2060,7 +2060,7 @@ footer .cont+.cont {
 }
 
 .program.page.greyImgRev::before {
-    background: url(../img/map_bg.png) center calc(100% - 230px) no-repeat, url(../img/grey_bg_rev_2.png) center bottom no-repeat;
+    /* background: url(../img/map_bg.png) center calc(100% - 230px) no-repeat, url(../img/grey_bg_rev_2.png) center bottom no-repeat; */
     bottom: 540px;
     height: calc(100% - 540px);
 }
@@ -2074,7 +2074,7 @@ footer .cont+.cont {
 }
 
 .program.greyImgRev::before {
-    background: url(../img/map_bg.png) center calc(100% - 255px) no-repeat, url(../img/grey_bg_rev.png) center bottom no-repeat;
+    /* background: url(../img/map_bg.png) center calc(100% - 255px) no-repeat, url(../img/grey_bg_rev.png) center bottom no-repeat; */
     bottom: 461px;
     top: auto;
     height: calc(100% - 461px);
