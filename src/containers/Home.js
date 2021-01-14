@@ -705,7 +705,7 @@ function Layout(props) {
 
                         <div
                             class='container'
-                            style={{marginTop: '40px', marginBottom: '40px'}}
+                            style={{ marginTop: '40px', marginBottom: '40px' }}
                         >
                             <div class='textBlock'>
                                 <h3>WHY ROBOT TRADING</h3>
@@ -795,7 +795,6 @@ function Layout(props) {
                                 name='form_token'
                                 value='7fdf09bfa9cfe7b3d8483811bc1fc4c1'
                             />
-
                             <div class='formBlockLight'>
                                 <label for='calc_amount'>Amount:</label>
                                 <input
@@ -807,7 +806,6 @@ function Layout(props) {
                                     id='calc_amount'
                                 />
                             </div>
-
                             <div class='formBlockLight'>
                                 <label for='calc_plan'>Choosing of plan:</label>
                                 <select name='choosePlan' id='calc_plan'>
@@ -877,7 +875,8 @@ function Layout(props) {
                             <input
                                 type='submit'
                                 id='calc_btn'
-style={{display: 'none'}}>                            />
+                                style={{ display: 'none' }}
+                            />{' '}
                         </form>
                         <a href='register.php' class='btnFillDarkMd'>
                             Get money
@@ -931,7 +930,7 @@ style={{display: 'none'}}>                            />
                     </a>
 
                     <div class='cfix'>
-                        <div class='statistic' style={{display: 'none'}}>
+                        <div class='statistic' style={{ display: 'none' }}>
                             <div class='row'>
                                 <div class='item'>
                                     <div class='img'>
@@ -954,7 +953,10 @@ style={{display: 'none'}}>                            />
                                     <span class='title'>
                                         total withdrawals:
                                     </span>
-                                    <span class='num' style='font-size: 25px'>
+                                    <span
+                                        class='num'
+                                        sstyle={{ fontSize: '25px' }}
+                                    >
                                         $ 9,428,235.00
                                     </span>
                                 </div>
@@ -963,7 +965,10 @@ style={{display: 'none'}}>                            />
                                         <span class='icon-pay_out'></span>
                                     </div>
                                     <span class='title'>total deposits:</span>
-                                    <span class='num' style={{fontSize: '25px'}}>>
+                                    <span
+                                        class='num'
+                                        style={{ fontSize: '25px' }}
+                                    >
                                         $ 1,062,095.00
                                     </span>
                                 </div>
@@ -976,7 +981,8 @@ style={{display: 'none'}}>                            />
                                 </div>
                             </div>
                         </div>
-                        <div class='statTbl' style={{display: 'none'}}>>
+                        <div class='statTbl' style={{ display: 'none' }}>
+                            >
                             <div class='row'>
                                 <div class='item col6'>
                                     <div class='inner'>
