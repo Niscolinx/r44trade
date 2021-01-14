@@ -4539,7 +4539,7 @@ footer .cont+.cont {
     top: 0px;
     left: 0px;
     height: 100%;
-    background-image: url(../img/progress.png);
+    /* background-image: url(../img/progress.png); */
     background-position: left top;
     background-repeat: repeat-x;
 }
