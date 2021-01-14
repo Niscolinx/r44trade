@@ -321,7 +321,7 @@ function Layout(props) {
 
 
                     <div class="row" style="margin-bottom: 30px;">
-{/* 
+
                         <div class="item col6">
                             <div class="planCardFirst">
                                 <div class="left" style="background-image: url(img/card_bg_1.png);">
@@ -339,7 +339,7 @@ function Layout(props) {
                                 <img src="img/C.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div> */}
+                        </div>
 
 
 
