@@ -13,8 +13,17 @@ import Case from '../images/case.png'
 import Chart_bg from '../images/chart_bg.png'
 import D from '../images/D.png'
 import E from '../images/E.png'
-import E from '../images/E.png'
-import A1 from '../images/A1.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
+
 
 const storyStyle = {
     backgroundImage: `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .7)), url(${Back})`,
