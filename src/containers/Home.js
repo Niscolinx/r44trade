@@ -12,6 +12,7 @@ import Case from '../images/case.png'
 import Chart_bg from '../images/chart_bg.png'
 import D from '../images/D.png'
 import E from '../images/E.png'
+import F from '../images/F.png'
 import Grad_bg from '../images/grad_bg.png'
 import Grey_bg from '../images/grey_bg.png'
 import Lang_1 from '../images/lang_1.png'
@@ -688,7 +689,7 @@ function Layout(props) {
                                             </li>
                                         </ul>
                                         <img
-                                        alt=''
+                                            alt=''
                                             src={`${F}`}
                                             style={{
                                                 width: '80%',
@@ -1268,22 +1269,22 @@ function Layout(props) {
                 <div class='container'>
                     <ul class='table full'>
                         <li class='tCell bottom left'>
-                            <img src='img/payment_1.png' alt='payment' />
+                            <img src={`${Payment_1}`} alt='payment' />
                         </li>
                         <li class='tCell middle left'>
-                            <img src='img/payment_2.png' alt='payment' />
+                            <img src={`${Payment_2}`} alt='payment' />
                         </li>
                         <li class='tCell middle right'>
-                            <img src='img/payment_4.png' alt='payment' />
+                            <img src={`${Payment_4}`} alt='payment' />
                         </li>
                         <li class='tCell middle right'>
-                            <img src='img/payment_5.png' alt='payment' />
+                            <img src={`${Payment_5}`} alt='payment' />
                         </li>
                         <li class='tCell middle right'>
-                            <img src='img/payment_6.png' alt='payment' />
+                            <img src={`${Payment_6}`} alt='payment' />
                         </li>
                         <li class='tCell middle right'>
-                            <img src='img/payment_8.png' alt='payment' />
+                            <img src={`${Payment_8}`} alt='payment' />
                         </li>
                     </ul>
                 </div>
