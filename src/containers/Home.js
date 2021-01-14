@@ -14,15 +14,17 @@ import Chart_bg from '../images/chart_bg.png'
 import D from '../images/D.png'
 import E from '../images/E.png'
 import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
-import Grad_bg from '../images/grad_bg.png'
+import Grey_bg from '../images/grey_bg.png'
+import Lang_1 from '../images/lang_1.png'
+import Lang_2 from '../images/lang_2.png'
+import logos from '../images/logos.png'
+import Payment_1 from '../images/payment_1.png'
+import Payment_2 from '../images/payment_2.png'
+import Payment_3 from '../images/payment_3.png'
+import Payment_4 from '../images/payment_4.png'
+import Payment_5 from '../images/payment_1.png'
+import Payment_6 from '../images/payment_6.png'
+import Payment_8 from '../images/payment_8.png'
 
 
 const storyStyle = {
@@ -40,7 +42,14 @@ const whyChooseUsStyle = {
 function Layout(props) {
     return (
         <>
-            <div style={{position: 'fixed', zIndex: 99999, left: '20px', bottom: '20px'}}>
+            <div
+                style={{
+                    position: 'fixed',
+                    zIndex: 99999,
+                    left: '20px',
+                    bottom: '20px',
+                }}
+            >
                 <a href='http://wa.me/+447723536106'>
                     <img
                         src='https://pngimg.com/uploads/whatsapp/whatsapp_PNG21.png'
@@ -80,12 +89,15 @@ function Layout(props) {
                                 <div class='socContHead lang tCell right'>
                                     <a
                                         href='#'
-                                        style={{background-image: url(img/lang_1.jpg)}}
-                                    ></a>
+                                        style={{
+                                            backgroundImage: `url(${Lang_1})`
+                                        }}>lang1</a>
                                     <a
                                         href='#'
-                                        style='background-image: url(img/lang_2.jpg);'
-                                    ></a>
+                                        style={{
+                                            backgroundImage: `url(${Lang_2})`,
+                                        }}
+                                    >lang2</a>
                                 </div>
 
                                 <div class='clock tCell right'>
