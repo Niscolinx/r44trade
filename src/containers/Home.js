@@ -263,7 +263,7 @@ function Layout(props) {
         <div class="plan page" style="background-image: url(img/chart_bg.png), url(img/grey_bg.png);">
 
             <div class="container">
-                <div class="textBlock">
+                {/* <div class="textBlock">
                     <p>
                         A robot cannot fear to make a trade neither can it start making greed-driven decisions. With
                         implanted strategies, robots are capable of making trade decisions in a way that humans cannot.
@@ -271,7 +271,7 @@ function Layout(props) {
                         levels of accuracy than humans.
                     </p>
                 </div>
-                <span class="captionDark center">Trade Pricing</span>
+                <span class="captionDark center">Trade Pricing</span> */}
 
 
                 <div class="wrap">
@@ -279,10 +279,7 @@ function Layout(props) {
 
                     <div class="row" style="margin-bottom: 30px;">
 
-
-
-
-                        <div class="item col6">
+                        {/* <div class="item col6">
                             <div class="planCardFirst">
                                 <div class="left" style="background-image: url(img/card_bg_1.png);">
                                     <span class="cap">#PACKAGE A</span>
@@ -298,13 +295,9 @@ function Layout(props) {
                                 </ul>
                                 <img src="img/A1.png" style="width: 80%; margin-top: 20px;" />
                             </div>
-                        </div>
+                        </div> */}
 
-
-
-
-
-                        <div class="item col6">
+                        {/* <div class="item col6">
                             <div class="planCardSecond">
                                 <div class="left" style="background-image: url(img/card_bg_2.png);">
                                     <span class="cap">#PACKAGE B</span>
@@ -321,7 +314,7 @@ function Layout(props) {
                                 <img src="img/B.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div>
+                        </div> */}
 
 
                     </div>
