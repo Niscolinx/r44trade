@@ -28,6 +28,9 @@ import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
+
+import '../asset/css/style.css'
+
 const gradImg = {
     content: '',
     display: 'block',

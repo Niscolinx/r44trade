@@ -4692,7 +4692,7 @@ footer .cont+.cont {
     width: 28px;
     height: 28px;
     margin-top: -14px;
-    background-image: url(../img/check.png);
+    /* background-image: url(../img/check.png); */
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
