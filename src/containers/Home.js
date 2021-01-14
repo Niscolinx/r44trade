@@ -486,7 +486,7 @@ function Layout(props) {
                                         </ul>
                                         <img
                                             alt=''
-                                            src='img/A1.png'
+                                            src={`${A1}`}
                                             style={{
                                                 width: '80%',
                                                 marginTop: '20px',
@@ -525,7 +525,7 @@ function Layout(props) {
                                         </ul>
                                         <img
                                             alt=''
-                                            src='img/B.png'
+                                            src={`${B}`}
                                             style={{
                                                 width: '80%',
                                                 marginTop: '20px',
@@ -566,7 +566,7 @@ function Layout(props) {
                                         </ul>
                                         <img
                                             alt=''
-                                            src='img/C.png'
+                                            src={`${C}`}
                                             style={{
                                                 width: '80%',
                                                 marginTop: '20px',
@@ -607,7 +607,7 @@ function Layout(props) {
                                         </ul>
                                         <img
                                             alt=''
-                                            src='img/D.png'
+                                            src={`${D}`}
                                             style={{
                                                 width: '80%',
                                                 marginTop: '20px',
@@ -650,7 +650,7 @@ function Layout(props) {
                                         </ul>
                                         <img
                                             alt=''
-                                            src='img/E.png'
+                                            src={`${E}`}
                                             style={{
                                                 width: '80%',
                                                 marginTop: '20px',
@@ -996,7 +996,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1013,7 +1013,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1030,7 +1030,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1047,7 +1047,7 @@ function Layout(props) {
                                                 </span>
                                                 <span class='tCell bottom right pay'>
                                                     <img
-                                                        src='img/ps_b/1000.png'
+                                                        src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
@@ -1072,7 +1072,10 @@ function Layout(props) {
                                         </ul>
                                     </div>
                                 </div>
-                                <div class='item col6' style={{display: 'none'}}>
+                                <div
+                                    class='item col6'
+                                    style={{ display: 'none' }}
+                                >
                                     <div class='inner'>
                                         <div class='title'>
                                             <span>last WITHDRAWALS</span>
