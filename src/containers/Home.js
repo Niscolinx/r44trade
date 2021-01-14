@@ -877,8 +877,7 @@ function Layout(props) {
                             <input
                                 type='submit'
                                 id='calc_btn'
-                                style='display: none;'
-                            />
+style={{display: 'none'}}>                            />
                         </form>
                         <a href='register.php' class='btnFillDarkMd'>
                             Get money
@@ -932,7 +931,7 @@ function Layout(props) {
                     </a>
 
                     <div class='cfix'>
-                        <div class='statistic' style='display: none;'>
+                        <div class='statistic' style={{display: 'none'}}>
                             <div class='row'>
                                 <div class='item'>
                                     <div class='img'>
@@ -964,7 +963,7 @@ function Layout(props) {
                                         <span class='icon-pay_out'></span>
                                     </div>
                                     <span class='title'>total deposits:</span>
-                                    <span class='num' style='font-size: 25px'>
+                                    <span class='num' style={{fontSize: '25px'}}>>
                                         $ 1,062,095.00
                                     </span>
                                 </div>
@@ -977,7 +976,7 @@ function Layout(props) {
                                 </div>
                             </div>
                         </div>
-                        <div class='statTbl' style='display: none;'>
+                        <div class='statTbl' style={{display: 'none'}}>>
                             <div class='row'>
                                 <div class='item col6'>
                                     <div class='inner'>
