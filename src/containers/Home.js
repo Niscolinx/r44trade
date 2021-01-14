@@ -604,8 +604,12 @@ function Layout(props) {
                                             </li>
                                         </ul>
                                         <img
+                                            alt=''
                                             src='img/D.png'
-                                            style='width: 80%; margin-top: 20px;'
+                                            style={{
+                                                width: '80%',
+                                                marginTop: '20px',
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -616,7 +620,9 @@ function Layout(props) {
                                     <div class='planCardFirst'>
                                         <div
                                             class='left'
-                                            style='background-image: url(img/card_bg_1.png);'
+                                            style={{
+                                                backgroundImage: `url(${Card_bg_1})`,
+                                            }}
                                         >
                                             <span class='cap'>#PACKAGE E</span>
                                             <div class='descr'>
@@ -642,7 +648,7 @@ function Layout(props) {
                                         </ul>
                                         <img
                                             src='img/E.png'
-                                            style='width: 80%; margin-top: 20px;'
+                                            style={{width: '80%', marginTop: 20px;'
                                         />
                                     </div>
                                 </div>
@@ -651,7 +657,9 @@ function Layout(props) {
                                     <div class='planCardSecond'>
                                         <div
                                             class='left'
-                                            style='background-image: url(img/card_bg_2.png);'
+                                            style={{
+                                                backgroundImage: `url(${Card_bg_2})`,
+                                            }}
                                         >
                                             <span class='cap'>#PACKAGE F</span>
                                             <div class='descr'>
@@ -730,7 +738,9 @@ function Layout(props) {
                             <div class='planCardSecond'>
                                 <div
                                     class='left'
-                                    style='background-image: url(img/card_bg_2.png);'
+                                    style={{
+                                        backgroundImage: `url(${Card_bg_2})`,
+                                    }}
                                 >
                                     <span class='cap'>TRADING PLAN</span>
                                     <div class='descr'>
@@ -1157,7 +1167,9 @@ function Layout(props) {
 
             <div
                 class='advTempl'
-                style='background-image: url(img/adv_bg.jpg);'
+                style={{
+                    backgroundImage: `url(${Adv_bg})`,
+                }}
             >
                 <div class='container'>
                     <span class='captionLight center'>Why choose us?</span>
