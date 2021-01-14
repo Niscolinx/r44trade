@@ -17,7 +17,7 @@ import Grad_bg from '../images/grad_bg.png'
 import Grey_bg from '../images/grey_bg.png'
 import Lang_1 from '../images/lang_1.png'
 import Lang_2 from '../images/lang_2.png'
-import logos from '../images/logos.png'
+import Logos from '../images/logos.png'
 import Payment_1 from '../images/payment_1.png'
 import Payment_2 from '../images/payment_2.png'
 import Payment_3 from '../images/payment_3.png'
@@ -53,6 +53,7 @@ function Layout(props) {
             >
                 <a href='http://wa.me/+447723536106'>
                     <img
+                        alt=''
                         src='https://pngimg.com/uploads/whatsapp/whatsapp_PNG21.png'
                         width='50px'
                     />
@@ -67,7 +68,7 @@ function Layout(props) {
                                 <div class='logoWrap tCell'>
                                     <div class='logo invisLink'>
                                         <img
-                                            src='img/logos.png'
+                                            src={`${Logos}`}
                                             alt='logo'
                                             height='70px;'
                                         />
@@ -704,7 +705,7 @@ function Layout(props) {
 
                         <div
                             class='container'
-                            style='margin-top: 40px; margin-bottom: 40px; '
+                            style={{marginTop: '40px', marginBottom: '40px'}}
                         >
                             <div class='textBlock'>
                                 <h3>WHY ROBOT TRADING</h3>
