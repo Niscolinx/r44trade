@@ -371,7 +371,7 @@ function Layout(props) {
                             <div class='right'>
                                 <div class='textBlock'>
                                     <h3>
-                                        <b style='color: white;'>
+                                        <b style={{ color: 'white' }}>
                                             WELCOME ON BOARD JOIN THE TRADE
                                             PLATFORM
                                         </b>
@@ -435,7 +435,9 @@ function Layout(props) {
 
                 <div
                     class='plan page'
-                    style='background-image: url(img/chart_bg.png), url(img/grey_bg.png);'
+                    style={{
+                        backgroundImage: `url(${Chart_bg}), url(${Grey_bg})`,
+                    }}
                 >
                     <div class='container'>
                         <div class='textBlock'>
@@ -453,12 +455,14 @@ function Layout(props) {
                         <span class='captionDark center'>Trade Pricing</span>
 
                         <div class='wrap'>
-                            <div class='row' style='margin-bottom: 30px;'>
+                            <div class='row' style={{ marginBottom: '30px' }}>
                                 <div class='item col6'>
                                     <div class='planCardFirst'>
                                         <div
                                             class='left'
-                                            style='background-image: url(img/card_bg_1.png);'
+                                            style={{
+                                                backgroundImage: `url(${B})`,
+                                            }}
                                         >
                                             <span class='cap'>#PACKAGE A</span>
                                             <div class='descr'>
