@@ -1,21 +1,10 @@
 import React from 'react'
 
-import Header from '../main/layout/home/Header'
-import Plans from '../main/layout/home/Plans'
-import Activities from '../main/layout/home/Activities'
-import StoryContent from '../main/layout/home/StoryContent'
-import StoryPictures from '../main/layout/home/StoryPictures'
-import Transactions from '../main/layout/home/Transactions'
-import WhyChooseUs from '../main/layout/home/WhyChooseUs'
-import Testimonials from '../main/layout/home/Testimonials'
-
-import LiveChart from '../tradeviewWidgets/LiveTicker'
-import Particles from 'react-particles-js'
-import Chart from '../tradeviewWidgets/AdvancedRealChart'
-
 import Back from '../images/back.jpg'
 import Hero from '../images/hero.jpg'
 import WhyUs from '../images/whyChooseUs.jpg'
+
+import A1 from '../images/A1.png'
 
 const storyStyle = {
     backgroundImage: `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .7)), url(${Back})`,
