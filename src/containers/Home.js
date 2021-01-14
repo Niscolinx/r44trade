@@ -31,7 +31,7 @@ const whyChooseUsStyle = {
 
 function Layout(props) {
     return (
-        <>
+        <d>
  <div style="position: fixed; z-index: 99999; left: 20px; bottom: 20px;">
         <a href="http://wa.me/+447723536106">
             <img src="https://pngimg.com/uploads/whatsapp/whatsapp_PNG21.png" width="50px" />
@@ -192,6 +192,7 @@ function Layout(props) {
             </div>
         </div>
 
+        <div>
             <div class="circleBg">
                 <div class="circle"></div>
             </div>
@@ -256,25 +257,6 @@ function Layout(props) {
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -428,10 +410,6 @@ function Layout(props) {
 
 
 
-
-
-
-
                         <div class="item col6">
                             <div class="planCardSecond">
                                 <div class="left" style="background-image: url(img/card_bg_2.png);">
@@ -454,14 +432,6 @@ function Layout(props) {
 
 
                     </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -514,11 +484,7 @@ function Layout(props) {
                     </div>
                 </div>
 
-
-
             </div>
-
-
 
         </div>
     </div>
