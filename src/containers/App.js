@@ -122,7 +122,7 @@ function App(props) {
                 rel='noopener noreferrer'
             >
                 <img
-                    src={WhatsappLivechat}
+                  //  src={WhatsappLivechat}
                     alt=''
                     className='liveChat__whatsapp'
                 />

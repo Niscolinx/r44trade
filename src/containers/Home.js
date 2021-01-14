@@ -309,7 +309,7 @@ function Layout(props) {
                     </div>
                 </div>
 
-                <div>
+                {/* <div>
                     <div class='circleBg'>
                         <div class='circle'></div>
                     </div>
@@ -321,7 +321,7 @@ function Layout(props) {
                             src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
                         ></iframe>
                     </div>
-                </div>
+                </div> */}
 
                 <div
                     class='about'
