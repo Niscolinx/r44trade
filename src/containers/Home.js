@@ -28,18 +28,6 @@ import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
-const storyStyle = {
-    backgroundImage: `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .7)), url(${Back})`,
-    width: '100%',
-}
-const headerStyle = {
-    backgroundImage: `linear-gradient(rgba(16, 29, 44, .6), rgba(16, 29, 44, .6)), url(${Hero})`,
-}
-const whyChooseUsStyle = {
-    backgroundImage: `linear-gradient(rgba(16, 29, 44, .8), rgba(16, 29, 44, .7)), url(${WhyUs})`,
-    backgroundPosition: 'cover',
-}
-
 function Layout(props) {
     return (
         <>
