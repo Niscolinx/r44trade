@@ -8,12 +8,12 @@ import Bg_11 from '../images/bg-11.jpg'
 import C from '../images/C.png'
 import Card_bg_1 from '../images/card_bg_1.png'
 import Card_bg_2 from '../images/card_bg_2.png'
- //import Case from '../images/case.png'
+//import Case from '../images/case.png'
 import Chart_bg from '../images/chart_bg.png'
 import D from '../images/D.png'
 import E from '../images/E.png'
 import F from '../images/F.png'
-//import Grad_bg from '../images/grad_bg.png'
+import Grad_bg from '../images/grad_bg.png'
 import Grey_bg from '../images/grey_bg.png'
 import Lang_1 from '../images/lang_1.jpg'
 import Lang_2 from '../images/lang_2.jpg'
@@ -27,6 +27,21 @@ import Payment_6 from '../images/payment_6.png'
 import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
+
+const gradImg = {
+    content: '',
+    display: 'block',
+    position: 'absolute',
+    width: '1920px',
+    height: '953px',
+    bottom: 0,
+    left: '50%',
+    marginLeft: '-960px',
+    backgroundImage: `url(${Grad_bg})`,
+    backgroundPosition: 'center bottom',
+    backgroundRepeat: 'no-repeat',
+    zIndex: -1,
+}
 
 function Layout(props) {
     return (
@@ -166,9 +181,8 @@ function Layout(props) {
                                 >
                                     The Fastest Growing cryptocurrency that
                                     return dividend from investments to
-                                    investors 
-                                    and the cryptocurrency that has value in
-                                    itself.
+                                    investors and the cryptocurrency that has
+                                    value in itself.
                                 </p>
                             </div>
                             <a href='register.php' class='btnFillGradLg'>
@@ -338,10 +352,7 @@ function Layout(props) {
                                             backgroundImage: `url(${profile})`,
                                         }}
                                     >
-                                        <a
-                                            href={`${profile}`}
-                                            target='_blank'
-                                        >
+                                        <a href={`${profile}`} target='_blank'>
                                             license
                                         </a>
                                     </div>
@@ -882,9 +893,7 @@ function Layout(props) {
                                 <div class='progrInfoFirst'>
                                     <div class='inner'>
                                         <span class='num'>6</span>
-                                        <span>
-                                            1ST LEVEL
-                                        </span>
+                                        <span>1ST LEVEL</span>
                                         <span class='pct'>%</span>
                                     </div>
                                 </div>
@@ -893,9 +902,7 @@ function Layout(props) {
                                 <div class='progrInfoSecond'>
                                     <div class='inner'>
                                         <span class='num'>2</span>
-                                        <span>
-                                            2ND {' '}LEVEL
-                                        </span>
+                                        <span>2ND LEVEL</span>
                                         <span class='pct'>%</span>
                                     </div>
                                 </div>
@@ -970,7 +977,6 @@ function Layout(props) {
                             </div>
                         </div>
                         <div class='statTbl' style={{ display: 'none' }}>
-                            
                             <div class='row'>
                                 <div class='item col6'>
                                     <div class='inner'>
