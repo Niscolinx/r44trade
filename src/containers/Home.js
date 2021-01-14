@@ -31,7 +31,6 @@ const whyChooseUsStyle = {
 
 function Layout(props) {
     return (
-        <d>
  <div style="position: fixed; z-index: 99999; left: 20px; bottom: 20px;">
         <a href="http://wa.me/+447723536106">
             <img src="https://pngimg.com/uploads/whatsapp/whatsapp_PNG21.png" width="50px" />
@@ -39,8 +38,8 @@ function Layout(props) {
     </div>
 
     <div class="bodyWrap">
-        <header>
-            <div class="topLine">
+        {/* <header>
+            {/* <div class="topLine">
                 <div class="container">
                     <div class="table full">
                         <div class="logoWrap tCell">
@@ -76,13 +75,13 @@ function Layout(props) {
 
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <script src="../widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
             <coingecko-coin-price-marquee-widget coin-ids="bitcoin,ethereum,eos,ripple,litecoin" currency="usd"
                 background-color="#ffffff" locale="en"></coingecko-coin-price-marquee-widget>
 
-            <div class="menu">
+            {/* <div class="menu">
                 <div class="container">
                     <center>
                         <ul>
@@ -96,8 +95,8 @@ function Layout(props) {
                         </ul>
                     </center>
                 </div>
-            </div>
-        </header>
+            </div> 
+        </header> */}
 
 
 
@@ -257,10 +256,9 @@ function Layout(props) {
                 </div>
             </div>
         </div>
+    
 
-
-
-        <div class="plan page" style="background-image: url(img/chart_bg.png), url(img/grey_bg.png);">
+        {/* <div class="plan page" style="background-image: url(img/chart_bg.png), url(img/grey_bg.png);">
 
             <div class="container">
                 {/* <div class="textBlock">
@@ -323,7 +321,7 @@ function Layout(props) {
 
 
                     <div class="row" style="margin-bottom: 30px;">
-
+{/* 
                         <div class="item col6">
                             <div class="planCardFirst">
                                 <div class="left" style="background-image: url(img/card_bg_1.png);">
@@ -341,12 +339,12 @@ function Layout(props) {
                                 <img src="img/C.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div>
+                        </div> */}
 
 
 
 
-                        <div class="item col6">
+                        {/* <div class="item col6">
                             <div class="planCardSecond">
                                 <div class="left" style="background-image: url(img/card_bg_2.png);">
                                     <span class="cap">#PACKAGE D</span>
@@ -363,7 +361,7 @@ function Layout(props) {
                                 <img src="img/D.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div>
+                        </div> */}
 
 
 
@@ -376,7 +374,7 @@ function Layout(props) {
 
                     <div class="row">
 
-                        <div class="item col6">
+                        {/* <div class="item col6">
                             <div class="planCardFirst">
                                 <div class="left" style="background-image: url(img/card_bg_1.png);">
                                     <span class="cap">#PACKAGE E</span>
@@ -414,7 +412,7 @@ function Layout(props) {
                                 <img src="img/F.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div>
+                        </div> */}
 
 
 
@@ -427,7 +425,7 @@ function Layout(props) {
 
 
 
-                <div class="container" style="margin-top: 40px; margin-bottom: 40px; ">
+                {/* <div class="container" style="margin-top: 40px; margin-bottom: 40px; ">
 
                     <div class="textBlock">
 
@@ -469,13 +467,12 @@ function Layout(props) {
                         </div>
 
                     </div>
-                </div>
+                </div> 
 
             </div>
 
-        </div>
-    </div>
-    </div>
+        </div> 
+    </div> */}
 
     <div class="planProfit gradBack">
         <div class="container">
@@ -483,14 +480,14 @@ function Layout(props) {
 
                 <form onsubmit="return calc()">
 
-                    <input type="hidden" name="form_id" value="15866293132560">
-                    <input type="hidden" name="form_token" value="e8adebe87ccf486384da4a19a20feb4d">
-                    <input type="hidden" name="form_id" value="15348023226740">
-                    <input type="hidden" name="form_token" value="7fdf09bfa9cfe7b3d8483811bc1fc4c1">
+                    <input type="hidden" name="form_id" value="15866293132560"/>
+                    <input type="hidden" name="form_token" value="e8adebe87ccf486384da4a19a20feb4d"/>
+                    <input type="hidden" name="form_id" value="15348023226740"/>
+                    <input type="hidden" name="form_token" value="7fdf09bfa9cfe7b3d8483811bc1fc4c1"/>
 
                     <div class="formBlockLight">
                         <label for="calc_amount">Amount:</label>
-                        <input class="enterNum" type="number" min="20" max="199" value="20" id="calc_amount">
+                        <input class="enterNum" type="number" min="20" max="199" value="20" id="calc_amount"/>
                     </div>
 
                     <div class="formBlockLight">
@@ -514,14 +511,14 @@ function Layout(props) {
                         <span class="title">Your profit:</span>
                         <span class="num"><b id="profit">1270,00</b> USD</span>
                     </div>
-                    <input type="submit" id="calc_btn" style="display: none;">
+                    <input type="submit" id="calc_btn" style="display: none;"/>
                 </form>
                 <a href="register.php" class="btnFillDarkMd">Get money</a>
             </div>
         </div>
     </div>
 
-    <script type="text/javascript">
+    {/* <script type="text/javascript">
         function calc() {
             percent = jQuery('#calc_plan option:checked').data('perc');
             period = jQuery('#calc_plan option:checked').data('per');
@@ -544,7 +541,7 @@ function Layout(props) {
                 calc();
             });
         })
-    </script>
+    </script> */}
 
 
 
