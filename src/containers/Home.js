@@ -25,6 +25,7 @@ import Payment_4 from '../images/payment_4.png'
 import Payment_5 from '../images/payment_1.png'
 import Payment_6 from '../images/payment_6.png'
 import Payment_8 from '../images/payment_8.png'
+import profile from '../images/profile.jpg'
 
 
 const storyStyle = {
@@ -90,14 +91,19 @@ function Layout(props) {
                                     <a
                                         href='#blank'
                                         style={{
-                                           backgroundImage: `url(${Lang_1})`
-                                        }}>lang1</a>
+                                            backgroundImage: `url(${Lang_1})`,
+                                        }}
+                                    >
+                                        lang1
+                                    </a>
                                     <a
                                         href='#blank'
                                         style={{
                                             backgroundImage: `url(${Lang_2})`,
                                         }}
-                                    >lang2</a>
+                                    >
+                                        lang2
+                                    </a>
                                 </div>
 
                                 <div class='clock tCell right'>
@@ -154,7 +160,7 @@ function Layout(props) {
 
                 <div
                     class='mainBanner gradImg'
-                    style='background-image: url(img/bg-11.jpg);'
+                    style={{ backgroundImage: `url(${Bg_11})` }}
                 >
                     <div class='container'>
                         <div class='content'>
@@ -163,7 +169,12 @@ function Layout(props) {
                             </span>
                             <span>The Future of Crypto Trading</span>
                             <div class='textBlock'>
-                                <p style='font-weight: 500; text-shadow: 2px 2px 4px black;'>
+                                <p
+                                    style={{
+                                        fontWeight: 500,
+                                        textShadow: '2px 2px 4px black',
+                                    }}
+                                >
                                     The Fastest Growing cryptocurrency that
                                     return dividend from investments to
                                     investors <br />
@@ -245,11 +256,15 @@ function Layout(props) {
                                     <div class='iconLeft'>
                                         <span
                                             class='icon-adv1'
-                                            style='box-shadow: 2px 2px 3px black;'
+                                            style={{
+                                                boxShadow: '2px 2px 3px black',
+                                            }}
                                         ></span>
                                         <span
                                             class='data'
-                                            style='text-shadow: 2px 2px 3px black;'
+                                            style={{
+                                                textShadow: '2px 2px 3px black',
+                                            }}
                                         >
                                             Officially registered company
                                         </span>
@@ -259,11 +274,15 @@ function Layout(props) {
                                     <div class='iconLeft'>
                                         <span
                                             class='icon-adv3'
-                                            style='box-shadow: 2px 2px 3px black;'
+                                            style={{
+                                                boxShadow: '2px 2px 3px black',
+                                            }}
                                         ></span>
                                         <span
                                             class='data'
-                                            style='text-shadow: 2px 2px 3px black;'
+                                            style={{
+                                                textShadow: '2px 2px 3px black',
+                                            }}
                                         >
                                             Innovative <br></br>approach
                                         </span>
@@ -273,11 +292,15 @@ function Layout(props) {
                                     <div class='iconLeft'>
                                         <span
                                             class='icon-adv2'
-                                            style='box-shadow: 2px 2px 3px black;'
+                                            style={{
+                                                boxShadow: '2px 2px 3px black',
+                                            }}
                                         ></span>
                                         <span
                                             class='data'
-                                            style='text-shadow: 2px 2px 3px black;'
+                                            style={{
+                                                textShadow: '2px 2px 3px black',
+                                            }}
                                         >
                                             Profitable working conditions
                                         </span>
@@ -303,6 +326,7 @@ function Layout(props) {
                     </div>
                     <div class='chart'>
                         <iframe
+                            title='iframe1'
                             height='398'
                             width='618'
                             src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
@@ -312,7 +336,7 @@ function Layout(props) {
 
                 <div
                     class='about'
-                    style='background-image: url(img/about_bg.jpg);'
+                    style={{ backgroundImage: `url(${About_bg})` }}
                 >
                     <div class='container'>
                         <div class='cfix'>
@@ -321,7 +345,9 @@ function Layout(props) {
                                 <div class='license'>
                                     <div
                                         class='img invisLink'
-                                        style='background-image: url(img/profile.jpg);'
+                                        style={{
+                                            backgroundImage: `url(${profile})`,
+                                        }}
                                     >
                                         <a
                                             href='img/profile.jpg'
