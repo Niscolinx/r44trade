@@ -71,7 +71,7 @@ function Layout(props) {
                                 <div class='socContHead lang tCell right'>
                                     <a
                                         href='#'
-                                        style='background-image: url(img/lang_1.jpg);'
+                                        style={{background-image: url(img/lang_1.jpg)}}
                                     ></a>
                                     <a
                                         href='#'
