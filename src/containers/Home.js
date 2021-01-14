@@ -339,7 +339,7 @@ function Layout(props) {
                                         }}
                                     >
                                         <a
-                                            href='img/profile.jpg'
+                                            href={`${profile}`}
                                             target='_blank'
                                         >
                                             license
