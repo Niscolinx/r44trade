@@ -647,8 +647,12 @@ function Layout(props) {
                                             </li>
                                         </ul>
                                         <img
+                                            alt=''
                                             src='img/E.png'
-                                            style={{width: '80%', marginTop: 20px;'
+                                            style={{
+                                                width: '80%',
+                                                marginTop: '20px',
+                                            }}
                                         />
                                     </div>
                                 </div>
@@ -684,8 +688,12 @@ function Layout(props) {
                                             </li>
                                         </ul>
                                         <img
-                                            src='img/F.png'
-                                            style='width: 80%; margin-top: 20px;'
+                                        alt=''
+                                            src={`${F}`}
+                                            style={{
+                                                width: '80%',
+                                                marginTop: '20px',
+                                            }}
                                         />
                                     </div>
                                 </div>
