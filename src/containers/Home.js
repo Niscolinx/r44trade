@@ -344,7 +344,7 @@ function Layout(props) {
 
 
 
-                        {/* <div class="item col6">
+                         <div class="item col6">
                             <div class="planCardSecond">
                                 <div class="left" style="background-image: url(img/card_bg_2.png);">
                                     <span class="cap">#PACKAGE D</span>
@@ -361,7 +361,7 @@ function Layout(props) {
                                 <img src="img/D.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div> */}
+                        </div> 
 
 
 
@@ -374,7 +374,7 @@ function Layout(props) {
 
                     <div class="row">
 
-                        {/* <div class="item col6">
+                        <div class="item col6">
                             <div class="planCardFirst">
                                 <div class="left" style="background-image: url(img/card_bg_1.png);">
                                     <span class="cap">#PACKAGE E</span>
@@ -412,7 +412,7 @@ function Layout(props) {
                                 <img src="img/F.png" style="width: 80%; margin-top: 20px;" />
 
                             </div>
-                        </div> */}
+                        </div> 
 
 
 
@@ -425,7 +425,7 @@ function Layout(props) {
 
 
 
-                {/* <div class="container" style="margin-top: 40px; margin-bottom: 40px; ">
+                <div class="container" style="margin-top: 40px; margin-bottom: 40px; ">
 
                     <div class="textBlock">
 
@@ -472,7 +472,7 @@ function Layout(props) {
             </div>
 
         </div> 
-    </div> */}
+    </div>
 
     <div class="planProfit gradBack">
         <div class="container">
