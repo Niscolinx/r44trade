@@ -982,7 +982,7 @@ function Layout(props) {
                             </div>
                         </div>
                         <div class='statTbl' style={{ display: 'none' }}>
-                            >
+                            
                             <div class='row'>
                                 <div class='item col6'>
                                     <div class='inner'>
