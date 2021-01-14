@@ -166,7 +166,7 @@ function Layout(props) {
                                 >
                                     The Fastest Growing cryptocurrency that
                                     return dividend from investments to
-                                    investors <br />
+                                    investors 
                                     and the cryptocurrency that has value in
                                     itself.
                                 </p>
@@ -883,7 +883,7 @@ function Layout(props) {
                                     <div class='inner'>
                                         <span class='num'>6</span>
                                         <span>
-                                            1ST <br> </br>LEVEL
+                                            1ST LEVEL
                                         </span>
                                         <span class='pct'>%</span>
                                     </div>
@@ -894,7 +894,7 @@ function Layout(props) {
                                     <div class='inner'>
                                         <span class='num'>2</span>
                                         <span>
-                                            2ND <br> </br>LEVEL
+                                            2ND {' '}LEVEL
                                         </span>
                                         <span class='pct'>%</span>
                                     </div>
