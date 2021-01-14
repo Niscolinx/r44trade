@@ -88,12 +88,12 @@ function Layout(props) {
 
                                 <div class='socContHead lang tCell right'>
                                     <a
-                                        href='#'
+                                        href='#blank'
                                         style={{
-                                            backgroundImage: `url(${Lang_1})`
+                                           backgroundImage: `url(${Lang_1})`
                                         }}>lang1</a>
                                     <a
-                                        href='#'
+                                        href='#blank'
                                         style={{
                                             backgroundImage: `url(${Lang_2})`,
                                         }}
