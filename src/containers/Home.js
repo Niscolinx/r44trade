@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.png'
 import Adv_bg from '../images/adv_bg.png'
@@ -26,7 +25,6 @@ import Payment_5 from '../images/payment_1.png'
 import Payment_6 from '../images/payment_6.png'
 import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
-
 
 const storyStyle = {
     backgroundImage: `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .7)), url(${Back})`,
@@ -524,20 +522,25 @@ function Layout(props) {
                                             </li>
                                         </ul>
                                         <img
-                                        alt=''
+                                            alt=''
                                             src='img/B.png'
-                                            style={{width: '80%', marginTop: '20px'}}
+                                            style={{
+                                                width: '80%',
+                                                marginTop: '20px',
+                                            }}
                                         />
                                     </div>
                                 </div>
                             </div>
 
-                            <div class='row' style='margin-bottom: 30px;'>
+                            <div class='row' style={{ marginBottom: '30px' }}>
                                 <div class='item col6'>
                                     <div class='planCardFirst'>
                                         <div
                                             class='left'
-                                            style='background-image: url(img/card_bg_1.png);'
+                                            style={{
+                                                backgroundImage: `url(${Card_bg_1})`,
+                                            }}
                                         >
                                             <span class='cap'>#PACKAGE C</span>
                                             <div class='descr'>
@@ -560,8 +563,9 @@ function Layout(props) {
                                             </li>
                                         </ul>
                                         <img
+                                        alt=''
                                             src='img/C.png'
-                                            style='width: 80%; margin-top: 20px;'
+                                            style={{width: 80%; marginTop: '20px'}}
                                         />
                                     </div>
                                 </div>
