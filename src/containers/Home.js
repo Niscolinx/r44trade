@@ -105,15 +105,6 @@ function Layout(props) {
         <div class="mainBanner gradImg" style="background-image: url(img/bg-11.jpg);">
 
 
-
-
-
-
-
-
-
-
-
             <div class="container">
                 <div class="content">
                     <span class="heading">Forex trading with ROBOT TRADING </span>
@@ -180,7 +171,7 @@ function Layout(props) {
                         <li>
                             <div class="iconLeft">
                                 <span class="icon-adv3" style="box-shadow: 2px 2px 3px black;"></span>
-                                <span class="data" style="text-shadow: 2px 2px 3px black;">Innovative<br>approach</span>
+                                <span class="data" style="text-shadow: 2px 2px 3px black;">Innovative <br></br>approach</span>
                             </div>
                         </li>
                         <li>
@@ -199,19 +190,7 @@ function Layout(props) {
                     </p>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
 
             <div class="circleBg">
                 <div class="circle"></div>
