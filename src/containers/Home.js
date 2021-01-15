@@ -287,7 +287,7 @@ function Layout(props) {
                                             style={{
                                                 boxShadow: '2px 2px 3px black',
                                             }}
-                                        ></span>
+                                        > <RiBitCoinLine/></span>
                                         <span
                                             class='data'
                                             style={{
