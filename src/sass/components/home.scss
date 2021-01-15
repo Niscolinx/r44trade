@@ -273,7 +273,7 @@ span.color2 {
     margin-left: -960px;
     width: 1920px;
     height: 1071px;
-   // background-image: url(../img/grey_bg_rev.png);
+   //background-image: url(./images/grey_bg_rev.png);
     background-position: center top;
     background-repeat: no-repeat;
     z-index: -1;
@@ -1573,7 +1573,7 @@ footer .cont+.cont {
     left: -97px;
     width: 813px;
     height: 673px;
-   // background-image: url(../img/case.png);
+    background-image: url(./images/case.png);
     z-index: -1;
 }
 
@@ -2060,7 +2060,7 @@ footer .cont+.cont {
 }
 
 .program.page.greyImgRev::before {
-   // background: url(../img/map_bg.png) center calc(100% - 230px) no-repeat, url(../img/grey_bg_rev_2.png) center bottom no-repeat;
+   // background: url(./images/map_bg.png) center calc(100% - 230px) no-repeat, url(./images/grey_bg_rev_2.png) center bottom no-repeat;
     bottom: 540px;
     height: calc(100% - 540px);
 }
@@ -2074,7 +2074,7 @@ footer .cont+.cont {
 }
 
 .program.greyImgRev::before {
-  //  background: url(../img/map_bg.png) center calc(100% - 255px) no-repeat, url(../img/grey_bg_rev.png) center bottom no-repeat;
+    // background: url(./images/map_bg.png) center calc(100% - 255px) no-repeat, url(./images/grey_bg_rev.png) center bottom no-repeat;
     bottom: 461px;
     top: auto;
     height: calc(100% - 461px);
@@ -2543,7 +2543,7 @@ footer .cont+.cont {
     left: 50%;
     bottom: 0;
     margin-left: -960px;
-   // background-image: url(../img/grad_bg_2.png);
+   background-image: url(./images/grad_bg_2.png);
     z-index: -1;
 }
 
@@ -3103,7 +3103,7 @@ footer .cont+.cont {
 }
 
 .cabContent {
-   // background-image: url(../img/grad_bg_rev.png), url(../img/white_bg.png);
+   //background-image: url(./images/grad_bg_rev.png), url(./images/white_bg.png);
     background-position: center top, center bottom;
     background-repeat: no-repeat, no-repeat;
     background-color: #e6edf4;
@@ -4539,7 +4539,7 @@ footer .cont+.cont {
     top: 0px;
     left: 0px;
     height: 100%;
-    //background-image: url(../img/progress.png);
+    //background-image: url(./images/progress.png);
     background-position: left top;
     background-repeat: repeat-x;
 }
@@ -4692,7 +4692,7 @@ footer .cont+.cont {
     width: 28px;
     height: 28px;
     margin-top: -14px;
-  //  background-image: url(../img/check.png);
+   background-image: url(./images/check.png);
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
