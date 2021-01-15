@@ -210,20 +210,20 @@ span.color2 {
     background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
 }
 
-// .gradImg::before {
-//     content: '';
-//     display: block;
-//     position: absolute;
-//     width: 1920px;
-//     height: 953px;
-//     bottom: 0;
-//     left: 50%;
-//     margin-left: -960px;
-//    // background-image: url(../img/grad_bg.png);
-//     background-position: center bottom;
-//     background-repeat: no-repeat;
-//     z-index: -1;
-// }
+.gradImg::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1920px;
+    height: 953px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -960px;
+   // background-image: url(../img/grad_bg.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
 
 .circleBg {
     position: absolute;
