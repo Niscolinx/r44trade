@@ -30,7 +30,6 @@ import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
 
-import '../asset/fonts/stylesheet.css'
 
 function Layout(props) {
     return (
