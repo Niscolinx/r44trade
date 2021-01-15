@@ -1,5 +1,6 @@
 import React from 'react'
-import {SiEthereum} from 'react-icons/si'
+import { SiEthereum, SiLitecoin } from 'react-icons/si'
+import {RiBitCoinLine} from 'react-icons/ri'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
@@ -179,7 +180,7 @@ function Layout(props) {
                             <div class='curRate'>
                                 <div class='item'>
                                     <div class='iconLeft'>
-                                        <span class='icon-cur1'>h</span>
+                                        <span class='icon-cur1'> <RiBitCoinLine/> </span>
                                         <div class='data'>
                                             <span>Bitcoin (BTC):</span>
                                             <span>
@@ -194,7 +195,9 @@ function Layout(props) {
                                 </div>
                                 <div class='item'>
                                     <div class='iconLeft'>
-                                        <span class='icon-cur2'></span>
+                                        <span class='icon-cur2'>
+                                            <SiEthereum />
+                                        </span>
                                         <div class='data'>
                                             <span>Ethereum (ETH):</span>
                                             <span>
@@ -209,7 +212,7 @@ function Layout(props) {
                                 </div>
                                 <div class='item'>
                                     <div class='iconLeft'>
-                                        <span class='icon-cur3'></span>
+                                        <span class='icon-cur3'><SiLitecoin/></span>
                                         <div class='data'>
                                             <span>Litecoin (LTC):</span>
                                             <span>
@@ -224,7 +227,7 @@ function Layout(props) {
                                 </div>
                                 <div class='item'>
                                     <div class='iconLeft'>
-                                        <span class='icon-cur1'></span>
+                                        <span class='icon-cur1'> <RiBitCoinLine/></span>
                                         <div class='data'>
                                             <span>Bitcoin Cash (BCH):</span>
                                             <span>
