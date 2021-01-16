@@ -1,73 +1,97 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import { AiFillPhone } from 'react-icons/ai'
-import { ImLocation2 } from 'react-icons/im'
-import {IoLogoWhatsapp} from 'react-icons/io'
-
 function Footer() {
     return (
         <>
-            <div className='footer'>
-                <div className='footer__col'>
-                    <h4 className='heading-4__light footer__header'>
-                        Useful Links
-                    </h4>
-                    <ul className='footer__list'>
-                        <Link to='/terms' className='footer__link'>
-                            {' '}
-                            <li>Terms and Conditions</li>
-                        </Link>
-                        <Link to='/about-us' className='footer__link'>
-                            {' '}
-                            <li>About Us</li>
-                        </Link>
-                        <Link to='/contact-us' className='footer__link'>
-                            {' '}
-                            <li>Contact Us</li>
-                        </Link>
-                    </ul>
-                </div>
-                <div className='footer__col'>
-                    <h4 className='heading-4__light footer__header'>
-                        Company Info
-                    </h4>
-                    <ul className='footer__list'>
-                        <li className='footer__list--item'>
-                            THE REDWOOD SUPPLIER (FL) LIMITED
+            <div className='payments'>
+                <div className='container'>
+                    <ul className='table full'>
+                        <li className='tCell bottom left'>
+                            <img src={`${Payment_1}`} alt='payment' />
                         </li>
-                        <li className='footer__list--item'>
-                            FINNISH COMPANY #10594357
+                        <li className='tCell middle left'>
+                            <img src={`${Payment_2}`} alt='payment' />
                         </li>
-                    </ul>
-                </div>
-                <div className='footer__col'>
-                    <h4 className='heading-4__light footer__header'>
-                        contact Us
-                    </h4>
-                    <ul className='footer__list'>
-                        <li className='footer__list--item'>
-                            <ImLocation2 className='footer__list--icon' />
-                            MARTINPOLKU 74, KOUVOLA, FINLAND
+                        <li className='tCell middle right'>
+                            <img src={`${Payment_4}`} alt='payment' />
                         </li>
-                        <li className='footer__list--item'>
-                            <IoLogoWhatsapp className='footer__list--icon' />
-                            +18589463698
+                        <li className='tCell middle right'>
+                            <img src={`${Payment_5}`} alt='payment' />
                         </li>
-                        <li className='footer__list--item'>
-                            <AiFillPhone className='footer__list--icon' />
-                            +12024783100
+                        <li className='tCell middle right'>
+                            <img src={`${Payment_6}`} alt='payment' />
+                        </li>
+                        <li className='tCell middle right'>
+                            <img src={`${Payment_8}`} alt='payment' />
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div className='footer__copyright'>
-                <p className='footer__copy'>
-                    copyright &copy; 2020 coinperfectinvestment.com all rights
-                    reserved
-                </p>
-            </div>
+            <footer>
+                <div className='container'>
+                    <div className='cfix'>
+                        <div className='footCol'>
+                            <p className='copyright'>2021 © Robot22 Trade</p>
+                        </div>
+                        <ul className='footMenu'>
+                            <li className='col'>
+                                <ul>
+                                    <li>
+                                        <a href='index.php'>HOME</a>
+                                    </li>
+                                    <li>
+                                        <a href='about.php'>ABOUT US</a>
+                                    </li>
+                                    <li>
+                                        <a href='top-reward.php'>TOP REWARD</a>
+                                    </li>
+                                    <li>
+                                        <a href='pricing.php'>PRICING</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className='col'>
+                                <ul>
+                                    <li>
+                                        <a href='testimonies.php'>
+                                            TESTIMONIES
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href='contact.php'>CONTACT US</a>
+                                    </li>
+                                    <li>
+                                        <a href='faq.php'>FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href='register.php'>Sign up</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div className='footCol'>
+                            <div className='cont'>
+                                <span className='title'>Adress:</span>
+                                <p>
+                                    71-75 Shelton Street, London, Greater
+                                    London, United Kingdom, WC2H 9JQ
+                                </p>
+                            </div>
+                            <div className='cont'>
+                                <span className='title'>E-mail:</span>
+                                <a
+                                    className='link'
+                                    href='mailto:admin@robot22trade.com'
+                                >
+                                    admin@robot22trade.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </>
     )
 }
