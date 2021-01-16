@@ -2,6 +2,7 @@ import React from 'react'
 import AboutPageBg from '../images/about_page_bg.jpg'
 import AboutBg from '../images/about_bg.jpg'
 import AboutImg from '../images/about_img.jpg'
+import GreyBg from '../images/grey_bg.png'
 
 function AboutUs() {
     return (
@@ -55,7 +56,7 @@ font-size: 16px;} */}
 
                 <div
                     class='pageAbout'
-                    style='background-image: url(img/grey_bg_3.png)'
+                    style={{ backgroundImage: `url(${GreyBg})` }}
                 >
                     <div class='container'>
                         <div class='textBlock'>
