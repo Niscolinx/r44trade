@@ -6,6 +6,7 @@ import GreyBg from '../images/grey_bg.png'
 import Profile from '../images/profile.jpg'
 
 import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
+import {IoIosPeople} from 'react-icons/io'
 
 
 function AboutUs() {
@@ -205,7 +206,7 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-team gradTxt'></span>
+                                                <span className='icon-team gradTxt'><IoIosPeople/></span>
                                                 <span className='title'>
                                                     PROTECTION FROM HACKING
                                                 </span>
