@@ -3,7 +3,10 @@ import React from 'react'
 const getCurrentDate = () => {
     let newDate = new Date()
 
-    const out = newDate.getHours() + ':' + newDate.getMinutes()
+    //const out = newDate.getHours() + ':' + newDate.getMinutes()
+
+   // const out = newDate.getDate()
+    const out = newDate.getFullYear()
 
    // const out = newDate.toLocaleString('en-GB', { minute: 'numeric', month: 'long', weekday: 'long', hour: 'numeric', hour12: true })
 
