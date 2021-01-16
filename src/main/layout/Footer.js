@@ -1,6 +1,14 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import Payment_1 from '../../images/payment_1.png'
+import Payment_2 from '../../images/payment_2.png'
+//import Payment_3 from '../../images/payment_3.png'
+import Payment_4 from '../../images/payment_4.png'
+import Payment_5 from '../../images/payment_1.png'
+import Payment_6 from '../../images/payment_6.png'
+import Payment_8 from '../../images/payment_8.png'
+
 function Footer() {
     return (
         <>

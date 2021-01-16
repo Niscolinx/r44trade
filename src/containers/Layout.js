@@ -58,9 +58,9 @@ function Layout(props) {
                     <SubHeader />
                 </div>
                 <main>{props.children}</main>
-                {/* <div className='section-footer'>
+                <div className='section-footer'>
                     <Footer />
-                </div>{' '} */}
+                </div>
             </>
         )
     }
