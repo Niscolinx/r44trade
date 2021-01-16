@@ -24,7 +24,7 @@ function Pricing() {
             <div class='rules' style={{ backgroundImage: `url(${GreyBgBig})` }}>
                 <div class='container'>
                     <div class='wrap'>
-                        < class='row' style={{marginBottom: '30px'}>
+                        <div class='row' style={{marginBottom: '30px'}>
                             <div class='item col6'>
                                 <div class='planCardFirst'>
                                     <div
@@ -59,39 +59,38 @@ function Pricing() {
                             </div>
                         
 
-                            // <div class='item col6'>
-                            //     <div class='planCardSecond'>
-                            //         <div
-                            //             class='left'
-                            //             style={{ backgroundImage: `url(${CardBg2})` }}
-                            //         >
-                            //             <span class='cap'>#PACKAGE B</span>
-                            //             <div class='descr'>
-                            //                 <span class='pct'>20%</span>
-                            //                 <span>4 Work Days</span>
-                            //                 <a
-                            //                     href='register.php'
-                            //                     class='btnFillColor2Md'
-                            //                 >
-                            //                     Make deposit
-                            //                 </a>
-                            //             </div>
-                            //         </div>
-                            //         <ul class='info'>
-                            //             <li>
-                            //                 Min Deposit <span>200 USD</span>
-                            //             </li>
-                            //             <li>
-                            //                 Max Deposit <span>499 USD</span>
-                            //             </li>
-                            //         </ul>
-                            //         <img
-                            //             src={B}
-                            //             style={{width: '80%', marginTop: '20px'}}
-                            //         />
-                            //     </div>
-                            // </div>
-                            
+                            <div class='item col6'>
+                                <div class='planCardSecond'>
+                                    <div
+                                        class='left'
+                                        style={{ backgroundImage: `url(${CardBg2})` }}
+                                    >
+                                        <span class='cap'>#PACKAGE B</span>
+                                        <div class='descr'>
+                                            <span class='pct'>20%</span>
+                                            <span>4 Work Days</span>
+                                            <a
+                                                href='register.php'
+                                                class='btnFillColor2Md'
+                                            >
+                                                Make deposit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class='info'>
+                                        <li>
+                                            Min Deposit <span>200 USD</span>
+                                        </li>
+                                        <li>
+                                            Max Deposit <span>499 USD</span>
+                                        </li>
+                                    </ul>
+                                    <img
+                                        src={B}
+                                        style={{width: '80%', marginTop: '20px'}}
+                                    />
+                                </div>
+                            </div>
 
                         <div class='row' style={{marginBottom: '30px'}>
                             <div class='item col6'>
