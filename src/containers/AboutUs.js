@@ -89,12 +89,12 @@ font-size: 16px;} */}
                                 </div>
                                 <div
                                     class='btnsWrap'
-                                    style='text-align: center;'
+                                    style={{ textAlign: 'center' }}
                                 >
                                     <a
                                         href='register.php'
                                         class='btnFillColor1Lg'
-                                        style='margin-right: 20px;'
+                                        style={{ marginRight: '20px' }}
                                     >
                                         Join
                                     </a>
@@ -102,7 +102,7 @@ font-size: 16px;} */}
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='#blank'
                                         class='btnFillColor2Lg'
-                                        style='margin: 20px 0 0;'
+                                        style={{margin: '20px 0 0'}}
                                     >
                                         Check registration
                                     </a>
