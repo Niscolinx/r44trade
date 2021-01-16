@@ -9,30 +9,30 @@ function Testimonies() {
     return (
         <>
             <div
-                class='pageBanner'
+                className='pageBanner'
                 style={{ backgroundImage: `url(${NewsPageBg})` }}
             >
-                <div class='container'>
-                    <span class='heading'>Testimonies</span>
+                <div className='container'>
+                    <span className='heading'>Testimonies</span>
                 </div>
             </div>
 
             <div
-                class='pageNews'
+                className='pageNews'
                 style={{ backgroundImage: `url(${GreyBgBig})` }}
             >
-                <div class='container'>
-                    <div class='wrap'>
-                        <div class='grid'>
-                            <div class='item col4'>
-                                <div class='newsCard'>
+                <div className='container'>
+                    <div className='wrap'>
+                        <div className='grid'>
+                            <div className='item col4'>
+                                <div className='newsCard'>
                                     <div
-                                        class='img'
+                                        className='img'
                                         style={{
                                             backgroundImage: `url(${Testimonial2})`,
                                         }}
                                     ></div>
-                                    <span class='title'>Wayne</span>
+                                    <span className='title'>Wayne</span>
                                     <p>
                                         I've been investing with Robot44trade
                                         apparently over 8 months now and i can
@@ -41,15 +41,15 @@ function Testimonies() {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='newsCard'>
+                            <div className='item col4'>
+                                <div className='newsCard'>
                                     <div
-                                        class='img'
+                                        className='img'
                                         style={{
                                             backgroundImage: `url(${Testimonial3})`,
                                         }}
                                     ></div>
-                                    <span class='title'>Dr Anderson</span>
+                                    <span className='title'>Dr Anderson</span>
                                     <p>
                                         I've been investing with Robot44trade
                                         apparently over 8 months now and i can
@@ -58,15 +58,15 @@ function Testimonies() {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='newsCard'>
+                            <div className='item col4'>
+                                <div className='newsCard'>
                                     <div
-                                        class='img'
+                                        className='img'
                                         style={{
                                             backgroundImage: `url(${Testimonial1})`,
                                         }}
                                     ></div>
-                                    <span class='title'>Elizabeth</span>
+                                    <span className='title'>Elizabeth</span>
                                     <p>
                                         I am excited to be part of this great
                                         program. ...
