@@ -1,6 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
+
+import Lang_1 from '../../images/lang_1.jpg'
+import Lang_2 from '../../images/lang_2.jpg'
+import Logos from '../../images/logos.png'
 
 import GetCurrentDate from '../../util/getCurrentDate'
 
