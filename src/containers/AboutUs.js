@@ -8,6 +8,7 @@ import Profile from '../images/profile.jpg'
 import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import {IoIosPeople} from 'react-icons/io'
 import {MdLowPriority} from 'react-icons/md'
+import {RiUserUnfollowFill} from 'react-icons/ri'
 
 
 function AboutUs() {
@@ -236,7 +237,7 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-cash gradTxt'></span>
+                                                <span className='icon-cash gradTxt'><RiUserUnfollowFill className='location__svg'/></span>
                                                 <span className='title'>
                                                     NO MORE MIDDLE MEN
                                                 </span>
