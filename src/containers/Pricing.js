@@ -91,142 +91,147 @@ function Pricing() {
                                     />
                                 </div>
                             </div> 
+                            */}
 
                         // <div class='row' style={{marginBottom: '30px'}>
-                        //     <div class='item col6'>
-                        //         <div class='planCardFirst'>
-                        //             <div
-                        //                 class='left'
-                        //                 style={{ backgroundImage: `url(${CardBg1})` }}
-                        //                         >
-                        //                 <span class='cap'>#PACKAGE C</span>
-                        //                 <div class='descr'>
-                        //                     <span class='pct'>30%</span>
-                        //                     <span>6 Work Days</span>
-                        //                     <a
-                        //                         href='register.php'
-                        //                         class='btnFillColor1Md'
-                        //                     >
-                        //                         Make deposit
-                        //                     </a>
-                        //                 </div>
-                        //             </div>
-                        //             <ul class='info'>
-                        //                 <li>
-                        //                     Min Deposit <span>500 USD</span>
-                        //                 </li>
-                        //                 <li>
-                        //                     Max Deposit <span>999 USD</span>
-                        //                 </li>
-                        //             </ul>
-                        //             <img
-                        //                 src={C}
-                        //                 style={{width: '80%', marginTop: '20px'}}
-                        //             />
-                        //         </div>
-                        //     </div>
+                            <div class='item col6'>
+                                <div class='planCardFirst'>
+                                    <div
+                                        class='left'
+                                        style={{ backgroundImage: `url(${CardBg1})` }}
+                                                >
+                                        <span class='cap'>#PACKAGE C</span>
+                                        <div class='descr'>
+                                            <span class='pct'>30%</span>
+                                            <span>6 Work Days</span>
+                                            <a
+                                                href='register.php'
+                                                class='btnFillColor1Md'
+                                            >
+                                                Make deposit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class='info'>
+                                        <li>
+                                            Min Deposit <span>500 USD</span>
+                                        </li>
+                                        <li>
+                                            Max Deposit <span>999 USD</span>
+                                        </li>
+                                    </ul>
+                                    <img
+                                        src={C}
+                                        style={{width: '80%', marginTop: '20px'}}
+                                    />
+                                </div>
+                            </div>
 
-                        //     <div class='item col6'>
-                        //         <div class='planCardSecond'>
-                        //             <div
-                        //                 class='left'
-                        //                 style={{ backgroundImage: `url(${CardBg2})` }}
-                        //             >
-                        //                 <span class='cap'>#PACKAGE D</span>
-                        //                 <div class='descr'>
-                        //                     <span class='pct'>40%</span>
-                        //                     <span>8 Work Days</span>
-                        //                     <a
-                        //                         href='register.php'
-                        //                         class='btnFillColor2Md'
-                        //                     >
-                        //                         Make deposit
-                        //                     </a>
-                        //                 </div>
-                        //             </div>
-                        //             <ul class='info'>
-                        //                 <li>
-                        //                     Min Deposit <span>1,000 USD</span>
-                        //                 </li>
-                        //                 <li>
-                        //                     Max Deposit <span>4,999 USD</span>
-                        //                 </li>
-                        //             </ul>
-                        //             <img
-                        //                 src={D}
-                        //                 style={{width: '80%', marginTop: '20px'}}
-                        //             />
-                        //         </div>
-                        //     </div>
+                            <div class='item col6'>
+                                <div class='planCardSecond'>
+                                    <div
+                                        class='left'
+                                        style={{ backgroundImage: `url(${CardBg2})` }}
+                                    >
+                                        <span class='cap'>#PACKAGE D</span>
+                                        <div class='descr'>
+                                            <span class='pct'>40%</span>
+                                            <span>8 Work Days</span>
+                                            <a
+                                                href='register.php'
+                                                class='btnFillColor2Md'
+                                            >
+                                                Make deposit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class='info'>
+                                        <li>
+                                            Min Deposit <span>1,000 USD</span>
+                                        </li>
+                                        <li>
+                                            Max Deposit <span>4,999 USD</span>
+                                        </li>
+                                    </ul>
+                                    <img
+                                        src={D}
+                                        style={{width: '80%', marginTop: '20px'}}
+                                    />
+                                </div>
+                            </div>
+                                        
 
-                    //     <div class='row'>
-                    //         <div class='item col6'>
-                    //             <div class='planCardFirst'>
-                    //                 <div
-                    //                     class='left'
-                    //                      style={{ backgroundImage: `url(${CardBg1})` }}>                                        <span class='cap'>#PACKAGE E</span>
-                    //                     <div class='descr'>
-                    //                         <span class='pct'>60%</span>
-                    //                         <span>10 Work Days</span>
-                    //                         <a
-                    //                             href='register.php'
-                    //                             class='btnFillColor1Md'
-                    //                         >
-                    //                             Make deposit
-                    //                         </a>
-                    //                     </div>
-                    //                 </div>
-                    //                 <ul class='info'>
-                    //                     <li>
-                    //                         Min Deposit <span>5,000 USD</span>
-                    //                     </li>
-                    //                     <li>
-                    //                         Max Deposit <span>9,999 USD</span>
-                    //                     </li>
-                    //                 </ul>
-                    //                 <img
-                    //                     src={E}
-                    //                     style={{width: '80%', marginTop: '20px'}}
-                    //                 />
-                    //             </div>
-                    //         </div>
 
-                    //         <div class='item col6'>
-                    //             <div class='planCardSecond'>
-                    //                 <div
-                    //                     class='left'
-                    //                     style={{ backgroundImage: `url(${CardBg2})` }}
-                    //                 >
-                    //                     <span class='cap'>#PACKAGE F</span>
-                    //                     <div class='descr'>
-                    //                         <span class='pct'>80%</span>
-                    //                         <span>12 Work Days</span>
-                    //                         <a
-                    //                             href='register.php'
-                    //                             class='btnFillColor2Md'
-                    //                         >
-                    //                             Make deposit
-                    //                         </a>
-                    //                     </div>
-                    //                 </div>
-                    //                 <ul class='info'>
-                    //                     <li>
-                    //                         Min Deposit <span>10,000 USD</span>
-                    //                     </li>
-                    //                     <li>
-                    //                         Max Deposit{' '}
-                    //                         <span>UNLIMITED USD</span>
-                    //                     </li>
-                    //                 </ul>
-                    //                 <img
-                    //                     src={D}
-                    //                     style={{width: '80%', marginTop: '20px'}}
-                    //                 />
-                    //             </div>
-                    //         </div>
-                    //     </div>
-                    // </div>
-                */}
+                         <div class='row'>
+                             <div class='item col6'>
+                                 <div class='planCardFirst'>
+                                     <div
+                                        class='left'
+                                         style={{ backgroundImage: `url(${CardBg1})` }}>                                        <span class='cap'>#PACKAGE E</span>
+                                        <div class='descr'>
+                                            <span class='pct'>60%</span>
+                                            <span>10 Work Days</span>
+                                            <a
+                                                href='register.php'
+                                                class='btnFillColor1Md'
+                                            >
+                                                Make deposit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class='info'>
+                                        <li>
+                                            Min Deposit <span>5,000 USD</span>
+                                        </li>
+                                        <li>
+                                            Max Deposit <span>9,999 USD</span>
+                                        </li>
+                                    </ul>
+                                    <img
+                                    alt=''
+                                        src={E}
+                                        style={{width: '80%', marginTop: '20px'}}
+                                    />
+                                </div>
+                            </div>
+
+                            <div class='item col6'>
+                                <div class='planCardSecond'>
+                                    <div
+                                        class='left'
+                                        style={{ backgroundImage: `url(${CardBg2})` }}
+                                    >
+                                        <span class='cap'>#PACKAGE F</span>
+                                        <div class='descr'>
+                                            <span class='pct'>80%</span>
+                                            <span>12 Work Days</span>
+                                            <a
+                                                href='register.php'
+                                                class='btnFillColor2Md'
+                                            >
+                                                Make deposit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <ul class='info'>
+                                        <li>
+                                            Min Deposit <span>10,000 USD</span>
+                                        </li>
+                                        <li>
+                                            Max Deposit{' '}
+                                            <span>UNLIMITED USD</span>
+                                        </li>
+                                    </ul>
+                                    <img
+                                    alt=''
+                                        src={D}
+                                        style={{width: '80%', marginTop: '20px'}}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
 
                     <div
                         class='container'
