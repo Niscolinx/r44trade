@@ -93,113 +93,99 @@ function SubHeader(props) {
 
     return (
         <>
-            <div className='navigation'>
-                <input
-                    onChange={() => console.log('changed')}
-                    onClick={() => {
-                        collapseMenu()
-                    }}
-                    checked={checked}
-                    type='checkbox'
-                    className='navigation__checkbox'
-                    id='navi-toggle'
-                />
-                <label htmlFor='navi-toggle' className='navigation__button'>
-                    <span className='navigation__icon'></span>
-                </label>
-                <div className='navigation__background'>&nbsp;</div>
-                <nav className='navigation__nav'>
-                    <ul className='navigation__list'>
-                        <li className='navigation__item'>
-                            <Link
-                                to='/'
-                                className='navigation__link'
-                                onClick={() => {
-                                    collapseMenu()
-                                }}
-                            >
-                                Home
-                            </Link>
-                        </li>
-                        <li className='navigation__item'>
-                            <Link
-                                to='/about-us'
-                                className='navigation__link'
-                                onClick={() => {
-                                    collapseMenu()
-                                }}
-                            >
-                                About Us
-                            </Link>
-                        </li>
-                        <li className='navigation__item'>
-                            <Link
-                                to='/faq'
-                                className='navigation__link'
-                                onClick={() => {
-                                    collapseMenu()
-                                }}
-                            >
-                                FAQ
-                            </Link>
-                        </li>
-                        <li className='navigation__item'>
-                            <Link
-                                to='/contact-us'
-                                className='navigation__link'
-                                onClick={() => {
-                                    collapseMenu()
-                                }}
-                            >
-                                Contact Us
-                            </Link>
-                        </li>
-                    </ul>
+                <div className='topLine'>
+                    <div className='container'>
+                        <div className='table full'>
+                            <div className='logoWrap tCell'>
+                                <div className='logo invisLink'>
+                                    <img
+                                        src={`${Logos}`}
+                                        alt='logo'
+                                        height='70px;'
+                                    />
+                                    Robot 22 Trade
+                                    <a href='index.php'>main</a>
+                                </div>
+                            </div>
+                            <div className='logReg tCell right'>
+                                <a href='login.php' className='btnFillColor1Sm'>
+                                    login
+                                </a>
+                                <a
+                                    href='register.php'
+                                    className='btnFillColor2Sm'
+                                >
+                                    sign up
+                                </a>
+                            </div>
 
-                    <ul className='navigation__list navigation__list--auth'>
-                        {mobileNav}
-                    </ul>
-                </nav>
-            </div>
+                            <div className='socContHead lang tCell right'>
+                                <a
+                                    href='#blank'
+                                    style={{
+                                        backgroundImage: `url(${Lang_1})`,
+                                    }}
+                                >
+                                    lang1
+                                </a>
+                                <a
+                                    href='#blank'
+                                    style={{
+                                        backgroundImage: `url(${Lang_2})`,
+                                    }}
+                                >
+                                    lang2
+                                </a>
+                            </div>
 
-            <div className='subHeader__contact'>
-                <CgCalendarDates className='subHeader__contact--logo' />
-                <div className='subHeader__contact--text'>
-                    <GetCurrentDate />
+                            <div className='clock tCell right'>
+                                <span className='time gradTxt' id='time'></span>
+                                <span className='date'>
+                                    <span className='day' id='day'></span>
+                                    <span className='year' id='year'></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <IoLogoWhatsapp className='subHeader__contact--logo' />
-                <p className='subHeader__contact--text'>+18589463698</p>
+                <script src='../widgets.coingecko.com/coingecko-coin-price-marquee-widget.js'></script>
+                <coingecko-coin-price-marquee-widget
+                    coin-ids='bitcoin,ethereum,eos,ripple,litecoin'
+                    currency='usd'
+                    background-color='#ffffff'
+                    locale='en'
+                ></coingecko-coin-price-marquee-widget>
 
-                <AiFillPhone className='subHeader__contact--logo' />
-                <p className='subHeader__contact--text'>+12024783100</p>
-
-                <MdEmail className='subHeader__contact--logo' />
-                <p className='subHeader__contact--text'>
-                    support@coinperfectinvestment.com
-                </p>
-            </div>
-
-            <nav className='subHeader__nav'>
-                <div className='subHeader__logo'>
-                    <h2>COINPERFECTINVESTMENT</h2>
+                <div className='menu'>
+                    <div className='container'>
+                        <center>
+                            <ul>
+                                <li>
+                                    <a href='index.php'>HOME</a>
+                                </li>
+                                <li>
+                                    <Link to='/about-us'>ABOUT US</Link>
+                                </li>
+                                <li>
+                                    <a href='top-reward.php'>TOP REWARD</a>
+                                </li>
+                                <li>
+                                    <a href='pricing.php'>PRICING</a>
+                                </li>
+                                <li>
+                                    <a href='testimonies.php'>Testimonies</a>
+                                </li>
+                                <li>
+                                    <a href='contact.php'>CONTACT US</a>
+                                </li>
+                                <li>
+                                    <a href='faq.php'>FAQ</a>
+                                </li>
+                            </ul>
+                        </center>
+                    </div>
                 </div>
-                <ul className='subHeader__list'>
-                    <Link to='/' className='subHeader__list--item'>
-                        <li>home</li>
-                    </Link>
-                    <Link to='/about-us' className='subHeader__list--item'>
-                        <li>About</li>
-                    </Link>
-                    <Link to='/faq' className='subHeader__list--item'>
-                        <li>FAQ</li>
-                    </Link>
-                    <Link to='/contact-us' className='subHeader__list--item'>
-                        <li>Contact Us</li>
-                    </Link>
-                </ul>
-                <ul className='subHeader__list--auth'>{nav}</ul>
-            </nav>
         </>
     )
 }
