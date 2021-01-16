@@ -23,10 +23,17 @@ text-decoration: none;
 display: inline-block;
 font-size: 16px;} */}
 
-            <div style={{position: 'fixed', zIndex: 99999, left: '20px', bottom: '20px'}}>
+            <div
+                style={{
+                    position: 'fixed',
+                    zIndex: 99999,
+                    left: '20px',
+                    bottom: '20px',
+                }}
+            >
                 <a href='http://wa.me/+447723536106'>
                     <img
-                    alt=''
+                        alt=''
                         src='https://pngimg.com/uploads/whatsapp/whatsapp_PNG21.png'
                         width='50px'
                     />
@@ -36,7 +43,7 @@ font-size: 16px;} */}
             <div class='bodyWrap'>
                 <div
                     class='pageBanner'
-                    style='background-image: url(img/about_page_bg.jpg);'
+                    style={{ backgroundImage: `url(${Bg_11})` }}
                 >
                     <div class='container'>
                         <span class='heading'>About us</span>
