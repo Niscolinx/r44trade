@@ -1,11 +1,13 @@
 import React from 'react'
 
+import ContactPageBg from '../images/contact_page_bg.jpg'
 
 const ContactUs = (props) => {
    
     return (
         <>
-<div class="pageBanner" style="background-image: url(img/contact_page_bg.jpg);">
+<div class="pageBanner"   style={{ backgroundImage: `url(${ContactPageBg})` }}>
+>
 <div class="container">
 <span class="heading">Contact us</span>
 </div>
