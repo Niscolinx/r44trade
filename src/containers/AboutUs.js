@@ -36,26 +36,26 @@ font-size: 16px;} */}
     <div class="bodyWrap">
 
     <div class="pageBanner" style="background-image: url(img/about_page_bg.jpg);">
-    <div class="container">
-    <span class="heading">About us</span>
-    </div>
+        <div class="container">
+            <span class="heading">About us</span>
+        </div>
     </div>
 
     <div class="pageAbout" style="background-image: url(img/grey_bg_3.png)">
-    <div class="container">
-    <div class="textBlock">
-    <div class="info right">
-    <div class="license">
-    <div class="img invisLink" style="background-image: url(img/qr-code.jpg);"><a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank">license</a></div>
+     <div class="container">
+            <div class="textBlock">
+                <div class="info right">
+                     <div class="license">
+                             <div class="img invisLink" style="background-image: url(img/qr-code.jpg);"><a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank">license</a></div>
     
-    </div>
-    <div class="address">
-    <div class="iconLeft">
-    <span class="icon-location gradTxt"></span>
-    <span class="data">71-75 Shelton Street, London, Greater London,
-    United Kingdom, WC2H 9JQ</span>
-    </div>
-    </div>
+                    </div>
+            <div class="address">
+                <div class="iconLeft">
+                    <span class="icon-location gradTxt"></span>
+                    <span class="data">71-75 Shelton Street, London, Greater London,
+                    United Kingdom, WC2H 9JQ</span>
+                </div>
+            </div>
     <div class="btnsWrap" style="text-align: center;">
     <a href="register.php" class="btnFillColor1Lg" style="margin-right: 20px;">Join</a>
     <a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank" class="btnFillColor2Lg" style="margin: 20px 0 0;">Check registration</a>
