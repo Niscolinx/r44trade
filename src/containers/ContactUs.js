@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ContactPageBg from '../images/contact_page_bg.jpg'
-import ContactBg from '../images/contact_bg.png'
+import ContactBg from '../images/contact_bg.jpg'
 import GreyBg from '../images/grey_bg.png'
 
 const ContactUs = (props) => {
