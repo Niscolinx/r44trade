@@ -46,7 +46,7 @@ font-size: 16px;} */}
             <div class='bodyWrap'>
                 <div
                     class='pageBanner'
-                    style={{ backgroundImage: `url(${Bg_11})` }}
+                    style={{ backgroundImage: `url(${AboutPageBg})` }}
                 >
                     <div class='container'>
                         <span class='heading'>About us</span>
