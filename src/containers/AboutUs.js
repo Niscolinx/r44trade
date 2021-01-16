@@ -62,7 +62,7 @@ font-size: 16px;} */}
     </div>
     </div>
     <p>
-    Robot 22 Trade is the only company dedicated to work on EA, better known as Algo Trading, which atomizes the trading process and brings risk free profit, saves times, money and build better wealth over long period of time.
+    Robot 44 Trade is the only company dedicated to work on EA, better known as Algo Trading, which atomizes the trading process and brings risk free profit, saves times, money and build better wealth over long period of time.
     </p>
     <p>
     A Robot trading System is used to automatically generate trading signals on the forex trader’s behalf. As such, a manual trader has to glue himself or herself in front of a computer screen and wait for the appropriate time when the criteria for making a decision fits with his or her rules—something which is tiring and complicated.
