@@ -136,7 +136,7 @@ function Layout(props) {
                                         <a href='index.php'>HOME</a>
                                     </li>
                                     <li>
-                                        <a href='about.php'>ABOUT US</a>
+                                        <Link to='/about-us'>ABOUT US</Link>
                                     </li>
                                     <li>
                                         <a href='top-reward.php'>TOP REWARD</a>
