@@ -136,9 +136,9 @@ const TopReward = () => {
                     </a>
                 </div>
 
-                <div class='circleBg'>
+                {/* <div class='circleBg'>
                     <div class='circle'></div>
-                </div>
+                </div> */}
             </div>
         </>
     )
