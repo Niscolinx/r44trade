@@ -1,14 +1,5 @@
-import React, { useState, useEffect } from 'react'
-import { connect } from 'react-redux'
-import Particles from 'react-particles-js'
+import React from 'react'
 
-import * as orderAction from '../store/actions/burgerIndex'
-
-import Button from '../main/Button'
-import Input from '../main/Input'
-
-import { required, length, email } from '../util/validators'
-import Auth from '../main/auth/Auth'
 
 const ContactUs = (props) => {
    
