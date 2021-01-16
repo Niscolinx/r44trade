@@ -22,7 +22,7 @@ const Faq = () => {
                             Let Us Answer Those Questions
                         </span>
                         <div class='wrap'>
-                            <div class='textBlock' style='margin-bottom: 40px'>
+                            <div class='textBlock' style={{marginBottom: '40px'}}>
                                 <p>
                                     In Cryptro, everyone has a voice and the
                                     ability to propose projects directly to the
