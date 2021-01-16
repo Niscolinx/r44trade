@@ -54,9 +54,9 @@ function Layout(props) {
         } 
         toRender = (
             <>
-                {/* <div className='section-subHeader'>
+                <div className='section-subHeader'>
                     <SubHeader />
-                </div> */}
+                </div>
                 <main>{props.children}</main>
                 {/* <div className='section-footer'>
                     <Footer />
