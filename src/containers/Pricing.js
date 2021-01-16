@@ -18,7 +18,7 @@ function Pricing() {
             <div class='rules' style={{ backgroundImage: `url(${GreyBgBig})` }}>
                 <div class='container'>
                     <div class='wrap'>
-                        <div class='row' style='margin-bottom: 30px;'>
+                        <div class='row' style={{marginBottom: '30px'}>
                             <div class='item col6'>
                                 <div class='planCardFirst'>
                                     <div
@@ -86,7 +86,7 @@ function Pricing() {
                             </div>
                         </div>
 
-                        <div class='row' style='margin-bottom: 30px;'>
+                        <div class='row' style={{marginBottom: '30px'}>
                             <div class='item col6'>
                                 <div class='planCardFirst'>
                                     <div
