@@ -142,7 +142,7 @@ font-size: 16px;} */}
                             </p>
                             <div
                                 class='img left'
-                                style='background-image: url(img/about_img.jpg);'
+                                style={{ backgroundImage: `url(${AboutImg})` }}
                             ></div>
                             <div class='cfix'></div>
                             <br />
