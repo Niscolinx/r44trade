@@ -116,19 +116,5 @@ return true;
     )
 }
 
-const mapStateToProps = (state) => {
-    return {
-        loading: state.user.loading,
-        err: state.auth.error,
-        tokenId: state.auth.tokenId,
-        userId: state.auth.userId,
-    }
-}
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        onInitLogin: (email, password) =>
-            dispatch(orderAction.initLogin(email, password)),
-    }
-}
-export default connect(mapStateToProps, mapDispatchToProps)(ContactUs)
+export default ContactUs
