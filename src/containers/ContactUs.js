@@ -1,6 +1,8 @@
 import React from 'react'
 
 import ContactPageBg from '../images/contact_page_bg.jpg'
+import ContactBg from '../images/contact_bg.png'
+import GreyBg from '../images/grey_bg.png'
 
 const ContactUs = (props) => {
    
@@ -13,7 +15,8 @@ const ContactUs = (props) => {
 </div>
 </div>
 
-<div class="contInfo" style="background-image: url(img/grey_bg.png);">
+<div class="contInfo"                 style={{ backgroundImage: `url(${GreyBg})` }}>
+>
 <div class="container">
 <div class="row">
 <div class="left">
@@ -47,7 +50,8 @@ const ContactUs = (props) => {
 </div>
 </div>
 
-<div class="blockForm" style="background-image: url(img/contact_bg.jpg);">
+<div class="blockForm"                 style={{ backgroundImage: `url(${ContactBg})` }}>
+>
 <div class="containerSM">
 <span class="captionDark center">contact form</span>
 <div class="wrap">
