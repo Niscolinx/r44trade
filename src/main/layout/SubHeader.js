@@ -6,7 +6,16 @@ import Lang_1 from '../../images/lang_1.jpg'
 import Lang_2 from '../../images/lang_2.jpg'
 import Logos from '../../images/logos.png'
 
-import GetCurrentDate from '../../util/getCurrentDate'
+    const newDate = new Date()
+
+    const time = newDate.getHours() + ':' + newDate.getMinutes()
+
+    const date = newDate.getDate()
+    const month = newDate.toLocaleString('en-GB', { month: 'short' })
+
+    const year = newDate.getFullYear()
+
+
 
 function SubHeader(props) {
 
