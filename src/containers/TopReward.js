@@ -1,4 +1,5 @@
 import React from 'react'
+import PartnersPageBg from '../images/partners_page_bg.jpg'
 
 const TopReward = () => {
     return (
