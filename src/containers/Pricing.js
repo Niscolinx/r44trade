@@ -1,5 +1,5 @@
 import React from 'react'
-import 
+import RulesPageBg from '../i'
 
 function Pricing() {
     return (
