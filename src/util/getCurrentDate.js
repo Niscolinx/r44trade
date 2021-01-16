@@ -3,17 +3,17 @@ import React from 'react'
 const getCurrentDate = () => {
     let newDate = new Date()
 
-    //const out = newDate.getHours() + ':' + newDate.getMinutes()
+    const time = newDate.getHours() + ':' + newDate.getMinutes()
 
-   //const out = newDate.getDate()
-   // const out = newDate.getFullYear()
+   const date = newDate.getDate()
+   const month = newDate.toLocaleString('en-GB', { month: 'short' })
 
-    const out = newDate.toLocaleString('en-GB', { month: 'short' })
+   const year = newDate.getFullYear()
 
 
-    return {
-        out: out
-    }
+    return [
+        time, date, month, year
+    ]
 }
 
 export default getCurrentDate
