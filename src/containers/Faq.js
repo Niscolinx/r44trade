@@ -22,7 +22,10 @@ const Faq = () => {
                             Let Us Answer Those Questions
                         </span>
                         <div class='wrap'>
-                            <div class='textBlock' style={{marginBottom: '40px'}}>
+                            <div
+                                class='textBlock'
+                                style={{ marginBottom: '40px' }}
+                            >
                                 <p>
                                     In Cryptro, everyone has a voice and the
                                     ability to propose projects directly to the
@@ -122,9 +125,13 @@ const Faq = () => {
                                             many fake products to shatter your
                                             trust in the Market. But you can{' '}
                                             <strong>
-                                                <span style='color: #0000ff;'>
+                                                <span
+                                                    style={{ color: '#0000ff' }}
+                                                >
                                                     <a
-                                                        style='color: #0000ff;'
+                                                        style={{
+                                                            color: '#0000ff',
+                                                        }}
                                                         href='robot22trade.com/performance/'
                                                         target='_blank'
                                                         rel='noopener'
@@ -149,7 +156,7 @@ const Faq = () => {
                                                 rel='noopener'
                                             >
                                                 <strong>
-                                                    <span style='color: #0000ff;'>
+                                                    <span style={{color: '#0000ff'}}>
                                                         read our testimonials
                                                     </span>
                                                 </strong>
@@ -628,10 +635,10 @@ const Faq = () => {
                                             about the changes in the market
                                             terms or improvement in the strategy
                                             from time to time. Kindly{' '}
-                                            <span style='color: #0000ff;'>
+                                            <span style={{color: '#0000ff'}}>
                                                 <strong>
                                                     <a
-                                                        style='color: #0000ff;'
+                                                        style={{color: '#0000ff'}}
                                                         href='robot22trade.com/ea-updates/'
                                                         target='_blank'
                                                         rel='noopener'
@@ -701,9 +708,9 @@ const Faq = () => {
                                             etc. by finding the links and graphs
                                             on our{' '}
                                             <strong>
-                                                <span style='color: #0000ff;'>
+                                                <span style={{color: '#0000ff'}}>
                                                     <a
-                                                        style='color: #0000ff;'
+                                                        style={{color: '#0000ff'}}
                                                         href='robot22trade.com/performance/'
                                                         target='_blank'
                                                         rel='noopener'
