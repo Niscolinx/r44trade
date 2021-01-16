@@ -109,7 +109,7 @@ function SubHeader(props) {
                                 <Link to='/contact-us'>CONTACT US</Link>
                             </li>
                             <li>
-                                <a href='faq.php'>FAQ</a>
+                                <Link to='faq'>FAQ</Link>
                             </li>
                         </ul>
                     </center>
