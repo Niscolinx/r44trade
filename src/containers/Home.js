@@ -376,7 +376,7 @@ function Layout(props) {
                                 </div>
                                 <div className='address'>
                                     <div className='iconLeft'>
-                                        <span className='icon-location gradTxt'><MdLocationOn/></span>
+                                        <span className='icon-location gradTxt'><MdLocationOn className='location__svg'/></span>
                                         <span className='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
