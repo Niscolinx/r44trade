@@ -29,7 +29,7 @@ All of the solidity Ethereum smart contract code used for the token sale and vau
     
 <div class="inner">
 <div class="title">
-<span style="font-size: 30px; font-weight: 600;">TOP REWARD</span>
+<span style={{fontSize: '30px', fontWeight: 600}}>TOP REWARD</span>
 </div>
 <ul class="table full in">
 
