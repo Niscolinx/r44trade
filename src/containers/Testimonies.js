@@ -31,13 +31,13 @@ function Testimonies() {
 
 
 
-<div class="item col4"><div class="newsCard"><div class="img" style="background-image: url(user.png);"></div><span class="title">
+<div class="item col4"><div class="newsCard"><div class="img" style={{ backgroundImage: `url(${Testimonial2})` }}></div><span class="title">
 			Wayne 
 			</span><p>I've been investing with Robot22trade apparently over 8 months now and i can tell you it's worth trying robot22trade is the best 🤑...
-			</p></div></div><div class="item col4"><div class="newsCard"><div class="img" style="background-image: url(user.png);"></div><span class="title">
+			</p></div></div><div class="item col4"><div class="newsCard"><div class="img" style={{ backgroundImage: `url(${Testimonial3})` }}></div><span class="title">
 			Dr Anderson 
 			</span><p>I've been investing with Robot22trade apparently over 8 months now and i can tell you it's worth trying . Robot22trade is the best 🤑...
-			</p></div></div><div class="item col4"><div class="newsCard"><div class="img" style="background-image: url(user.png);"></div><span class="title">
+			</p></div></div><div class="item col4"><div class="newsCard"><div class="img" style={{ backgroundImage: `url(${Testimonial1})` }}></div><span class="title">
 			Elizabeth 
 			</span><p>I am excited to be part of this great program. ...
 			</p></div></div> 
@@ -55,7 +55,7 @@ function Testimonies() {
 
 
 
-<div class="container content-container" style="display: none">
+<div class="container content-container" style={{display: 'none'}}>
 <div class="row">
 <div class=" col-md-12">
 <div class="page-content-wrap"> 
@@ -71,9 +71,9 @@ function Testimonies() {
 <div class="vc_row wpb_row vc_inner vc_row-fluid">
 <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-2 vc_col-md-8">
 <div class="vc_column-inner ">
-<div class="wpb_wrapper"  style="margin-top: 40px; text-align: center;">
+<div class="wpb_wrapper"  style={{marginTop: '40px', textAlign: 'center'}}>
 <div data-rstyle="height:|10|20|30;" class='anps-empty-space'></div>
-<h2 class="anps-heading" style="text-align: center; "><span style="font-weight: 700; " data-rstyle="margin-bottom:|||20;font-size:|||32;line-height:|||;" class=" anps-heading__text">Add Testimonies</span></h2>
+<h2 class="anps-heading" style="text-align: center; "><span style={{fontWeight: 700}} data-rstyle="margin-bottom:|||20;font-size:|||32;line-height:|||;" class=" anps-heading__text">Add Testimonies</span></h2>
 <div class="wpb_text_column wpb_content_element " >
 <div class="wpb_wrapper" style="margin-top: 20px; "><p style="text-align: center;"> 
 We have a collection of all our clients that have benefited from the trading systems we have.
