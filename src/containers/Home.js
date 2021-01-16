@@ -257,7 +257,7 @@ function Layout(props) {
                                             backgroundImage: `url(${profile})`,
                                         }}
                                     >
-                                        <a href={`${profile}`} target='_blank'>
+                                        <a href={`${profile}`} target='_blank' rel="noopener noreferrer">
                                             license
                                         </a>
                                     </div>
