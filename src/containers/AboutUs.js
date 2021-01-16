@@ -80,7 +80,7 @@ font-size: 16px;} */}
                                 <div className='address'>
                                     <div className='iconLeft'>
                                         <span className='icon-location gradTxt'>
-                                            <MdLocationOn classNameName='location__svg' />
+                                            <MdLocationOn className='location__svg' />
                                         </span>
                                         <span className='data'>
                                             71-75 Shelton Street, London,
