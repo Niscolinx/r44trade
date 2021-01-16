@@ -315,7 +315,7 @@ const Faq = () => {
                                             promotions or seasonal discount’s
                                             info please visit –{' '}
                                             <strong>
-                                                <span style='color: #3366ff;'>
+                                                <span style={{color: '#3366ff'}}>
                                                     <a
                                                         style='color: #3366ff;'
                                                         href='robot22trade.com'
