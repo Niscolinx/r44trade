@@ -45,26 +45,26 @@ font-size: 16px;} */}
                 </a>
             </div>
 
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <div
-                    class='pageBanner'
+                    className='pageBanner'
                     style={{ backgroundImage: `url(${AboutPageBg})` }}
                 >
-                    <div class='container'>
-                        <span class='heading'>About us</span>
+                    <div className='container'>
+                        <span className='heading'>About us</span>
                     </div>
                 </div>
 
                 <div
-                    class='pageAbout'
+                    className='pageAbout'
                     style={{ backgroundImage: `url(${GreyBg})` }}
                 >
-                    <div class='container'>
-                        <div class='textBlock'>
-                            <div class='info right'>
-                                <div class='license'>
+                    <div className='container'>
+                        <div className='textBlock'>
+                            <div className='info right'>
+                                <div className='license'>
                                     <div
-                                        class='img invisLink'
+                                        className='img invisLink'
                                         style={{
                                             backgroundImage: `url(${Profile})`,
                                         }}
@@ -77,12 +77,12 @@ font-size: 16px;} */}
                                         </a>
                                     </div>
                                 </div>
-                                <div class='address'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-location gradTxt'>
-                                            <MdLocationOn className='location__svg' />
+                                <div className='address'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-location gradTxt'>
+                                            <MdLocationOn classNameName='location__svg' />
                                         </span>
-                                        <span class='data'>
+                                        <span className='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
                                             9JQ
@@ -90,12 +90,12 @@ font-size: 16px;} */}
                                     </div>
                                 </div>
                                 <div
-                                    class='btnsWrap'
+                                    className='btnsWrap'
                                     style={{ textAlign: 'center' }}
                                 >
                                     <a
                                         href='register.php'
-                                        class='btnFillColor1Lg'
+                                        className='btnFillColor1Lg'
                                         style={{ marginRight: '20px' }}
                                     >
                                         Join
@@ -103,7 +103,7 @@ font-size: 16px;} */}
                                     <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='#blank'
-                                        class='btnFillColor2Lg'
+                                        className='btnFillColor2Lg'
                                         style={{ margin: '20px 0 0' }}
                                     >
                                         Check registration
@@ -143,10 +143,10 @@ font-size: 16px;} */}
                                 of earning money.
                             </p>
                             <div
-                                class='img left'
+                                className='img left'
                                 style={{ backgroundImage: `url(${AboutImg})` }}
                             ></div>
-                            <div class='cfix'></div>
+                            <div className='cfix'></div>
                             <br />
                             <br />
                             <p>
@@ -160,17 +160,17 @@ font-size: 16px;} */}
                                 authority has control.
                             </p>
                         </div>
-                        <div class='advTempl'>
-                            <div class='container'>
-                                <span class='captionDark center'>
+                        <div className='advTempl'>
+                            <div className='container'>
+                                <span className='captionDark center'>
                                     Why choose us?
                                 </span>
-                                <div class='advWrap'>
-                                    <div class='grid'>
-                                        <div class='item col4'>
-                                            <div class='in'>
-                                                <span class='icon-phone gradTxt'></span>
-                                                <span class='title'>
+                                <div className='advWrap'>
+                                    <div className='grid'>
+                                        <div className='item col4'>
+                                            <div className='in'>
+                                                <span className='icon-phone gradTxt'></span>
+                                                <span className='title'>
                                                     AUTOMATED
                                                 </span>
                                                 <p>
@@ -184,10 +184,10 @@ font-size: 16px;} */}
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class='item col4'>
-                                            <div class='in'>
-                                                <span class='icon-chart gradTxt'></span>
-                                                <span class='title'>
+                                        <div className='item col4'>
+                                            <div className='in'>
+                                                <span className='icon-chart gradTxt'></span>
+                                                <span className='title'>
                                                     SMART TRADING
                                                 </span>
                                                 <p>
@@ -200,10 +200,10 @@ font-size: 16px;} */}
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class='item col4'>
-                                            <div class='in'>
-                                                <span class='icon-team gradTxt'></span>
-                                                <span class='title'>
+                                        <div className='item col4'>
+                                            <div className='in'>
+                                                <span className='icon-team gradTxt'></span>
+                                                <span className='title'>
                                                     PROTECTION FROM HACKING
                                                 </span>
                                                 <p>
@@ -215,10 +215,10 @@ font-size: 16px;} */}
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class='item col4'>
-                                            <div class='in'>
-                                                <span class='icon-docs gradTxt'></span>
-                                                <span class='title'>
+                                        <div className='item col4'>
+                                            <div className='in'>
+                                                <span className='icon-docs gradTxt'></span>
+                                                <span className='title'>
                                                     LOW COST
                                                 </span>
                                                 <p>
@@ -229,10 +229,10 @@ font-size: 16px;} */}
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class='item col4'>
-                                            <div class='in'>
-                                                <span class='icon-cash gradTxt'></span>
-                                                <span class='title'>
+                                        <div className='item col4'>
+                                            <div className='in'>
+                                                <span className='icon-cash gradTxt'></span>
+                                                <span className='title'>
                                                     NO MORE MIDDLE MEN
                                                 </span>
                                                 <p>
@@ -244,10 +244,10 @@ font-size: 16px;} */}
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class='item col4'>
-                                            <div class='in'>
-                                                <span class='icon-pass gradTxt'></span>
-                                                <span class='title'>
+                                        <div className='item col4'>
+                                            <div className='in'>
+                                                <span className='icon-pass gradTxt'></span>
+                                                <span className='title'>
                                                     AUTO TRADING 24/7
                                                 </span>
                                                 <p>
