@@ -171,7 +171,7 @@ font-size: 16px;} */}
                                     <div className='grid'>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-phone gradTxt'><AiFillPhone/></span>
+                                                <span className='icon-phone gradTxt'><AiFillPhone className='location__svg'/></span>
                                                 <span className='title'>
                                                     AUTOMATED
                                                 </span>
