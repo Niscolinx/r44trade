@@ -1,6 +1,7 @@
 import React from 'react'
 import RulesPageBg from '../images/rules_bg_bg.jpg'
 import GreyBgBig from '../images/grey_bg_big.png'
+import CardBg1 from '../images/card_bg_1.png'
 
 function Pricing() {
     return (
@@ -22,7 +23,7 @@ function Pricing() {
                                 <div class='planCardFirst'>
                                     <div
                                         class='left'
-                                        style='background-image: url(img/card_bg_1.png);'
+                    style={{ backgroundImage: `url(${CardBg1})` }}
                                     >
                                         <span class='cap'>#PACKAGE A</span>
                                         <div class='descr'>
@@ -90,7 +91,7 @@ function Pricing() {
                                 <div class='planCardFirst'>
                                     <div
                                         class='left'
-                                        style='background-image: url(img/card_bg_1.png);'
+                    style={{ backgroundImage: `url(${CardBg1})` }}
                                     >
                                         <span class='cap'>#PACKAGE C</span>
                                         <div class='descr'>
@@ -158,7 +159,7 @@ function Pricing() {
                                 <div class='planCardFirst'>
                                     <div
                                         class='left'
-                                        style='background-image: url(img/card_bg_1.png);'
+                    style={{ backgroundImage: `url(${CardBg1})` }}
                                     >
                                         <span class='cap'>#PACKAGE E</span>
                                         <div class='descr'>
