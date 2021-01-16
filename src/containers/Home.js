@@ -333,9 +333,9 @@ function Layout(props) {
                 </div>
 
                 <div>
-                    <div className='circleBg'>
+                    {/* <div className='circleBg'>
                         <div className='circle'></div>
-                    </div>
+                    </div> */}
                     <div className='chart'>
                         <iframe
                             title='iframe1'
