@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import {RiBitCoinLine} from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
