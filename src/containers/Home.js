@@ -336,14 +336,14 @@ function Layout(props) {
                     {/* <div className='circleBg'>
                         <div className='circle'></div>
                     </div> */}
-                    <div className='chart'>
+                    {/* <div className='chart'>
                         <iframe
                             title='iframe1'
                             height='398'
                             width='618'
                             src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
                         ></iframe>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div
