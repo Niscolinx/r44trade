@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutPageBg from '../images/about_page_bg.jpg'
-import AboutBg from '../images/about_bg.jpg'
+import { MdLocationOn } from 'react-icons/md'
 import AboutImg from '../images/about_img.jpg'
 import GreyBg from '../images/grey_bg.png'
 import Profile from '../images/profile.jpg'
@@ -79,7 +79,7 @@ font-size: 16px;} */}
                                 </div>
                                 <div class='address'>
                                     <div class='iconLeft'>
-                                        <span class='icon-location gradTxt'></span>
+                                        <span class='icon-location gradTxt'><MdLocationOn/></span>
                                         <span class='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
