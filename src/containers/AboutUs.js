@@ -1,6 +1,4 @@
 import React from 'react'
-import CryptoMarketWatch from '../tradeviewWidgets/CryptoMarketWatch'
-import Particles from 'react-particles-js'
 
 
 function AboutUs() {
@@ -194,65 +192,6 @@ Using a blockchain is cryptographically secure – the ledger is distributed acr
 </div>
 </div>
 
-<div class="payments">
-<div class="container">
-<ul class="table full">
-<li class="tCell bottom left"><img src="img/payment_1.png" alt="payment"></li>
-<li class="tCell middle left"><img src="img/payment_2.png" alt="payment"></li>
-<li class="tCell middle right"><img src="img/payment_4.png" alt="payment"></li>
-<li class="tCell middle right"><img src="img/payment_5.png" alt="payment"></li>
-<li class="tCell middle right"><img src="img/payment_6.png" alt="payment"></li>
-<li class="tCell middle right"><img src="img/payment_8.png" alt="payment"></li>
-</ul>
-</div>
-</div>
-<!----VisualHyip.com Footer---->
-
-
-
-
-
-<footer>
-<div class="container">
-<div class="cfix">
-<div class="footCol">
-
-
-<p class="copyright">2021 © Robot22 Trade</p>
-</div>
-<ul class="footMenu">
-<li class="col">
-<ul>
-<li><a href="index.php">HOME</a></li>
-<li><a href="about.php">ABOUT US</a></li>
-<li><a href="top-reward.php">TOP REWARD</a></li>
-<li><a href="pricing.php">PRICING</a></li>
-</ul>
-</li>
-<li class="col">
-<ul>
-<li><a href="testimonies.php">TESTIMONIES</a></li>
-<li><a href="contact.php">CONTACT US</a></li>
-<li><a href="faq.php">FAQ</a></li> 
-<li><a href="register.php">Sign up</a></li>
-</ul>
-</li>
-</ul>
-<div class="footCol">
-<div class="cont">
-<span class="title">Adress:</span>
-<p>71-75 Shelton Street, London, Greater London,
-United Kingdom, WC2H 9JQ</p>
-</div>
-<div class="cont">
-<span class="title">E-mail:</span>
-<a class="link" href="mailto:admin@robot22trade.com">admin@robot22trade.com</a>
-</div>
-</div>
-</div>
-</div>
-</footer>
-</div>
 
 
         </>
