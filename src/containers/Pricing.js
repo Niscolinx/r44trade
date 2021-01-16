@@ -3,6 +3,8 @@ import RulesPageBg from '../images/rules_bg_bg.jpg'
 import GreyBgBig from '../images/grey_bg_big.png'
 import CardBg1 from '../images/card_bg_1.png'
 import CardBg2 from '../images/card_bg_2.png'
+import A1 from '../images/A1.png'
+im
 
 function Pricing() {
     return (
@@ -24,7 +26,7 @@ function Pricing() {
                                 <div class='planCardFirst'>
                                     <div
                                         class='left'
-                    style={{ backgroundImage: `url(${CardBg1})` }}
+                                         style={{ backgroundImage: `url(${CardBg1})` }}
                                     >
                                         <span class='cap'>#PACKAGE A</span>
                                         <div class='descr'>
@@ -47,8 +49,8 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
-                                        src='img/A1.png'
-                                        style='width: 80%; margin-top: 20px;'
+                                        src={{A1}}
+                                        style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
@@ -57,7 +59,7 @@ function Pricing() {
                                 <div class='planCardSecond'>
                                     <div
                                         class='left'
-                                        style='background-image: url(img/card_bg_2.png);'
+                                        style={{ backgroundImage: `url(${CardBg2})` }}
                                     >
                                         <span class='cap'>#PACKAGE B</span>
                                         <div class='descr'>
@@ -81,7 +83,7 @@ function Pricing() {
                                     </ul>
                                     <img
                                         src='img/B.png'
-                                        style='width: 80%; margin-top: 20px;'
+                                        style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
@@ -116,7 +118,7 @@ function Pricing() {
                                     </ul>
                                     <img
                                         src='img/C.png'
-                                        style='width: 80%; margin-top: 20px;'
+                                        style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
@@ -125,7 +127,7 @@ function Pricing() {
                                 <div class='planCardSecond'>
                                     <div
                                         class='left'
-                                        style='background-image: url(img/card_bg_2.png);'
+                                        style={{ backgroundImage: `url(${CardBg2})` }}
                                     >
                                         <span class='cap'>#PACKAGE D</span>
                                         <div class='descr'>
@@ -149,7 +151,7 @@ function Pricing() {
                                     </ul>
                                     <img
                                         src='img/D.png'
-                                        style='width: 80%; margin-top: 20px;'
+                                        style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
@@ -184,7 +186,7 @@ function Pricing() {
                                     </ul>
                                     <img
                                         src='img/E.png'
-                                        style='width: 80%; margin-top: 20px;'
+                                        style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
@@ -193,7 +195,7 @@ function Pricing() {
                                 <div class='planCardSecond'>
                                     <div
                                         class='left'
-                                        style='background-image: url(img/card_bg_2.png);'
+                                        style={{ backgroundImage: `url(${CardBg2})` }}
                                     >
                                         <span class='cap'>#PACKAGE F</span>
                                         <div class='descr'>
@@ -218,7 +220,7 @@ function Pricing() {
                                     </ul>
                                     <img
                                         src='img/D.png'
-                                        style='width: 80%; margin-top: 20px;'
+                                        style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
@@ -267,7 +269,7 @@ function Pricing() {
                         <div class='planCardSecond'>
                             <div
                                 class='left'
-                                style='background-image: url(img/card_bg_2.png);'
+                                style={{ backgroundImage: `url(${CardBg2})` }}
                             >
                                 <span class='cap'>TRADING PLAN</span>
                                 <div class='descr'>
