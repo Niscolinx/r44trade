@@ -222,7 +222,7 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-docs gradTxt'></span>
+                                                <span className='icon-docs gradTxt'><MdLowPriority className='location__svg'/></span>
                                                 <span className='title'>
                                                     LOW COST
                                                 </span>
