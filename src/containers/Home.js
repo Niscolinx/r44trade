@@ -1,9 +1,9 @@
 import React from 'react'
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
-import {RiBitCoinLine} from 'react-icons/ri'
+import { RiBitCoinLine } from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
-import {HiChartBar} from 'react-icons/hi'
-import {AiOutlineFileProtect} from 'react-icons/ai'
+import { HiChartBar } from 'react-icons/hi'
+import { AiOutlineFileProtect } from 'react-icons/ai'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
@@ -31,8 +31,6 @@ import Payment_6 from '../images/payment_6.png'
 import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
-
-
 
 function Layout(props) {
     return (
@@ -71,7 +69,10 @@ function Layout(props) {
                                     </div>
                                 </div>
                                 <div className='logReg tCell right'>
-                                    <a href='login.php' className='btnFillColor1Sm'>
+                                    <a
+                                        href='login.php'
+                                        className='btnFillColor1Sm'
+                                    >
                                         login
                                     </a>
                                     <a
@@ -102,7 +103,10 @@ function Layout(props) {
                                 </div>
 
                                 <div className='clock tCell right'>
-                                    <span className='time gradTxt' id='time'></span>
+                                    <span
+                                        className='time gradTxt'
+                                        id='time'
+                                    ></span>
                                     <span className='date'>
                                         <span className='day' id='day'></span>
                                         <span className='year' id='year'></span>
@@ -306,7 +310,7 @@ function Layout(props) {
                                             }}
                                         >
                                             {' '}
-                                            <AiOutlineFileProtect/>
+                                            <AiOutlineFileProtect />
                                         </span>
                                         <span
                                             className='data'
@@ -332,19 +336,17 @@ function Layout(props) {
                     </div>
                 </div>
 
-                {/* <div>
-                    <div className='circleBg'>
-                        <div className='circle'></div>
-                    </div>
-                    <div className='chart'>
-                        <iframe
-                            title='iframe1'
-                            height='398'
-                            width='618'
-                            src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
-                        ></iframe>
-                    </div>
-                </div> */}
+                <div className='circleBg'>
+                    <div className='circle'></div>
+                </div>
+                <div className='chart'>
+                    <iframe
+                        title='iframe1'
+                        height='398'
+                        width='618'
+                        src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
+                    ></iframe>
+                </div>
 
                 <div
                     className='about'
@@ -353,7 +355,9 @@ function Layout(props) {
                     <div className='container'>
                         <div className='cfix'>
                             <div className='left'>
-                                <span className='captionLight'>About company</span>
+                                <span className='captionLight'>
+                                    About company
+                                </span>
                                 <div className='license'>
                                     <div
                                         className='img invisLink'
@@ -426,7 +430,10 @@ function Layout(props) {
                                     </p>
                                 </div>
                                 <div className='btnsWrap'>
-                                    <a href='about.php' className='btnFillColor1Lg'>
+                                    <a
+                                        href='about.php'
+                                        className='btnFillColor1Lg'
+                                    >
                                         Learn more
                                     </a>
                                     <a
@@ -461,10 +468,15 @@ function Layout(props) {
                                 humans.
                             </p>
                         </div>
-                        <span className='captionDark center'>Trade Pricing</span>
+                        <span className='captionDark center'>
+                            Trade Pricing
+                        </span>
 
                         <div className='wrap'>
-                            <div className='row' style={{ marginBottom: '30px' }}>
+                            <div
+                                className='row'
+                                style={{ marginBottom: '30px' }}
+                            >
                                 <div className='item col6'>
                                     <div className='planCardFirst'>
                                         <div
@@ -473,7 +485,9 @@ function Layout(props) {
                                                 backgroundImage: `url(${Card_bg_1})`,
                                             }}
                                         >
-                                            <span className='cap'>#PACKAGE A</span>
+                                            <span className='cap'>
+                                                #PACKAGE A
+                                            </span>
                                             <div className='descr'>
                                                 <span className='pct'>10%</span>
                                                 <span>48 HOURS</span>
@@ -512,7 +526,9 @@ function Layout(props) {
                                                 backgroundImage: `url(${Card_bg_2})`,
                                             }}
                                         >
-                                            <span className='cap'>#PACKAGE B</span>
+                                            <span className='cap'>
+                                                #PACKAGE B
+                                            </span>
                                             <div className='descr'>
                                                 <span className='pct'>20%</span>
                                                 <span>4 Work Days</span>
@@ -544,7 +560,10 @@ function Layout(props) {
                                 </div>
                             </div>
 
-                            <div className='row' style={{ marginBottom: '30px' }}>
+                            <div
+                                className='row'
+                                style={{ marginBottom: '30px' }}
+                            >
                                 <div className='item col6'>
                                     <div className='planCardFirst'>
                                         <div
@@ -553,7 +572,9 @@ function Layout(props) {
                                                 backgroundImage: `url(${Card_bg_1})`,
                                             }}
                                         >
-                                            <span className='cap'>#PACKAGE C</span>
+                                            <span className='cap'>
+                                                #PACKAGE C
+                                            </span>
                                             <div className='descr'>
                                                 <span className='pct'>30%</span>
                                                 <span>6 Work Days</span>
@@ -592,7 +613,9 @@ function Layout(props) {
                                                 backgroundImage: `url(${Card_bg_2})`,
                                             }}
                                         >
-                                            <span className='cap'>#PACKAGE D</span>
+                                            <span className='cap'>
+                                                #PACKAGE D
+                                            </span>
                                             <div className='descr'>
                                                 <span className='pct'>40%</span>
                                                 <span>8 Work Days</span>
@@ -635,7 +658,9 @@ function Layout(props) {
                                                 backgroundImage: `url(${Card_bg_1})`,
                                             }}
                                         >
-                                            <span className='cap'>#PACKAGE E</span>
+                                            <span className='cap'>
+                                                #PACKAGE E
+                                            </span>
                                             <div className='descr'>
                                                 <span className='pct'>60%</span>
                                                 <span>10 Work Days</span>
@@ -676,7 +701,9 @@ function Layout(props) {
                                                 backgroundImage: `url(${Card_bg_2})`,
                                             }}
                                         >
-                                            <span className='cap'>#PACKAGE F</span>
+                                            <span className='cap'>
+                                                #PACKAGE F
+                                            </span>
                                             <div className='descr'>
                                                 <span className='pct'>80%</span>
                                                 <span>12 Work Days</span>
@@ -895,7 +922,9 @@ function Layout(props) {
 
             <div className='program gradBack'>
                 <div className='container'>
-                    <span className='captionDark center'>Affiliate program</span>
+                    <span className='captionDark center'>
+                        Affiliate program
+                    </span>
                     <div className='wrap'>
                         <div className='row'>
                             <div className='item col6'>
@@ -968,7 +997,9 @@ function Layout(props) {
                                     <div className='img'>
                                         <span className='icon-pay_out'></span>
                                     </div>
-                                    <span className='title'>total deposits:</span>
+                                    <span className='title'>
+                                        total deposits:
+                                    </span>
                                     <span
                                         className='num'
                                         style={{ fontSize: '25px' }}
@@ -1265,7 +1296,9 @@ function Layout(props) {
                             <div className='item col4'>
                                 <div className='in'>
                                     <span className='icon-pass gradTxt'></span>
-                                    <span className='title'>AUTO TRADING 24/7</span>
+                                    <span className='title'>
+                                        AUTO TRADING 24/7
+                                    </span>
                                     <p>
                                         Our platform is always available to
                                         ensure that no market opportunity is
