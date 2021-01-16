@@ -42,34 +42,34 @@ font-size: 16px;} */}
     </div>
 
     <div class="pageAbout" style="background-image: url(img/grey_bg_3.png)">
-     <div class="container">
-            <div class="textBlock">
-                <div class="info right">
-                     <div class="license">
-                             <div class="img invisLink" style="background-image: url(img/qr-code.jpg);"><a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank">license</a></div>
-    
+        <div class="container">
+                <div class="textBlock">
+                    <div class="info right">
+                        <div class="license">
+                                <div class="img invisLink" style="background-image: url(img/qr-code.jpg);"><a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank">license</a></div>
+        
+                        </div>
+                <div class="address">
+                    <div class="iconLeft">
+                        <span class="icon-location gradTxt"></span>
+                        <span class="data">71-75 Shelton Street, London, Greater London,
+                        United Kingdom, WC2H 9JQ</span>
                     </div>
-            <div class="address">
-                <div class="iconLeft">
-                    <span class="icon-location gradTxt"></span>
-                    <span class="data">71-75 Shelton Street, London, Greater London,
-                    United Kingdom, WC2H 9JQ</span>
+                </div>
+                <div class="btnsWrap" style="text-align: center;">
+                <a href="register.php" class="btnFillColor1Lg" style="margin-right: 20px;">Join</a>
+                <a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank" class="btnFillColor2Lg" style="margin: 20px 0 0;">Check registration</a>
                 </div>
             </div>
-    <div class="btnsWrap" style="text-align: center;">
-    <a href="register.php" class="btnFillColor1Lg" style="margin-right: 20px;">Join</a>
-    <a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank" class="btnFillColor2Lg" style="margin: 20px 0 0;">Check registration</a>
-    </div>
-    </div>
-    <p>
-    Robot 44 Trade is the only company dedicated to work on EA, better known as Algo Trading, which atomizes the trading process and brings risk free profit, saves times, money and build better wealth over long period of time.
-    </p>
-    <p>
-    A Robot trading System is used to automatically generate trading signals on the forex trader’s behalf. As such, a manual trader has to glue himself or herself in front of a computer screen and wait for the appropriate time when the criteria for making a decision fits with his or her rules—something which is tiring and complicated.
-    </p>
-    <p>
-    With robot trading, the trading rules or strategies have been ingrained in a computer program, and your trade decisions will be made automatically without your intervention. With a trading robot, you can trade profitably 24 hours a day and increase your profits. After you’ve coded your strategies on a robot, it will perform the buy and sell actions while you spend your time on the beach. One of the main reasons why traders fail is emotional trading. However, a forex robot lowers or eliminates emotions from the trading equation and give you a reliable way of earning money.
-    </p>
+            <p>
+            Robot 44 Trade is the only company dedicated to work on EA, better known as Algo Trading, which atomizes the trading process and brings risk free profit, saves times, money and build better wealth over long period of time.
+            </p>
+            <p>
+            A Robot trading System is used to automatically generate trading signals on the forex trader’s behalf. As such, a manual trader has to glue himself or herself in front of a computer screen and wait for the appropriate time when the criteria for making a decision fits with his or her rules—something which is tiring and complicated.
+            </p>
+            <p>
+            With robot trading, the trading rules or strategies have been ingrained in a computer program, and your trade decisions will be made automatically without your intervention. With a trading robot, you can trade profitably 24 hours a day and increase your profits. After you’ve coded your strategies on a robot, it will perform the buy and sell actions while you spend your time on the beach. One of the main reasons why traders fail is emotional trading. However, a forex robot lowers or eliminates emotions from the trading equation and give you a reliable way of earning money.
+            </p>
 
 
     <div class="img left" style="background-image: url(img/about_img.jpg);"></div>
