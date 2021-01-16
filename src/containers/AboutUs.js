@@ -100,7 +100,7 @@ font-size: 16px;} */}
                                     </a>
                                     <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
-                                        target='_blank'
+                                        target='#blank'
                                         class='btnFillColor2Lg'
                                         style='margin: 20px 0 0;'
                                     >
