@@ -226,66 +226,66 @@ function Pricing() {
                     //         </div>
                     //     </div>
                     // </div>
+                */}
 
-                    // <div
-                    //     class='container'
-                    //     style='margin-top: 40px; margin-bottom: 40px; '
-                    // >
-                    //     <div class='textBlock'>
-                    //         <h3>WHY ROBOT TRADING</h3>
-                    //         <p>
-                    //             There are several other trading programs in the
-                    //             global market and each one competes with the
-                    //             other in advertising. With Robot Trading, we put
-                    //             our money where our mouths are and focus on
-                    //             ensuring success for the long-term investment
-                    //             relationship with our clients. We are dedicated
-                    //             to our clients ‘ financial goals and objectives
-                    //             and so we have hundreds of them over the span of
-                    //             only a few years. Our program is failure-free,
-                    //             user friendly, and easy to install and operate.
-                    //         </p>
-                    //         <p>
-                    //             As mentioned, our prime objective is to build
-                    //             profitable relationships and gain the trust of
-                    //             our valued clients through superior performance
-                    //             and top-notch customer support. We’ll do all we
-                    //             can at our disposal to see our clients grow with
-                    //             us and will prove to be one step ahead of their
-                    //             expectations at all times.
-                    //         </p>
-                    //         <p>
-                    //             - An innovative hybrid proof-of-work.
-                    //             <br />
-                    //             - Proof-of-stake (PoS) consensus trading system.
-                    //             <br />
-                    //             - Instant, on-demand cash-out.
-                    //             <br />
-                    //         </p>
-                    //     </div>
-                    // </div>
+                    <div
+                        class='container'
+                        style={{marginTop: '40px', marginBottom: '40px'}}
+                    >
+                        <div class='textBlock'>
+                            <h3>WHY ROBOT TRADING</h3>
+                            <p>
+                                There are several other trading programs in the
+                                global market and each one competes with the
+                                other in advertising. With Robot Trading, we put
+                                our money where our mouths are and focus on
+                                ensuring success for the long-term investment
+                                relationship with our clients. We are dedicated
+                                to our clients ‘ financial goals and objectives
+                                and so we have hundreds of them over the span of
+                                only a few years. Our program is failure-free,
+                                user friendly, and easy to install and operate.
+                            </p>
+                            <p>
+                                As mentioned, our prime objective is to build
+                                profitable relationships and gain the trust of
+                                our valued clients through superior performance
+                                and top-notch customer support. We’ll do all we
+                                can at our disposal to see our clients grow with
+                                us and will prove to be one step ahead of their
+                                expectations at all times.
+                            </p>
+                            <p>
+                                - An innovative hybrid proof-of-work.
+                                <br />
+                                - Proof-of-stake (PoS) consensus trading system.
+                                <br />
+                                - Instant, on-demand cash-out.
+                                <br />
+                            </p>
+                        </div>
+                    </div>
 
-                    // <div class='item col6'>
-                    //     <div class='planCardSecond'>
-                    //         <div
-                    //             class='left'
-                    //             style={{ backgroundImage: `url(${CardBg2})` }}
-                    //         >
-                    //             <span class='cap'>TRADING PLAN</span>
-                    //             <div class='descr'>
-                    //                 <span class='pct'>EXTRA</span>
-                    //                 <span>BONUS</span>
-                    //                 <a
-                    //                     href='register.php'
-                    //                     class='btnFillColor2Md'
-                    //                 >
-                    //                     Make deposit
-                    //                 </a>
-                    //             </div>
-                    //         </div>
-                    //     </div>
-                    // </div>
-                    */}
+                    <div class='item col6'>
+                        <div class='planCardSecond'>
+                            <div
+                                class='left'
+                                style={{ backgroundImage: `url(${CardBg2})` }}
+                            >
+                                <span class='cap'>TRADING PLAN</span>
+                                <div class='descr'>
+                                    <span class='pct'>EXTRA</span>
+                                    <span>BONUS</span>
+                                    <a
+                                        href='register.php'
+                                        class='btnFillColor2Md'
+                                    >
+                                        Make deposit
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
