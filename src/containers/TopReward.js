@@ -6,7 +6,9 @@ const TopReward = () => {
         <>
             <div
                 class='pageBanner'
-                style='background-image: url(img/partners_page_bg.jpg);'
+                style={{
+                    backgroundImage: `url(${profile})`,
+                }}
             >
                 <div class='container'>
                     <span class='heading'>Top Reward</span>
