@@ -4,6 +4,7 @@ import {RiBitCoinLine} from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
 import {HiChartBar} from 'react-icons/hi'
 import {AiOutlineFileProtect} from 'react-icons/ai'
+import {MdLocationOn} from 'react-icons/md'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
@@ -375,7 +376,7 @@ function Layout(props) {
                                 </div>
                                 <div className='address'>
                                     <div className='iconLeft'>
-                                        <span className='icon-location gradTxt'></span>
+                                        <span className='icon-location gradTxt'><MdLocationOn/></span>
                                         <span className='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
