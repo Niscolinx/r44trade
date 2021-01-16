@@ -1,5 +1,6 @@
 import React from 'react'
 import PartnersPageBg from '../images/partners_page_bg.jpg'
+import B1000 from '../images/1000.png'
 
 const TopReward = () => {
     return (
