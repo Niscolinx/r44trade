@@ -5,6 +5,8 @@ import AboutImg from '../images/about_img.jpg'
 import GreyBg from '../images/grey_bg.png'
 import Profile from '../images/profile.jpg'
 
+import {AiFillPhone} from 'react-icons/ai'
+
 function AboutUs() {
     return (
         <>
@@ -169,7 +171,7 @@ font-size: 16px;} */}
                                     <div className='grid'>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-phone gradTxt'></span>
+                                                <span className='icon-phone gradTxt'><AiFillPhone/></span>
                                                 <span className='title'>
                                                     AUTOMATED
                                                 </span>
