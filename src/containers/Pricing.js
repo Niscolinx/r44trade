@@ -1,5 +1,5 @@
 import React from 'react'
-import RulesPageBg from '../images/rules_bg_bg.jpg'
+import RulesPageBg from '../images/rules_page_bg.jpg'
 import GreyBgBig from '../images/grey_bg_big.png'
 import CardBg1 from '../images/card_bg_1.png'
 import CardBg2 from '../images/card_bg_2.png'
