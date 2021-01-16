@@ -206,7 +206,7 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-team gradTxt'><IoIosPeople/></span>
+                                                <span className='icon-team gradTxt'><IoIosPeople className='location__svg'/></span>
                                                 <span className='title'>
                                                     PROTECTION FROM HACKING
                                                 </span>
