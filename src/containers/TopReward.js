@@ -64,17 +64,6 @@ All of the solidity Ethereum smart contract code used for the token sale and vau
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 <div class="steps">
 <div class="row">
  
@@ -100,11 +89,7 @@ All of the solidity Ethereum smart contract code used for the token sale and vau
 
 
 </div>
-</div>
-</div>   
-</div>
-</div>
-</div>
+
 
 
 
