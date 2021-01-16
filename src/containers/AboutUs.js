@@ -1,4 +1,6 @@
 import React from 'react'
+import AboutPageBg from '../images/about_page_bg.jpg'
+import AboutBg from '../images/about_bg'
 
 function AboutUs() {
     return (
