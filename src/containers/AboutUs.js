@@ -189,7 +189,7 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-chart gradTxt'></span>
+                                                <span className='icon-chart gradTxt'><AiOutlineFundProjectionScreen className='location__svg'/></span>
                                                 <span className='title'>
                                                     SMART TRADING
                                                 </span>
