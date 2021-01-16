@@ -6,6 +6,9 @@ import CardBg2 from '../images/card_bg_2.png'
 import A1 from '../images/A1.png'
 import B from '../images/B.png'
 import C from '../images/C.png'
+import D from '../images/D.png'
+import E from '../images/C.png'
+import C from '../images/C.png'
 
 function Pricing() {
     return (
@@ -83,12 +86,12 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
-                                        src='img/B.png'
+                                        src={B}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
-                        </div>
+                            
 
                         <div class='row' style={{marginBottom: '30px'}>
                             <div class='item col6'>
@@ -118,7 +121,7 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
-                                        src='img/C.png'
+                                        src={C}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
@@ -151,12 +154,11 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
-                                        src='img/D.png'
+                                        src={D}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
-                        </div>
 
                         <div class='row'>
                             <div class='item col6'>
@@ -186,7 +188,7 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
-                                        src='img/E.png'
+                                        src={E}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
@@ -220,7 +222,7 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
-                                        src='img/D.png'
+                                        src={D}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
