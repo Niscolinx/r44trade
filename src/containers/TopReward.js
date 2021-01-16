@@ -25,14 +25,6 @@ All of the solidity Ethereum smart contract code used for the token sale and vau
 <div class="wrap">
 <div class="row">
 
- 
-<style type="text/css">
-    .tCell{
-        padding-top: 10px;
-        font-weight: 500;
-        padding-bottom: 10px;
-    }
-</style>
 
     
 <div class="inner">
