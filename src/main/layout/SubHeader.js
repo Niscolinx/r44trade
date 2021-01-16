@@ -103,7 +103,7 @@ function SubHeader(props) {
                                 <Link to='/pricing'>PRICING</Link>
                             </li>
                             <li>
-                                <a href='testimonies.php'>Testimonies</a>
+                                <Link to='/testimonies'>Testimonies</Link>
                             </li>
                             <li>
                                 <a href='contact.php'>CONTACT US</a>
