@@ -7,23 +7,23 @@ const Faq = () => {
     return (
         <>
             <div
-                class='pageBanner'
+                className='pageBanner'
                 style={{ backgroundImage: `url(${FaqPageBg})` }}
             >
-                <div class='container'>
-                    <span class='heading'>faq</span>
+                <div className='container'>
+                    <span className='heading'>faq</span>
                 </div>
             </div>
 
-            <div class='faq' style={{ backgroundImage: `url(${GreyBgBig})` }}>
-                <div class='container'>
-                    <div class='faqBlock'>
-                        <span class='mainTitle'>
+            <div className='faq' style={{ backgroundImage: `url(${GreyBgBig})` }}>
+                <div className='container'>
+                    <div className='faqBlock'>
+                        <span className='mainTitle'>
                             Let Us Answer Those Questions
                         </span>
-                        <div class='wrap'>
+                        <div className='wrap'>
                             <div
-                                class='textBlock'
+                                className='textBlock'
                                 style={{ marginBottom: '40px' }}
                             >
                                 <p>
@@ -38,18 +38,18 @@ const Faq = () => {
                                 </p>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What is Robot 22 Trade? What are the
                                             main features of it?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             <strong>Robot 22 Trade</strong> is a
                                             fully automated trading robot, which
@@ -71,7 +71,7 @@ const Faq = () => {
                                             Forex Expert Advisor, which works
                                             great with all types of Brokerage on
                                             the <strong>MT4</strong> platform,
-                                            including the types Micro, Classic,
+                                            including the types Micro, classNameic,
                                             Premium, Standard, ECN, Islamic and
                                             Zero Spread Accounts.
                                         </p>
@@ -79,18 +79,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Which Trading Instruments does Robot
                                             22 Trade work on?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             <strong>Robot 22 Trade</strong>{' '}
                                             allows you to trade the followings
@@ -108,18 +108,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Why should I trust Robot 22 Trade
                                             (Robot)?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             Well, we understand that there are
                                             many fake products to shatter your
@@ -168,18 +168,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Is Robot 22 Trade affiliated to any
                                             other EA or Robot?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             To make it very clear that{' '}
                                             <strong>Robot 22 Trade Ltd.</strong>{' '}
@@ -207,17 +207,17 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             How may I Buy Robot 22 Trade?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             As per the number of Usernames /
                                             Live and Demo accounts you want to
@@ -236,23 +236,23 @@ const Faq = () => {
                         </div>
                     </div>
 
-                    <div class='faqBlock'>
-                        <span class='mainTitle'>
+                    <div className='faqBlock'>
+                        <span className='mainTitle'>
                             INVESTMENTS AND WITHDRAWAL
                         </span>
-                        <div class='wrap'>
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                        <div className='wrap'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What are the terms and Mode of
                                             Payment? Can I pay in instalments?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             No, you cannot pay in instalments.
                                             Robot 22 Trade is a one-time
@@ -271,18 +271,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             How to activate the License of Robot
                                             22 Trade Robot after buying it?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             Just after your successful purchase,
                                             you will receive a confirmation mail
@@ -295,18 +295,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Is there any discount or any option
                                             taking down the price in any case?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             No. However we offer time-to-time
                                             discounts on purchases, but no
@@ -331,11 +331,11 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What if I want to reduce the number
                                             of trading accounts? Will it reduce
                                             the robot’s price? Are there any
@@ -343,8 +343,8 @@ const Faq = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             There are only <strong>6</strong>{' '}
                                             types of pricing plans available
@@ -363,18 +363,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What will I get in Robot 22 Trade’s
                                             package?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             On purchase, you will get your Tbot
                                             Software Robot 22 Trade, and money
@@ -390,19 +390,19 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             How to claim for the Refund and what
                                             are the conditions of getting it
                                             approved?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             Robot 22 Trade comes with 3-days
                                             money refund policy. We make the
@@ -440,18 +440,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             HHow long will it take to get my
                                             withdrawal into my wallet.?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             It takes 1 - 60 minutes to process
                                             the withdrawal amount and credit it
@@ -461,11 +461,11 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             In unpredicted political or economic
                                             events, which affect the FOREX
                                             market, will the EA be able to trade
@@ -474,8 +474,8 @@ const Faq = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             <strong>Robot 22 Trade</strong> is
                                             capable to estimate the sudden
@@ -495,18 +495,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Is Robot 22 Trade an Arbitrage or
                                             Martingale system?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             No. It is not an Arbitrage or
                                             Martingale trading strategy but a
@@ -518,19 +518,19 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What is its linkage with other
                                             robots? Is it anyhow related or
                                             similar to xyz robots?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             <strong>Robot 22 Trade</strong> is
                                             NOT related or similar to any other
@@ -556,19 +556,19 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Do you provide free support services
                                             or paid? How to contact the support
                                             team?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             Our support services are completely
                                             free and are for the life-time. Our
@@ -583,19 +583,19 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What if I am completely naïve to
                                             trading FOREX? Should I buy Robot 22
                                             Trade?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             Absolutely, yes! Our manual guide
                                             helps you install the system on your
@@ -612,19 +612,19 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Do you release updates? Where to
                                             find the new releases, if there are
                                             any?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             We believe in the saying, ‘
                                             <strong>
@@ -654,18 +654,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Are the updates about all Free or
                                             robot22trade.com charges extra?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             You may claim for the newest updated
                                             version free of charge if you are
@@ -678,11 +678,11 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What’s the proof of EA Robot’s
                                             efficiency? Can you give me the
                                             access to your live trading account
@@ -690,8 +690,8 @@ const Faq = () => {
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             To justify{' '}
                                             <strong>Robot 22 Trade</strong>’s
@@ -747,18 +747,18 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             Does the EA have account protection
                                             measures?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             Yes, It does possess a completely
                                             advanced and unique algorithm in it,
@@ -778,19 +778,19 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div class='faqItem'>
-                                <div class='head'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-faq gradTxt'></span>
-                                        <span class='data'>
+                            <div className='faqItem'>
+                                <div className='head'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-faq gradTxt'></span>
+                                        <span className='data'>
                                             What to do if I want to become your
                                             affiliate? Why should I promote
                                             Robot 22 Trade?
                                         </span>
                                     </div>
                                 </div>
-                                <div class='content'>
-                                    <div class='textBlock'>
+                                <div className='content'>
+                                    <div className='textBlock'>
                                         <p>
                                             you can join our affiliate program.
                                             You will earn <b>6%</b> extra bonus
