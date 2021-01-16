@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutPageBg from '../images/about_page_bg.jpg'
-import AboutBg from '../images/about_bg'
+import AboutBg from '../images/about_bg.jpg'
+import AboutImg from '../images/about_img.jpg'
 
 function AboutUs() {
     return (
