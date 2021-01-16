@@ -26,6 +26,7 @@ font-size: 16px;} */}
             <div style={{position: 'fixed', zIndex: 99999, left: '20px', bottom: '20px'}}>
                 <a href='http://wa.me/+447723536106'>
                     <img
+                    alt=''
                         src='https://pngimg.com/uploads/whatsapp/whatsapp_PNG21.png'
                         width='50px'
                     />
