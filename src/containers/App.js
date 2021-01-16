@@ -21,6 +21,7 @@ import Faq from './Faq'
 import ForgotPassword from './ForgotPassword'
 import AboutUs from './AboutUs'
 import TopReward from './TopReward'
+import Pricing from './Pricing'
 import LoginPage from '../main/auth/Login'
 import SignupPage from '../main/auth/Signup'
 
@@ -72,6 +73,7 @@ function App(props) {
             />
 
             <Route path='/about-us' component={AboutUs} />
+            <Route path='/about-us' component={Pricing} />
             <Route path='/top-reward' component={TopReward} />
             <Route path='/forgot-password' component={ForgotPassword} />
             <Route path='/contact-us' component={ContactUs} />
