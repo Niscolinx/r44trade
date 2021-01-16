@@ -1,9 +1,9 @@
 import React from 'react'
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
-import { RiBitCoinLine } from 'react-icons/ri'
+import {RiBitCoinLine} from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
-import { HiChartBar } from 'react-icons/hi'
-import { AiOutlineFileProtect } from 'react-icons/ai'
+import {HiChartBar} from 'react-icons/hi'
+import {AiOutlineFileProtect} from 'react-icons/ai'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
@@ -31,6 +31,8 @@ import Payment_6 from '../images/payment_6.png'
 import Payment_8 from '../images/payment_8.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
+
+
 
 function Layout(props) {
     return (
@@ -162,6 +164,19 @@ function Layout(props) {
                     style={{ backgroundImage: `url(${Bg_11})` }}
                 >
                     <div className='container'>
+                        <div>
+                            <div className='circleBg'>
+                                <div className='circle'></div>
+                            </div>
+                            <div className='chart'>
+                                <iframe
+                                    title='iframe1'
+                                    height='398'
+                                    width='618'
+                                    src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
+                                ></iframe>
+                            </div>
+                        </div>
                         <div className='content'>
                             <span className='heading'>
                                 Forex trading with ROBOT TRADING{' '}
@@ -334,18 +349,6 @@ function Layout(props) {
                             </p>
                         </div>
                     </div>
-                </div>
-
-                <div className='circleBg'>
-                    <div className='circle'></div>
-                </div>
-                <div className='chart'>
-                    <iframe
-                        title='iframe1'
-                        height='398'
-                        width='618'
-                        src='https://ssltvc.forexprostools.com/?pair_ID=945629&amp;height=398&amp;width=618&amp;interval=300&amp;plotStyle=area&amp;domain_ID=7&amp;lang_ID=7&amp;timezone_ID=17'
-                    ></iframe>
                 </div>
 
                 <div
