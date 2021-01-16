@@ -11,14 +11,13 @@ const ContactUs = (props) => {
                 class='pageBanner'
                 style={{ backgroundImage: `url(${ContactPageBg})` }}
             >
-                >
                 <div class='container'>
                     <span class='heading'>Contact us</span>
                 </div>
             </div>
 
             <div class='contInfo' style={{ backgroundImage: `url(${GreyBg})` }}>
-                >
+                {' '}
                 <div class='container'>
                     <div class='row'>
                         <div class='left'>
@@ -69,7 +68,7 @@ const ContactUs = (props) => {
                                     width='100%'
                                     height='100%'
                                     frameborder='0'
-                                    style={{border:0}}
+                                    style={{ border: 0 }}
                                     allowfullscreen
                                 ></iframe>
                             </div>
@@ -81,7 +80,7 @@ const ContactUs = (props) => {
             <div
                 class='blockForm'
                 style={{ backgroundImage: `url(${ContactBg})` }}
-                >
+            >
                 <div class='containerSM'>
                     <span class='captionDark center'>contact form</span>
                     <div class='wrap'>
