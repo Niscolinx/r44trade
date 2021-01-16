@@ -78,7 +78,7 @@ font-size: 16px;} */}
         <p>
         Using a blockchain is cryptographically secure – the ledger is distributed across all nodes in the system making hacking near impossible. All of the solidity Ethereum smart contract code used for the token sale and vault account was fully audited by SmartDec, a firm specialized in Smart Contract Security Audit. No single authority has control.
         </p>
-        </div>
+    </div> 
     <div class="advTempl">
     <div class="container">
     <span class="captionDark center">Why choose us?</span>
