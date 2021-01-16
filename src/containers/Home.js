@@ -1,7 +1,7 @@
 import React from 'react'
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import {RiBitCoinLine} from 'react-icons/ri'
-import {GiVikingLonghouse} from 'react-icons/gi'
+import { GiVikingLonghouse, GiNetworkBars } from 'react-icons/gi'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
