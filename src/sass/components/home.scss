@@ -142,6 +142,16 @@ html.IE .gradTxt {
     color: #009cff;
 }
 
+.gradTxt{
+    background: #009cff;
+    background: -moz-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: -webkit-linear-gradient(left, #009cff 0%, #1fe195 100%);
+    background: linear-gradient(to right, #009cff 0%, #1fe195 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 .heading {
     display: block;
     text-align: right;
