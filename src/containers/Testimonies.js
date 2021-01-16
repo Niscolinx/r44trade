@@ -1,9 +1,11 @@
 import React from 'react'
+import NewsPageBg from '../images/news_page_bg.jpg'
 
 function Testimonies() {
     return (
         <>
-           <div class="pageBanner" style="background-image: url(img/news_page_bg.jpg);">
+           <div class="pageBanner"                 style={{ backgroundImage: `url(${NewsPageBg})` }}>
+
 <div class="container">
 <span class="heading">Testimonies</span>
 </div>
