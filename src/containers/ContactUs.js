@@ -10,156 +10,108 @@ import Input from '../main/Input'
 import { required, length, email } from '../util/validators'
 import Auth from '../main/auth/Auth'
 
-const Login = (props) => {
-    const [state, setState] = useState({
-        loginForm: {
-            username: {
-                value: '',
-                valid: false,
-                touched: false,
-                validators: [required, length({ min: 6 })],
-            },
-            email: {
-                value: '',
-                valid: false,
-                touched: false,
-                validators: [required, email],
-            },
-            message: {
-                value: '',
-                valid: false,
-                touched: false,
-                validators: [required, length({ min: 6 })],
-            },
-            formIsValid: false,
-        },
-    })
-
-    const [message, setMessage] = useState(null)
-
-    useEffect(() => {
-        if (props.err) {
-            setMessage({
-                error:
-                    props.err.page === 'login'
-                        ? props.err.error[0].message
-                        : null,
-            })
-        } else if (state.loginForm.formIsValid) {
-            setMessage({
-                success: 'Success',
-            })
-        }
-    }, [props, state])
-
-    const inputChangeHandler = (input, value) => {
-        setState((prevState) => {
-            let isValid = true
-            for (const validator of prevState.loginForm[input].validators) {
-                isValid = isValid && validator(value)
-            }
-
-            const updatedForm = {
-                ...prevState.loginForm,
-                [input]: {
-                    ...prevState.loginForm[input],
-                    valid: isValid,
-                    value: value,
-                    touched: true,
-                },
-            }
-            let formIsValid = true
-            for (const inputName in updatedForm) {
-                if (
-                    inputName !== 'formIsValid' &&
-                    inputName !== '[object Object]'
-                ) {
-                    formIsValid = formIsValid && updatedForm[inputName].valid
-                }
-            }
-            return {
-                loginForm: updatedForm,
-                formIsValid: formIsValid,
-            }
-        })
-    }
-
-    const inputBlurHandler = (input) => {}
-
-    const handleLogin = (e) => {
-        e.preventDefault()
-        if (state.formIsValid) {
-            // props.onInitLogin(
-            //     state.loginForm.email.value,
-            //     state.loginForm.password.value
-            // )
-        } else {
-            setMessage({ error: 'Wrong Input, please check your entries' })
-        }
-    }
-
+const ContactUs = (props) => {
+   
     return (
         <>
-            <Particles
-                className='particles'
-                params={{
-                    particles: {
-                        number: {
-                            value: 50,
-                        },
-                    },
-                }}
-            />
-            <Auth contactUs message={message}>
-                <h1 className='contactUs__heading'>Contact Us</h1>
-                <form onSubmit={handleLogin}>
-                    <Input
-                        id='username'
-                        label='Username'
-                        type='text'
-                        control='input'
-                        minLength={6}
-                        onChange={inputChangeHandler}
-                        onBlur={inputBlurHandler.bind('username')}
-                        value={state.loginForm['username'].value}
-                        valid={state.loginForm['username'].valid}
-                        touched={state.loginForm['username'].touched}
-                    />
-                    <Input
-                        id='email'
-                        label='E-Mail'
-                        type='email'
-                        control='input'
-                        onChange={inputChangeHandler}
-                        onBlur={inputBlurHandler.bind('email')}
-                        value={state.loginForm['email'].value}
-                        valid={state.loginForm['email'].valid}
-                        touched={state.loginForm['email'].touched}
-                    />
-                    <Input
-                        id='message'
-                        label='Message'
-                        type='textarea'
-                        control='textarea'
-                        rows={7}
-                        onChange={inputChangeHandler}
-                        onBlur={inputBlurHandler.bind('message')}
-                        value={state.loginForm['message'].value}
-                        valid={state.loginForm['message'].valid}
-                        touched={state.loginForm['message'].touched}
-                    />
+<div class="pageBanner" style="background-image: url(img/contact_page_bg.jpg);">
+<div class="container">
+<span class="heading">Contact us</span>
+</div>
+</div>
 
-                    <div className='form-btn'>
-                        <Button
-                            design='raised'
-                            type='submit'
-                            loading={props.loading}
-                        >
-                            Send
-                        </Button>
-                    </div>
-                </form>
-            </Auth>
+<div class="contInfo" style="background-image: url(img/grey_bg.png);">
+<div class="container">
+<div class="row">
+<div class="left">
+<ul>
+<li>
+<div class="table full">
+<div class="img tCell middle"><span class="icon-location"></span></div>
+<div class="data tCell middle">
+<span class="title">our Address:</span>
+<p>71-75 Shelton Street, London, Greater London, United Kingdom, WC2H 9JQ</p>
+</div>
+</div>
+</li>
+
+<li>
+<div class="table full">
+<div class="img tCell middle"><span class="icon-mail"></span></div>
+<div class="data tCell middle">
+<span class="title">e-mail:</span>
+<a href="mailto:admin@robot22trade.com" target="_blank" class="link">admin@robot22trade.com</a>
+</div>
+</div>
+</li>  
+</ul>
+</div>
+
+<div class="right"><div class="map" id="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.664190550833!2d-0.0020082838559824082!3d51.57438937964627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a761dc8a2877%3A0x445ae65e3d837263!2s23+Sandringham+Rd%2C+London!5e0!3m2!1suk!2suk!4v1533728208403" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div></div>
+</div>
+</div>
+</div>
+
+<div class="blockForm" style="background-image: url(img/contact_bg.jpg);">
+<div class="containerSM">
+<span class="captionDark center">contact form</span>
+<div class="wrap">
+
+
+<script language=javascript>
+
+function checkform() {
+if (document.mainform.name.value == '') {
+alert("Please type your full name!");
+document.mainform.name.focus();
+return false;
+}
+if (document.mainform.email.value == '') {
+alert("Please enter your e-mail address!");
+document.mainform.email.focus();
+return false;
+}
+if (document.mainform.message.value == '') {
+alert("Please type your message!");
+document.mainform.message.focus();
+return false;
+}
+return true;
+}
+
+</script>
+<form method=post name=mainform onsubmit="return checkform()"><input type="hidden" name="form_id" value="15866293958230"><input type="hidden" name="form_token" value="5fa5f60f62cbfc10723983e283d98cb6">
+<input type=hidden name=a value=support>
+<input type=hidden name=action value=send>
+
+
+<div class="row bigPadd">
+
+<div class="item col6">
+<div class="formBlockLight">
+<label for="name">Your name:</label>
+<input type="text" name="name" value="">
+</div>
+</div>
+<div class="item col6">
+<div class="formBlockLight">
+<label for="mail">Your e-mail:</label>
+<input type="text" name="email" value="">
+</div>
+</div>
+</div>
+<div class="item">
+<div class="formBlockLight">
+<label for="">Message:</label>
+<textarea name="message"></textarea>
+</div>
+</div>
+<button type="submit" class="btnFillDarkMd center">send</button>
+</form>                    </div>
+</div>
+</div>
         </>
     )
 }
@@ -179,4 +131,4 @@ const mapDispatchToProps = (dispatch) => {
             dispatch(orderAction.initLogin(email, password)),
     }
 }
-export default connect(mapStateToProps, mapDispatchToProps)(Login)
+export default connect(mapStateToProps, mapDispatchToProps)(ContactUs)
