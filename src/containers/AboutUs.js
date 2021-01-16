@@ -3,6 +3,7 @@ import AboutPageBg from '../images/about_page_bg.jpg'
 import AboutBg from '../images/about_bg.jpg'
 import AboutImg from '../images/about_img.jpg'
 import GreyBg from '../images/grey_bg.png'
+import Profile from '../images/profile.jpg'
 
 function AboutUs() {
     return (
