@@ -1,10 +1,12 @@
 import React from 'react'
 import NewsPageBg from '../images/news_page_bg.jpg'
+import GreyBgBig from '../images/grey_bg_big.png'
+
 
 function Testimonies() {
     return (
         <>
-           <div class="pageBanner"                 style={{ backgroundImage: `url(${NewsPageBg})` }}>
+           <div class="pageBanner" style={{ backgroundImage: `url(${NewsPageBg})` }}>
 
 <div class="container">
 <span class="heading">Testimonies</span>
@@ -18,7 +20,7 @@ function Testimonies() {
 
 
 
-<div class="pageNews" style="background-image: url(img/grey_bg_big.png)">
+<div class="pageNews" style={{ backgroundImage: `url(${GreyBgBig})` }}>
 <div class="container">
 <div class="wrap">
 <div class="grid">
