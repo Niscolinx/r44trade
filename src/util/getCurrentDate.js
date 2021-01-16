@@ -8,7 +8,7 @@ const getCurrentDate = () => {
    //const out = newDate.getDate()
    // const out = newDate.getFullYear()
 
-    const out = newDate.toLocaleString('en-GB', { minute: 'numeric', month: 'long', weekday: 'long', hour: 'numeric', hour12: true })
+    const out = newDate.toLocaleString('en-GB', { month: 'short' })
 
 
     return <p>{out}</p>
