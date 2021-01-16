@@ -8,27 +8,27 @@ const ContactUs = (props) => {
     return (
         <>
             <div
-                class='pageBanner'
+                className='pageBanner'
                 style={{ backgroundImage: `url(${ContactPageBg})` }}
             >
-                <div class='container'>
-                    <span class='heading'>Contact us</span>
+                <div className='container'>
+                    <span className='heading'>Contact us</span>
                 </div>
             </div>
 
-            <div class='contInfo' style={{ backgroundImage: `url(${GreyBg})` }}>
+            <div className='contInfo' style={{ backgroundImage: `url(${GreyBg})` }}>
                 {' '}
-                <div class='container'>
-                    <div class='row'>
-                        <div class='left'>
+                <div className='container'>
+                    <div className='row'>
+                        <div className='left'>
                             <ul>
                                 <li>
-                                    <div class='table full'>
-                                        <div class='img tCell middle'>
-                                            <span class='icon-location'></span>
+                                    <div className='table full'>
+                                        <div className='img tCell middle'>
+                                            <span className='icon-location'></span>
                                         </div>
-                                        <div class='data tCell middle'>
-                                            <span class='title'>
+                                        <div className='data tCell middle'>
+                                            <span className='title'>
                                                 our Address:
                                             </span>
                                             <p>
@@ -41,16 +41,16 @@ const ContactUs = (props) => {
                                 </li>
 
                                 <li>
-                                    <div class='table full'>
-                                        <div class='img tCell middle'>
-                                            <span class='icon-mail'></span>
+                                    <div className='table full'>
+                                        <div className='img tCell middle'>
+                                            <span className='icon-mail'></span>
                                         </div>
-                                        <div class='data tCell middle'>
-                                            <span class='title'>e-mail:</span>
+                                        <div className='data tCell middle'>
+                                            <span className='title'>e-mail:</span>
                                             <a
                                                 href='mailto:admin@robot22trade.com'
                                                 target='_blank'
-                                                class='link'
+                                                className='link'
                                             >
                                                 admin@robot22trade.com
                                             </a>
@@ -60,8 +60,8 @@ const ContactUs = (props) => {
                             </ul>
                         </div>
 
-                        <div class='right'>
-                            <div class='map' id='map'>
+                        <div className='right'>
+                            <div className='map' id='map'>
                                 <iframe
                                     title='iframe2'
                                     src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.664190550833!2d-0.0020082838559824082!3d51.57438937964627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a761dc8a2877%3A0x445ae65e3d837263!2s23+Sandringham+Rd%2C+London!5e0!3m2!1suk!2suk!4v1533728208403'
@@ -78,12 +78,12 @@ const ContactUs = (props) => {
             </div>
 
             <div
-                class='blockForm'
+                className='blockForm'
                 style={{ backgroundImage: `url(${ContactBg})` }}
             >
-                <div class='containerSM'>
-                    <span class='captionDark center'>contact form</span>
-                    <div class='wrap'>
+                <div className='containerSM'>
+                    <span className='captionDark center'>contact form</span>
+                    <div className='wrap'>
                         <form
                             method='post'
                             name='mainform'
@@ -102,9 +102,9 @@ const ContactUs = (props) => {
                             <input type='hidden' name='a' value='support' />
                             <input type='hidden' name='action' value='send' />
 
-                            <div class='row bigPadd'>
-                                <div class='item col6'>
-                                    <div class='formBlockLight'>
+                            <div className='row bigPadd'>
+                                <div className='item col6'>
+                                    <div className='formBlockLight'>
                                         <label for='name'>Your name:</label>
                                         <input
                                             type='text'
@@ -113,8 +113,8 @@ const ContactUs = (props) => {
                                         />
                                     </div>
                                 </div>
-                                <div class='item col6'>
-                                    <div class='formBlockLight'>
+                                <div className='item col6'>
+                                    <div className='formBlockLight'>
                                         <label for='mail'>Your e-mail:</label>
                                         <input
                                             type='text'
@@ -124,13 +124,13 @@ const ContactUs = (props) => {
                                     </div>
                                 </div>
                             </div>
-                            <div class='item'>
-                                <div class='formBlockLight'>
+                            <div className='item'>
+                                <div className='formBlockLight'>
                                     <label for=''>Message:</label>
                                     <textarea name='message'></textarea>
                                 </div>
                             </div>
-                            <button type='submit' class='btnFillDarkMd center'>
+                            <button type='submit' className='btnFillDarkMd center'>
                                 send
                             </button>
                         </form>{' '}
