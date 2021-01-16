@@ -11,7 +11,9 @@ const getCurrentDate = () => {
     const out = newDate.toLocaleString('en-GB', { month: 'short' })
 
 
-    return <p>{out}</p>
+    return {
+        out: out
+    }
 }
 
 export default getCurrentDate
