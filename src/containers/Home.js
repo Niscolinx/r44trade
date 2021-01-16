@@ -54,13 +54,13 @@ function Layout(props) {
                 </a>
             </div>
 
-            <div class='bodyWrap'>
+            <div className='bodyWrap'>
                 <header>
-                    <div class='topLine'>
-                        <div class='container'>
-                            <div class='table full'>
-                                <div class='logoWrap tCell'>
-                                    <div class='logo invisLink'>
+                    <div className='topLine'>
+                        <div className='container'>
+                            <div className='table full'>
+                                <div className='logoWrap tCell'>
+                                    <div className='logo invisLink'>
                                         <img
                                             src={`${Logos}`}
                                             alt='logo'
@@ -70,19 +70,19 @@ function Layout(props) {
                                         <a href='index.php'>main</a>
                                     </div>
                                 </div>
-                                <div class='logReg tCell right'>
-                                    <a href='login.php' class='btnFillColor1Sm'>
+                                <div className='logReg tCell right'>
+                                    <a href='login.php' className='btnFillColor1Sm'>
                                         login
                                     </a>
                                     <a
                                         href='register.php'
-                                        class='btnFillColor2Sm'
+                                        className='btnFillColor2Sm'
                                     >
                                         sign up
                                     </a>
                                 </div>
 
-                                <div class='socContHead lang tCell right'>
+                                <div className='socContHead lang tCell right'>
                                     <a
                                         href='#blank'
                                         style={{
@@ -101,11 +101,11 @@ function Layout(props) {
                                     </a>
                                 </div>
 
-                                <div class='clock tCell right'>
-                                    <span class='time gradTxt' id='time'></span>
-                                    <span class='date'>
-                                        <span class='day' id='day'></span>
-                                        <span class='year' id='year'></span>
+                                <div className='clock tCell right'>
+                                    <span className='time gradTxt' id='time'></span>
+                                    <span className='date'>
+                                        <span className='day' id='day'></span>
+                                        <span className='year' id='year'></span>
                                     </span>
                                 </div>
                             </div>
@@ -120,8 +120,8 @@ function Layout(props) {
                         locale='en'
                     ></coingecko-coin-price-marquee-widget>
 
-                    <div class='menu'>
-                        <div class='container'>
+                    <div className='menu'>
+                        <div className='container'>
                             <center>
                                 <ul>
                                     <li>
@@ -154,16 +154,16 @@ function Layout(props) {
                 </header>
 
                 <div
-                    class='mainBanner gradImg'
+                    className='mainBanner gradImg'
                     style={{ backgroundImage: `url(${Bg_11})` }}
                 >
-                    <div class='container'>
-                        <div class='content'>
-                            <span class='heading'>
+                    <div className='container'>
+                        <div className='content'>
+                            <span className='heading'>
                                 Forex trading with ROBOT TRADING{' '}
                             </span>
                             <span>The Future of Crypto Trading</span>
-                            <div class='textBlock'>
+                            <div className='textBlock'>
                                 <p
                                     style={{
                                         fontWeight: 500,
@@ -176,20 +176,23 @@ function Layout(props) {
                                     value in itself.
                                 </p>
                             </div>
-                            <a href='register.php' class='btnFillGradLg'>
+                            <a href='register.php' className='btnFillGradLg'>
                                 Get started now
                             </a>
                         </div>
-                        <div class='cfix'>
-                            <div class='curRate'>
-                                <div class='item'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-cur1'> <RiBitCoinLine/> </span>
-                                        <div class='data'>
+                        <div className='cfix'>
+                            <div className='curRate'>
+                                <div className='item'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-cur1'>
+                                            {' '}
+                                            <RiBitCoinLine />{' '}
+                                        </span>
+                                        <div className='data'>
                                             <span>Bitcoin (BTC):</span>
                                             <span>
                                                 <b>
-                                                    <span class='color2'>
+                                                    <span className='color2'>
                                                         (Accepted)
                                                     </span>
                                                 </b>
@@ -197,16 +200,16 @@ function Layout(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class='item'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-cur2'>
+                                <div className='item'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-cur2'>
                                             <SiEthereum />
                                         </span>
-                                        <div class='data'>
+                                        <div className='data'>
                                             <span>Ethereum (ETH):</span>
                                             <span>
                                                 <b>
-                                                    <span class='color2'>
+                                                    <span className='color2'>
                                                         (Accepted)
                                                     </span>
                                                 </b>
@@ -214,14 +217,16 @@ function Layout(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class='item'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-cur3'><SiLitecoin/></span>
-                                        <div class='data'>
+                                <div className='item'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-cur3'>
+                                            <SiLitecoin />
+                                        </span>
+                                        <div className='data'>
                                             <span>Litecoin (LTC):</span>
                                             <span>
                                                 <b>
-                                                    <span class='color2'>
+                                                    <span className='color2'>
                                                         (Accepted)
                                                     </span>
                                                 </b>
@@ -229,14 +234,17 @@ function Layout(props) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class='item'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-cur1'> <RiBitCoinLine/></span>
-                                        <div class='data'>
+                                <div className='item'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-cur1'>
+                                            {' '}
+                                            <RiBitCoinLine />
+                                        </span>
+                                        <div className='data'>
                                             <span>Bitcoin Cash (BCH):</span>
                                             <span>
                                                 <b>
-                                                    <span class='color2'>
+                                                    <span className='color2'>
                                                         (Accepted)
                                                     </span>
                                                 </b>
@@ -246,18 +254,21 @@ function Layout(props) {
                                 </div>
                             </div>
                         </div>
-                        <div class='headAdv'>
+                        <div className='headAdv'>
                             <ul>
                                 <li>
-                                    <div class='iconLeft'>
+                                    <div className='iconLeft'>
                                         <span
-                                            class='icon-adv1'
+                                            className='icon-adv1'
                                             style={{
                                                 boxShadow: '2px 2px 3px black',
                                             }}
-                                        > <GiVikingLonghouse/> </span>
+                                        >
+                                            {' '}
+                                            <GiVikingLonghouse />{' '}
+                                        </span>
                                         <span
-                                            class='data'
+                                            className='data'
                                             style={{
                                                 textShadow: '2px 2px 3px black',
                                             }}
@@ -267,15 +278,17 @@ function Layout(props) {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class='iconLeft'>
+                                    <div className='iconLeft'>
                                         <span
-                                            class='icon-adv3'
+                                            className='icon-adv3'
                                             style={{
                                                 boxShadow: '2px 2px 3px black',
                                             }}
-                                        ><HiChartBar/></span>
+                                        >
+                                            <HiChartBar />
+                                        </span>
                                         <span
-                                            class='data'
+                                            className='data'
                                             style={{
                                                 textShadow: '2px 2px 3px black',
                                             }}
@@ -285,15 +298,18 @@ function Layout(props) {
                                     </div>
                                 </li>
                                 <li>
-                                    <div class='iconLeft'>
+                                    <div className='iconLeft'>
                                         <span
-                                            class='icon-adv2'
+                                            className='icon-adv2'
                                             style={{
                                                 boxShadow: '2px 2px 3px black',
                                             }}
-                                        > <AiOutlineFileProtect/></span>
+                                        >
+                                            {' '}
+                                            <AiOutlineFileProtect />
+                                        </span>
                                         <span
-                                            class='data'
+                                            className='data'
                                             style={{
                                                 textShadow: '2px 2px 3px black',
                                             }}
@@ -317,10 +333,10 @@ function Layout(props) {
                 </div>
 
                 {/* <div>
-                    <div class='circleBg'>
-                        <div class='circle'></div>
+                    <div className='circleBg'>
+                        <div className='circle'></div>
                     </div>
-                    <div class='chart'>
+                    <div className='chart'>
                         <iframe
                             title='iframe1'
                             height='398'
@@ -331,16 +347,16 @@ function Layout(props) {
                 </div> */}
 
                 <div
-                    class='about'
+                    className='about'
                     style={{ backgroundImage: `url(${About_bg})` }}
                 >
-                    <div class='container'>
-                        <div class='cfix'>
-                            <div class='left'>
-                                <span class='captionLight'>About company</span>
-                                <div class='license'>
+                    <div className='container'>
+                        <div className='cfix'>
+                            <div className='left'>
+                                <span className='captionLight'>About company</span>
+                                <div className='license'>
                                     <div
-                                        class='img invisLink'
+                                        className='img invisLink'
                                         style={{
                                             backgroundImage: `url(${profile})`,
                                         }}
@@ -350,10 +366,10 @@ function Layout(props) {
                                         </a>
                                     </div>
                                 </div>
-                                <div class='address'>
-                                    <div class='iconLeft'>
-                                        <span class='icon-location gradTxt'></span>
-                                        <span class='data'>
+                                <div className='address'>
+                                    <div className='iconLeft'>
+                                        <span className='icon-location gradTxt'></span>
+                                        <span className='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
                                             9JQ
@@ -361,8 +377,8 @@ function Layout(props) {
                                     </div>
                                 </div>
                             </div>
-                            <div class='right'>
-                                <div class='textBlock'>
+                            <div className='right'>
+                                <div className='textBlock'>
                                     <h3>
                                         <b style={{ color: 'white' }}>
                                             WELCOME ON BOARD JOIN THE TRADE
@@ -409,14 +425,14 @@ function Layout(props) {
                                         earning money.
                                     </p>
                                 </div>
-                                <div class='btnsWrap'>
-                                    <a href='about.php' class='btnFillColor1Lg'>
+                                <div className='btnsWrap'>
+                                    <a href='about.php' className='btnFillColor1Lg'>
                                         Learn more
                                     </a>
                                     <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='_blank'
-                                        class='btnFillColor2Lg'
+                                        className='btnFillColor2Lg'
                                     >
                                         Check the registration
                                     </a>
@@ -427,13 +443,13 @@ function Layout(props) {
                 </div>
 
                 <div
-                    class='plan page'
+                    className='plan page'
                     style={{
                         backgroundImage: `url(${Chart_bg}), url(${Grey_bg})`,
                     }}
                 >
-                    <div class='container'>
-                        <div class='textBlock'>
+                    <div className='container'>
+                        <div className='textBlock'>
                             <p>
                                 A robot cannot fear to make a trade neither can
                                 it start making greed-driven decisions. With
@@ -445,31 +461,31 @@ function Layout(props) {
                                 humans.
                             </p>
                         </div>
-                        <span class='captionDark center'>Trade Pricing</span>
+                        <span className='captionDark center'>Trade Pricing</span>
 
-                        <div class='wrap'>
-                            <div class='row' style={{ marginBottom: '30px' }}>
-                                <div class='item col6'>
-                                    <div class='planCardFirst'>
+                        <div className='wrap'>
+                            <div className='row' style={{ marginBottom: '30px' }}>
+                                <div className='item col6'>
+                                    <div className='planCardFirst'>
                                         <div
-                                            class='left'
+                                            className='left'
                                             style={{
                                                 backgroundImage: `url(${Card_bg_1})`,
                                             }}
                                         >
-                                            <span class='cap'>#PACKAGE A</span>
-                                            <div class='descr'>
-                                                <span class='pct'>10%</span>
+                                            <span className='cap'>#PACKAGE A</span>
+                                            <div className='descr'>
+                                                <span className='pct'>10%</span>
                                                 <span>48 HOURS</span>
                                                 <a
                                                     href='register.php'
-                                                    class='btnFillColor1Md'
+                                                    className='btnFillColor1Md'
                                                 >
                                                     Make deposit
                                                 </a>
                                             </div>
                                         </div>
-                                        <ul class='info'>
+                                        <ul className='info'>
                                             <li>
                                                 Min Deposit <span>50 USD</span>
                                             </li>
@@ -488,27 +504,27 @@ function Layout(props) {
                                     </div>
                                 </div>
 
-                                <div class='item col6'>
-                                    <div class='planCardSecond'>
+                                <div className='item col6'>
+                                    <div className='planCardSecond'>
                                         <div
-                                            class='left'
+                                            className='left'
                                             style={{
                                                 backgroundImage: `url(${Card_bg_2})`,
                                             }}
                                         >
-                                            <span class='cap'>#PACKAGE B</span>
-                                            <div class='descr'>
-                                                <span class='pct'>20%</span>
+                                            <span className='cap'>#PACKAGE B</span>
+                                            <div className='descr'>
+                                                <span className='pct'>20%</span>
                                                 <span>4 Work Days</span>
                                                 <a
                                                     href='register.php'
-                                                    class='btnFillColor2Md'
+                                                    className='btnFillColor2Md'
                                                 >
                                                     Make deposit
                                                 </a>
                                             </div>
                                         </div>
-                                        <ul class='info'>
+                                        <ul className='info'>
                                             <li>
                                                 Min Deposit <span>200 USD</span>
                                             </li>
@@ -528,28 +544,28 @@ function Layout(props) {
                                 </div>
                             </div>
 
-                            <div class='row' style={{ marginBottom: '30px' }}>
-                                <div class='item col6'>
-                                    <div class='planCardFirst'>
+                            <div className='row' style={{ marginBottom: '30px' }}>
+                                <div className='item col6'>
+                                    <div className='planCardFirst'>
                                         <div
-                                            class='left'
+                                            className='left'
                                             style={{
                                                 backgroundImage: `url(${Card_bg_1})`,
                                             }}
                                         >
-                                            <span class='cap'>#PACKAGE C</span>
-                                            <div class='descr'>
-                                                <span class='pct'>30%</span>
+                                            <span className='cap'>#PACKAGE C</span>
+                                            <div className='descr'>
+                                                <span className='pct'>30%</span>
                                                 <span>6 Work Days</span>
                                                 <a
                                                     href='register.php'
-                                                    class='btnFillColor1Md'
+                                                    className='btnFillColor1Md'
                                                 >
                                                     Make deposit
                                                 </a>
                                             </div>
                                         </div>
-                                        <ul class='info'>
+                                        <ul className='info'>
                                             <li>
                                                 Min Deposit <span>500 USD</span>
                                             </li>
@@ -568,27 +584,27 @@ function Layout(props) {
                                     </div>
                                 </div>
 
-                                <div class='item col6'>
-                                    <div class='planCardSecond'>
+                                <div className='item col6'>
+                                    <div className='planCardSecond'>
                                         <div
-                                            class='left'
+                                            className='left'
                                             style={{
                                                 backgroundImage: `url(${Card_bg_2})`,
                                             }}
                                         >
-                                            <span class='cap'>#PACKAGE D</span>
-                                            <div class='descr'>
-                                                <span class='pct'>40%</span>
+                                            <span className='cap'>#PACKAGE D</span>
+                                            <div className='descr'>
+                                                <span className='pct'>40%</span>
                                                 <span>8 Work Days</span>
                                                 <a
                                                     href='register.php'
-                                                    class='btnFillColor2Md'
+                                                    className='btnFillColor2Md'
                                                 >
                                                     Make deposit
                                                 </a>
                                             </div>
                                         </div>
-                                        <ul class='info'>
+                                        <ul className='info'>
                                             <li>
                                                 Min Deposit{' '}
                                                 <span>1,000 USD</span>
@@ -610,28 +626,28 @@ function Layout(props) {
                                 </div>
                             </div>
 
-                            <div class='row'>
-                                <div class='item col6'>
-                                    <div class='planCardFirst'>
+                            <div className='row'>
+                                <div className='item col6'>
+                                    <div className='planCardFirst'>
                                         <div
-                                            class='left'
+                                            className='left'
                                             style={{
                                                 backgroundImage: `url(${Card_bg_1})`,
                                             }}
                                         >
-                                            <span class='cap'>#PACKAGE E</span>
-                                            <div class='descr'>
-                                                <span class='pct'>60%</span>
+                                            <span className='cap'>#PACKAGE E</span>
+                                            <div className='descr'>
+                                                <span className='pct'>60%</span>
                                                 <span>10 Work Days</span>
                                                 <a
                                                     href='register.php'
-                                                    class='btnFillColor1Md'
+                                                    className='btnFillColor1Md'
                                                 >
                                                     Make deposit
                                                 </a>
                                             </div>
                                         </div>
-                                        <ul class='info'>
+                                        <ul className='info'>
                                             <li>
                                                 Min Deposit{' '}
                                                 <span>5,000 USD</span>
@@ -652,27 +668,27 @@ function Layout(props) {
                                     </div>
                                 </div>
 
-                                <div class='item col6'>
-                                    <div class='planCardSecond'>
+                                <div className='item col6'>
+                                    <div className='planCardSecond'>
                                         <div
-                                            class='left'
+                                            className='left'
                                             style={{
                                                 backgroundImage: `url(${Card_bg_2})`,
                                             }}
                                         >
-                                            <span class='cap'>#PACKAGE F</span>
-                                            <div class='descr'>
-                                                <span class='pct'>80%</span>
+                                            <span className='cap'>#PACKAGE F</span>
+                                            <div className='descr'>
+                                                <span className='pct'>80%</span>
                                                 <span>12 Work Days</span>
                                                 <a
                                                     href='register.php'
-                                                    class='btnFillColor2Md'
+                                                    className='btnFillColor2Md'
                                                 >
                                                     Make deposit
                                                 </a>
                                             </div>
                                         </div>
-                                        <ul class='info'>
+                                        <ul className='info'>
                                             <li>
                                                 Min Deposit{' '}
                                                 <span>10,000 USD</span>
@@ -696,10 +712,10 @@ function Layout(props) {
                         </div>
 
                         <div
-                            class='container'
+                            className='container'
                             style={{ marginTop: '40px', marginBottom: '40px' }}
                         >
-                            <div class='textBlock'>
+                            <div className='textBlock'>
                                 <h3>WHY ROBOT TRADING</h3>
                                 <p>
                                     There are several other trading programs in
@@ -737,21 +753,21 @@ function Layout(props) {
                             </div>
                         </div>
 
-                        <div class='item col6'>
-                            <div class='planCardSecond'>
+                        <div className='item col6'>
+                            <div className='planCardSecond'>
                                 <div
-                                    class='left'
+                                    className='left'
                                     style={{
                                         backgroundImage: `url(${Card_bg_2})`,
                                     }}
                                 >
-                                    <span class='cap'>TRADING PLAN</span>
-                                    <div class='descr'>
-                                        <span class='pct'>EXTRA</span>
+                                    <span className='cap'>TRADING PLAN</span>
+                                    <div className='descr'>
+                                        <span className='pct'>EXTRA</span>
                                         <span>BONUS</span>
                                         <a
                                             href='register.php'
-                                            class='btnFillColor2Md'
+                                            className='btnFillColor2Md'
                                         >
                                             Make deposit
                                         </a>
@@ -763,9 +779,9 @@ function Layout(props) {
                 </div>
             </div>
 
-            <div class='planProfit gradBack'>
-                <div class='container'>
-                    <div class='cfix'>
+            <div className='planProfit gradBack'>
+                <div className='container'>
+                    <div className='cfix'>
                         <form onsubmit='return calc()'>
                             <input
                                 type='hidden'
@@ -787,10 +803,10 @@ function Layout(props) {
                                 name='form_token'
                                 value='7fdf09bfa9cfe7b3d8483811bc1fc4c1'
                             />
-                            <div class='formBlockLight'>
+                            <div className='formBlockLight'>
                                 <label for='calc_amount'>Amount:</label>
                                 <input
-                                    class='enterNum'
+                                    className='enterNum'
                                     type='number'
                                     min='20'
                                     max='199'
@@ -798,7 +814,7 @@ function Layout(props) {
                                     id='calc_amount'
                                 />
                             </div>
-                            <div class='formBlockLight'>
+                            <div className='formBlockLight'>
                                 <label for='calc_plan'>Choosing of plan:</label>
                                 <select name='choosePlan' id='calc_plan'>
                                     <option
@@ -858,9 +874,9 @@ function Layout(props) {
                                     </option>
                                 </select>
                             </div>
-                            <div class='sum'>
-                                <span class='title'>Your profit:</span>
-                                <span class='num'>
+                            <div className='sum'>
+                                <span className='title'>Your profit:</span>
+                                <span className='num'>
                                     <b id='profit'>1270,00</b> USD
                                 </span>
                             </div>
@@ -870,40 +886,40 @@ function Layout(props) {
                                 style={{ display: 'none' }}
                             />{' '}
                         </form>
-                        <a href='register.php' class='btnFillDarkMd'>
+                        <a href='register.php' className='btnFillDarkMd'>
                             Get money
                         </a>
                     </div>
                 </div>
             </div>
 
-            <div class='program gradBack'>
-                <div class='container'>
-                    <span class='captionDark center'>Affiliate program</span>
-                    <div class='wrap'>
-                        <div class='row'>
-                            <div class='item col6'>
-                                <div class='progrInfoFirst'>
-                                    <div class='inner'>
-                                        <span class='num'>6</span>
+            <div className='program gradBack'>
+                <div className='container'>
+                    <span className='captionDark center'>Affiliate program</span>
+                    <div className='wrap'>
+                        <div className='row'>
+                            <div className='item col6'>
+                                <div className='progrInfoFirst'>
+                                    <div className='inner'>
+                                        <span className='num'>6</span>
                                         <span>1ST LEVEL</span>
-                                        <span class='pct'>%</span>
+                                        <span className='pct'>%</span>
                                     </div>
                                 </div>
                             </div>
-                            <div class='item col6'>
-                                <div class='progrInfoSecond'>
-                                    <div class='inner'>
-                                        <span class='num'>2</span>
+                            <div className='item col6'>
+                                <div className='progrInfoSecond'>
+                                    <div className='inner'>
+                                        <span className='num'>2</span>
                                         <span>2ND LEVEL</span>
-                                        <span class='pct'>%</span>
+                                        <span className='pct'>%</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <span class='amp'>&</span>
+                        <span className='amp'>&</span>
                     </div>
-                    <div class='textBlock'>
+                    <div className='textBlock'>
                         <p>
                             We appreciates the active partners that help us
                             develop and advance our company. As a thank you for
@@ -913,149 +929,149 @@ function Layout(props) {
                             company, you will also get even more bonuses for it!
                         </p>
                     </div>
-                    <a href='about.php' class='btnFillGradLg center'>
+                    <a href='about.php' className='btnFillGradLg center'>
                         Learn More
                     </a>
 
-                    <div class='cfix'>
-                        <div class='statistic' style={{ display: 'none' }}>
-                            <div class='row'>
-                                <div class='item'>
-                                    <div class='img'>
-                                        <span class='icon-date'></span>
+                    <div className='cfix'>
+                        <div className='statistic' style={{ display: 'none' }}>
+                            <div className='row'>
+                                <div className='item'>
+                                    <div className='img'>
+                                        <span className='icon-date'></span>
                                     </div>
-                                    <span class='title'>Online Days:</span>
-                                    <span class='num'>4059</span>
+                                    <span className='title'>Online Days:</span>
+                                    <span className='num'>4059</span>
                                 </div>
-                                <div class='item'>
-                                    <div class='img'>
-                                        <span class='icon-profile'></span>
+                                <div className='item'>
+                                    <div className='img'>
+                                        <span className='icon-profile'></span>
                                     </div>
-                                    <span class='title'>Online Users:</span>
-                                    <span class='num'>916</span>
+                                    <span className='title'>Online Users:</span>
+                                    <span className='num'>916</span>
                                 </div>
-                                <div class='item'>
-                                    <div class='img'>
-                                        <span class='icon-pay_in'></span>
+                                <div className='item'>
+                                    <div className='img'>
+                                        <span className='icon-pay_in'></span>
                                     </div>
-                                    <span class='title'>
+                                    <span className='title'>
                                         total withdrawals:
                                     </span>
                                     <span
-                                        class='num'
+                                        className='num'
                                         sstyle={{ fontSize: '25px' }}
                                     >
                                         $ 9,428,235.00
                                     </span>
                                 </div>
-                                <div class='item'>
-                                    <div class='img'>
-                                        <span class='icon-pay_out'></span>
+                                <div className='item'>
+                                    <div className='img'>
+                                        <span className='icon-pay_out'></span>
                                     </div>
-                                    <span class='title'>total deposits:</span>
+                                    <span className='title'>total deposits:</span>
                                     <span
-                                        class='num'
+                                        className='num'
                                         style={{ fontSize: '25px' }}
                                     >
                                         $ 1,062,095.00
                                     </span>
                                 </div>
-                                <div class='item'>
-                                    <div class='img'>
-                                        <span class='icon-partner'></span>
+                                <div className='item'>
+                                    <div className='img'>
+                                        <span className='icon-partner'></span>
                                     </div>
-                                    <span class='title'>Active users:</span>
-                                    <span class='num'>8935</span>
+                                    <span className='title'>Active users:</span>
+                                    <span className='num'>8935</span>
                                 </div>
                             </div>
                         </div>
-                        <div class='statTbl' style={{ display: 'none' }}>
-                            <div class='row'>
-                                <div class='item col6'>
-                                    <div class='inner'>
-                                        <div class='title'>
+                        <div className='statTbl' style={{ display: 'none' }}>
+                            <div className='row'>
+                                <div className='item col6'>
+                                    <div className='inner'>
+                                        <div className='title'>
                                             <span>latest deposit</span>
                                         </div>
-                                        <ul class='table full in'>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                        <ul className='table full in'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Deposit{' '}
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Torres
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $53,000.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Hensley
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $201.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Hensley
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $34,000.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Frank Jason
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
@@ -1066,93 +1082,93 @@ function Layout(props) {
                                     </div>
                                 </div>
                                 <div
-                                    class='item col6'
+                                    className='item col6'
                                     style={{ display: 'none' }}
                                 >
-                                    <div class='inner'>
-                                        <div class='title'>
+                                    <div className='inner'>
+                                        <div className='title'>
                                             <span>last WITHDRAWALS</span>
                                         </div>
-                                        <ul class='table full out'>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                        <ul className='table full out'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Ms. Willie Hoppe III
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $95,100.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Ms. Willie Hoppe III
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $134,000.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Elissa Murazik
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $87,000.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Dr. Velma Larson PhD
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $262,800.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
                                                     />
                                                 </span>
                                             </li>
-                                            <li class='tRow'>
-                                                <span class='tCell middle name'>
+                                            <li className='tRow'>
+                                                <span className='tCell middle name'>
                                                     Takalani Letsoalo
                                                 </span>
-                                                <span class='tCell middle date'>
+                                                <span className='tCell middle date'>
                                                     {' '}
                                                 </span>
-                                                <span class='tCell middle sum'>
+                                                <span className='tCell middle sum'>
                                                     $76,000.00
                                                 </span>
-                                                <span class='tCell bottom right pay'>
+                                                <span className='tCell bottom right pay'>
                                                     <img
                                                         src={`${B1000}`}
                                                         alt='pay'
@@ -1166,25 +1182,25 @@ function Layout(props) {
                         </div>
                     </div>
                 </div>
-                <div class='circleBg'>
-                    <div class='circle'></div>
+                <div className='circleBg'>
+                    <div className='circle'></div>
                 </div>
             </div>
 
             <div
-                class='advTempl'
+                className='advTempl'
                 style={{
                     backgroundImage: `url(${Adv_bg})`,
                 }}
             >
-                <div class='container'>
-                    <span class='captionLight center'>Why choose us?</span>
-                    <div class='advWrap'>
-                        <div class='grid'>
-                            <div class='item col4'>
-                                <div class='in'>
-                                    <span class='icon-phone gradTxt'></span>
-                                    <span class='title'>AUTOMATED</span>
+                <div className='container'>
+                    <span className='captionLight center'>Why choose us?</span>
+                    <div className='advWrap'>
+                        <div className='grid'>
+                            <div className='item col4'>
+                                <div className='in'>
+                                    <span className='icon-phone gradTxt'></span>
+                                    <span className='title'>AUTOMATED</span>
                                     <p>
                                         No financial advisor? No experience
                                         trading cryptocurrency? No worries. Our
@@ -1194,10 +1210,10 @@ function Layout(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='in'>
-                                    <span class='icon-chart gradTxt'></span>
-                                    <span class='title'>SMART TRADING</span>
+                            <div className='item col4'>
+                                <div className='in'>
+                                    <span className='icon-chart gradTxt'></span>
+                                    <span className='title'>SMART TRADING</span>
                                     <p>
                                         Emotions and stress have a negative
                                         impact on trading. Our Automated
@@ -1207,10 +1223,10 @@ function Layout(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='in'>
-                                    <span class='icon-team gradTxt'></span>
-                                    <span class='title'>
+                            <div className='item col4'>
+                                <div className='in'>
+                                    <span className='icon-team gradTxt'></span>
+                                    <span className='title'>
                                         NO MORE MIDDLE MEN
                                     </span>
                                     <p>
@@ -1220,10 +1236,10 @@ function Layout(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='in'>
-                                    <span class='icon-docs gradTxt'></span>
-                                    <span class='title'>
+                            <div className='item col4'>
+                                <div className='in'>
+                                    <span className='icon-docs gradTxt'></span>
+                                    <span className='title'>
                                         PROTECTION FROM HACKING
                                     </span>
                                     <p>
@@ -1234,10 +1250,10 @@ function Layout(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='in'>
-                                    <span class='icon-cash gradTxt'></span>
-                                    <span class='title'>RELIABILITY</span>
+                            <div className='item col4'>
+                                <div className='in'>
+                                    <span className='icon-cash gradTxt'></span>
+                                    <span className='title'>RELIABILITY</span>
                                     <p>
                                         Robot Trading under the direction of
                                         Next Generation Technology Co., LTD is
@@ -1246,10 +1262,10 @@ function Layout(props) {
                                     </p>
                                 </div>
                             </div>
-                            <div class='item col4'>
-                                <div class='in'>
-                                    <span class='icon-pass gradTxt'></span>
-                                    <span class='title'>AUTO TRADING 24/7</span>
+                            <div className='item col4'>
+                                <div className='in'>
+                                    <span className='icon-pass gradTxt'></span>
+                                    <span className='title'>AUTO TRADING 24/7</span>
                                     <p>
                                         Our platform is always available to
                                         ensure that no market opportunity is
@@ -1262,25 +1278,25 @@ function Layout(props) {
                 </div>
             </div>
 
-            <div class='payments'>
-                <div class='container'>
-                    <ul class='table full'>
-                        <li class='tCell bottom left'>
+            <div className='payments'>
+                <div className='container'>
+                    <ul className='table full'>
+                        <li className='tCell bottom left'>
                             <img src={`${Payment_1}`} alt='payment' />
                         </li>
-                        <li class='tCell middle left'>
+                        <li className='tCell middle left'>
                             <img src={`${Payment_2}`} alt='payment' />
                         </li>
-                        <li class='tCell middle right'>
+                        <li className='tCell middle right'>
                             <img src={`${Payment_4}`} alt='payment' />
                         </li>
-                        <li class='tCell middle right'>
+                        <li className='tCell middle right'>
                             <img src={`${Payment_5}`} alt='payment' />
                         </li>
-                        <li class='tCell middle right'>
+                        <li className='tCell middle right'>
                             <img src={`${Payment_6}`} alt='payment' />
                         </li>
-                        <li class='tCell middle right'>
+                        <li className='tCell middle right'>
                             <img src={`${Payment_8}`} alt='payment' />
                         </li>
                     </ul>
@@ -1288,13 +1304,13 @@ function Layout(props) {
             </div>
 
             <footer>
-                <div class='container'>
-                    <div class='cfix'>
-                        <div class='footCol'>
-                            <p class='copyright'>2021 © Robot22 Trade</p>
+                <div className='container'>
+                    <div className='cfix'>
+                        <div className='footCol'>
+                            <p className='copyright'>2021 © Robot22 Trade</p>
                         </div>
-                        <ul class='footMenu'>
-                            <li class='col'>
+                        <ul className='footMenu'>
+                            <li className='col'>
                                 <ul>
                                     <li>
                                         <a href='index.php'>HOME</a>
@@ -1310,7 +1326,7 @@ function Layout(props) {
                                     </li>
                                 </ul>
                             </li>
-                            <li class='col'>
+                            <li className='col'>
                                 <ul>
                                     <li>
                                         <a href='testimonies.php'>
@@ -1329,18 +1345,18 @@ function Layout(props) {
                                 </ul>
                             </li>
                         </ul>
-                        <div class='footCol'>
-                            <div class='cont'>
-                                <span class='title'>Adress:</span>
+                        <div className='footCol'>
+                            <div className='cont'>
+                                <span className='title'>Adress:</span>
                                 <p>
                                     71-75 Shelton Street, London, Greater
                                     London, United Kingdom, WC2H 9JQ
                                 </p>
                             </div>
-                            <div class='cont'>
-                                <span class='title'>E-mail:</span>
+                            <div className='cont'>
+                                <span className='title'>E-mail:</span>
                                 <a
-                                    class='link'
+                                    className='link'
                                     href='mailto:admin@robot22trade.com'
                                 >
                                     admin@robot22trade.com
