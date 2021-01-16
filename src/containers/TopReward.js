@@ -57,7 +57,7 @@ const TopReward = () => {
                                         </span>
                                         <span class='tCell bottom right pay'>
                                             <img
-                                                src='img/ps_b/1000.png'
+                                                src={B1000}
                                                 alt='pay'
                                             />
                                         </span>
@@ -72,7 +72,7 @@ const TopReward = () => {
                                         </span>
                                         <span class='tCell bottom right pay'>
                                             <img
-                                                src='img/ps_b/1000.png'
+                                                src={B1000}
                                                 alt='pay'
                                             />
                                         </span>
@@ -87,7 +87,7 @@ const TopReward = () => {
                                         </span>
                                         <span class='tCell bottom right pay'>
                                             <img
-                                                src='img/ps_b/1000.png'
+                                                src={B1000}
                                                 alt='pay'
                                             />
                                         </span>
@@ -102,7 +102,7 @@ const TopReward = () => {
                                         </span>
                                         <span class='tCell bottom right pay'>
                                             <img
-                                                src='img/ps_b/1000.png'
+                                                src={B1000}
                                                 alt='pay'
                                             />
                                         </span>
@@ -117,7 +117,7 @@ const TopReward = () => {
                                         </span>
                                         <span class='tCell bottom right pay'>
                                             <img
-                                                src='img/ps_b/1000.png'
+                                                src={B1000}
                                                 alt='pay'
                                             />
                                         </span>
