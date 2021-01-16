@@ -9,6 +9,7 @@ import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import {IoIosPeople} from 'react-icons/io'
 import {MdLowPriority} from 'react-icons/md'
 import {RiUserUnfollowFill} from 'react-icons/ri'
+import {SiAutotask} from 'react-icons/si'
 
 
 function AboutUs() {
