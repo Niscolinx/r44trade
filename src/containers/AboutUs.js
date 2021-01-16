@@ -5,7 +5,8 @@ import AboutImg from '../images/about_img.jpg'
 import GreyBg from '../images/grey_bg.png'
 import Profile from '../images/profile.jpg'
 
-import {AiFillPhone} from 'react-icons/ai'
+import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
+
 
 function AboutUs() {
     return (
