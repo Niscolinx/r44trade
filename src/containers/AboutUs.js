@@ -79,7 +79,9 @@ font-size: 16px;} */}
                                 </div>
                                 <div class='address'>
                                     <div class='iconLeft'>
-                                        <span class='icon-location gradTxt'><MdLocationOn/></span>
+                                        <span class='icon-location gradTxt'>
+                                            <MdLocationOn className='location__svg' />
+                                        </span>
                                         <span class='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
@@ -102,7 +104,7 @@ font-size: 16px;} */}
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='#blank'
                                         class='btnFillColor2Lg'
-                                        style={{margin: '20px 0 0'}}
+                                        style={{ margin: '20px 0 0' }}
                                     >
                                         Check registration
                                     </a>
