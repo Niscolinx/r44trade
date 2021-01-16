@@ -57,8 +57,8 @@ font-size: 16px;} */}
                     </div>
                 </div>
                 <div class="btnsWrap" style="text-align: center;">
-                <a href="register.php" class="btnFillColor1Lg" style="margin-right: 20px;">Join</a>
-                <a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank" class="btnFillColor2Lg" style="margin: 20px 0 0;">Check registration</a>
+                        <a href="register.php" class="btnFillColor1Lg" style="margin-right: 20px;">Join</a>
+                        <a href="https://beta.companieshouse.gov.uk/company/12143668" target="_blank" class="btnFillColor2Lg" style="margin: 20px 0 0;">Check registration</a>
                 </div>
             </div>
             <p>
@@ -72,13 +72,13 @@ font-size: 16px;} */}
             </p>
 
 
-    <div class="img left" style="background-image: url(img/about_img.jpg);"></div>
-    <div class="cfix"></div>
-    <br/><br/>
-    <p>
-    Using a blockchain is cryptographically secure – the ledger is distributed across all nodes in the system making hacking near impossible. All of the solidity Ethereum smart contract code used for the token sale and vault account was fully audited by SmartDec, a firm specialized in Smart Contract Security Audit. No single authority has control.
-    </p>
-    </div>
+        <div class="img left" style="background-image: url(img/about_img.jpg);"></div>
+        <div class="cfix"></div>
+        <br/><br/>
+        <p>
+        Using a blockchain is cryptographically secure – the ledger is distributed across all nodes in the system making hacking near impossible. All of the solidity Ethereum smart contract code used for the token sale and vault account was fully audited by SmartDec, a firm specialized in Smart Contract Security Audit. No single authority has control.
+        </p>
+        </div>
     <div class="advTempl">
     <div class="container">
     <span class="captionDark center">Why choose us?</span>
