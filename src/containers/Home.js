@@ -1,7 +1,8 @@
 import React from 'react'
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import {RiBitCoinLine} from 'react-icons/ri'
-import { GiVikingLonghouse, GiNetworkBars } from 'react-icons/gi'
+import { GiVikingLonghouse } from 'react-icons/gi'
+import {HiChartBar} from 'react-icons/hi'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
@@ -271,7 +272,7 @@ function Layout(props) {
                                             style={{
                                                 boxShadow: '2px 2px 3px black',
                                             }}
-                                        ></span>
+                                        ><HiChartBar/></span>
                                         <span
                                             class='data'
                                             style={{
