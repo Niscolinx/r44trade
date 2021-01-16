@@ -7,7 +7,7 @@ const TopReward = () => {
             <div
                 class='pageBanner'
                 style={{
-                    backgroundImage: `url(${profile})`,
+                    backgroundImage: `url(${PartnersPageBg})`,
                 }}
             >
                 <div class='container'>
