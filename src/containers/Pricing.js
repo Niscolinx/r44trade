@@ -13,37 +13,37 @@ function Pricing() {
     return (
         <>
             <div
-                class='pageBanner'
-                style={{ backgroundImage: `url(${RulesPageBg})` }}
-            >
-                <div class='container'>
-                    <span class='heading'>Pricing</span>
+                className='pageBanner'
+                style={{ backgroundImage: `url(${RulesPageBg})` }}>
+                <div className='container'>
+                    <span className='heading'>Pricing</span>
                 </div>
             </div>
 
-            <div class='rules' style={{ backgroundImage: `url(${GreyBgBig})` }}>
-                <div class='container'>
-                    <div class='wrap'>
-                        {/* <div class='row' style={{marginBottom: '30px'}>
-                            <div class='item col6'>
-                                <div class='planCardFirst'>
+            <div className='rules' style={{ backgroundImage: `url(${GreyBgBig})` }}>
+                <div className='container'>
+                    <div className='wrap'>
+                        
+                        <div className='row' style={{marginBottom: '30px'}}>
+                            <div className='item col6'>
+                                <div className='planCardFirst'>
                                     <div
-                                        class='left'
+                                        className='left'
                                          style={{ backgroundImage: `url(${CardBg1})` }}
                                     >
-                                        <span class='cap'>#PACKAGE A</span>
-                                        <div class='descr'>
-                                            <span class='pct'>10%</span>
+                                        <span className='cap'>#PACKAGE A</span>
+                                        <div className='descr'>
+                                            <span className='pct'>10%</span>
                                             <span>48 HOURS</span>
                                             <a
                                                 href='register.php'
-                                                class='btnFillColor1Md'
+                                                className='btnFillColor1Md'
                                             >
                                                 Make deposit
                                             </a>
                                         </div>
                                     </div>
-                                    <ul class='info'>
+                                    <ul className='info'>
                                         <li>
                                             Min Deposit <span>50 USD</span>
                                         </li>
@@ -52,32 +52,34 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
+                                    alt=''
                                         src={{A1}}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
+                            
                         
-
-                            <div class='item col6'>
-                                <div class='planCardSecond'>
+ 
+                            <div className='item col6'>
+                                <div className='planCardSecond'>
                                     <div
-                                        class='left'
+                                        className='left'
                                         style={{ backgroundImage: `url(${CardBg2})` }}
                                     >
-                                        <span class='cap'>#PACKAGE B</span>
-                                        <div class='descr'>
-                                            <span class='pct'>20%</span>
+                                        <span className='cap'>#PACKAGE B</span>
+                                        <div className='descr'>
+                                            <span className='pct'>20%</span>
                                             <span>4 Work Days</span>
                                             <a
                                                 href='register.php'
-                                                class='btnFillColor2Md'
+                                                className='btnFillColor2Md'
                                             >
                                                 Make deposit
                                             </a>
                                         </div>
                                     </div>
-                                    <ul class='info'>
+                                    <ul className='info'>
                                         <li>
                                             Min Deposit <span>200 USD</span>
                                         </li>
@@ -86,33 +88,34 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
+                                    alt=''
                                         src={B}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div> 
-                            */}
+                            </div>
 
-                        // <div class='row' style={{marginBottom: '30px'}>
-                            <div class='item col6'>
-                                <div class='planCardFirst'>
+                         <div className='row' style={{marginBottom: '30px'}}>
+                            <div className='item col6'>
+                                <div className='planCardFirst'> 
                                     <div
-                                        class='left'
+                                        className='left'
                                         style={{ backgroundImage: `url(${CardBg1})` }}
                                                 >
-                                        <span class='cap'>#PACKAGE C</span>
-                                        <div class='descr'>
-                                            <span class='pct'>30%</span>
+                                        <span className='cap'>#PACKAGE C</span>
+                                        <div className='descr'>
+                                            <span className='pct'>30%</span>
                                             <span>6 Work Days</span>
                                             <a
                                                 href='register.php'
-                                                class='btnFillColor1Md'
+                                                className='btnFillColor1Md'
                                             >
                                                 Make deposit
                                             </a>
                                         </div>
                                     </div>
-                                    <ul class='info'>
+                                    <ul className='info'>
                                         <li>
                                             Min Deposit <span>500 USD</span>
                                         </li>
@@ -121,31 +124,33 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
+                                    alt=''
                                         src={C}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
+                            
 
-                            <div class='item col6'>
-                                <div class='planCardSecond'>
+                            <div className='item col6'>
+                                <div className='planCardSecond'>
                                     <div
-                                        class='left'
+                                        className='left'
                                         style={{ backgroundImage: `url(${CardBg2})` }}
                                     >
-                                        <span class='cap'>#PACKAGE D</span>
-                                        <div class='descr'>
-                                            <span class='pct'>40%</span>
+                                        <span className='cap'>#PACKAGE D</span>
+                                        <div className='descr'>
+                                            <span className='pct'>40%</span>
                                             <span>8 Work Days</span>
                                             <a
                                                 href='register.php'
-                                                class='btnFillColor2Md'
+                                                className='btnFillColor2Md'
                                             >
                                                 Make deposit
                                             </a>
                                         </div>
                                     </div>
-                                    <ul class='info'>
+                                    <ul className='info'>
                                         <li>
                                             Min Deposit <span>1,000 USD</span>
                                         </li>
@@ -154,32 +159,32 @@ function Pricing() {
                                         </li>
                                     </ul>
                                     <img
+                                    alt=''
                                         src={D}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
                             </div>
-                                        
+                            
 
-
-                         <div class='row'>
-                             <div class='item col6'>
-                                 <div class='planCardFirst'>
+                         <div className='row'>
+                             <div className='item col6'>
+                                 <div className='planCardFirst'>
                                      <div
-                                        class='left'
-                                         style={{ backgroundImage: `url(${CardBg1})` }}>                                        <span class='cap'>#PACKAGE E</span>
-                                        <div class='descr'>
-                                            <span class='pct'>60%</span>
+                                        className='left'
+                                         style={{ backgroundImage: `url(${CardBg1})` }}>                                        <span className='cap'>#PACKAGE E</span>
+                                        <div className='descr'>
+                                            <span className='pct'>60%</span>
                                             <span>10 Work Days</span>
                                             <a
                                                 href='register.php'
-                                                class='btnFillColor1Md'
+                                                className='btnFillColor1Md'
                                             >
                                                 Make deposit
                                             </a>
                                         </div>
                                     </div>
-                                    <ul class='info'>
+                                    <ul className='info'>
                                         <li>
                                             Min Deposit <span>5,000 USD</span>
                                         </li>
@@ -195,25 +200,25 @@ function Pricing() {
                                 </div>
                             </div>
 
-                            <div class='item col6'>
-                                <div class='planCardSecond'>
+                            <div className='item col6'>
+                                <div className='planCardSecond'>
                                     <div
-                                        class='left'
+                                        className='left'
                                         style={{ backgroundImage: `url(${CardBg2})` }}
                                     >
-                                        <span class='cap'>#PACKAGE F</span>
-                                        <div class='descr'>
-                                            <span class='pct'>80%</span>
+                                        <span className='cap'>#PACKAGE F</span>
+                                        <div className='descr'>
+                                            <span className='pct'>80%</span>
                                             <span>12 Work Days</span>
                                             <a
                                                 href='register.php'
-                                                class='btnFillColor2Md'
+                                                className='btnFillColor2Md'
                                             >
                                                 Make deposit
                                             </a>
                                         </div>
                                     </div>
-                                    <ul class='info'>
+                                    <ul className='info'>
                                         <li>
                                             Min Deposit <span>10,000 USD</span>
                                         </li>
@@ -234,10 +239,10 @@ function Pricing() {
                     
 
                     <div
-                        class='container'
+                        className='container'
                         style={{marginTop: '40px', marginBottom: '40px'}}
                     >
-                        <div class='textBlock'>
+                        <div className='textBlock'>
                             <h3>WHY ROBOT TRADING</h3>
                             <p>
                                 There are several other trading programs in the
@@ -271,19 +276,19 @@ function Pricing() {
                         </div>
                     </div>
 
-                    <div class='item col6'>
-                        <div class='planCardSecond'>
+                    <div className='item col6'>
+                        <div className='planCardSecond'>
                             <div
-                                class='left'
+                                className='left'
                                 style={{ backgroundImage: `url(${CardBg2})` }}
                             >
-                                <span class='cap'>TRADING PLAN</span>
-                                <div class='descr'>
-                                    <span class='pct'>EXTRA</span>
+                                <span className='cap'>TRADING PLAN</span>
+                                <div className='descr'>
+                                    <span className='pct'>EXTRA</span>
                                     <span>BONUS</span>
                                     <a
                                         href='register.php'
-                                        class='btnFillColor2Md'
+                                        className='btnFillColor2Md'
                                     >
                                         Make deposit
                                     </a>
@@ -293,6 +298,7 @@ function Pricing() {
                     </div>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     )
