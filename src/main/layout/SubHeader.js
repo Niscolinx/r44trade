@@ -2,94 +2,12 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import { CgCalendarDates } from 'react-icons/cg'
-import { MdEmail } from 'react-icons/md'
-import { AiFillPhone } from 'react-icons/ai'
-import { IoLogoWhatsapp } from 'react-icons/io'
-
 import GetCurrentDate from '../../util/getCurrentDate'
 
 function SubHeader(props) {
-    const [checked, setChecked] = useState(false)
 
-    const collapseMenu = () => {
-        setChecked((old) => !old)
-    }
+   // const auth = props.auth
 
-    const auth = props.auth
-
-    let mobileNav = (
-        <>
-            <li className='navigation__item'>
-                <Link
-                    to='/Auth/login'
-                    className='navigation__link navigation__link--auth'
-                    onClick={() => {
-                        collapseMenu()
-                    }}
-                >
-                    Login
-                </Link>
-            </li>
-            <li className='navigation__item'>
-                <Link
-                    to='/Auth/signup'
-                    className='navigation__link navigation__link--auth'
-                    onClick={() => {
-                        collapseMenu()
-                    }}
-                >
-                    Signup
-                </Link>
-            </li>
-        </>
-    )
-
-    let nav = (
-        <>
-            <Link
-                to='/Auth/login'
-                className='subHeader__list--item subHeader__list-item--auth'
-            >
-                <li>login</li>
-            </Link>
-            <Link
-                to='/Auth/signup'
-                className='subHeader__list--item subHeader__list-item--auth'
-            >
-                <li>signup</li>
-            </Link>
-        </>
-    )
-
-    if (auth) {
-        mobileNav = (
-            <>
-                <li className='navigation__item'>
-                    <Link
-                        to='/admin/dashboard'
-                        className='navigation__link navigation__link--auth'
-                        onClick={() => {
-                            collapseMenu()
-                        }}
-                    >
-                        Dashboard
-                    </Link>
-                </li>
-            </>
-        )
-
-        nav = (
-            <>
-                <Link
-                    to='/admin/dashboard'
-                    className='subHeader__list--item subHeader__list-item--auth'
-                >
-                    <li>Dashboard</li>
-                </Link>
-            </>
-        )
-    }
 
     return (
         <>
