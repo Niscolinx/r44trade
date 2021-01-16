@@ -7,6 +7,7 @@ import Profile from '../images/profile.jpg'
 
 import { AiFillPhone, AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import {IoIosPeople} from 'react-icons/io'
+import {MdLowPriority} from 'react-icons/md'
 
 
 function AboutUs() {
