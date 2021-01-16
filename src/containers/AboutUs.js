@@ -253,7 +253,7 @@ font-size: 16px;} */}
                                         </div>
                                         <div className='item col4'>
                                             <div className='in'>
-                                                <span className='icon-pass gradTxt'></span>
+                                                <span className='icon-pass gradTxt'><SiAutotask/></span>
                                                 <span className='title'>
                                                     AUTO TRADING 24/7
                                                 </span>
