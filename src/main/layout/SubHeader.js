@@ -61,7 +61,7 @@ function SubHeader(props) {
                             </div>
 
                             <div className='clock tCell right'>
-                                <span className='time gradTxt' id='time'></span>
+                                <span className='time gradTxt' id='time'><GetCurrentDate/></span>
                                 <span className='date'>
                                     <span className='day' id='day'></span>
                                     <span className='year' id='year'></span>
