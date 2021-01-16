@@ -306,7 +306,7 @@ function Layout(props) {
                                             }}
                                         >
                                             {' '}
-                                            <AiOutlineFileProtect />
+                                            <AiOutlineFileProtect className='icon-adv__item'/>
                                         </span>
                                         <span
                                             className='data'
