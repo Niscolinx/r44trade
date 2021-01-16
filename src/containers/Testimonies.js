@@ -1,6 +1,9 @@
 import React from 'react'
 import NewsPageBg from '../images/news_page_bg.jpg'
 import GreyBgBig from '../images/grey_bg_big.png'
+import Testimonial1 from '../images/testimonial-1.jpg'
+import Testimonial2 from '../images/testimonial-2.jpg'
+import Testimonial3 from '../images/testimonial-3.jpg'
 
 
 function Testimonies() {
@@ -32,10 +35,10 @@ function Testimonies() {
 			Wayne 
 			</span><p>I've been investing with Robot22trade apparently over 8 months now and i can tell you it's worth trying robot22trade is the best 🤑...
 			</p></div></div><div class="item col4"><div class="newsCard"><div class="img" style="background-image: url(user.png);"></div><span class="title">
-			Dr Wayne 
+			Dr Anderson 
 			</span><p>I've been investing with Robot22trade apparently over 8 months now and i can tell you it's worth trying . Robot22trade is the best 🤑...
 			</p></div></div><div class="item col4"><div class="newsCard"><div class="img" style="background-image: url(user.png);"></div><span class="title">
-			Harry 
+			Elizabeth 
 			</span><p>I am excited to be part of this great program. ...
 			</p></div></div> 
 
