@@ -65,11 +65,13 @@ font-size: 16px;} */}
                                 <div class='license'>
                                     <div
                                         class='img invisLink'
-                                        style='background-image: url(img/qr-code.jpg);'
+                                        style={{
+                                            backgroundImage: `url(${Profile})`,
+                                        }}
                                     >
                                         <a
                                             href='https://beta.companieshouse.gov.uk/company/12143668'
-                                            target='_blank'
+                                            target='#blank'
                                         >
                                             license
                                         </a>
