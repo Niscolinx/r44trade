@@ -1,12 +1,12 @@
 import React from 'react'
-import RulesPageBg from '../i'
+import RulesPageBg from '../images/rules_bg_bg.jpg'
 
 function Pricing() {
     return (
         <>
             <div
                 class='pageBanner'
-                style='background-image: url(img/rules_page_bg.jpg);'
+                    style={{ backgroundImage: `url(${RulesPageBg})` }}
             >
                 <div class='container'>
                     <span class='heading'>Pricing</span>
