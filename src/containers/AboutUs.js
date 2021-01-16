@@ -8,8 +8,7 @@ function AboutUs() {
         <>
         
 
-<style>
-.sbmt {background-color: #008CBA; 
+{/* .sbmt {background-color: #008CBA; 
 width: 300px;
 border: none;
 color: white;
@@ -27,11 +26,8 @@ padding: 15px 32px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 16px;}
-</style>
+font-size: 16px;} */}
 
-</head>
-<body>
 
 <div style="position: fixed; z-index: 99999; left: 20px; bottom: 20px;">
 	<a href="http://wa.me/+447723536106">
