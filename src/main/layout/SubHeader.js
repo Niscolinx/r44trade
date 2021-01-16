@@ -84,7 +84,7 @@ function SubHeader(props) {
                         <center>
                             <ul>
                                 <li>
-                                    <a href='index.php'>HOME</a>
+                                    <Link to='/'>HOME</Link>
                                 </li>
                                 <li>
                                     <Link to='/about-us'>ABOUT US</Link>
