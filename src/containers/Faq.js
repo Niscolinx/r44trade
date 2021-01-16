@@ -317,7 +317,7 @@ const Faq = () => {
                                             <strong>
                                                 <span style={{color: '#3366ff'}}>
                                                     <a
-                                                        style='color: #3366ff;'
+                                                        style={{color: '#3366ff'}}
                                                         href='robot22trade.com'
                                                         target='_blank'
                                                         rel='noopener'
