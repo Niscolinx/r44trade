@@ -53,7 +53,7 @@ function Pricing() {
                                     </ul>
                                     <img
                                     alt=''
-                                        src={{A1}}
+                                        src={A1}
                                         style={{width: '80%', marginTop: '20px'}}
                                     />
                                 </div>
