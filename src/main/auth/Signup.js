@@ -602,7 +602,6 @@ $(document).ready(function(){
             <option value="blue">Blue</option>
         </select>
     </div>
---> 
 
 
 
@@ -624,7 +623,7 @@ $(document).ready(function(){
 
 <div class="formBlockLight">
 <label for="regName">Mobile No:</label>
-<input type=number name=phone value="">
+<input type='number' name='phone' value=""/>
 <span class="icon-phone"></span>
 </div>
 
