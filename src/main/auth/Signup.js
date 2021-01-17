@@ -357,7 +357,7 @@ const Signup = (props) => {
                 </form>
             </Auth>
 
-            <div class='bodyWrap'>
+            {/* <div class='bodyWrap'>
                 <div
                     class='logRegPage'
                     style={{
@@ -554,7 +554,7 @@ $(document).ready(function(){
         });
     }).change();
 });
-</script> */}
+</script> 
 
                                     <div>
                                         <select class='signup__select'>
@@ -1461,7 +1461,7 @@ $(document).ready(function(){
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
