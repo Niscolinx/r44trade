@@ -179,12 +179,12 @@ Robot 22 Trade
 <div class="item">
 <div class="formBlockLight">
 <label>Email Address:</label>
-<input type=text name=username value='' autofocus="autofocus">
+<input type='text' name='username' value='' autofocus="autofocus"/>
 <span class="icon-login"></span>
 </div>
 <div class="formBlockLight">
 <label for="logPass">Password:</label>
-<input type=password name=password value=''>
+<input type='password' name='password' value=''/>
 <span class="icon-pass"></span>
 </div>
 <a href="email_access.php" class="passLink">Forgot password?</a>
@@ -195,7 +195,7 @@ Robot 22 Trade
 </div>
 
 <div class="bottomLine table full">
-<p class="copy tCell middle left">© 2021 Robot22 Trade. All rights reserved.</p>
+<p class="copy tCell middle left">© 2021 Robot44 Trade. All rights reserved.</p>
  
 </div>
 </div>
