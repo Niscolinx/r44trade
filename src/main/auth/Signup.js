@@ -375,7 +375,6 @@ const Signup = (props) => {
                             <Auth message={message}>
                             
                             <form
-                                method='post'
                                 onsubmit={handleSignup}
                                 name='regform'
                                 style={{ marginTop: '45px', padding: '5rem' }}
