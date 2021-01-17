@@ -38,7 +38,6 @@ const Auth = (props) => {
 
     return (
         <section
-            className={props.login ? 'auth-form auth-form__login' : 'auth-form'}
         >
             <p className={authMessage.join(' ')} style={messageStyle}>
                 {messageToDisplay}
