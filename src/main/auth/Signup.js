@@ -375,7 +375,7 @@ const Signup = (props) => {
                             <Auth message={message}>
                             
                             <form
-                                onsubmit={handleSignup}
+                                onSubmit={handleSignup}
                                 name='regform'
                                 style={{ marginTop: '45px', padding: '5rem' }}
                             >
