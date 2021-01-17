@@ -38,10 +38,10 @@ function SubHeader(props) {
                             </div>
                         </div>
                         <div className='logReg tCell right'>
-                            <Link to='/login' className='btnFillColor1Sm'>
+                            <Link to='/Auth/login' className='btnFillColor1Sm'>
                                 login
                             </Link>
-                            <Link to='/signup' className='btnFillColor2Sm'>
+                            <Link to='/Auth/signup' className='btnFillColor2Sm'>
                                 sign up
                             </Link>
                         </div>
