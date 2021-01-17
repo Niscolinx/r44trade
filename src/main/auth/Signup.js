@@ -611,6 +611,9 @@ $(document).ready(function(){
 });
 </script> */}
 
+
+
+
                                     <div>
                                         <select class='signup__select'>
                                             <option>Choose Color</option>
