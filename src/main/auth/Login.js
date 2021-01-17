@@ -12,7 +12,7 @@ import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
 import GradBgBig from '../../images/grey_bg_big.png'
-import LogRegBg from '../../images/logreg_bg.png'
+import LogRegBg from '../../images/logreg_bg.jpg'
 import Logo from '../../images/logos.png'
 
 const Login = (props) => {
