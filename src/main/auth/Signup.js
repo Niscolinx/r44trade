@@ -168,7 +168,7 @@ const Signup = (props) => {
 
     return (
         <>
-            <Particles
+            {/* <Particles
                 className='particles'
                 // style={{
                 //     background: 'red',
@@ -180,20 +180,15 @@ const Signup = (props) => {
                 //     // right: 0,
                 //     // bottom: 0,
                 // }}
-                params={{
-                    particles: {
-                        number: {
-                            value: 70,
-                        },
+                 params={{
+                particles: {
+        number: {
+            value: 70,
                     },
-                }}
+    },
+               }}
             />
-            <Auth
-                message={message}
-                style={{
-                    backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
-                }}
-            >
+            <Auth message={message}>
                 <form onSubmit={handleSignup} className='form__box'>
                     <div className='form-1'>
                         <h3 className='heading-3 form__heading'>
@@ -355,9 +350,9 @@ const Signup = (props) => {
                         </Button>
                     </div>
                 </form>
-            </Auth>
+            </Auth> */}
 
-            {/* <div class='bodyWrap'>
+            <div class='bodyWrap'>
                 <div
                     class='logRegPage'
                     style={{
@@ -463,6 +458,65 @@ const Signup = (props) => {
                                             <span class='icon-wallet'></span>
                                         </div>
 
+                                        {/* <script>
+$(document).ready(function(){
+    $("#payment_mode").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            
+            if(optionValue == "btc")
+            {
+                $("#bank_name").hide();
+                $("#account_name").hide();
+                $("#acc_num").hide();
+                $("#btc").show();
+                $("#eth").hide();
+            } 
+            else if(optionValue == "eth")
+            {
+                $("#bank_name").hide();
+                $("#account_name").hide();
+                $("#acc_num").hide();
+                $("#btc").hide();
+                $("#eth").show();
+            } 
+        });
+    }).change();
+}); */}
+
+                                        {/* $(document).ready(function(){
+    $("#payment_mode2").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue == "bank")
+            {
+                $("#bank_name").show();
+                $("#account_name").show();
+                $("#acc_num").show();
+                $("#btc").hide();
+                $("#eth").hide();
+            } 
+            else if(optionValue == "btc")
+            {
+                $("#bank_name").hide();
+                $("#account_name").hide();
+                $("#acc_num").hide();
+                $("#btc").show();
+                $("#eth").hide();
+            } 
+            else if(optionValue == "eth")
+            {
+                $("#bank_name").hide();
+                $("#account_name").hide();
+                $("#acc_num").hide();
+                $("#btc").hide();
+                $("#eth").show();
+            } 
+        });
+    }).change();
+});
+</script> */}
+
                                         <div
                                             class='formBlockLight'
                                             id='btc'
@@ -499,7 +553,8 @@ const Signup = (props) => {
                                         </div>
                                     </div>
 
-                                    {/* <style>
+                                    
+{/* <style>
     .box{
         color: #fff;        padding: 20px;
         display: none;        margin-top: 20px;
@@ -554,7 +609,8 @@ $(document).ready(function(){
         });
     }).change();
 });
-</script> 
+</script> */}
+
 
                                     <div>
                                         <select class='signup__select'>
@@ -1461,7 +1517,7 @@ $(document).ready(function(){
                         </p>
                     </div>
                 </div>
-            </div> */}
+            </div>
         </>
     )
 }
