@@ -142,6 +142,82 @@ const Login = (props) => {
                     </div>
                 </form>
             </Auth> */}
+
+
+            <div class="bodyWrap">
+<div class="logRegPage" style="background-image: url(img/grad_bg_big.png), url(img/logreg_bg.jpg);">
+<div class="container">
+<div class="head">
+<div class="logo invisLink"> 
+<img src="img/logo.png" alt="logo" height="70px;" />
+Robot 22 Trade
+<a href="index.php">main</a>
+</div>
+</div>
+
+
+
+
+<script language=javascript>
+function checkform() {
+if (document.mainform.username.value=='') {
+alert("Please type your username!");
+document.mainform.username.focus();
+return false;
+
+
+}
+if (document.mainform.password.value=='') {
+alert("Please type your password!");
+document.mainform.password.focus();
+return false;
+}
+return true;
+}
+</script>
+
+
+
+
+
+<div class="content">
+<div class="captionLight center">Login</div>
+<div class="wrap login">
+
+
+<form class="formLogin" method=post name=mainform onsubmit="return checkform()" >
+<input type="hidden" name="form_id" value="15866293451389"><input type="hidden" name="form_token" value="9ad9bf9b44b0633b580deabc9c079f47">
+<input type=hidden name=a value='do_login'>
+<input type=hidden name=follow value=''>
+<input type=hidden name=follow_id value=''>
+
+
+<div class="item">
+<div class="formBlockLight">
+<label>Email Address:</label>
+<input type=text name=username value='' autofocus="autofocus">
+<span class="icon-login"></span>
+</div>
+<div class="formBlockLight">
+<label for="logPass">Password:</label>
+<input type=password name=password value=''>
+<span class="icon-pass"></span>
+</div>
+<a href="email_access.php" class="passLink">Forgot password?</a>
+<button type="submit" class="btnFillDarkMd" name="post">Login</button>
+</div>
+</form>
+</div>
+</div>
+
+<div class="bottomLine table full">
+<p class="copy tCell middle left">© 2021 Robot22 Trade. All rights reserved.</p>
+ 
+</div>
+</div>
+<div class="circleBg"><div class="circle"></div></div>
+</div>
+</div>
         </>
     )
 }
