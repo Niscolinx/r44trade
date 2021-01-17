@@ -373,9 +373,10 @@ const Signup = (props) => {
                         <div class='captionLight center'>REGISTRATION</div>
                         <div class='wrap'>
                             <Auth message={message}>
+                            
                             <form
                                 method='post'
-                                onsubmit={handleSignup}}
+                                onsubmit={handleSignup}
                                 name='regform'
                                 style={{ marginTop: '45px', padding: '5rem' }}
                             >
@@ -1438,7 +1439,7 @@ $(document).ready(function(){
                                     </div>
                                 </div>
                             </form>
-                            
+                            </Auth>
                         </div>
                     </div>
 
