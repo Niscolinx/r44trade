@@ -664,9 +664,7 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                                <label for='regLogin'>
-                                                    confirm Password:
-                                                </label>
+                                             
                                                 <Input
                                                     id='confirmPassword'
                                                     label='confirm Password'
