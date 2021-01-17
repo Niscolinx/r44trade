@@ -154,32 +154,11 @@ const Login = (props) => {
 <div class="container">
 <div class="head">
 <div class="logo invisLink"> 
-<img src="img/logo.png" alt="logo" height="70px;" />
+<img src={Logo} alt="logo" height="70px;" />
 Robot 22 Trade
-<a href="index.php">main</a>
+<Link to="/">main</Link>
 </div>
 </div>
-
-
-
-
-<script language=javascript>
-function checkform() {
-if (document.mainform.username.value=='') {
-alert("Please type your username!");
-document.mainform.username.focus();
-return false;
-
-
-}
-if (document.mainform.password.value=='') {
-alert("Please type your password!");
-document.mainform.password.focus();
-return false;
-}
-return true;
-}
-</script>
 
 
 
