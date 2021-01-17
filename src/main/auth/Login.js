@@ -169,8 +169,8 @@ Robot 22 Trade
 <div class="wrap login">
 
 
-<form class="formLogin" method=post name=mainform onsubmit="return checkform()" >
-<input type="hidden" name="form_id" value="15866293451389"><input type="hidden" name="form_token" value="9ad9bf9b44b0633b580deabc9c079f47">
+<form class="formLogin" method='post' name='mainform' onsubmit="return checkform()" >
+<input type="hidden" name="form_id" value="15866293451389"/><input type="hidden" name="form_token" value="9ad9bf9b44b0633b580deabc9c079f47"/>
 <input type=hidden name=a value='do_login'>
 <input type=hidden name=follow value=''>
 <input type=hidden name=follow_id value=''>
