@@ -254,11 +254,8 @@ span.color2 {
     z-index: -1;
 }
 
-.icon-login{
-    display: flex;
-    background-color: red;
-    color: blue;
-}
+
+
 .signup__select{
     margin-top: 12px;
     height: 46px;
@@ -1000,7 +997,7 @@ span.color2 {
 
 [class*='formBlock'] > [class*='icon'] {
     position: absolute;
-    bottom: 0px;
+    bottom: -4px;
     right: 19px;
     font-size: 21px;
     line-height: 46px;
