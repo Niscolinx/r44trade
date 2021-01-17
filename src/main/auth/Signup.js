@@ -588,22 +588,33 @@ const Signup = (props) => {
                                                 <label for='regName'>
                                                     Country:
                                                 </label>
-                                                <select
-                                                    class='form-control input--squared input--dark signup__select'
-                                                    name='country'
-                                                    id='country'
-                                                >
-                                                    <option value='AF'>
-                                                        -Select Country-
-                                                    </option>
-                                                    <option value='AF'>
-                                                        Afghanistan
-                                                    </option>
-
-                                                    <option value='ZW'>
-                                                        Zimbabwe
-                                                    </option>
-                                                </select>
+                                                <Input
+                                                    id='confirmEmail'
+                                                    label='Confirm E-Mail'
+                                                    type='email'
+                                                    control='input'
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'confirmEmail'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'confirmEmail'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'confirmEmail'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'confirmEmail'
+                                                        ].touched
+                                                    }
+                                                />
                                                 <span class='icon-location'></span>
                                             </div>
 
@@ -632,11 +643,33 @@ const Signup = (props) => {
                                                 <label for='regLogin'>
                                                     Account Name:
                                                 </label>
-                                                <input
+                                                <Input
+                                                    id='secretAnswer'
+                                                    label='Secret Answer'
                                                     type='text'
-                                                    name='acc_name'
-                                                    value=''
-                                                    placeholder='John Doe'
+                                                    control='input'
+                                                    minLength={6}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'secretAnswer'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'secretAnswer'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'secretAnswer'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'secretAnswer'
+                                                        ].touched
+                                                    }
                                                 />
                                                 <span class='icon-wallet'></span>
                                             </div>
@@ -655,13 +688,6 @@ const Signup = (props) => {
                                                     </a>
                                                 </label>
                                             </div>
-                                            {/* 
-                                        <input
-                                            type='submit'
-                                            value='Submit'
-                                            class='btnFillDarkMd'
-                                            name='post'
-                                        /> */}
                                             <input
                                                 design='raised'
                                                 type='submit'
@@ -705,28 +731,71 @@ const Signup = (props) => {
                                                 <label for='regPass'>
                                                     Password:
                                                 </label>
-                                                <input
+                                                <Input
+                                                    id='password'
+                                                    label='Password'
                                                     type='password'
-                                                    name='password'
-                                                    value=''
-                                                    required=''
+                                                    control='input'
+                                                    minLength={6}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'password'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'password'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'password'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'password'
+                                                        ].touched
+                                                    }
                                                 />
+
                                                 <span class='icon-pass'></span>
                                             </div>
 
                                             <div
                                                 class='formBlockLight'
-                                                id='acc_num'
-                                                style={{ display: 'none' }}
                                             >
                                                 <label for='regLogin'>
                                                     Account Number:
                                                 </label>
-                                                <input
-                                                    type='text'
-                                                    name='acc_num'
-                                                    value=''
-                                                    placeholder='0082343874'
+                                                <Input
+                                                    id='confirmPassword'
+                                                    label='confirm Password'
+                                                    type='password'
+                                                    control='input'
+                                                    minLength={6}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'confirmPassword'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'confirmPassword'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'confirmPassword'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'confirmPassword'
+                                                        ].touched
+                                                    }
                                                 />
                                                 <span class='icon-wallet'></span>
                                             </div>
