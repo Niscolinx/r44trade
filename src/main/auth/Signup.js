@@ -556,9 +556,7 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                                <label for='regName'>
-                                                    Confirm Email*:
-                                                </label>
+                                              
                                                 <Input
                                                     id='confirmEmail'
                                                     label='Confirm E-Mail'
@@ -589,7 +587,6 @@ const Signup = (props) => {
                                                 <span class='icon-location'></span>
                                             </div>
 
-                                            <div class='agree'>
                                                 <Input
                                                     id='signupCheckbox'
                                                     label='checkbox'
@@ -597,6 +594,7 @@ const Signup = (props) => {
                                                     control='checkbox'
                                                     onChange={checkboxHandler}
                                                 />
+                                            <div class='agree'>
 
                                                 <label for='regCheck'>
                                                     I agree{' '}
@@ -622,7 +620,7 @@ const Signup = (props) => {
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
                                                 <label for='invName'>
-                                                    Referral:
+                                                    REFERRAL
                                                 </label>
                                                 <input
                                                     type='text'
@@ -632,9 +630,7 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                                <label for='regPass'>
-                                                    Password:
-                                                </label>
+                                               
                                                 <Input
                                                     id='password'
                                                     label='Password'
