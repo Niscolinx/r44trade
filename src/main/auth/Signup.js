@@ -496,65 +496,6 @@ const Signup = (props) => {
                                         </div>
                                     </div>
 
-                                    
-{/* <style>
-    .box{
-        color: #fff;        padding: 20px;
-        display: none;        margin-top: 20px;
-    }
-    .red{ background: #ff0000; }
-    .green{ background: #228B22; }
-    .blue{ background: #0000ff; }
-    
-
-</style> */}
-
-                                    {/* <script>
-$(document).ready(function(){
-    $("#country").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            if(optionValue == "NG")
-            {
-                $("#select_payment_mode2").show(); 
-                $("#select_payment_mode").hide(); 
-            } 
-            else
-            {
-                $("#select_payment_mode2").hide(); 
-                $("#select_payment_mode").show(); 
-            }
-        });
-    }).change();
-});
-</script>
-
-
-
-
-<!--
-
-
-<script>
-$(document).ready(function(){
-    $("#country").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            if(optionValue)
-            {
-                $(".box").not("." + optionValue).hide();
-                $("." + optionValue).show();
-            } 
-            else
-            {
-                $(".box").hide();
-            }
-        });
-    }).change();
-});
-</script> */}
-
-
                                     <div class='item col4'>
                                         <div class='formBlockLight'>
                                             <label for='regName'>
