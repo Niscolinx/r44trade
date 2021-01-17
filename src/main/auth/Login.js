@@ -93,7 +93,7 @@ const Login = (props) => {
 
     return (
         <>
-            <Particles
+            {/* <Particles
                 className='particles'
                 params={{
                     particles: {
@@ -141,7 +141,7 @@ const Login = (props) => {
                         </Link>
                     </div>
                 </form>
-            </Auth>
+            </Auth> */}
         </>
     )
 }
