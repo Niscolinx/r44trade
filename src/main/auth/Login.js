@@ -14,6 +14,7 @@ import Auth from './Auth'
 
 import GradBgBig from '../images/grad_bg_big.png'
 import LogRegBg from '../images/logreg_bg.png'
+import Logo from '../images/logos.png'
 
 const Login = (props) => {
     const [state, setState] = useState({
