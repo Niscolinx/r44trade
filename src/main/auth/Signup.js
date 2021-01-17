@@ -920,21 +920,21 @@ $(document).ready(function(){
 
 <div class="formBlockLight">
 <label for="invName">Referral:</label>
-<input type="text" name=referral>
+<input type="text" name='referral'/>
 <span class="icon-login"></span>
 </div>
 
 
 <div class="formBlockLight">
 <label for="regMail">E-mail:</label>
-<input type=text name=email value="" required="" />
+<input type='text' name='email' value="" required="" />
 <span class="icon-mail"></span>
 </div>
 
 
 <div class="formBlockLight">
 <label for="regPass">Password:</label>
-<input type=password name=password value="" required="" />
+<input type='password' name='password' value="" required="" />
 <span class="icon-pass"></span>
 </div>
  
@@ -942,7 +942,7 @@ $(document).ready(function(){
 
 <div class="formBlockLight" id="acc_num" style={{display: 'none'}}>
 <label for="regLogin">Account Number:</label>
-<input type="text" name="acc_num" value="" placeholder="0082343874">
+<input type="text" name="acc_num" value="" placeholder="0082343874"/>
 <span class="icon-wallet"></span>
 </div>
 
