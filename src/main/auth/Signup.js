@@ -372,11 +372,12 @@ const Signup = (props) => {
                     <div class='content'>
                         <div class='captionLight center'>REGISTRATION</div>
                         <div class='wrap'>
+                            <Auth message={message}>
                             <form
                                 method='post'
-                                onsubmit='return checkform()'
+                                onsubmit={handleSignup}}
                                 name='regform'
-                                style={{ marginTop: '45px' }}
+                                style={{ marginTop: '45px', padding: '5rem' }}
                             >
                                 <div class='row'>
                                     <div class='item col4'>
@@ -457,65 +458,6 @@ const Signup = (props) => {
                                             </select>
                                             <span class='icon-wallet'></span>
                                         </div>
-
-                                        {/* <script>
-$(document).ready(function(){
-    $("#payment_mode").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            
-            if(optionValue == "btc")
-            {
-                $("#bank_name").hide();
-                $("#account_name").hide();
-                $("#acc_num").hide();
-                $("#btc").show();
-                $("#eth").hide();
-            } 
-            else if(optionValue == "eth")
-            {
-                $("#bank_name").hide();
-                $("#account_name").hide();
-                $("#acc_num").hide();
-                $("#btc").hide();
-                $("#eth").show();
-            } 
-        });
-    }).change();
-}); */}
-
-                                        {/* $(document).ready(function(){
-    $("#payment_mode2").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            if(optionValue == "bank")
-            {
-                $("#bank_name").show();
-                $("#account_name").show();
-                $("#acc_num").show();
-                $("#btc").hide();
-                $("#eth").hide();
-            } 
-            else if(optionValue == "btc")
-            {
-                $("#bank_name").hide();
-                $("#account_name").hide();
-                $("#acc_num").hide();
-                $("#btc").show();
-                $("#eth").hide();
-            } 
-            else if(optionValue == "eth")
-            {
-                $("#bank_name").hide();
-                $("#account_name").hide();
-                $("#acc_num").hide();
-                $("#btc").hide();
-                $("#eth").show();
-            } 
-        });
-    }).change();
-});
-</script> */}
 
                                         <div
                                             class='formBlockLight'
@@ -1496,6 +1438,7 @@ $(document).ready(function(){
                                     </div>
                                 </div>
                             </form>
+                            
                         </div>
                     </div>
 
