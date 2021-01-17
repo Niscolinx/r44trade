@@ -419,9 +419,7 @@ const Signup = (props) => {
                                                 </span>
                                             </div>
                                             <div class='formBlockLight'>
-                                                <label for='regLogin'>
-                                                    UserName:*
-                                                </label>
+                                              
                                                 <Input
                                                     id='username'
                                                     label='Username'
@@ -455,9 +453,7 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                                <label for='regLogin'>
-                                                    Bitcoin Account:
-                                                </label>
+                                               
                                                 <Input
                                                     id='bitcoinAccount'
                                                     label='Bitcoin Account'
@@ -491,9 +487,7 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                                <label for='regLogin'>
-                                                    Ethereum Account
-                                                </label>
+                                             
                                                 <Input
                                                     id='ethereumAccount'
                                                     label='Ethereum Account'
