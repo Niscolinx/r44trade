@@ -1375,13 +1375,24 @@ $(document).ready(function(){
                                                 </a>
                                             </label>
                                         </div>
-
+{/* 
                                         <input
                                             type='submit'
                                             value='Submit'
                                             class='btnFillDarkMd'
                                             name='post'
-                                        />
+                                        /> */}
+                                        <input
+                            design='raised'
+                            type='submit'
+                            value='Submit'
+                            name='post'
+                            loading={props.loading}
+                                                                        class='btnFillDarkMd'
+
+                        >
+                            {props.loading ? 'Loading...' : 'Signup'}
+                        </input>
                                     </div>
 
                                     <div class='item col4'>
