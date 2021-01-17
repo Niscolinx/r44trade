@@ -11,6 +11,9 @@ import Input from '../Input'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
+
+import GradBgBig from '../images/grad_bg_big.jpg'
+
 const Login = (props) => {
     const [state, setState] = useState({
         loginForm: {

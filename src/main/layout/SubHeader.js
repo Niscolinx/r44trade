@@ -38,12 +38,12 @@ function SubHeader(props) {
                             </div>
                         </div>
                         <div className='logReg tCell right'>
-                            <a href='login.php' className='btnFillColor1Sm'>
+                            <Link to='/login' className='btnFillColor1Sm'>
                                 login
-                            </a>
-                            <a href='register.php' className='btnFillColor2Sm'>
+                            </Link>
+                            <Link to='/signup' className='btnFillColor2Sm'>
                                 sign up
-                            </a>
+                            </Link>
                         </div>
 
                         <div className='socContHead lang tCell right'>
