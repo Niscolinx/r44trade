@@ -438,7 +438,9 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-login'><AiFillPhone/></span>
+                                                <span class='icon-login'>
+                                                    <AiFillPhone />
+                                                </span>
                                             </div>
 
                                             <div
@@ -704,6 +706,9 @@ const Signup = (props) => {
                         <p class='copy tCell middle left'>
                             © 2021 Robot22 Trade. All rights reserved.
                         </p>
+                    </div>
+                    <div class='circleBg'>
+                        <div class='circle'></div>
                     </div>
                 </div>
             </div>
