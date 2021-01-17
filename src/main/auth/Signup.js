@@ -385,11 +385,10 @@ const Signup = (props) => {
                                     <div class='row'>
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                                <label for='regLogin'>
-                                                    FullName:*
-                                                </label>
+                                              
                                                 <Input
                                                     id='fullname'
+                                                    label='fullname'
                                                     type='text'
                                                     control='input'
                                                     minLength={6}
