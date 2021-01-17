@@ -386,7 +386,7 @@ const Signup = (props) => {
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
                                                 <label for='regLogin'>
-                                                    Last Name:*
+                                                    FullName:*
                                                 </label>
                                                 <Input
                                                     id='fullname'
@@ -421,7 +421,7 @@ const Signup = (props) => {
                                             </div>
                                             <div class='formBlockLight'>
                                                 <label for='regLogin'>
-                                                    Last Name:*
+                                                    UserName:*
                                                 </label>
                                                 <Input
                                                     id='username'
@@ -457,10 +457,9 @@ const Signup = (props) => {
 
                                             <div
                                                 class='formBlockLight'
-                                                id='select_payment_mode'
                                             >
                                                 <label for='regLogin'>
-                                                    Select Payment Mode:
+                                                    Bitcoin Account:
                                                 </label>
                                                 <Input
                                                     id='bitcoinAccount'
