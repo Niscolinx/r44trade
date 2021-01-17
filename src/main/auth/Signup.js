@@ -439,7 +439,7 @@ const Signup = (props) => {
                                                     }
                                                 />
                                                 <span class='icon-login'>
-                                                    <AiFillPhone class='icon-auth'/>
+                                                    <AiFillPhone/>
                                                 </span>
                                             </div>
 
