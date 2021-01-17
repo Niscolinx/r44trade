@@ -406,30 +406,40 @@ const Signup = (props) => {
                                                 />
                                                 <span class='icon-login'></span>
                                             </div>
-
-                                            <Input
-                                                id='fullname'
-                                                label='Fullname'
-                                                type='text'
-                                                control='input'
-                                                minLength={6}
-                                                onChange={inputChangeHandler}
-                                                onBlur={inputBlurHandler.bind(
-                                                    'fullname'
-                                                )}
-                                                value={
-                                                    state.signupForm['fullname']
-                                                        .value
-                                                }
-                                                valid={
-                                                    state.signupForm['fullname']
-                                                        .valid
-                                                }
-                                                touched={
-                                                    state.signupForm['fullname']
-                                                        .touched
-                                                }
-                                            />
+                                            <div class='formBlockLight'>
+                                                <label for='regLogin'>
+                                                    Last Name:*
+                                                </label>
+                                                <Input
+                                                    id='fullname'
+                                                    label='Fullname'
+                                                    type='text'
+                                                    control='input'
+                                                    minLength={6}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'fullname'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'fullname'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'fullname'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'fullname'
+                                                        ].touched
+                                                    }
+                                                />
+                                                <span class='icon-login'></span>
+                                            </div>
 
                                             <div
                                                 class='formBlockLight'
@@ -549,7 +559,7 @@ const Signup = (props) => {
                                                     <option value='AF'>
                                                         Afghanistan
                                                     </option>
-                                                   
+
                                                     <option value='ZW'>
                                                         Zimbabwe
                                                     </option>
