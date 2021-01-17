@@ -361,13 +361,16 @@ const Signup = (props) => {
             </Auth> */}
 
 <div class="bodyWrap">
-<div class="logRegPage" style="background-image: url(img/grad_bg_big.png), url(img/logreg_bg.jpg);">
+<div class="logRegPage" style={{
+                        backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`
+                    }}>
 <div class="container">
 <div class="head">
-<div class="logo invisLink"> 
-<img src="img/logo.png" alt="logo" height="70px;" />
-Robot 22 Trade
-<a href="index.php">main</a>
+  <div class='logo invisLink' style={{ opacity: 0 }}>
+                                <img src={Logo} alt='logo' height='70px;' />
+                                Robot 22 Trade
+                                <Link to='/'>main</Link>
+                            </div>
 </div>
 </div>
 
