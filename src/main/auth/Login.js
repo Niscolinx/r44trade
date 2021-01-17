@@ -12,7 +12,8 @@ import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
 
-import GradBgBig from '../images/grad_bg_big.jpg'
+import GradBgBig from '../images/grad_bg_big.png'
+import LogRegBg from '../images/logreg_bg.png'
 
 const Login = (props) => {
     const [state, setState] = useState({
@@ -148,7 +149,7 @@ const Login = (props) => {
 
 
             <div class="bodyWrap">
-<div class="logRegPage" style="background-image: url(img/grad_bg_big.png), url(img/logreg_bg.jpg);">
+<div class="logRegPage"    style={{ backgroundImage: `url(${GradBgBig}), url(${LogRegBg})` }}>
 <div class="container">
 <div class="head">
 <div class="logo invisLink"> 
