@@ -156,7 +156,7 @@ const Login = (props) => {
                 >
                     <div class='container'>
                         <div class='head'>
-                            <div class='logo invisLink'>
+                            <div class='logo invisLink' style={{ opacity: 0 }}>
                                 <img src={Logo} alt='logo' height='70px;' />
                                 Robot 22 Trade
                                 <Link to='/'>main</Link>
@@ -238,7 +238,10 @@ const Login = (props) => {
                             </div>
                         </div>
 
-                        <div class='bottomLine table full'>
+                        <div
+                            class='bottomLine table full'
+                            style={{ opacity: 0 }}
+                        >
                             <p class='copy tCell middle left'>
                                 © 2021 Robot44 Trade. All rights reserved.
                             </p>
