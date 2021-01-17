@@ -11,9 +11,9 @@ import Input from '../Input'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
-import GradBgBig from '../images/grey_bg_big.png'
-import LogRegBg from '../images/logreg_bg.png'
-import Logo from '../images/logos.png'
+import GradBgBig from '../../images/grey_bg_big.png'
+import LogRegBg from '../../images/logreg_bg.png'
+import Logo from '../../images/logos.png'
 
 const Login = (props) => {
     const [state, setState] = useState({
