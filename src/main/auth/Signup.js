@@ -603,22 +603,6 @@ $(document).ready(function(){
         </select>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="item col4">
 
 <div class="formBlockLight">
@@ -957,12 +941,11 @@ $(document).ready(function(){
 </div>
 </div>
 
-<div class="bottomLine table full">
+<div class="bottomLine table full" style={{display: 'none'}}>
 <p class="copy tCell middle left">© 2021 Robot22 Trade. All rights reserved.</p> 
  
 </div>
 </div>
-<div class="circleBg"><div class="circle"></div></div>
 </div>
 </div>
         </>
