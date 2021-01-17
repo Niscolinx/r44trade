@@ -380,86 +380,20 @@ const Signup = (props) => {
 <div class="wrap">
 
 
- 
-
-
-
-<script language=javascript>
-function checkform() {
-if (document.regform.fullname.value == '') {
-alert("Please enter your full name!");
-document.regform.fullname.focus();
-return false;
-}
-
-
-if (document.regform.username.value == '') {
-alert("Please enter your username!");
-document.regform.username.focus();
-return false;
-}
-if (document.regform.password.value == '') {
-alert("Please enter your password!");
-document.regform.password.focus();
-return false;
-}
-if (document.regform.password.value != document.regform.password2.value) {
-alert("Please check your password!");
-document.regform.password2.focus();
-return false;
-}
-
-
-if (document.regform.email.value == '') {
-alert("Please enter your e-mail address!");
-document.regform.email.focus();
-return false;
-}
-if (document.regform.email.value != document.regform.email1.value) {
-alert("Please retupe your e-mail!");
-document.regform.email.focus();
-return false;
-}
-if (document.regform.agree.checked == false) {
-alert("You have to agree with the Terms and Conditions!");
-return false;
-}
-return true;
-}
-
-function IsNumeric(sText) {
-var ValidChars = "0123456789";
-var IsNumber=true;
-var Char;
-if (sText == '') return false;
-for (i = 0; i < sText.length && IsNumber == true; i++) { 
-Char = sText.charAt(i); 
-if (ValidChars.indexOf(Char) == -1) {
-IsNumber = false;
-}
-}
-return IsNumber;
-}
-</script>
-
-
-
-
-
-<form method="post" onsubmit="return checkform()" name="regform" style="margin-top: 45px;" >
+<form method="post" onsubmit="return checkform()" name="regform" style={{marginTop: '45px'}}>
 
 <div class="row">
 <div class="item col4">
 
 <div class="formBlockLight">
 <label for="regLogin">First Name:*</label>
-<input type=text name=fname value="">
+<input type='text' name='fname' value=""/>
 <span class="icon-login"></span>
 </div>
 
 <div class="formBlockLight">
 <label for="regLogin">Last Name:*</label>
-<input type=text name=lname value="">
+<input type='text' name='lname' value=""/>
 <span class="icon-login"></span>
 </div>
 
@@ -477,7 +411,7 @@ return IsNumber;
 
 
 
-<div class="formBlockLight" id="select_payment_mode2" style="display: none;">
+<div class="formBlockLight" id="select_payment_mode2" style={{display: 'none'}}>
 <label for="regLogin">Select Payment Mode:</label>
   <select  class="form-control input--squared input--dark" name='payment_mode2' id="payment_mode2">
   <option value="0">Select Payment Mode</option>
@@ -489,7 +423,7 @@ return IsNumber;
 </div>
 
 
-<script>
+{/* <script>
 $(document).ready(function(){
     $("#payment_mode").change(function(){
         $(this).find("option:selected").each(function(){
@@ -513,7 +447,7 @@ $(document).ready(function(){
             } 
         });
     }).change();
-});
+}); */}
 
 
 
@@ -521,7 +455,7 @@ $(document).ready(function(){
 
 
 
-$(document).ready(function(){
+{/* $(document).ready(function(){
     $("#payment_mode2").change(function(){
         $(this).find("option:selected").each(function(){
             var optionValue = $(this).attr("value");
@@ -552,23 +486,23 @@ $(document).ready(function(){
         });
     }).change();
 });
-</script>
+</script> */}
 
 
 
 
 
-<div class="formBlockLight" id="btc" style="display: none;">
+<div class="formBlockLight" id="btc" style={{display: 'none'}}>
   <br/>
 <label for="regLogin">Bitcoin Wallet Adress:</label>
-<input type=text name=btc value="" placeholder="">
+<input type='text' name='btc' value="" placeholder=""/>
 <span class="icon-wallet"></span>
 </div>
 
 
-<div class="formBlockLight" id="bank_name" style="display: none;">
+<div class="formBlockLight" id="bank_name" style={{display: 'none'}}>
 <label for="regLogin">Bank Name:</label>
-<input type=text name="bank_name" value="" placeholder="Zenith Bank">
+<input type='text' name="bank_name" value="" placeholder="Zenith Bank"/>
 <span class="icon-wallet"></span>
 </div>
 
@@ -582,7 +516,7 @@ $(document).ready(function(){
 
 
 
-
+{/* 
 <style>
     .box{
         color: #fff;        padding: 20px;
@@ -610,12 +544,11 @@ $(document).ready(function(){
             border: 1px solid white;            box-sizing: border-box;
     }
 
-</style>
-
-<script src="jquery-1.12.4.min.js"></script>
+</style> */}
 
 
-<script>
+
+{/* <script>
 $(document).ready(function(){
     $("#country").change(function(){
         $(this).find("option:selected").each(function(){
@@ -658,7 +591,7 @@ $(document).ready(function(){
         });
     }).change();
 });
-</script>
+</script> */}
 
 
 <div>
@@ -955,7 +888,7 @@ $(document).ready(function(){
 
 
 
-<div class="formBlockLight" id="eth"  style="display: none;">
+<div class="formBlockLight" id="eth"  style={{display: 'none'}}>
 <label for="regLogin">Ethereum Wallet Address:</label>
 <input type=text name=eth value="" placeholder=" ">
 <span class="icon-wallet"></span>
@@ -964,7 +897,7 @@ $(document).ready(function(){
 
 
 
-<div class="formBlockLight" id="account_name" style="display: none;">
+<div class="formBlockLight" id="account_name" style={{display: 'none'}}>
 <label for="regLogin">Account Name:</label>
 <input type="text" name="acc_name" value="" placeholder="John Doe">
 <span class="icon-wallet"></span>
@@ -1008,7 +941,7 @@ $(document).ready(function(){
  
 
 
-<div class="formBlockLight" id="acc_num" style="display: none;">
+<div class="formBlockLight" id="acc_num" style={{display: 'none'}}>
 <label for="regLogin">Account Number:</label>
 <input type="text" name="acc_num" value="" placeholder="0082343874">
 <span class="icon-wallet"></span>
