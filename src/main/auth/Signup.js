@@ -455,9 +455,7 @@ const Signup = (props) => {
                                                 <span class='icon-login'></span>
                                             </div>
 
-                                            <div
-                                                class='formBlockLight'
-                                            >
+                                            <div class='formBlockLight'>
                                                 <label for='regLogin'>
                                                     Bitcoin Account:
                                                 </label>
@@ -528,30 +526,12 @@ const Signup = (props) => {
                                                 />
                                                 <span class='icon-wallet'></span>
                                             </div>
-
-                                            <div
-                                                class='formBlockLight'
-                                                id='btc'
-                                                style={{ display: 'none' }}
-                                            >
-                                                <br />
-                                                <label for='regLogin'>
-                                                    Bitcoin Wallet Adress:
-                                                </label>
-                                                <input
-                                                    type='text'
-                                                    name='btc'
-                                                    value=''
-                                                    placeholder=''
-                                                />
-                                                <span class='icon-wallet'></span>
-                                            </div>
                                         </div>
 
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
                                                 <label for='regName'>
-                                                    Mobile No:
+                                                    Email*:
                                                 </label>
                                                 <Input
                                                     id='email'
@@ -586,7 +566,7 @@ const Signup = (props) => {
 
                                             <div class='formBlockLight'>
                                                 <label for='regName'>
-                                                    Country:
+                                                    Confirm Email*:
                                                 </label>
                                                 <Input
                                                     id='confirmEmail'
@@ -618,74 +598,20 @@ const Signup = (props) => {
                                                 <span class='icon-location'></span>
                                             </div>
 
-                                            <div
-                                                class='formBlockLight'
-                                                id='eth'
-                                                style={{ display: 'none' }}
-                                            >
-                                                <label for='regLogin'>
-                                                    Ethereum Wallet Address:
-                                                </label>
-                                                <input
-                                                    type='text'
-                                                    name='eth'
-                                                    value=''
-                                                    placeholder=' '
-                                                />
-                                                <span class='icon-wallet'></span>
-                                            </div>
-
-                                            <div
-                                                class='formBlockLight'
-                                                id='account_name'
-                                                style={{ display: 'none' }}
-                                            >
-                                                <label for='regLogin'>
-                                                    Account Name:
-                                                </label>
-                                                <Input
-                                                    id='secretAnswer'
-                                                    label='Secret Answer'
-                                                    type='text'
-                                                    control='input'
-                                                    minLength={6}
-                                                    onChange={
-                                                        inputChangeHandler
-                                                    }
-                                                    onBlur={inputBlurHandler.bind(
-                                                        'secretAnswer'
-                                                    )}
-                                                    value={
-                                                        state.signupForm[
-                                                            'secretAnswer'
-                                                        ].value
-                                                    }
-                                                    valid={
-                                                        state.signupForm[
-                                                            'secretAnswer'
-                                                        ].valid
-                                                    }
-                                                    touched={
-                                                        state.signupForm[
-                                                            'secretAnswer'
-                                                        ].touched
-                                                    }
-                                                />
-                                                <span class='icon-wallet'></span>
-                                            </div>
-
                                             <div class='agree'>
-                                                <input
-                                                    name='agree'
-                                                    value='1'
+                                                <Input
+                                                    id='signupCheckbox'
+                                                    label='checkbox'
                                                     type='checkbox'
-                                                    id='regCheck'
+                                                    control='checkbox'
+                                                    onChange={checkboxHandler}
                                                 />
+
                                                 <label for='regCheck'>
                                                     I agree{' '}
-                                                    <a href='#'>
+                                                    <Link href='/'>
                                                         Terms and conditions
-                                                    </a>
+                                                    </Link>
                                                 </label>
                                             </div>
                                             <input
@@ -712,19 +638,6 @@ const Signup = (props) => {
                                                     name='referral'
                                                 />
                                                 <span class='icon-login'></span>
-                                            </div>
-
-                                            <div class='formBlockLight'>
-                                                <label for='regMail'>
-                                                    E-mail:
-                                                </label>
-                                                <input
-                                                    type='text'
-                                                    name='email'
-                                                    value=''
-                                                    required=''
-                                                />
-                                                <span class='icon-mail'></span>
                                             </div>
 
                                             <div class='formBlockLight'>
