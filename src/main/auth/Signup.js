@@ -8,6 +8,10 @@ import Button from '../Button'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
+import GradBgBig from '../../images/grad_bg_big.png'
+import LogRegBg from '../../images/logreg_bg.jpg'
+import Logo from '../../images/logos.png'
+
 
 const Signup = (props) => {
 
@@ -172,7 +176,7 @@ const Signup = (props) => {
 
     return (
         <>
-            <Particles
+            {/* <Particles
                 className='particles'
                 // style={{
                 //     background: 'red',
@@ -354,7 +358,113 @@ const Signup = (props) => {
                         </Button>
                     </div>
                 </form>
-            </Auth>
+            </Auth> */}
+
+            <div class='bodyWrap'>
+                <div
+                    class='logRegPage'
+                    style={{
+                        backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
+                    }}
+                >
+                    <div class='container'>
+                        <div class='head'>
+                            <div class='logo invisLink' style={{ opacity: 0 }}>
+                                <img src={Logo} alt='logo' height='70px;' />
+                                Robot 22 Trade
+                                <Link to='/'>main</Link>
+                            </div>
+                        </div>
+
+                        <div class='content'>
+                            <div class='captionLight center'>Login</div>
+                            <div class='wrap login'>
+                                <form
+                                    class='formLogin'
+                                    method='post'
+                                    name='mainform'
+                                    onsubmit='return checkform()'
+                                >
+                                    <input
+                                        type='hidden'
+                                        name='form_id'
+                                        value='15866293451389'
+                                    />
+                                    <input
+                                        type='hidden'
+                                        name='form_token'
+                                        value='9ad9bf9b44b0633b580deabc9c079f47'
+                                    />
+                                    <input
+                                        type='hidden'
+                                        name='a'
+                                        value='do_login'
+                                    />
+                                    <input
+                                        type='hidden'
+                                        name='follow'
+                                        value=''
+                                    />
+                                    <input
+                                        type='hidden'
+                                        name='follow_id'
+                                        value=''
+                                    />
+
+                                    <div class='item'>
+                                        <div class='formBlockLight'>
+                                            <label>Email Address:</label>
+                                            <input
+                                                type='text'
+                                                name='username'
+                                                value=''
+                                                autofocus='autofocus'
+                                            />
+                                            <span class='icon-login'></span>
+                                        </div>
+                                        <div class='formBlockLight'>
+                                            <label for='logPass'>
+                                                Password:
+                                            </label>
+                                            <input
+                                                type='password'
+                                                name='password'
+                                                value=''
+                                            />
+                                            <span class='icon-pass'></span>
+                                        </div>
+                                        <a
+                                            href='email_access.php'
+                                            class='passLink'
+                                        >
+                                            Forgot password?
+                                        </a>
+                                        <button
+                                            type='submit'
+                                            class='btnFillDarkMd'
+                                            name='post'
+                                        >
+                                            Login
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div
+                            class='bottomLine table full'
+                            style={{ opacity: 0 }}
+                        >
+                            <p class='copy tCell middle left'>
+                                © 2021 Robot44 Trade. All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                    {/* <div class='circleBg'>
+                        <div class='circle'></div>
+                    </div> */}
+                </div>
+            </div>
         </>
     )
 }
