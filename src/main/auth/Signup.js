@@ -385,7 +385,6 @@ const Signup = (props) => {
                                     <div class='row'>
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                              
                                                 <Input
                                                     id='fullname'
                                                     label='fullname'
@@ -419,7 +418,6 @@ const Signup = (props) => {
                                                 </span>
                                             </div>
                                             <div class='formBlockLight'>
-                                              
                                                 <Input
                                                     id='username'
                                                     label='Username'
@@ -453,7 +451,6 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                               
                                                 <Input
                                                     id='bitcoinAccount'
                                                     label='Bitcoin Account'
@@ -487,11 +484,10 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                             
                                                 <Input
                                                     id='ethereumAccount'
                                                     label='Ethereum Account'
-                                                    type='ethereumAccount'
+                                                    type='text'
                                                     control='input'
                                                     placeholder='optional'
                                                     minLength={40}
@@ -523,7 +519,6 @@ const Signup = (props) => {
 
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                            
                                                 <Input
                                                     id='email'
                                                     label='E-Mail'
@@ -556,7 +551,6 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                              
                                                 <Input
                                                     id='confirmEmail'
                                                     label='Confirm E-Mail'
@@ -587,15 +581,20 @@ const Signup = (props) => {
                                                 <span class='icon-location'></span>
                                             </div>
 
-                                                <Input
+                                            {/* <Input
                                                     id='signupCheckbox'
                                                     label='checkbox'
                                                     type='checkbox'
                                                     control='checkbox'
                                                     onChange={checkboxHandler}
-                                                />
+                                                /> */}
+                                            <input
+                                                name='agree'
+                                                value='1'
+                                                type='checkbox'
+                                                id='regCheck'
+                                            />
                                             <div class='agree'>
-
                                                 <label for='regCheck'>
                                                     I agree{' '}
                                                     <Link href='/'>
@@ -630,7 +629,6 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                               
                                                 <Input
                                                     id='password'
                                                     label='Password'
@@ -664,7 +662,6 @@ const Signup = (props) => {
                                             </div>
 
                                             <div class='formBlockLight'>
-                                             
                                                 <Input
                                                     id='confirmPassword'
                                                     label='confirm Password'
