@@ -400,11 +400,35 @@ const Signup = (props) => {
                                                 <label for='regLogin'>
                                                     Last Name:*
                                                 </label>
-                                                <input
+                                                <Input
+                                                    id='username'
+                                                    label='Username'
                                                     type='text'
-                                                    name='lname'
-                                                    value=''
+                                                    control='input'
+                                                    minLength={3}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'username'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'username'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'username'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'username'
+                                                        ].touched
+                                                    }
                                                 />
+
                                                 <span class='icon-login'></span>
                                             </div>
                                             <div class='formBlockLight'>
@@ -439,7 +463,7 @@ const Signup = (props) => {
                                                     }
                                                 />
                                                 <span class='icon-login'>
-                                                    <AiFillPhone/>
+                                                    <AiFillPhone />
                                                 </span>
                                             </div>
 
@@ -450,21 +474,35 @@ const Signup = (props) => {
                                                 <label for='regLogin'>
                                                     Select Payment Mode:
                                                 </label>
-                                                <select
-                                                    class='form-control input--squared input--dark signup__select'
-                                                    name='payment_mode'
-                                                    id='payment_mode'
-                                                >
-                                                    <option value='0'>
-                                                        Select Payment Mode
-                                                    </option>
-                                                    <option value='btc'>
-                                                        Bitcoin Wallet Address
-                                                    </option>
-                                                    <option value='eth'>
-                                                        Ethereum Wallet Address
-                                                    </option>
-                                                </select>
+                                                <Input
+                                                    id='bitcoinAccount'
+                                                    label='Bitcoin Account'
+                                                    type='text'
+                                                    control='input'
+                                                    minLength={26}
+                                                    placeholder='optional'
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'bitcoinAccount'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'bitcoinAccount'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'bitcoinAccount'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'bitcoinAccount'
+                                                        ].touched
+                                                    }
+                                                />
                                                 <span class='icon-wallet'></span>
                                             </div>
 
