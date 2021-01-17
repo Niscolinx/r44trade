@@ -415,7 +415,7 @@ const Signup = (props) => {
                                                     id='fullname'
                                                     type='text'
                                                     control='input'
-                                                    minLength={3}
+                                                    minLength={6}
                                                     onChange={
                                                         inputChangeHandler
                                                     }
