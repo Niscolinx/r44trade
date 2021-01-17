@@ -554,7 +554,7 @@ $(document).ready(function(){
                                     </div>
 
                                     
-<style>
+{/* <style>
     .box{
         color: #fff;        padding: 20px;
         display: none;        margin-top: 20px;
@@ -564,7 +564,7 @@ $(document).ready(function(){
     .blue{ background: #0000ff; }
     
 
-</style>
+</style> */}
 
                                     {/* <script>
 $(document).ready(function(){
