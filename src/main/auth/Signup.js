@@ -889,7 +889,7 @@ $(document).ready(function(){
 
 <div class="formBlockLight" id="eth"  style={{display: 'none'}}>
 <label for="regLogin">Ethereum Wallet Address:</label>
-<input type=text name=eth value="" placeholder=" ">
+<input type='text' name='eth' value="" placeholder=" "/>
 <span class="icon-wallet"></span>
 </div>
  
@@ -898,7 +898,7 @@ $(document).ready(function(){
 
 <div class="formBlockLight" id="account_name" style={{display: 'none'}}>
 <label for="regLogin">Account Name:</label>
-<input type="text" name="acc_name" value="" placeholder="John Doe">
+<input type="text" name="acc_name" value="" placeholder="John Doe"/>
 <span class="icon-wallet"></span>
 </div>
 
@@ -907,7 +907,7 @@ $(document).ready(function(){
 
 
 <div class="agree">
-<input name=agree value=1  type="checkbox" id="regCheck" >
+<input name='agree' value='1'  type="checkbox" id="regCheck" />
 <label for="regCheck">I agree <a href="#">Terms and conditions</a></label>
 </div>
 
