@@ -612,15 +612,6 @@ $(document).ready(function(){
 </script> */}
 
 
-                                    <div>
-                                        <select class='signup__select'>
-                                            <option>Choose Color</option>
-                                            <option value='red'>Red</option>
-                                            <option value='green'>Green</option>
-                                            <option value='blue'>Blue</option>
-                                        </select>
-                                    </div>
-
                                     <div class='item col4'>
                                         <div class='formBlockLight'>
                                             <label for='regName'>
