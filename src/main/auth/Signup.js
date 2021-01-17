@@ -523,9 +523,7 @@ const Signup = (props) => {
 
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                                <label for='regName'>
-                                                    Email*:
-                                                </label>
+                                            
                                                 <Input
                                                     id='email'
                                                     label='E-Mail'
