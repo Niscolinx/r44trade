@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import Particles from 'react-particles-js'
+import {AiFillPhone} from 'react-icons/ai'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
@@ -412,10 +413,9 @@ const Signup = (props) => {
                                                 </label>
                                                 <Input
                                                     id='fullname'
-                                                    label='Fullname'
                                                     type='text'
                                                     control='input'
-                                                    minLength={6}
+                                                    minLength={3}
                                                     onChange={
                                                         inputChangeHandler
                                                     }
@@ -438,7 +438,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-login'></span>
+                                                <span class='icon-login'><AiFillPhone/></span>
                                             </div>
 
                                             <div
