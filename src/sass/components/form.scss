@@ -14,17 +14,17 @@
         border-radius: 5px;
         box-shadow: $box-shadow;
 
-        @include respond(tab-port) {
-            grid-column: 2 / col-end 8;
-        }
+        // @include respond(tab-port) {
+        //     grid-column: 2 / col-end 8;
+        // }
 
-        @include respond(bigger-phone) {
-            grid-column: 2 / col-end 8;
-        }
+        // @include respond(bigger-phone) {
+        //     grid-column: 2 / col-end 8;
+        // }
 
-        @include respond(smaller-phone) {
-            font-size: 1.3rem;
-        }
+        // @include respond(smaller-phone) {
+        //     font-size: 1.3rem;
+        // }
     }
 
     &__message {
@@ -52,13 +52,13 @@
 .auth-form__login {
     grid-column: col-start 3 / col-end 5;
 
-    @include respond(phone) {
-        grid-column: col-start 2 / col-end 5;
-    }
+    // @include respond(phone) {
+    //     grid-column: col-start 2 / col-end 5;
+    // }
 
-    @include respond(smaller-phone) {
-        grid-column: sidebar-end / col-end 8;
-    }
+    // @include respond(smaller-phone) {
+    //     grid-column: sidebar-end / col-end 8;
+    // }
 }
 
 .form {
@@ -85,9 +85,9 @@
         grid-column: 1 / -1;
         grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 
-        @include respond(smaller-phone) {
-            grid-template-columns: 1fr;
-        }
+        // @include respond(smaller-phone) {
+        //     grid-template-columns: 1fr;
+        // }
     }
 
     &__box {
@@ -95,9 +95,9 @@
         gap: 2rem;
         grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 
-        @include respond(phone) {
-            column-gap: 1rem;
-        }
+        // @include respond(phone) {
+        //     column-gap: 1rem;
+        // }
     }
 
     &__linkText {
@@ -116,9 +116,9 @@
         align-items: baseline;
         justify-content: center;
 
-        @include respond(smaller-phone) {
-            align-items: unset;
-        }
+        // @include respond(smaller-phone) {
+        //     align-items: unset;
+        // }
     }
 
     &__label,
