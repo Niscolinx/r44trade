@@ -482,8 +482,6 @@ const Signup = (props) => {
                                                 />
                                                 <span class='icon-wallet'></span>
                                             </div>
-
-                                            
                                         </div>
 
                                         <div class='item col4'>
@@ -587,14 +585,36 @@ const Signup = (props) => {
 
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                                <label for='invName'>
-                                                    REFERRAL
-                                                </label>
-                                                <input
+                                                <Input
+                                                    id='ethereumAccount'
+                                                    label='Ethereum Account'
                                                     type='text'
-                                                    name='referral'
+                                                    control='input'
+                                                    placeholder='optional'
+                                                    minLength={40}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'ethereumAccount'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'ethereumAccount'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'ethereumAccount'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'ethereumAccount'
+                                                        ].touched
+                                                    }
                                                 />
-                                                <span class='icon-login'></span>
+                                                <span class='icon-wallet'></span>
                                             </div>
 
                                             <div class='formBlockLight'>
