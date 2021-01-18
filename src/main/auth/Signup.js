@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import {GoPerson} from 'react-icons/go'
-import {RiBitCoinFill} from 'react-icons/ri'
+import {RiBitCoinFill, RiLockPasswordFill} from 'react-icons/ri'
 import {FaEthereum} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
 
@@ -457,7 +457,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'></span>
+                                                <span class='icon-wallet'><RiLockPasswordFill/></span>
                                             </div>
                                             <div class='formBlockLight'>
                                                 <Input
