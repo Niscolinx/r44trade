@@ -554,14 +554,13 @@ const Signup = (props) => {
                                                 type='checkbox'
                                                 id='regCheck'
                                             /> */}
+                                            <input
+                                                id='refCheck'
+                                                name='agree'
+                                                value='1'
+                                                type='checkbox'
+                                            />
                                             <div class='agree'>
-                                                <input
-                                                    id='signupCheckbox'
-                                                    name='checkbox'
-                                                    value='1'
-                                                    type='checkbox'
-                                                    onChange={checkboxHandler}
-                                                />
                                             </div>
                                             <input
                                                 design='raised'
