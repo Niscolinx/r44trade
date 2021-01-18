@@ -586,39 +586,6 @@ const Signup = (props) => {
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
                                                 <Input
-                                                    id='ethereumAccount'
-                                                    label='Ethereum Account'
-                                                    type='text'
-                                                    control='input'
-                                                    placeholder='optional'
-                                                    minLength={40}
-                                                    onChange={
-                                                        inputChangeHandler
-                                                    }
-                                                    onBlur={inputBlurHandler.bind(
-                                                        'ethereumAccount'
-                                                    )}
-                                                    value={
-                                                        state.signupForm[
-                                                            'ethereumAccount'
-                                                        ].value
-                                                    }
-                                                    valid={
-                                                        state.signupForm[
-                                                            'ethereumAccount'
-                                                        ].valid
-                                                    }
-                                                    touched={
-                                                        state.signupForm[
-                                                            'ethereumAccount'
-                                                        ].touched
-                                                    }
-                                                />
-                                                <span class='icon-wallet'></span>
-                                            </div>
-
-                                            <div class='formBlockLight'>
-                                                <Input
                                                     id='password'
                                                     label='Password'
                                                     type='password'
@@ -676,6 +643,38 @@ const Signup = (props) => {
                                                     touched={
                                                         state.signupForm[
                                                             'confirmPassword'
+                                                        ].touched
+                                                    }
+                                                />
+                                                <span class='icon-wallet'></span>
+                                            </div>
+                                            <div class='formBlockLight'>
+                                                <Input
+                                                    id='ethereumAccount'
+                                                    label='Ethereum Account'
+                                                    type='text'
+                                                    control='input'
+                                                    placeholder='optional'
+                                                    minLength={40}
+                                                    onChange={
+                                                        inputChangeHandler
+                                                    }
+                                                    onBlur={inputBlurHandler.bind(
+                                                        'ethereumAccount'
+                                                    )}
+                                                    value={
+                                                        state.signupForm[
+                                                            'ethereumAccount'
+                                                        ].value
+                                                    }
+                                                    valid={
+                                                        state.signupForm[
+                                                            'ethereumAccount'
+                                                        ].valid
+                                                    }
+                                                    touched={
+                                                        state.signupForm[
+                                                            'ethereumAccount'
                                                         ].touched
                                                     }
                                                 />
