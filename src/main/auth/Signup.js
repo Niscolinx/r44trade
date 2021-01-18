@@ -483,38 +483,7 @@ const Signup = (props) => {
                                                 <span class='icon-wallet'></span>
                                             </div>
 
-                                            <div class='formBlockLight'>
-                                                <Input
-                                                    id='ethereumAccount'
-                                                    label='Ethereum Account'
-                                                    type='text'
-                                                    control='input'
-                                                    placeholder='optional'
-                                                    minLength={40}
-                                                    onChange={
-                                                        inputChangeHandler
-                                                    }
-                                                    onBlur={inputBlurHandler.bind(
-                                                        'ethereumAccount'
-                                                    )}
-                                                    value={
-                                                        state.signupForm[
-                                                            'ethereumAccount'
-                                                        ].value
-                                                    }
-                                                    valid={
-                                                        state.signupForm[
-                                                            'ethereumAccount'
-                                                        ].valid
-                                                    }
-                                                    touched={
-                                                        state.signupForm[
-                                                            'ethereumAccount'
-                                                        ].touched
-                                                    }
-                                                />
-                                                <span class='icon-wallet'></span>
-                                            </div>
+                                            
                                         </div>
 
                                         <div class='item col4'>
