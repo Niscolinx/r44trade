@@ -80,7 +80,6 @@ const Signup = (props) => {
         },
     })
 
-    const [checked, setChecked] = useState(false)
     const [message, setMessage] = useState(null)
 
     useEffect(() => {
@@ -148,13 +147,9 @@ const Signup = (props) => {
 
     const inputBlurHandler = (input) => {}
 
-    const checkboxHandler = (id, isChecked) => {
-        setChecked(isChecked)
-    }
-
     const handleSignup = (e) => {
         e.preventDefault()
-        if (state.formValid && checked) {
+        if (state.formValid) {
             props.onInitSignup(state)
         } else {
             setMessage({ error: 'Wrong Input, please check your entries' })
