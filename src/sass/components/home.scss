@@ -4765,6 +4765,7 @@ footer .cont + .cont {
 }
 
 .agree input:checked + label::after {
+    background: blue;
     opacity: 1;
 }
 
