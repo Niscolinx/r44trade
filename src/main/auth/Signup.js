@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 import {GoPerson} from 'react-icons/go'
+import {RiBitCoinFill} from 'react-icons/ri'
+import {FaEthereum} from 'react-icons/fa'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
-import Button from '../Button'
 import { required, length, email } from '../../util/validators'
 import Auth from './Auth'
 
@@ -290,7 +291,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'></span>
+                                                <span class='icon-wallet'><RiBitCoinFill/></span>
                                             </div>
                                         </div>
 
@@ -487,7 +488,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'></span>
+                                                <span class='icon-wallet'><FaEthereum/></span>
                                             </div>
                                         </div>
                                     </div>
