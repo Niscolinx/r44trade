@@ -4725,7 +4725,12 @@ footer .cont + .cont {
 }
 
 .agree input {
-    display: none;
+   //display: none;
+   opacity: 0;
+   z-index: 20;
+   height: 3.8rem;
+   position: absolute;
+   left: -8.5rem
 }
 
 .agree input + label::before {
@@ -4748,6 +4753,7 @@ footer .cont + .cont {
 .agree input:not(checked) + label::after {
     content: '';
     display: block;
+    z-index: 10;
     position: absolute;
     left: 0px;
     top: 50%;
@@ -4765,7 +4771,6 @@ footer .cont + .cont {
 }
 
 .agree input:checked + label::after {
-    background: blue;
     opacity: 1;
 }
 
