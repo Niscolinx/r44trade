@@ -326,7 +326,7 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-phone'></span>
+                                                <span class='icon-phone'><MdEmail/></span>
                                             </div>
 
                                             <div class='formBlockLight'>
@@ -357,7 +357,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-location'></span>
+                                                <span class='icon-location'><MdEmail/></span>
                                             </div>
 
                                             {/* <input
@@ -425,7 +425,7 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-pass'></span>
+                                                <span class='icon-pass'><RiLockPasswordFill/></span>
                                             </div>
 
                                             <div class='formBlockLight'>
