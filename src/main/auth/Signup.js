@@ -548,13 +548,6 @@ const Signup = (props) => {
                                                 <span class='icon-location'></span>
                                             </div>
 
-                                            {/* <Input
-                                                    id='signupCheckbox'
-                                                    label='checkbox'
-                                                    type='checkbox'
-                                                    control='checkbox'
-                                                    onChange={checkboxHandler}
-                                                /> */}
                                             {/* <input
                                                 name='agree'
                                                 value='1'
@@ -562,12 +555,13 @@ const Signup = (props) => {
                                                 id='regCheck'
                                             /> */}
                                             <div class='agree'>
-                                                <label for='regCheck'>
-                                                    I agree{' '}
-                                                    <Link href='/'>
-                                                        Terms and conditions
-                                                    </Link>
-                                                </label>
+                                                <Input
+                                                    id='signupCheckbox'
+                                                    label='checkbox'
+                                                    type='checkbox'
+                                                    control='checkbox'
+                                                    onChange={checkboxHandler}
+                                                />
                                             </div>
                                             <input
                                                 design='raised'
