@@ -4727,11 +4727,11 @@ footer .cont + .cont {
 .agree input {
    //display: none;
    cursor: pointer;
-   opacity: 0;
+   opacity: 1;
    z-index: 20;
-   height: 3.8rem;
+   height: 2.2rem;
    position: absolute;
-   left: -8.5rem
+   left: -8rem
 }
 
 .agree input + label::before {
