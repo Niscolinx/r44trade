@@ -588,12 +588,12 @@ const Signup = (props) => {
                                                     control='checkbox'
                                                     onChange={checkboxHandler}
                                                 /> */}
-                                            <input
+                                            {/* <input
                                                 name='agree'
                                                 value='1'
                                                 type='checkbox'
                                                 id='regCheck'
-                                            />
+                                            /> */}
                                             <div class='agree'>
                                                 <label for='regCheck'>
                                                     I agree{' '}
