@@ -225,7 +225,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-login'></span>
+                                                <span class='icon-login'><GoPerson/></span>
                                             </div>
                                             <div class='formBlockLight'>
                                                 <Input
