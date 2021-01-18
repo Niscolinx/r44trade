@@ -552,10 +552,8 @@ const Signup = (props) => {
                                             /> */}
                                             <div class='agree'>
                                                 <input
-                                                    name='agree'
-                                                    value='1'
+                                                    value=''
                                                     type='checkbox'
-                                                    id='regCheck'
                                                 />
                                                 <label for='regCheck'>
                                                     I agree{' '}
