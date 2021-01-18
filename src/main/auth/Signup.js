@@ -411,9 +411,7 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-login'>
-                                                    <AiFillPhone />
-                                                </span>
+                                                <span class='icon-login'></span>
                                             </div>
                                             <div class='formBlockLight'>
                                                 <Input
@@ -552,32 +550,21 @@ const Signup = (props) => {
                                                 type='checkbox'
                                                 id='regCheck'
                                             /> */}
-                                            <Input
-                                                id='signupCheckbox'
-                                                label='checkbox'
-                                                type='checkbox'
-                                                control='checkbox'
-                                                onChange={checkboxHandler}
-                                            />
-                                            <div class='agree'></div>
-                                            <div className='form-btn'>
-                                                <Input
-                                                    id='signupCheckbox'
-                                                    label='checkbox'
+                                            <div class='agree'>
+                                                <input
+                                                    name='agree'
+                                                    value='1'
                                                     type='checkbox'
-                                                    control='checkbox'
-                                                    onChange={checkboxHandler}
+                                                    id='regCheck'
                                                 />
-                                                <Button
-                                                    design='raised'
-                                                    type='submit'
-                                                    loading={props.loading}
-                                                >
-                                                    {props.loading
-                                                        ? 'Loading...'
-                                                        : 'Signup'}
-                                                </Button>
+                                                <label for='regCheck'>
+                                                    I agree{' '}
+                                                    <Link href='#'>
+                                                        Terms and conditions
+                                                    </Link>
+                                                </label>
                                             </div>
+
                                             <input
                                                 design='raised'
                                                 type='submit'
