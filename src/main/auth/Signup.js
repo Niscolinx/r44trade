@@ -132,6 +132,7 @@ const Signup = (props) => {
             }
             let formIsValid = true
             for (const inputName in updatedForm) {
+                console.log('input name', inputName)
                 if (
                     inputName !== 'formValid' &&
                     inputName !== '[object Object]' &&
@@ -139,6 +140,7 @@ const Signup = (props) => {
                     inputName !== 'ethereumAccount'
                 ) {
                     formIsValid = formIsValid && updatedForm[inputName].valid
+                    console.log('formValid', formIsValid)
                 }
             }
             return {
