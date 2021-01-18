@@ -555,11 +555,11 @@ const Signup = (props) => {
                                                 id='regCheck'
                                             /> */}
                                             <div class='agree'>
-                                                <Input
+                                                <input
                                                     id='signupCheckbox'
-                                                    label='checkbox'
+                                                    name='checkbox'
+                                                    value='1'
                                                     type='checkbox'
-                                                    control='checkbox'
                                                     onChange={checkboxHandler}
                                                 />
                                             </div>
