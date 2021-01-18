@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
+import {GoPerson} from 'react-icons/go'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
