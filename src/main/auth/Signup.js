@@ -554,6 +554,15 @@ const Signup = (props) => {
                                                 type='checkbox'
                                                 id='regCheck'
                                             /> */}
+                                            <Input
+                                                id='signupCheckbox'
+                                                label='checkbox'
+                                                type='checkbox'
+                                                control='checkbox'
+                                                onChange={checkboxHandler}
+                                            />
+                                            <div class='agree'></div>
+                                            <div className='form-btn'>
                                                 <Input
                                                     id='signupCheckbox'
                                                     label='checkbox'
@@ -561,7 +570,15 @@ const Signup = (props) => {
                                                     control='checkbox'
                                                     onChange={checkboxHandler}
                                                 />
-                                            <div class='agree'>
+                                                <Button
+                                                    design='raised'
+                                                    type='submit'
+                                                    loading={props.loading}
+                                                >
+                                                    {props.loading
+                                                        ? 'Loading...'
+                                                        : 'Signup'}
+                                                </Button>
                                             </div>
                                             <input
                                                 design='raised'
