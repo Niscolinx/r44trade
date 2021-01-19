@@ -20,6 +20,7 @@ const Signup = (props) => {
     const [invest, setInvest] = useState(0)
     const [showTotal, setShowTotal] = useState(0)
     const [showMonthly, setShowMonthly] = useState([])
+    const [showMonthlyGain, setShowMonthlyGain] = useState([])
 
     const [state, setState] = useState({
         signupForm: {
@@ -102,13 +103,17 @@ const Signup = (props) => {
         let monthlyTotal = invest * percent
 
         let monthlyReturn = []
+        let monthlyGain = []
         let yearlyReturn = 0
         for(let i = 0; i < 12; i++){
             
             monthlyReturn.push(monthlyTotal)
             yearlyReturn += monthlyTotal
-            console.log('the inner loop', monthlyTotal)
+            let oldMonthlyTotal = monthlyTotal
+
             monthlyTotal = Number(monthlyTotal) + Number(invest)
+
+            monthlyGain.push(monthlyTotal - oldMonthlyTotal)
         }
 
         // const year =12
@@ -545,6 +550,17 @@ const Signup = (props) => {
                                                 style={{ fontSize: '1.5rem' }}
                                             >
                                                 After month {i} ={' '}
+                                                <span style={{fontSize: '2.5rem', fontWeight: 'bold'}}>N{item.toLocaleString()}</span>
+                                            </li>
+                                        )
+                                    })}
+                                    {showMonthlyGain.map((item, i) => {
+                                        return (
+                                            <li
+                                                key={item}
+                                                style={{ fontSize: '1.5rem' }}
+                                            >
+                                               Gain After month {i} ={' '}
                                                 <span style={{fontSize: '2.5rem', fontWeight: 'bold'}}>N{item.toLocaleString()}</span>
                                             </li>
                                         )
