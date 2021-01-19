@@ -16,6 +16,8 @@ import LogRegBg from '../../images/logreg_bg.jpg'
 import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
+
+    const []
     const [state, setState] = useState({
         signupForm: {
             fullname: {
@@ -155,8 +157,6 @@ const Signup = (props) => {
 
     return (
         <>
-           
-
             <div class='bodyWrap'>
                 <div
                     class='logRegPage'
@@ -177,6 +177,14 @@ const Signup = (props) => {
                     <div class='content'>
                         <div class='captionLight center'>REGISTRATION</div>
                         <div class='wrap'>
+                            <form>
+                                <input
+                                aria-label='input'
+                                    type='text'
+                                    onChange={inputChangeHandler}
+                                    value={state.signupForm['username'].value}
+                                />
+                            </form>
                             <Auth message={message}>
                                 <form
                                     onSubmit={handleSignup}
@@ -217,7 +225,9 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-login'><GoPerson/></span>
+                                                <span class='icon-login'>
+                                                    <GoPerson />
+                                                </span>
                                             </div>
                                             <div class='formBlockLight'>
                                                 <Input
@@ -249,7 +259,9 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-login'><GoPerson/></span>
+                                                <span class='icon-login'>
+                                                    <GoPerson />
+                                                </span>
                                             </div>
 
                                             <div class='formBlockLight'>
@@ -282,7 +294,9 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'><RiBitCoinFill/></span>
+                                                <span class='icon-wallet'>
+                                                    <RiBitCoinFill />
+                                                </span>
                                             </div>
                                         </div>
 
@@ -316,7 +330,9 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-phone'><MdEmail/></span>
+                                                <span class='icon-phone'>
+                                                    <MdEmail />
+                                                </span>
                                             </div>
 
                                             <div class='formBlockLight'>
@@ -347,7 +363,9 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-location'><MdEmail/></span>
+                                                <span class='icon-location'>
+                                                    <MdEmail />
+                                                </span>
                                             </div>
 
                                             {/* <input
@@ -358,7 +376,7 @@ const Signup = (props) => {
                                             /> */}
                                             <div class='agree'>
                                                 <input
-                                                required
+                                                    required
                                                     value=''
                                                     type='checkbox'
                                                 />
@@ -415,7 +433,9 @@ const Signup = (props) => {
                                                     }
                                                 />
 
-                                                <span class='icon-pass'><RiLockPasswordFill/></span>
+                                                <span class='icon-pass'>
+                                                    <RiLockPasswordFill />
+                                                </span>
                                             </div>
 
                                             <div class='formBlockLight'>
@@ -447,7 +467,9 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'><RiLockPasswordFill/></span>
+                                                <span class='icon-wallet'>
+                                                    <RiLockPasswordFill />
+                                                </span>
                                             </div>
                                             <div class='formBlockLight'>
                                                 <Input
@@ -479,7 +501,9 @@ const Signup = (props) => {
                                                         ].touched
                                                     }
                                                 />
-                                                <span class='icon-wallet'><FaEthereum/></span>
+                                                <span class='icon-wallet'>
+                                                    <FaEthereum />
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
