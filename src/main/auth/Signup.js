@@ -99,7 +99,7 @@ const Signup = (props) => {
         const percent = 0.5
         let profitMargin = invest * percent
 
-        let monthlyTotal = Number(profitMargin) + Number(invest)
+        let monthlyTotal = Number(profitMargin).toFixed() + Number(invest).toFixed()
 
         let monthlyReturn = []
         let yearlyReturn = 0
@@ -109,7 +109,7 @@ const Signup = (props) => {
             monthlyReturn.push(monthlyTotal)
 
             const gainMargin = monthlyTotal * percent
-            monthlyTotal = Number(monthlyTotal) + Number(gainMargin)
+            monthlyTotal = Number(monthlyTotal).toFixed() + Number(gainMargin)
 
             console.log('final monthly total', monthlyTotal)
         }
