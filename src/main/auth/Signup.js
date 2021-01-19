@@ -505,12 +505,13 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <form style={{height: '100vh', background: 'red', opacity: 1, zIndex: 1000}}>
-                                    <input style={{background: 'blue'}}
-                                        type='text'
+                                <form>
+                                    <input style={{background: 'white', height: '5rem', fontSize: '3rem', padding: '1rem'}}
+                                        type='number'
                                         onChange={inputInvestHandler}
                                         value={invest}
                                     />
+                                    <button style={{fontSize: '2rem'}}>Submit</button>
                                 </form>
                             </Auth>
                         </div>
