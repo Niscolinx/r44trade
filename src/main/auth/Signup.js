@@ -97,12 +97,13 @@ const Signup = (props) => {
     const investHandler = (e) => {
         e.preventDefault()
 
-        const monthlyReturn = invest * 0.5
+        const percent = 0.5
+        const monthlyReturn = invest * percent
 
         let basket = 0
-        for(let i = monthlyReturn; i < 12; i++){
+        for(let i = 0; i < 12; i++){
          console.log(i, monthlyReturn[i])
-         basket = i
+         basket = monthlyReturn
         }
 
         // const year =12
