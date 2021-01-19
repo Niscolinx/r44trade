@@ -549,7 +549,7 @@ const Signup = (props) => {
                                             </li>
                                         )
                                     })}
-                                <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem'}}>{showTotal.toLocaleString()}</h1>
+                                <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem', margin: '3rem 0'}}>N{showTotal.toLocaleString()}</h1>
                                 <form onSubmit ={investHandler}>
                                     <input style={{background: 'white', height: '5rem', fontSize: '3rem', padding: '1rem'}}
                                         type='number'
