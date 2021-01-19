@@ -97,6 +97,8 @@ const Signup = (props) => {
     const investHandler = (e) => {
         e.preventDefault()
 
+        setShowTotal(invest)
+
     }
 
     const inputChangeHandler = (input, value) => {
