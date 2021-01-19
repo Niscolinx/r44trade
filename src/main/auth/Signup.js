@@ -98,8 +98,18 @@ const Signup = (props) => {
         e.preventDefault()
 
         const monthlyReturn = invest * 0.5
-        
-        setShowTotal(invest)
+
+        for(let i = monthlyReturn; i < 12; i++){
+           return console.log(i, monthlyReturn[i])
+        }
+
+        // const year =12
+
+        // const total = year.map((item, i) => {
+        //     return item
+        // })
+       console.log(monthlyReturn)
+        //setShowTotal(invest)
 
     }
 
