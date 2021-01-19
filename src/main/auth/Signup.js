@@ -177,18 +177,19 @@ const Signup = (props) => {
                                 <Link to='/'>main</Link>
                             </div>
                         </div>
+
+                        <form style={{background: 'red'}}>
+                            <input
+                                type='text'
+                                onChange={inputInvestHandler}
+                                value={invest}
+                            />
+                        </form>
                     </div>
 
                     <div class='content'>
                         <div class='captionLight center'>REGISTRATION</div>
                         <div class='wrap'>
-                            <form>
-                                <input
-                                    type='text'
-                                    onChange={inputInvestHandler}
-                                    value={invest}
-                                />
-                            </form>
                             <Auth message={message}>
                                 <form
                                     onSubmit={handleSignup}
@@ -201,13 +202,7 @@ const Signup = (props) => {
                                     <div class='row'>
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                                <input
-                                                    type='text'
-                                                    onChange={
-                                                        inputInvestHandler
-                                                    }
-                                                    value={invest}
-                                                />
+                                              
                                                 <Input
                                                     id='fullname'
                                                     label='fullname'
