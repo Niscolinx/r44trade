@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import {GoPerson} from 'react-icons/go'
 import {RiBitCoinFill, RiLockPasswordFill} from 'react-icons/ri'
 import {FaEthereum} from 'react-icons/fa'
-import {MdEmail, MdRestaurant} from 'react-icons/md'
+import {MdEmail} from 'react-icons/md'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
@@ -19,6 +19,7 @@ const Signup = (props) => {
 
     const [invest, setInvest] = useState(0)
     const [showTotal, setShowTotal] = useState(0)
+    const [showMonthly, setShowMonthly] = useState([])
 
     const [state, setState] = useState({
         signupForm: {
@@ -117,7 +118,10 @@ const Signup = (props) => {
         // })
        console.log('monthly', monthlyReturn)
        console.log('yearly', yearlyReturn)
-        //setShowTotal(invest)
+
+       setShowMonthly(monthlyReturn)
+
+        setShowTotal(yearlyReturn)
 
     }
 
@@ -533,7 +537,9 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem'}}>{showTotal}</h1>
+                                <div>
+                                            
+                                <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem'}}>{showTotal.toLocaleString()}</h1>
                                 <form onSubmit ={investHandler}>
                                     <input style={{background: 'white', height: '5rem', fontSize: '3rem', padding: '1rem'}}
                                         type='number'
@@ -542,6 +548,9 @@ const Signup = (props) => {
                                     />
                                     <button style={{fontSize: '2rem', textAlign: 'center', padding: '1rem', cursor: 'pointer'}}>Submit</button>
                                 </form>
+
+                                </div>
+
                             </Auth>
                         </div>
                     </div>
