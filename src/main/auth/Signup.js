@@ -17,7 +17,9 @@ import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
 
-    const [invest, setInvest] = useState('')
+    const [invest, setInvest] = useState(0)
+    const [showTotal, setShowTotal] = useState(0)
+
     const [state, setState] = useState({
         signupForm: {
             fullname: {
@@ -90,6 +92,10 @@ const Signup = (props) => {
 
     const inputInvestHandler = e => {
         setInvest(e.target.value)
+    }
+
+    const investHandler = (e) => {
+        e.preventDefault()
 
     }
 
@@ -505,13 +511,14 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <form>
+                                <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem'}}>{showTotal}</h1>
+                                <form onSubmit ={investHandler}>
                                     <input style={{background: 'white', height: '5rem', fontSize: '3rem', padding: '1rem'}}
                                         type='number'
                                         onChange={inputInvestHandler}
                                         value={invest}
                                     />
-                                    <button style={{fontSize: '2rem'}}>Submit</button>
+                                    <button style={{fontSize: '2rem', textAlign: 'center', padding: '1rem', cursor: 'pointer'}}>Submit</button>
                                 </form>
                             </Auth>
                         </div>
