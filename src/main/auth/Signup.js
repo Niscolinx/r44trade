@@ -539,7 +539,15 @@ const Signup = (props) => {
                                 </form>
                                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0 25rem'}}>
                                     {showMonthly.map((item, i) => {
-                                        return <li key={item} style={{fontSize: '1.5rem'}}>After month {i} = {item}</li>
+                                        return (
+                                            <li
+                                                key={item}
+                                                style={{ fontSize: '1.5rem' }}
+                                            >
+                                                After month {i} ={' '}
+                                                <span style={{fontSize: '2.5rem', fontWeight: 'bold'}}>N{item.toLocaleString()}</span>
+                                            </li>
+                                        )
                                     })}
                                 <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem'}}>{showTotal.toLocaleString()}</h1>
                                 <form onSubmit ={investHandler}>
