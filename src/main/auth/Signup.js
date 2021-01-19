@@ -537,7 +537,7 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0 25rem'}}>
+                                <div style={{display: 'grid', justifyContent: 'center', alignItems: 'center', margin: '0 25rem', }}>
                                     {showMonthly.map((item, i) => {
                                         return (
                                             <li
