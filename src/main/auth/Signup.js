@@ -116,13 +116,13 @@ const Signup = (props) => {
         // const total = year.map((item, i) => {
         //     return item
         // })
-       console.log('monthly', monthlyReturn)
-       console.log('yearly', yearlyReturn)
-
-       setShowMonthly(monthlyReturn)
-
+        
+        setShowMonthly(monthlyReturn)
+        
         setShowTotal(yearlyReturn)
-
+        
+        console.log('monthly', showMonthly)
+        console.log('yearly', yearlyReturn)
     }
 
     const inputChangeHandler = (input, value) => {
@@ -537,8 +537,10 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <div>
-                                            
+                                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '0 25rem'}}>
+                                    {showMonthly.map((item) => {
+                                        return <li key={item}>{item}</li>
+                                    })}
                                 <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem'}}>{showTotal.toLocaleString()}</h1>
                                 <form onSubmit ={investHandler}>
                                     <input style={{background: 'white', height: '5rem', fontSize: '3rem', padding: '1rem'}}
