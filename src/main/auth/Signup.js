@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import {GoPerson} from 'react-icons/go'
 import {RiBitCoinFill, RiLockPasswordFill} from 'react-icons/ri'
 import {FaEthereum} from 'react-icons/fa'
-import {MdEmail} from 'react-icons/md'
+import {MdEmail, MdRestaurant} from 'react-icons/md'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
@@ -98,12 +98,14 @@ const Signup = (props) => {
         e.preventDefault()
 
         const percent = 0.5
-        const monthlyReturn = invest * percent
+        let monthlyTotal = invest * percent
 
-        let basket = 0
+        let monthlyReturn = []
+        let yearlyReturn = 0
         for(let i = 0; i < 12; i++){
-         console.log(i, monthlyReturn[i])
-         basket = monthlyReturn
+
+         monthlyReturn.push(monthlyTotal * percent)
+         yearlyReturn += monthlyReturn * percent
         }
 
         // const year =12
@@ -111,8 +113,8 @@ const Signup = (props) => {
         // const total = year.map((item, i) => {
         //     return item
         // })
-       console.log(monthlyReturn)
-       console.log('the basket', basket)
+       console.log('monthly', monthlyReturn)
+       console.log('yearly', yearlyReturn)
         //setShowTotal(invest)
 
     }
