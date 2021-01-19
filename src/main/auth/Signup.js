@@ -177,14 +177,6 @@ const Signup = (props) => {
                                 <Link to='/'>main</Link>
                             </div>
                         </div>
-
-                        <form style={{background: 'red'}}>
-                            <input
-                                type='text'
-                                onChange={inputInvestHandler}
-                                value={invest}
-                            />
-                        </form>
                     </div>
 
                     <div class='content'>
@@ -202,7 +194,6 @@ const Signup = (props) => {
                                     <div class='row'>
                                         <div class='item col4'>
                                             <div class='formBlockLight'>
-                                              
                                                 <Input
                                                     id='fullname'
                                                     label='fullname'
@@ -513,6 +504,13 @@ const Signup = (props) => {
                                             </div>
                                         </div>
                                     </div>
+                                </form>
+                                <form style={{height: '100vh', background: 'red', opacity: 1, zIndex: 1000}}>
+                                    <input style={{background: 'blue'}}
+                                        type='text'
+                                        onChange={inputInvestHandler}
+                                        value={invest}
+                                    />
                                 </form>
                             </Auth>
                         </div>
