@@ -103,9 +103,11 @@ const Signup = (props) => {
         let monthlyReturn = []
         let yearlyReturn = 0
         for(let i = 0; i < 12; i++){
-
-         monthlyReturn.push(monthlyTotal * percent)
-         yearlyReturn += monthlyReturn * percent
+            
+            monthlyReturn.push(monthlyTotal)
+            yearlyReturn += monthlyTotal
+            console.log('the inner loop', monthlyTotal)
+            monthlyTotal = Number(monthlyTotal) + Number(invest)
         }
 
         // const year =12
