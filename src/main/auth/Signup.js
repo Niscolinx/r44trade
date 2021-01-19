@@ -17,7 +17,7 @@ import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
 
-    const []
+    const [invest, setInvest] = useState('')
     const [state, setState] = useState({
         signupForm: {
             fullname: {
@@ -87,6 +87,13 @@ const Signup = (props) => {
         }
     }, [props])
 
+
+    const inputInvestHandler = (input, value) => {
+
+        console.log('the input invest', input, value)
+
+    }
+
     const inputChangeHandler = (input, value) => {
         setState((prevState) => {
             let isValid = true
@@ -122,7 +129,6 @@ const Signup = (props) => {
             }
             let formIsValid = true
             for (const inputName in updatedForm) {
-                console.log('input name', inputName)
                 if (
                     inputName !== 'formValid' &&
                     inputName !== '[object Object]' &&
@@ -179,10 +185,9 @@ const Signup = (props) => {
                         <div class='wrap'>
                             <form>
                                 <input
-                                aria-label='input'
                                     type='text'
-                                    onChange={inputChangeHandler}
-                                    value={state.signupForm['username'].value}
+                                    onChange={inputInvestHandler}
+                                    value={invest}
                                 />
                             </form>
                             <Auth message={message}>
@@ -196,6 +201,11 @@ const Signup = (props) => {
                                 >
                                     <div class='row'>
                                         <div class='item col4'>
+                                            <input
+                                                type='text'
+                                                onChange={inputInvestHandler}
+                                                value={invest}
+                                            />
                                             <div class='formBlockLight'>
                                                 <Input
                                                     id='fullname'
