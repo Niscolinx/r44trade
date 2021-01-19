@@ -88,9 +88,8 @@ const Signup = (props) => {
     }, [props])
 
 
-    const inputInvestHandler = (input, value) => {
-
-        console.log('the input invest', input, value)
+    const inputInvestHandler = e => {
+        setInvest(e.target.value)
 
     }
 
@@ -201,12 +200,14 @@ const Signup = (props) => {
                                 >
                                     <div class='row'>
                                         <div class='item col4'>
-                                            <input
-                                                type='text'
-                                                onChange={inputInvestHandler}
-                                                value={invest}
-                                            />
                                             <div class='formBlockLight'>
+                                                <input
+                                                    type='text'
+                                                    onChange={
+                                                        inputInvestHandler
+                                                    }
+                                                    value={invest}
+                                                />
                                                 <Input
                                                     id='fullname'
                                                     label='fullname'
