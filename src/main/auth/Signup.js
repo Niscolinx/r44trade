@@ -97,6 +97,8 @@ const Signup = (props) => {
     const investHandler = (e) => {
         e.preventDefault()
 
+        const monthlyReturn = invest * 0.5
+        
         setShowTotal(invest)
 
     }
