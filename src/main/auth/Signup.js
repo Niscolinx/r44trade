@@ -99,8 +99,10 @@ const Signup = (props) => {
 
         const monthlyReturn = invest * 0.5
 
+        let basket = 0
         for(let i = monthlyReturn; i < 12; i++){
-           return console.log(i, monthlyReturn[i])
+         console.log(i, monthlyReturn[i])
+         basket = i
         }
 
         // const year =12
@@ -109,6 +111,7 @@ const Signup = (props) => {
         //     return item
         // })
        console.log(monthlyReturn)
+       console.log('the basket', basket)
         //setShowTotal(invest)
 
     }
