@@ -4651,6 +4651,9 @@ footer .cont + .cont {
 
 .logRegPage [class*='formBlock'] + .agree {
     margin-top: 60px;
+        align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 15fr;
 }
 
 .logRegPage [class*='formBlock'] + .passLink {

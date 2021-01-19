@@ -54,18 +54,6 @@ const Signup = (props) => {
                 touched: false,
                 validators: [required, length({ min: 6 })],
             },
-            secretQuestion: {
-                value: '',
-                valid: false,
-                touched: false,
-                validators: [required, length({ min: 6 })],
-            },
-            secretAnswer: {
-                value: '',
-                valid: false,
-                touched: false,
-                validators: [required, length({ min: 6 })],
-            },
             bitcoinAccount: {
                 value: '',
                 valid: false,
