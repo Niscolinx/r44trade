@@ -4731,10 +4731,9 @@ footer .cont + .cont {
    //display: none;
    cursor: pointer;
    opacity: 0;
-   z-index: 20;
-   height: 2.2rem;
-   position: absolute;
-   left: -8.3rem
+  // z-index: 20;
+  // height: 2.2rem;
+
 }
 
 .agree input + label::before {
