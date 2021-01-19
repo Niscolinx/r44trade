@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
-import {GoPerson} from 'react-icons/go'
-import {RiBitCoinFill, RiLockPasswordFill} from 'react-icons/ri'
-import {FaEthereum} from 'react-icons/fa'
-import {MdEmail} from 'react-icons/md'
+import { GoPerson } from 'react-icons/go'
+import { RiBitCoinFill, RiLockPasswordFill } from 'react-icons/ri'
+import { FaEthereum } from 'react-icons/fa'
+import { MdEmail } from 'react-icons/md'
 
 import * as orderAction from '../../store/actions/burgerIndex'
 import Input from '../Input'
@@ -16,8 +16,7 @@ import LogRegBg from '../../images/logreg_bg.jpg'
 import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
-
-    const [invest, setInvest] = useState(0).toLocaleString()
+    const [invest, setInvest] = useState(0)
     const [showTotal, setShowTotal] = useState(0)
     const [showMonthly, setShowMonthly] = useState([])
 
@@ -90,8 +89,7 @@ const Signup = (props) => {
         }
     }, [props])
 
-
-    const inputInvestHandler = e => {
+    const inputInvestHandler = (e) => {
         setInvest(e.target.value)
     }
 
@@ -99,15 +97,21 @@ const Signup = (props) => {
         e.preventDefault()
 
         const percent = 0.5
-        let monthlyTotal = invest * percent
+        let profitMargin = invest * percent
+
+        let monthlyTotal = Number(profitMargin) + Number(invest)
 
         let monthlyReturn = []
         let yearlyReturn = 0
-        for(let i = 0; i < 12; i++){
-            
-            monthlyReturn.push(monthlyTotal)
+        for (let i = 0; i < 12; i++) {
+            console.log('initial monthly total', monthlyTotal)
             yearlyReturn += monthlyTotal
-            monthlyTotal = Number(monthlyTotal) + Number(invest)
+            monthlyReturn.push(monthlyTotal)
+
+            const gainMargin = monthlyTotal * percent
+            monthlyTotal = Number(monthlyTotal) + Number(gainMargin)
+
+            console.log('final monthly total', monthlyTotal)
         }
 
         // const year =12
@@ -115,11 +119,11 @@ const Signup = (props) => {
         // const total = year.map((item, i) => {
         //     return item
         // })
-        
+
         setShowMonthly(monthlyReturn)
-        
+
         setShowTotal(yearlyReturn)
-        
+
         console.log('monthly', showMonthly)
         console.log('yearly', yearlyReturn)
     }
@@ -536,30 +540,66 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <div style={{display: 'grid', justifyContent: 'center', alignItems: 'center', margin: '0 25rem', }}>
+                                <div
+                                    style={{
+                                        display: 'grid',
+                                        justifyContent: 'center',
+                                        alignItems: 'center',
+                                        margin: '0 25rem',
+                                    }}
+                                >
                                     {showMonthly.map((item, i) => {
                                         return (
                                             <li
                                                 key={item}
                                                 style={{ fontSize: '1.5rem' }}
                                             >
-                                                After month {i} ={' '}
-                                                <span style={{fontSize: '2.5rem', fontWeight: 'bold'}}>N{item.toLocaleString()}</span>
+                                                After month {i + 1} ={' '}
+                                                <span
+                                                    style={{
+                                                        fontSize: '2.5rem',
+                                                        fontWeight: 'bold',
+                                                    }}
+                                                >
+                                                    N{item.toLocaleString()}
+                                                </span>
                                             </li>
                                         )
                                     })}
-                                <h1 style={{textAlign: 'center', fontWeight: 'bold', fontSize: '3rem', margin: '3rem 0'}}>N{showTotal.toLocaleString()}</h1>
-                                <form onSubmit ={investHandler}>
-                                    <input style={{background: 'white', height: '5rem', fontSize: '3rem', padding: '1rem'}}
-                                        type='number'
-                                        onChange={inputInvestHandler}
-                                        value={invest}
-                                    />
-                                    <button style={{fontSize: '2rem', textAlign: 'center', padding: '1rem', cursor: 'pointer'}}>Submit</button>
-                                </form>
-
+                                    <h1
+                                        style={{
+                                            textAlign: 'center',
+                                            fontWeight: 'bold',
+                                            fontSize: '3rem',
+                                            margin: '3rem 0',
+                                        }}
+                                    >
+                                        N{showTotal.toLocaleString()}
+                                    </h1>
+                                    <form onSubmit={investHandler}>
+                                        <input
+                                            style={{
+                                                background: 'white',
+                                                height: '5rem',
+                                                fontSize: '3rem',
+                                                padding: '1rem',
+                                            }}
+                                            type='number'
+                                            onChange={inputInvestHandler}
+                                            value={invest}
+                                        />
+                                        <button
+                                            style={{
+                                                fontSize: '2rem',
+                                                textAlign: 'center',
+                                                padding: '1rem',
+                                                cursor: 'pointer',
+                                            }}
+                                        >
+                                            Submit
+                                        </button>
+                                    </form>
                                 </div>
-
                             </Auth>
                         </div>
                     </div>
