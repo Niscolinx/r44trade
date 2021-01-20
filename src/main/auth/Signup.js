@@ -16,9 +16,9 @@ import LogRegBg from '../../images/logreg_bg.jpg'
 import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
-    const [invest, setInvest] = useState(0)
-    const [showTotal, setShowTotal] = useState(0)
-    const [showMonthly, setShowMonthly] = useState([])
+    // const [invest, setInvest] = useState(0)
+    // const [showTotal, setShowTotal] = useState(0)
+    // const [showMonthly, setShowMonthly] = useState([])
 
     const [state, setState] = useState({
         signupForm: {
@@ -89,43 +89,43 @@ const Signup = (props) => {
         }
     }, [props])
 
-    const inputInvestHandler = (e) => {
-        setInvest(e.target.value)
-    }
+    // const inputInvestHandler = (e) => {
+    //     setInvest(e.target.value)
+    // }
 
-    const investHandler = (e) => {
-        e.preventDefault()
+    // const investHandler = (e) => {
+    //     e.preventDefault()
 
-        const percent = 0.5
-        let profitMargin = invest * percent
+    //     const percent = 0.5
+    //     let profitMargin = invest * percent
 
-        let monthlyTotal = Math.floor(Number(profitMargin)) + Math.floor(Number(invest))
+    //     let monthlyTotal = Math.floor(Number(profitMargin)) + Math.floor(Number(invest))
 
-        let monthlyReturn = []
-        let yearlyReturn = 0
-        for (let i = 0; i < 12; i++) {
-            yearlyReturn += monthlyTotal
-            monthlyReturn.push(monthlyTotal)
+    //     let monthlyReturn = []
+    //     let yearlyReturn = 0
+    //     for (let i = 0; i < 12; i++) {
+    //         yearlyReturn += monthlyTotal
+    //         monthlyReturn.push(monthlyTotal)
 
-            const gainMargin = monthlyTotal * percent
-            monthlyTotal = Math.floor(Number(monthlyTotal)) + Math.floor(Number(gainMargin))
+    //         const gainMargin = monthlyTotal * percent
+    //         monthlyTotal = Math.floor(Number(monthlyTotal)) + Math.floor(Number(gainMargin))
 
-            console.log('final monthly total', monthlyTotal)
-        }
+    //         console.log('final monthly total', monthlyTotal)
+    //     }
 
-        // const year =12
+    //     // const year =12
 
-        // const total = year.map((item, i) => {
-        //     return item
-        // })
+    //     // const total = year.map((item, i) => {
+    //     //     return item
+    //     // })
 
-        setShowMonthly(monthlyReturn)
+    //     setShowMonthly(monthlyReturn)
 
-        setShowTotal(yearlyReturn)
+    //     setShowTotal(yearlyReturn)
 
-        console.log('monthly', showMonthly)
-        console.log('yearly', yearlyReturn)
-    }
+    //     console.log('monthly', showMonthly)
+    //     console.log('yearly', yearlyReturn)
+    // }
 
     const inputChangeHandler = (input, value) => {
         setState((prevState) => {
@@ -399,12 +399,7 @@ const Signup = (props) => {
                                                 </span>
                                             </div>
 
-                                            {/* <input
-                                                name='agree'
-                                                value='1'
-                                                type='checkbox'
-                                                id='regCheck'
-                                            /> */}
+                      
                                             <div class='agree'>
                                                 <input
                                                     required
@@ -539,7 +534,7 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                                <div
+                                {/* <div
                                     style={{
                                         display: 'grid',
                                         justifyContent: 'center',
@@ -597,7 +592,7 @@ const Signup = (props) => {
                                         >
                                             Submit
                                         </button>
-                                    </form>
+                                    </form> 
                                 </div>
                             </Auth>
                         </div>
