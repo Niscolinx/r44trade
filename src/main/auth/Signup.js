@@ -104,7 +104,6 @@ const Signup = (props) => {
         let monthlyReturn = []
         let yearlyReturn = 0
         for (let i = 0; i < 12; i++) {
-            console.log('initial monthly total', monthlyTotal)
             yearlyReturn += monthlyTotal
             monthlyReturn.push(monthlyTotal)
 
