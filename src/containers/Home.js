@@ -327,15 +327,16 @@ function Layout(props) {
                                     </p>
                                 </div>
                                 <div className='btnsWrap'>
-                                    <a
-                                        href='about.php'
+                                    <Link
+                                        to='about'
                                         className='btnFillColor1Lg'
                                     >
                                         Learn more
-                                    </a>
+                                    </Link>
                                     <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='_blank'
+                                        rel='noopener noreferrer'
                                         className='btnFillColor2Lg'
                                     >
                                         Check the registration
@@ -813,8 +814,6 @@ function Layout(props) {
                         <Link to='/Auth/signup' className='btnFillDarkMd'>
                             Get money
                         </Link>
-
-                     
                     </div>
                 </div>
             </div>
