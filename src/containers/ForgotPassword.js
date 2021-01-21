@@ -80,7 +80,7 @@ const Login = (props) => {
 
     const inputBlurHandler = (input) => {}
 
-    const handleLogin = (e) => {
+    const handleForgotPassword = (e) => {
         e.preventDefault()
         if (state.formIsValid) {
             setMessage({
@@ -107,7 +107,7 @@ const Login = (props) => {
                 <h1 className='form__heading form__heading--forgottenPassword'>
                     Retrive Password
                 </h1>
-                <form onSubmit={handleLogin}>
+                <form onSubmit={handleForgotPassword}>
                     <Input
                         id='email'
                         label='E-Mail'
@@ -168,7 +168,7 @@ const Login = (props) => {
                                 class='wrap login'
                                 style={{ paddingTop: '100px' }}
                             >
-                                <form class='formLogin'>
+                                <form class='formLogin' onSubmit={handleForgotPassword}>
                                     <div class='item'>
                                         <div class='formBlockLight'>
                                             <label>Email Address:</label>
