@@ -174,7 +174,6 @@ const Login = (props) => {
                                             <label>Email Address:</label>
                                             <Input
                                                 id='email'
-                                                label='E-Mail'
                                                 type='email'
                                                 control='input'
                                                 onChange={inputChangeHandler}
