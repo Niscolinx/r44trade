@@ -16,7 +16,10 @@ const ContactUs = (props) => {
                 </div>
             </div>
 
-            <div className='contInfo' style={{ backgroundImage: `url(${GreyBg})` }}>
+            <div
+                className='contInfo'
+                style={{ backgroundImage: `url(${GreyBg})` }}
+            >
                 {' '}
                 <div className='container'>
                     <div className='row'>
@@ -46,13 +49,15 @@ const ContactUs = (props) => {
                                             <span className='icon-mail'></span>
                                         </div>
                                         <div className='data tCell middle'>
-                                            <span className='title'>e-mail:</span>
+                                            <span className='title'>
+                                                e-mail:
+                                            </span>
                                             <a
-                                                href='mailto:admin@robot22trade.com'
+                                                href='mailto:admin@robot44trade.com'
                                                 target='_blank'
                                                 className='link'
                                             >
-                                                admin@robot22trade.com
+                                                admin@robot44trade.com
                                             </a>
                                         </div>
                                     </div>
@@ -84,12 +89,7 @@ const ContactUs = (props) => {
                 <div className='containerSM'>
                     <span className='captionDark center'>contact form</span>
                     <div className='wrap'>
-                        <form
-                            method='post'
-                            name='mainform'
-                        >
-                          
-
+                        <form method='post' name='mainform'>
                             <div className='row bigPadd'>
                                 <div className='item col6'>
                                     <div className='formBlockLight'>
@@ -118,7 +118,10 @@ const ContactUs = (props) => {
                                     <textarea name='message'></textarea>
                                 </div>
                             </div>
-                            <button type='submit' className='btnFillDarkMd center'>
+                            <button
+                                type='submit'
+                                className='btnFillDarkMd center'
+                            >
                                 send
                             </button>
                         </form>{' '}

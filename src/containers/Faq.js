@@ -15,7 +15,10 @@ const Faq = () => {
                 </div>
             </div>
 
-            <div className='faq' style={{ backgroundImage: `url(${GreyBgBig})` }}>
+            <div
+                className='faq'
+                style={{ backgroundImage: `url(${GreyBgBig})` }}
+            >
                 <div className='container'>
                     <div className='faqBlock'>
                         <span className='mainTitle'>
@@ -71,9 +74,9 @@ const Faq = () => {
                                             Forex Expert Advisor, which works
                                             great with all types of Brokerage on
                                             the <strong>MT4</strong> platform,
-                                            including the types Micro, classNameic,
-                                            Premium, Standard, ECN, Islamic and
-                                            Zero Spread Accounts.
+                                            including the types Micro,
+                                            classNameic, Premium, Standard, ECN,
+                                            Islamic and Zero Spread Accounts.
                                         </p>
                                     </div>
                                 </div>
@@ -132,7 +135,7 @@ const Faq = () => {
                                                         style={{
                                                             color: '#0000ff',
                                                         }}
-                                                        href='robot22trade.com/performance/'
+                                                        href='robot44trade.com/performance/'
                                                         target='_blank'
                                                         rel='noopener'
                                                     >
@@ -151,12 +154,16 @@ const Faq = () => {
                                             system among thousands of others.
                                             For further clarification, you may{' '}
                                             <a
-                                                href='robot22trade.com/reviews-2/'
+                                                href='robot44trade.com/reviews-2/'
                                                 target='_blank'
                                                 rel='noopener'
                                             >
                                                 <strong>
-                                                    <span style={{color: '#0000ff'}}>
+                                                    <span
+                                                        style={{
+                                                            color: '#0000ff',
+                                                        }}
+                                                    >
                                                         read our testimonials
                                                     </span>
                                                 </strong>
@@ -315,14 +322,18 @@ const Faq = () => {
                                             promotions or seasonal discount’s
                                             info please visit –{' '}
                                             <strong>
-                                                <span style={{color: '#3366ff'}}>
+                                                <span
+                                                    style={{ color: '#3366ff' }}
+                                                >
                                                     <a
-                                                        style={{color: '#3366ff'}}
-                                                        href='robot22trade.com'
+                                                        style={{
+                                                            color: '#3366ff',
+                                                        }}
+                                                        href='robot44trade.com'
                                                         target='_blank'
                                                         rel='noopener'
                                                     >
-                                                        robot22trade.com/index.php
+                                                        robot44trade.com/index.php
                                                     </a>
                                                 </span>
                                             </strong>
@@ -635,11 +646,13 @@ const Faq = () => {
                                             about the changes in the market
                                             terms or improvement in the strategy
                                             from time to time. Kindly{' '}
-                                            <span style={{color: '#0000ff'}}>
+                                            <span style={{ color: '#0000ff' }}>
                                                 <strong>
                                                     <a
-                                                        style={{color: '#0000ff'}}
-                                                        href='robot22trade.com/ea-updates/'
+                                                        style={{
+                                                            color: '#0000ff',
+                                                        }}
+                                                        href='robot44trade.com/ea-updates/'
                                                         target='_blank'
                                                         rel='noopener'
                                                     >
@@ -660,7 +673,7 @@ const Faq = () => {
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             Are the updates about all Free or
-                                            robot22trade.com charges extra?
+                                            robot44trade.com charges extra?
                                         </span>
                                     </div>
                                 </div>
@@ -708,10 +721,14 @@ const Faq = () => {
                                             etc. by finding the links and graphs
                                             on our{' '}
                                             <strong>
-                                                <span style={{color: '#0000ff'}}>
+                                                <span
+                                                    style={{ color: '#0000ff' }}
+                                                >
                                                     <a
-                                                        style={{color: '#0000ff'}}
-                                                        href='robot22trade.com/performance/'
+                                                        style={{
+                                                            color: '#0000ff',
+                                                        }}
+                                                        href='robot44trade.com/performance/'
                                                         target='_blank'
                                                         rel='noopener'
                                                     >

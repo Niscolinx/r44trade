@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import Payment_1 from '../../images/payment_1.png'
 import Payment_2 from '../../images/payment_2.png'
@@ -92,7 +92,7 @@ function Footer() {
                                     className='link'
                                     href='mailto:admin@robot44trade.com'
                                 >
-                                    admin@robot22trade.com
+                                    admin@robot44trade.com
                                 </a>
                             </div>
                         </div>
