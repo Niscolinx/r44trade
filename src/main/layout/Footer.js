@@ -67,10 +67,10 @@ function Footer() {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link to='contact.php'>CONTACT US</Link>
+                                        <Link to='/contact-us'>CONTACT US</Link>
                                     </li>
                                     <li>
-                                        <Link to='faq.php'>FAQ</Link>
+                                        <Link to='/faq'>FAQ</Link>
                                     </li>
                                     <li>
                                         <Link href='/Auth/signup'>Sign up</Link>
@@ -90,7 +90,7 @@ function Footer() {
                                 <span className='title'>E-mail:</span>
                                 <a
                                     className='link'
-                                    href='mailto:admin@robot22trade.com'
+                                    href='mailto:admin@robot44trade.com'
                                 >
                                     admin@robot22trade.com
                                 </a>
