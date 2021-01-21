@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import {Link} from 'react-router-dom'
 import { connect } from 'react-redux'
 import Particles from 'react-particles-js'
 
@@ -130,12 +131,14 @@ const Login = (props) => {
                 </form>
             </Auth> */}
 
-            <div class="bodyWrap">
-<div class="logRegPage"  style={{
+            <div class='bodyWrap'>
+                <div
+                    class='logRegPage'
+                    style={{
                         backgroundImage: `url(${GradBgBig}), url(${LogRegBg})`,
-                    }}>
-<div class="container">
-
+                    }}
+                >
+                    <div class='container'>
                         <div class='head'>
                             <div class='logo invisLink' style={{ opacity: 0 }}>
                                 <img src={Logo} alt='logo' height='70px;' />
@@ -144,44 +147,64 @@ const Login = (props) => {
                             </div>
                         </div>
 
+                        <div class='content'>
+                            <div class='captionLight center'>
+                                Forget Password
+                            </div>
+                            <p
+                                style={{
+                                    textAlign: 'center',
+                                    fontWeight: 600,
+                                    color: 'white',
+                                    marginTop: '30px',
+                                }}
+                            >
+                                A mail would be sent sent to your email address.
+                                Kindly ensure that you input the email that you
+                                use to register with us.
+                            </p>
 
+                            <div
+                                class='wrap login'
+                                style={{ paddingTop: '100px' }}
+                            >
+                                <form class='formLogin'>
+                                    <div class='item'>
+                                        <div class='formBlockLight'>
+                                            <label>Email Address:</label>
+                                            <input
+                                                type='email'
+                                                name='email'
+                                                value=''
+                                                autofocus='autofocus'
+                                            />
+                                            <span class='icon-mail'></span>
+                                        </div>
 
+                                        <br></br>
+                                        <button
+                                            type='submit'
+                                            class='btnFillDarkMd'
+                                            name='post'
+                                        >
+                                            Get Code
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
 
-<div class="content">
-<div class="captionLight center">Forget Password</div>
-<p style={{textAlign: 'center', fontWeight: 600, color: 'white', marginTop: '30px'}}>
-A mail would be sent sent to your email address. Kindly ensure that you input the email that you use to register with us.
-</p>
-
-<div class="wrap login" style={{paddingTop: '100px'}}>
-
-<form class="formLogin">
-
-<div class="item">
-
-<div class="formBlockLight">
-<label>Email Address:</label>
-<input type="email" name="email" value='' autofocus="autofocus" />
-<span class="icon-mail"></span>
-</div>
-
-<br></br>
-<button type="submit" class="btnFillDarkMd" name="post">Get Code</button>
-
-</div>
-</form>
-</div>
-</div>
-
-<div class="bottomLine table full">
-<p class="copy tCell middle left">© 2021 Robot22 Trade. All rights reserved.</p>
- 
-</div>
-</div>
-<div class="circleBg"><div class="circle"></div></div>
-</div>
-</div>
-
+                        <div class='bottomLine table full'>
+                            <p class='copy tCell middle left'>
+                                © 2021 Robot22 Trade. All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                    <div class='circleBg'>
+                        <div class='circle'></div>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
