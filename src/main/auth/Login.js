@@ -220,12 +220,12 @@ const Login = (props) => {
                                             />
                                             <span class='icon-pass'></span>
                                         </div>
-                                        <a
-                                            href='email_access.php'
+                                        <Link
+                                            to='/forgot-password'
                                             class='passLink'
                                         >
                                             Forgot password?
-                                        </a>
+                                        </Link>
                                         <button
                                             type='submit'
                                             class='btnFillDarkMd'
