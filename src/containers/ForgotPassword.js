@@ -168,6 +168,7 @@ const Login = (props) => {
                                 class='wrap login'
                                 style={{ paddingTop: '100px' }}
                             >
+                                <Auth message={message}>
                                 <form class='formLogin' onSubmit={handleForgotPassword}>
                                     <div class='item'>
                                         <div class='formBlockLight'>
@@ -217,6 +218,7 @@ const Login = (props) => {
                                         </button> */}
                                     </div>
                                 </form>
+                                </Auth>
                             </div>
                         </div>
 
