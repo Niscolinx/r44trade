@@ -45,7 +45,7 @@
 }
 .section-subHeader {
     display: grid;
-    background-color: $color-secondary;
+   // background-color: $color-secondary;
     // grid-template-columns: subgrid;
     grid-column: 1 / -1;
 }
@@ -162,10 +162,9 @@
 }
 
 .section-footer {
-    background-color: $color-secondary;
+   // background-color: $color-secondary;
     grid-column: sidebar-start / full-end;
 
-    padding: 4rem;
 }
 
 %heading {
