@@ -87,9 +87,20 @@ a:hover {
 select,
 input,
 textarea {
-    width: 100%;
-    outline: none;
+    // width: 100%;
+    // outline: none;
    
+    // font-family: 'Montserrat';
+
+    width: 100%;
+    -webkit-outline: none;
+    -moz-outline: none;
+    outline: none;
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
     font-family: 'Montserrat';
 }
 
