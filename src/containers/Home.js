@@ -813,6 +813,8 @@ function Layout(props) {
                         <Link to='/Auth/signup' className='btnFillDarkMd'>
                             Get money
                         </Link>
+
+                     
                     </div>
                 </div>
             </div>

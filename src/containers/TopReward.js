@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import PartnersPageBg from '../images/partners_page_bg.jpg'
 import B1000 from '../images/1000.png'
 
@@ -131,9 +133,9 @@ const TopReward = () => {
                         <div class='row'></div>
                     </div>
 
-                    <a href='register.php' class='btnFillDarkLg center'>
+                    <Link to='/Auth/signup' class='btnFillDarkLg center'>
                         Register
-                    </a>
+                    </Link>
                 </div>
 
                 {/* <div class='circleBg'>

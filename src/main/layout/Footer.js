@@ -72,7 +72,7 @@ function Footer() {
                                         <a href='faq.php'>FAQ</a>
                                     </li>
                                     <li>
-                                        <a href='register.php'>Sign up</a>
+                                        <Link href='/Auth/signup'>Sign up</Link>
                                     </li>
                                 </ul>
                             </li>
