@@ -62,7 +62,7 @@ function Footer() {
                             <li className='col'>
                                 <ul>
                                     <li>
-                                        <Link to='testimonies.php'>
+                                        <Link to='testimonies'>
                                             TESTIMONIES
                                         </Link>
                                     </li>
