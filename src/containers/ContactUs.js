@@ -87,20 +87,8 @@ const ContactUs = (props) => {
                         <form
                             method='post'
                             name='mainform'
-                            onsubmit='return checkform()'
                         >
-                            <input
-                                type='hidden'
-                                name='form_id'
-                                value='15866293958230'
-                            />
-                            <input
-                                type='hidden'
-                                name='form_token'
-                                value='5fa5f60f62cbfc10723983e283d98cb6'
-                            />
-                            <input type='hidden' name='a' value='support' />
-                            <input type='hidden' name='action' value='send' />
+                          
 
                             <div className='row bigPadd'>
                                 <div className='item col6'>
