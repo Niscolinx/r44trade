@@ -200,7 +200,6 @@ const Login = (props) => {
 
                                         <br></br>
                                         <Button
-                                            design='raised'
                                             type='submit'
                                             class='btnFillDarkMd'
                                             loading={props.loading}
