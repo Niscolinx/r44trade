@@ -230,8 +230,8 @@ export const initSignup = (authData) => {
             fullname: "${data.fullname.value}",
             secretQuestion: "${data.secretQuestion.value}",
             secretAnswer: "${data.secretAnswer.value}",
-            bitcoinAccount: "${data.bitcoinAccount.value}",
-            ethereumAccount: "${data.ethereumAccount.value}"
+            bitcoinAccount: "${data.bitcoinAccount?.value}",
+            ethereumAccount: "${data.ethereumAccount?.value}"
            }) {  email username fullname }
          }`,
         }
