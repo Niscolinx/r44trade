@@ -149,13 +149,13 @@ const Login = (props) => {
 
 <div class="content">
 <div class="captionLight center">Forget Password</div>
-<p style="text-align: center; font-weight: 600; color: white; margin-top: 30px;">
+<p style={{textAlign: 'center', font-weight: 600; color: white; margin-top: 30px}}>
 A mail would be sent sent to your email address. Kindly ensure that you input the email that you use to register with us.
 </p>
 
-<div class="wrap login" style="padding-top: 100px">
+<div class="wrap login" style={{paddingTop: '100px'}}>
 
-<form class="formLogin" method=post name=mainform onsubmit="return checkform()" >
+<form class="formLogin">
 
 <div class="item">
 
