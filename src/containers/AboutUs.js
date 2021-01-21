@@ -109,14 +109,14 @@ font-size: 16px;} */}
                                     >
                                         Join
                                     </Link>
-                                    <a
+                                    {/* <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='#blank'
                                         className='btnFillColor2Lg'
                                         style={{ margin: '20px 0 0' }}
                                     >
                                         Check registration
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                             <p>
