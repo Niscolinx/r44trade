@@ -102,13 +102,13 @@ font-size: 16px;} */}
                                     className='btnsWrap'
                                     style={{ textAlign: 'center' }}
                                 >
-                                    <a
-                                        href='register.php'
+                                    <Link
+                                        to='/Auth/signup'
                                         className='btnFillColor1Lg'
                                         style={{ marginRight: '20px' }}
                                     >
                                         Join
-                                    </a>
+                                    </Link>
                                     <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='#blank'
