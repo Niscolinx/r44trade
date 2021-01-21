@@ -165,7 +165,7 @@ A mail would be sent sent to your email address. Kindly ensure that you input th
 <span class="icon-mail"></span>
 </div>
 
-<br>
+<br></br>
 <button type="submit" class="btnFillDarkMd" name="post">Get Code</button>
 
 </div>
