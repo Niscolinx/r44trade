@@ -89,16 +89,23 @@ input,
 textarea {
     width: 100%;
     outline: none;
-   
+
     font-family: 'Montserrat';
 }
 
-.calc__plan--select{
-        background-color: rgba(255, 255, 255, 0.33);
+.calc__plan--select {
+    background-color: rgba(255, 255, 255, 0.33);
     border: 1px solid white;
     height: 46px;
     line-height: 44px;
     margin-top: 12px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 35px;
+    font-size: 15px;
+    color: black;
+    border-radius: 23px;
+    box-shadow: inset 0px 3px 7px rgba(0, 0, 0, 0.07);
 }
 
 .invisLink {
@@ -256,9 +263,7 @@ span.color2 {
     z-index: -1;
 }
 
-
-
-.signup__select{
+.signup__select {
     margin-top: 12px;
     height: 46px;
     padding-left: 20px;
@@ -4653,7 +4658,7 @@ footer .cont + .cont {
 
 .logRegPage [class*='formBlock'] + .agree {
     margin-top: 60px;
-        align-items: center;
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 15fr;
 }
@@ -4730,14 +4735,13 @@ footer .cont + .cont {
 }
 
 .agree input {
-   //display: none;
-   cursor: pointer;
-   opacity: 0;
-   position: relative;
-   left: 25px;
-  z-index: 20;
-  // height: 2.2rem;
-
+    //display: none;
+    cursor: pointer;
+    opacity: 0;
+    position: relative;
+    left: 25px;
+    z-index: 20;
+    // height: 2.2rem;
 }
 
 .agree input + label::before {
@@ -4760,7 +4764,7 @@ footer .cont + .cont {
 .agree input:not(checked) + label::after {
     content: '';
     display: block;
-   // z-index: 10;
+    // z-index: 10;
     position: absolute;
     left: 0px;
     top: 50%;
@@ -4815,8 +4819,6 @@ div.errors {
     margin-bottom: 20px;
 }
 
-
-
 ul.errors li {
     color: red;
 }
@@ -4835,7 +4837,6 @@ ul.errors li {
     border-collapse: collapse;
     margin: 15px 0 0;
 }
-
 
 .designed_table table tr td,
 .designed_table table tr th {
