@@ -741,8 +741,11 @@ function Layout(props) {
                             </div>
                             <div className='formBlockLight'>
                                 <label for='calc_plan'>Choosing of plan:</label>
-                                <select name='choosePlan' id='calc_plan'                                         className='enterNum'
->
+                                <select
+                                    name='choosePlan'
+                                    id='calc_plan'
+                                    className='enterNum'
+                                >
                                     <option
                                         value='1'
                                         data-min='50'
