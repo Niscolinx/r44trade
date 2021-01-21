@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
-import Particles from 'react-particles-js'
+import { GoPerson } from 'react-icons/go'
 import { Link } from 'react-router-dom'
 
 import * as orderAction from '../../store/actions/burgerIndex'
@@ -166,19 +166,30 @@ const Login = (props) => {
                         <div class='content'>
                             <div class='captionLight center'>Login</div>
                             <div class='wrap login'>
-                                <form
-                                    class='formLogin'
-                                >
-                                  
-
+                                <form class='formLogin'>
                                     <div class='item'>
                                         <div class='formBlockLight'>
                                             <label>Email Address:</label>
-                                            <input
-                                                type='text'
-                                                name='username'
-                                                value=''
-                                                autofocus='autofocus'
+                                            <Input
+                                                id='email'
+                                                type='email'
+                                                control='input'
+                                                onChange={inputChangeHandler}
+                                                onBlur={inputBlurHandler.bind(
+                                                    'email'
+                                                )}
+                                                value={
+                                                    state.loginForm['email']
+                                                        .value
+                                                }
+                                                valid={
+                                                    state.loginForm['email']
+                                                        .valid
+                                                }
+                                                touched={
+                                                    state.loginForm['email']
+                                                        .touched
+                                                }
                                             />
                                             <span class='icon-login'></span>
                                         </div>
@@ -186,10 +197,27 @@ const Login = (props) => {
                                             <label for='logPass'>
                                                 Password:
                                             </label>
-                                            <input
+                                            <Input
+                                                id='password'
                                                 type='password'
-                                                name='password'
-                                                value=''
+                                                control='input'
+                                                minLength={6}
+                                                onChange={inputChangeHandler}
+                                                onBlur={inputBlurHandler.bind(
+                                                    'password'
+                                                )}
+                                                value={
+                                                    state.loginForm['password']
+                                                        .value
+                                                }
+                                                valid={
+                                                    state.loginForm['password']
+                                                        .valid
+                                                }
+                                                touched={
+                                                    state.loginForm['password']
+                                                        .touched
+                                                }
                                             />
                                             <span class='icon-pass'></span>
                                         </div>
