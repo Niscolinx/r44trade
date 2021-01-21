@@ -199,13 +199,23 @@ const Login = (props) => {
                                         </div>
 
                                         <br></br>
-                                        <button
+                                        <Button
+                                            design='raised'
+                                            type='submit'
+                                            class='btnFillDarkMd'
+                                            loading={props.loading}
+                                        >
+                                            {props.loading
+                                                ? 'Loading...'
+                                                : 'Get Code'}
+                                        </Button>
+                                        {/* <button
                                             type='submit'
                                             class='btnFillDarkMd'
                                             name='post'
                                         >
                                             Get Code
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </form>
                             </div>
