@@ -707,27 +707,8 @@ function Layout(props) {
             <div className='planProfit gradBack'>
                 <div className='container'>
                     <div className='cfix'>
-                        <form onsubmit='return calc()'>
-                            <input
-                                type='hidden'
-                                name='form_id'
-                                value='15866293132560'
-                            />
-                            <input
-                                type='hidden'
-                                name='form_token'
-                                value='e8adebe87ccf486384da4a19a20feb4d'
-                            />
-                            <input
-                                type='hidden'
-                                name='form_id'
-                                value='15348023226740'
-                            />
-                            <input
-                                type='hidden'
-                                name='form_token'
-                                value='7fdf09bfa9cfe7b3d8483811bc1fc4c1'
-                            />
+                        <form>
+                            
                             <div className='formBlockLight'>
                                 <label for='calc_amount'>Amount:</label>
                                 <input
