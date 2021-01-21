@@ -385,7 +385,7 @@ function Layout(props) {
                                                 <span className='pct'>10%</span>
                                                 <span>48 HOURS</span>
                                                 <Link
-                                                    href='/Auth/signup'
+                                                    to='/Auth/signup'
                                                     className='btnFillColor1Md'
                                                 >
                                                     Make deposit
@@ -425,12 +425,12 @@ function Layout(props) {
                                             <div className='descr'>
                                                 <span className='pct'>20%</span>
                                                 <span>4 Work Days</span>
-                                                <a
-                                                    href='register.php'
+                                                <Link
+                                                    to='register.php'
                                                     className='btnFillColor2Md'
                                                 >
                                                     Make deposit
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <ul className='info'>
