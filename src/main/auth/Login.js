@@ -257,9 +257,9 @@ const Login = (props) => {
                             </p>
                         </div>
                     </div>
-                    {/* <div class='circleBg'>
+                    <div class='circleBg'>
                         <div class='circle'></div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </>
