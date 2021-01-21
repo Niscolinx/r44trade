@@ -144,6 +144,7 @@ const Signup = (props) => {
     const handleSignup = (e) => {
         e.preventDefault()
         if (state.formValid) {
+            console.log('the state is valid', state)
             props.onInitSignup(state)
         } else {
             setMessage({ error: 'Wrong Input, please check your entries' })
