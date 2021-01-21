@@ -328,7 +328,7 @@ function Layout(props) {
                                 </div>
                                 <div className='btnsWrap'>
                                     <Link
-                                        to='about'
+                                        to='about-us'
                                         className='btnFillColor1Lg'
                                     >
                                         Learn more
