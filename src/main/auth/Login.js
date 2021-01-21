@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
 import { GoPerson } from 'react-icons/go'
 import { Link } from 'react-router-dom'
+import { RiLockPasswordFill } from 'react-icons/ri'
+
 
 import * as orderAction from '../../store/actions/burgerIndex'
 
@@ -219,7 +221,7 @@ const Login = (props) => {
                                                         .touched
                                                 }
                                             />
-                                            <span class='icon-pass'></span>
+                                            <span class='icon-pass'><RiLockPasswordFill/></span>
                                         </div>
                                         <Link
                                             to='/forgot-password'

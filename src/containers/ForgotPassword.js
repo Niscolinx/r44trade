@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import {Link} from 'react-router-dom'
 import { connect } from 'react-redux'
-import Particles from 'react-particles-js'
+import { RiLockPasswordFill } from 'react-icons/ri'
 
 import * as orderAction from '../store/actions/burgerIndex'
 
