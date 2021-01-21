@@ -563,7 +563,7 @@ function Layout(props) {
                                                 <span>10 Work Days</span>
                                                 <Link
                                                     to='/Auth/signup'
-                                                    className='btnFillColor2Md'
+                                                    className='btnFillColor1Md'
                                                 >
                                                     Make deposit
                                                 </Link>
