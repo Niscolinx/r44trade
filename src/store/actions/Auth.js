@@ -220,6 +220,8 @@ export const initSignup = (authData) => {
 
         const data = authData.signupForm
 
+        console.log('From the schema', data)
+
         const graphqlQuery = {
             query: ` mutation { createUser(userData: {
             username: "${data.username.value}",
