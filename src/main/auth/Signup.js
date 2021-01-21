@@ -16,9 +16,6 @@ import LogRegBg from '../../images/logreg_bg.jpg'
 import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
-    // const [invest, setInvest] = useState(0)
-    // const [showTotal, setShowTotal] = useState(0)
-    // const [showMonthly, setShowMonthly] = useState([])
 
     const [state, setState] = useState({
         signupForm: {
