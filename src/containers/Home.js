@@ -743,6 +743,7 @@ function Layout(props) {
                                 <label for='calc_plan'>Choosing of plan:</label>
                                 <select name='choosePlan' id='calc_plan'>
                                     <option
+                                        className='enterNum'
                                         value='1'
                                         data-min='50'
                                         data-max='199'
