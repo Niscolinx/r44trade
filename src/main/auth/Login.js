@@ -168,7 +168,9 @@ const Login = (props) => {
                         <div class='content'>
                             <div class='captionLight center'>Login</div>
                             <div class='wrap login'>
-                                <form class='formLogin'>
+                                            <Auth login message={message}>
+
+                                <form class='formLogin' onSubmit={handleLogin}>
                                     <div class='item'>
                                         <div class='formBlockLight'>
                                             <label>Email Address:</label>
@@ -193,7 +195,9 @@ const Login = (props) => {
                                                         .touched
                                                 }
                                             />
-                                            <span class='icon-login'></span>
+                                            <span class='icon-login'>
+                                                <GoPerson />
+                                            </span>
                                         </div>
                                         <div class='formBlockLight'>
                                             <label for='logPass'>
@@ -221,7 +225,9 @@ const Login = (props) => {
                                                         .touched
                                                 }
                                             />
-                                            <span class='icon-pass'><RiLockPasswordFill/></span>
+                                            <span class='icon-pass'>
+                                                <RiLockPasswordFill />
+                                            </span>
                                         </div>
                                         <Link
                                             to='/forgot-password'
@@ -238,6 +244,7 @@ const Login = (props) => {
                                         </button>
                                     </div>
                                 </form>
+                                </Auth>
                             </div>
                         </div>
 

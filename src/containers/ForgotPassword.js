@@ -172,13 +172,31 @@ const Login = (props) => {
                                     <div class='item'>
                                         <div class='formBlockLight'>
                                             <label>Email Address:</label>
-                                            <input
+                                            <Input
+                                                id='email'
+                                                label='E-Mail'
                                                 type='email'
-                                                name='email'
-                                                value=''
-                                                autofocus='autofocus'
+                                                control='input'
+                                                onChange={inputChangeHandler}
+                                                onBlur={inputBlurHandler.bind(
+                                                    'email'
+                                                )}
+                                                value={
+                                                    state.loginForm['email']
+                                                        .value
+                                                }
+                                                valid={
+                                                    state.loginForm['email']
+                                                        .valid
+                                                }
+                                                touched={
+                                                    state.loginForm['email']
+                                                        .touched
+                                                }
                                             />
-                                            <span class='icon-mail'></span>
+                                            <span class='icon-mail'>
+                                                <RiLockPasswordFill />
+                                            </span>
                                         </div>
 
                                         <br></br>
@@ -196,7 +214,7 @@ const Login = (props) => {
 
                         <div class='bottomLine table full'>
                             <p class='copy tCell middle left'>
-                                © 2021 Robot22 Trade. All rights reserved.
+                                © 2021 Robo44 Trade. All rights reserved.
                             </p>
                         </div>
                     </div>
