@@ -222,11 +222,7 @@ export const initSignup = (authData) => {
 
         console.log('From the schema', data)
 
-        if(!data.bitcoinAccount.value){
-            console.log('not valid')
-        }else{
-            console.log('it is valid')
-        }
+        data.bitcoinAccount.value === null ? console.log('not valid') : console.log('valid')
 
         const graphqlQuery = {
             query: ` mutation { createUser(userData: {
