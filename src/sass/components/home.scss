@@ -93,6 +93,13 @@ textarea {
     font-family: 'Montserrat';
 }
 
+.calc__plan--select{
+        background-color: rgba(255, 255, 255, 0.33);
+    border: 1px solid white;
+    height: 23px;
+    margin-top: 12px;
+}
+
 .invisLink {
     position: relative;
     z-index: 1;
