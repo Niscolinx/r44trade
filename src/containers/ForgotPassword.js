@@ -199,7 +199,7 @@ const Login = (props) => {
                                         </div>
 
                                         <br></br>
-                                        <Button
+                                        <button
                                             type='submit'
                                             class='btnFillDarkMd'
                                             loading={props.loading}
@@ -207,7 +207,7 @@ const Login = (props) => {
                                             {props.loading
                                                 ? 'Loading...'
                                                 : 'Get Code'}
-                                        </Button>
+                                        </button>
                                         {/* <button
                                             type='submit'
                                             class='btnFillDarkMd'
