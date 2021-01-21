@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 import AboutPageBg from '../images/about_page_bg.jpg'
 import { MdLocationOn } from 'react-icons/md'
 import AboutImg from '../images/about_img.jpg'
