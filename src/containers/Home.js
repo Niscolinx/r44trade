@@ -744,7 +744,6 @@ function Layout(props) {
                                 <select
                                     name='choosePlan'
                                     id='calc_plan'
-                                    className='enterNum'
                                 >
                                     <option
                                         value='1'
