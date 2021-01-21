@@ -857,9 +857,9 @@ function Layout(props) {
                             company, you will also get even more bonuses for it!
                         </p>
                     </div>
-                    <a href='about.php' className='btnFillGradLg center'>
+                    <Link to='about-us' className='btnFillGradLg center'>
                         Learn More
-                    </a>
+                    </Link>
 
                     <div className='cfix'>
                         <div className='statistic' style={{ display: 'none' }}>
