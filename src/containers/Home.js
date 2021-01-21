@@ -47,8 +47,6 @@ function Layout(props) {
             </div>
 
             <div className='bodyWrap'>
-              
-
                 <div
                     className='mainBanner gradImg'
                     style={{ backgroundImage: `url(${Bg_11})` }}
@@ -258,14 +256,20 @@ function Layout(props) {
                                             backgroundImage: `url(${profile})`,
                                         }}
                                     >
-                                        <a href={`${profile}`} target='_blank' rel="noopener noreferrer">
+                                        <a
+                                            href={`${profile}`}
+                                            target='_blank'
+                                            rel='noopener noreferrer'
+                                        >
                                             license
                                         </a>
                                     </div>
                                 </div>
                                 <div className='address'>
                                     <div className='iconLeft'>
-                                        <span className='icon-location gradTxt'><MdLocationOn className='location__svg'/></span>
+                                        <span className='icon-location gradTxt'>
+                                            <MdLocationOn className='location__svg' />
+                                        </span>
                                         <span className='data'>
                                             71-75 Shelton Street, London,
                                             Greater London, United Kingdom, WC2H
@@ -685,12 +689,12 @@ function Layout(props) {
                                     <div className='descr'>
                                         <span className='pct'>EXTRA</span>
                                         <span>BONUS</span>
-                                        <a
-                                            href='register.php'
+                                        <Link
+                                            to='/Auth/signup'
                                             className='btnFillColor2Md'
                                         >
                                             Make deposit
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -806,9 +810,9 @@ function Layout(props) {
                                 style={{ display: 'none' }}
                             />{' '}
                         </form>
-                        <a href='register.php' className='btnFillDarkMd'>
+                        <Link to='/Auth/signup' className='btnFillDarkMd'>
                             Get money
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -1203,8 +1207,6 @@ function Layout(props) {
                     </div>
                 </div>
             </div>
-
-            
         </>
     )
 }
