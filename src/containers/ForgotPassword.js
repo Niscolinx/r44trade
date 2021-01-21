@@ -149,7 +149,7 @@ const Login = (props) => {
 
 <div class="content">
 <div class="captionLight center">Forget Password</div>
-<p style={{textAlign: 'center', font-weight: 600; color: white; margin-top: 30px}}>
+<p style={{textAlign: 'center', fontWeight: 600, color: 'white', marginTop: '30px'}}>
 A mail would be sent sent to your email address. Kindly ensure that you input the email that you use to register with us.
 </p>
 
