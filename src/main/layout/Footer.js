@@ -46,31 +46,31 @@ function Footer() {
                             <li className='col'>
                                 <ul>
                                     <li>
-                                        <a href='index.php'>HOME</a>
+                                        <Link to='/'>HOME</Link>
                                     </li>
                                     <li>
-                                        <a href='about.php'>ABOUT US</a>
+                                        <Link to='/about-us'>ABOUT US</Link>
                                     </li>
                                     <li>
-                                        <a href='top-reward.php'>TOP REWARD</a>
+                                        <Link to='/top-reward'>TOP REWARD</Link>
                                     </li>
                                     <li>
-                                        <a href='pricing.php'>PRICING</a>
+                                        <Link to='/pricing'>PRICING</Link>
                                     </li>
                                 </ul>
                             </li>
                             <li className='col'>
                                 <ul>
                                     <li>
-                                        <a href='testimonies.php'>
+                                        <Link to='testimonies.php'>
                                             TESTIMONIES
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href='contact.php'>CONTACT US</a>
+                                        <Link to='contact.php'>CONTACT US</Link>
                                     </li>
                                     <li>
-                                        <a href='faq.php'>FAQ</a>
+                                        <Link to='faq.php'>FAQ</Link>
                                     </li>
                                     <li>
                                         <Link href='/Auth/signup'>Sign up</Link>
