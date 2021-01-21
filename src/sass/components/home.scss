@@ -109,8 +109,14 @@ textarea {
     cursor: pointer;
 
     option{
-        padding: 1rem
-    }
+    padding: 0px;
+    padding-left: 20px;
+    background-color: transparent;
+    min-height: 46px;
+    font-size: 15px;
+    line-height: 44px;
+    color: black;
+    font-weight: normal;    }
    
 }
 
