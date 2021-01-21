@@ -333,14 +333,14 @@ function Layout(props) {
                                     >
                                         Learn more
                                     </Link>
-                                    <a
+                                    {/* <a
                                         href='https://beta.companieshouse.gov.uk/company/12143668'
                                         target='_blank'
                                         rel='noopener noreferrer'
                                         className='btnFillColor2Lg'
                                     >
                                         Check the registration
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>
