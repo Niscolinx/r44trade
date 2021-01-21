@@ -85,7 +85,7 @@ function Layout(props) {
                                     value in itself.
                                 </p>
                             </div>
-                            <Link to='/register' className='btnFillGradLg'>
+                            <Link to='/Auth/register' className='btnFillGradLg'>
                                 Get started now
                             </Link>
                         </div>
