@@ -222,7 +222,7 @@ export const initSignup = (authData) => {
 
         console.log('From the schema', data)
 
-        
+        data.bitcoinAccount.value === (null || '') ? console.log('not valid') : console.log('valid')
 
         const graphqlQuery = {
             query: ` mutation { createUser(userData: {
@@ -230,18 +230,8 @@ export const initSignup = (authData) => {
             email: "${data.confirmEmail.value}",
             password: "${data.confirmPassword.value}",
             fullname: "${data.fullname.value}",
-            secretQuestion: "${data.secretQuestion.value}",
-            secretAnswer: "${data.secretAnswer.value}",
-            bitcoinAccount: "${
-                data.bitcoinAccount.value === (null || '')
-                    ? ''
-                    : data.bitcoinAccount.value
-            }",
-            ethereumAccount: "${
-                data.ethererumAccount.value === (null || '')
-                    ? ''
-                    : data.ethererumAccount.value
-            }"
+            bitcoinAccount: "${data.bitcoinAccount.value }",
+            ethereumAccount: "${data.ethereumAccount.value}"
            }) {  email username fullname }
          }`,
         }
