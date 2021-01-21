@@ -426,7 +426,7 @@ function Layout(props) {
                                                 <span className='pct'>20%</span>
                                                 <span>4 Work Days</span>
                                                 <Link
-                                                    to='register.php'
+                                                    to='/Auth/signup'
                                                     className='btnFillColor2Md'
                                                 >
                                                     Make deposit
@@ -471,12 +471,12 @@ function Layout(props) {
                                             <div className='descr'>
                                                 <span className='pct'>30%</span>
                                                 <span>6 Work Days</span>
-                                                <a
-                                                    href='register.php'
+                                                <Link
+                                                    to='/Auth/signup'
                                                     className='btnFillColor1Md'
                                                 >
                                                     Make deposit
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <ul className='info'>
@@ -512,12 +512,12 @@ function Layout(props) {
                                             <div className='descr'>
                                                 <span className='pct'>40%</span>
                                                 <span>8 Work Days</span>
-                                                <a
-                                                    href='register.php'
+                                                <Link
+                                                    to='/Auth/signup'
                                                     className='btnFillColor2Md'
                                                 >
                                                     Make deposit
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <ul className='info'>
@@ -557,12 +557,12 @@ function Layout(props) {
                                             <div className='descr'>
                                                 <span className='pct'>60%</span>
                                                 <span>10 Work Days</span>
-                                                <a
-                                                    href='register.php'
-                                                    className='btnFillColor1Md'
+                                                <Link
+                                                    to='/Auth/signup'
+                                                    className='btnFillColor2Md'
                                                 >
                                                     Make deposit
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <ul className='info'>
@@ -600,12 +600,12 @@ function Layout(props) {
                                             <div className='descr'>
                                                 <span className='pct'>80%</span>
                                                 <span>12 Work Days</span>
-                                                <a
-                                                    href='register.php'
+                                                <Link
+                                                    to='/Auth/signup'
                                                     className='btnFillColor2Md'
                                                 >
                                                     Make deposit
-                                                </a>
+                                                </Link>
                                             </div>
                                         </div>
                                         <ul className='info'>
