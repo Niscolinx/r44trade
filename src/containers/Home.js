@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import {RiBitCoinLine} from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
@@ -84,9 +85,9 @@ function Layout(props) {
                                     value in itself.
                                 </p>
                             </div>
-                            <a href='register.php' className='btnFillGradLg'>
+                            <Link to='/register' className='btnFillGradLg'>
                                 Get started now
-                            </a>
+                            </Link>
                         </div>
                         <div className='cfix'>
                             <div className='curRate'>
