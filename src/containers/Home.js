@@ -5,7 +5,7 @@ import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import { RiBitCoinLine } from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
 import { HiChartBar } from 'react-icons/hi'
-import { AiOutlineFileProtect, AiOutlineConsoleSql } from 'react-icons/ai'
+import { AiOutlineFileProtect } from 'react-icons/ai'
 import { MdLocationOn } from 'react-icons/md'
 
 import A1 from '../images/A1.png'
@@ -29,6 +29,7 @@ import B1000 from '../images/1000.png'
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
     const [calcSelect, setCalcSelect] = useState()
+    const [calcProfit, setCalcProfit] = useState(0)
 
     const inputChangeHandler = (input, event) => {
         if (input.target.id === 'calc_amount') {
@@ -38,7 +39,7 @@ function Layout(props) {
         if (input.target.id === 'calc_plan') {
             console.log('the calc plan', typeof input.target.value)
 
-            let calcPercent
+            let calcPercent = 0;
             if (input.target.value === '10') {
                 return calcPercent = calcNum * 0.1
             }
@@ -57,6 +58,8 @@ function Layout(props) {
             if (input.target.value === '80') {
                return calcPercent = calcNum * 0.8
             }
+
+
         }
     }
 
@@ -825,7 +828,7 @@ function Layout(props) {
                             <div className='sum'>
                                 <span className='title'>Your profit:</span>
                                 <span className='num'>
-                                    <b id='profit'>1270,00</b> USD
+                                <b id='profit'>{calcProfit.toLocaleString()}</b> USD
                                 </span>
                             </div>
                             <input
