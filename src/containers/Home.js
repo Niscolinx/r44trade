@@ -35,7 +35,7 @@ function Layout(props) {
         if (input.target.id === 'calc_amount') {
             setCalcNum(input.target.value)
 
-            setCalcProfit(Number(selectedValue) + Number(input.target.value))
+            setCalcProfit((Number(selectedValue) * Number(input.target.value)) + Number(input.target.value))
         }
 
         if (input.target.id === 'calc_plan') {
