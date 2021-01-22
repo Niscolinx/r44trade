@@ -42,14 +42,17 @@ function Layout(props) {
          setCalcNum(input.target.value) 
          }
 
-        switch (input.target.id === 'calc_plan') {
-            case value:
-                
-                break;
-        
-            default:
-                break;
-        }
+         if(input.target.id === 'calc_plan'){
+
+             switch (input.target.value) {
+                 case value:
+                     
+                     break;
+             
+                 default:
+                     break;
+             }
+         }
 
     }
 
