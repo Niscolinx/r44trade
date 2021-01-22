@@ -270,6 +270,134 @@ function PlansDashboard() {
                             </Link>
                         </button>
                     </div>
+                    <div className='plan-dashboard'>
+                        <div className='plan-dashboard__icon'>
+                            <h1 className='heading-1 plan-dashboard__icon-percent'>
+                                100%
+                            </h1>
+                            <h1 className='heading-1 plan-dashboard__icon-text'>
+                                Plan 4
+                            </h1>
+                        </div>
+
+                        <ul className='plan-dashboard__list'>
+                            <li className='plan-dashboard__list-item'>
+                                After{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    7
+                                </span>{' '}
+                                Days
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                <span className='plan-dashboard__list-item--span'>
+                                    100%
+                                </span>{' '}
+                                Services Uptime
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                <span className='plan-dashboard__list-item--span'>
+                                    24/7
+                                </span>{' '}
+                                Support
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                minimum -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    $2500
+                                </span>
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                maximum -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    $10000
+                                </span>
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                Trading -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    INSTANT
+                                </span>
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                Withdrawal Type -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    INSTANT
+                                </span>
+                            </li>
+                        </ul>
+                        <button className='button'>
+                            <Link
+                                to='/admin/plan-order/:Plan 4'
+                                className='plan-dashboard__button'
+                            >
+                                Deposit Now
+                            </Link>
+                        </button>
+                    </div>
+                    <div className='plan-dashboard'>
+                        <div className='plan-dashboard__icon'>
+                            <h1 className='heading-1 plan-dashboard__icon-percent'>
+                                100%
+                            </h1>
+                            <h1 className='heading-1 plan-dashboard__icon-text'>
+                                Plan 4
+                            </h1>
+                        </div>
+
+                        <ul className='plan-dashboard__list'>
+                            <li className='plan-dashboard__list-item'>
+                                After{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    7
+                                </span>{' '}
+                                Days
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                <span className='plan-dashboard__list-item--span'>
+                                    100%
+                                </span>{' '}
+                                Services Uptime
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                <span className='plan-dashboard__list-item--span'>
+                                    24/7
+                                </span>{' '}
+                                Support
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                minimum -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    $2500
+                                </span>
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                maximum -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    $10000
+                                </span>
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                Trading -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    INSTANT
+                                </span>
+                            </li>
+                            <li className='plan-dashboard__list-item'>
+                                Withdrawal Type -{' '}
+                                <span className='plan-dashboard__list-item--span'>
+                                    INSTANT
+                                </span>
+                            </li>
+                        </ul>
+                        <button className='button'>
+                            <Link
+                                to='/admin/plan-order/:Plan 4'
+                                className='plan-dashboard__button'
+                            >
+                                Deposit Now
+                            </Link>
+                        </button>
+                    </div>
                 </div>
             </div>
         </>
