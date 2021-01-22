@@ -1,5 +1,6 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
+
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import {RiBitCoinLine} from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
@@ -24,9 +25,76 @@ import Grey_bg from '../images/grey_bg.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
+import Input from '../main/Input'
+
+
 
 
 function Layout(props) {
+     const [state, setState] = useState({
+         loginForm: {
+             email: {
+                 value: '',
+                 valid: false,
+                 touched: false,
+                 validators: [required, email],
+             },
+             password: {
+                 value: '',
+                 valid: false,
+                 touched: false,
+                 validators: [required, length({ min: 6 })],
+             },
+             formIsValid: false,
+         },
+     })
+const inputChangeHandler = (input, value) => {
+    setState((prevState) => {
+        let isValid = true
+        for (const validator of prevState.loginForm[input].validators) {
+            isValid = isValid && validator(value)
+        }
+
+        const updatedForm = {
+            ...prevState.loginForm,
+            [input]: {
+                ...prevState.loginForm[input],
+                valid: isValid,
+                value: value,
+                touched: true,
+            },
+        }
+        let formIsValid = true
+        for (const inputName in updatedForm) {
+            if (
+                inputName !== 'formIsValid' &&
+                inputName !== '[object Object]'
+            ) {
+                formIsValid = formIsValid && updatedForm[inputName].valid
+            }
+        }
+        return {
+            loginForm: updatedForm,
+            formIsValid: formIsValid,
+        }
+    })
+}
+
+const inputBlurHandler = (input) => {}
+
+const handleIncomeCalculation = (e) => {
+    e.preventDefault()
+    if (state.formIsValid) {
+        props.onInitLogin(
+            state.loginForm.email.value,
+            state.loginForm.password.value
+        )
+    } else {
+        setMessage({ error: 'Wrong Input, please check your entries' })
+    }
+}
+
+
     return (
         <>
             <div
