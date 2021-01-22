@@ -35,9 +35,11 @@ function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
     const [calcSelect, setCalcSelect] = useState()
 
-const inputChangeHandler = (input) => {
+const inputChangeHandler = (input, event) => {
 
-    console.log('the input is', input.target.value)
+    console.log('the input is', input, event)
+
+    setCalcNum(input.target.value)
     
 }
 
