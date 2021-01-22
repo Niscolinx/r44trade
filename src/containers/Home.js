@@ -25,27 +25,21 @@ import Grey_bg from '../images/grey_bg.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
-
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
     const [selectedValue, setSelectedValue] = useState(0.1)
     const [calcProfit, setCalcProfit] = useState(22)
 
     const inputChangeHandler = (input, event) => {
-        const selectInputValue = input.target
-        const numInputValue = input
+     
         if (input.target.id === 'calc_amount') {
             setCalcNum(input.target.value)
 
-            console.log('the select value', selectInputValue)
-            console.log('the number value', numInputValue)
-            setCalcProfit()
+            setCalcProfit(Number(selectedValue) + Number(input.target.value))
         }
 
         if (input.target.id === 'calc_plan') {
-
-            
-            let calcPercent = 0;
+            let calcPercent = 0
             if (input.target.value === '10') {
                 console.log('the value is', 10)
                 calcPercent = calcNum * 0.1
@@ -53,32 +47,28 @@ function Layout(props) {
             }
             if (input.target.value === '20') {
                 calcPercent = calcNum * 0.2
-                                setSelectedValue(calcPercent)
-
+                setSelectedValue(calcPercent)
             }
             if (input.target.value === '30') {
-               calcPercent = calcNum * 0.3
-                               setSelectedValue(calcPercent)
-
+                calcPercent = calcNum * 0.3
+                setSelectedValue(calcPercent)
             }
             if (input.target.value === '40') {
-               calcPercent = calcNum * 0.4
-                               setSelectedValue(calcPercent)
-
+                calcPercent = calcNum * 0.4
+                setSelectedValue(calcPercent)
             }
             if (input.target.value === '60') {
-               calcPercent = calcNum * 0.6
-                               setSelectedValue(calcPercent)
-
+                calcPercent = calcNum * 0.6
+                setSelectedValue(calcPercent)
             }
             if (input.target.value === '80') {
-               calcPercent = calcNum * 0.8
+                calcPercent = calcNum * 0.8
+                setSelectedValue(calcPercent)
             }
 
             console.log('calc_plan', calcPercent)
 
             setCalcProfit(Number(calcPercent) + Number(calcNum))
-
         }
     }
 
@@ -848,7 +838,10 @@ function Layout(props) {
                             <div className='sum'>
                                 <span className='title'>Your profit:</span>
                                 <span className='num'>
-                                <b id='profit'>{calcProfit.toLocaleString()}</b> USD
+                                    <b id='profit'>
+                                        {calcProfit.toLocaleString()}
+                                    </b>{' '}
+                                    USD
                                 </span>
                             </div>
                             <input
