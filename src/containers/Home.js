@@ -66,7 +66,6 @@ function Layout(props) {
                 setSelectedValue(calcPercent)
             }
 
-            console.log('calc_plan', calcPercent)
 
             setCalcProfit(Number(calcPercent) + Number(calcNum))
         }
