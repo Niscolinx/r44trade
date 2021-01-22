@@ -11,7 +11,17 @@ const ContactUs = (props) => {
 
 
     const inputHandler = (input) => {
-        console.log('the input', input.target.name)
+        const inputName = input.target.name
+        const inputValue = input.target.value
+
+        if(inputName === 'name'){
+            setName(inputValue)
+        }
+
+        if(inputName === 'email'){
+            setEmail(inputValue)
+        }
+
     }
 
     return (
