@@ -46,7 +46,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            What is Robot 22 Trade? What are the
+                                            What is Robot 44 Trade? What are the
                                             main features of it?
                                         </span>
                                     </div>
@@ -54,7 +54,7 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 22 Trade</strong> is a
+                                            <strong>Robot 44 Trade</strong> is a
                                             fully automated trading robot, which
                                             works well on the{' '}
                                             <strong>MT4</strong> platform. It
@@ -88,14 +88,14 @@ const Faq = () => {
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             Which Trading Instruments does Robot
-                                            22 Trade work on?
+                                            44 Trade work on?
                                         </span>
                                     </div>
                                 </div>
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 22 Trade</strong>{' '}
+                                            <strong>Robot 44 Trade</strong>{' '}
                                             allows you to trade the followings
                                             instruments:
                                         </p>
@@ -116,7 +116,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Why should I trust Robot 22 Trade
+                                            Why should I trust Robot 44 Trade
                                             (Robot)?
                                         </span>
                                     </div>
@@ -148,7 +148,7 @@ const Faq = () => {
                                             purchase it. There are many reputed
                                             Forex review websites/Forums and
                                             experts, which rank{' '}
-                                            <strong>Robot 22 Trade</strong> on
+                                            <strong>Robot 44 Trade</strong> on
                                             top, considering us the best
                                             Performing and reliable trading
                                             system among thousands of others.
@@ -180,7 +180,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Is Robot 22 Trade affiliated to any
+                                            Is Robot 44 Trade affiliated to any
                                             other EA or Robot?
                                         </span>
                                     </div>
@@ -189,13 +189,13 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             To make it very clear that{' '}
-                                            <strong>Robot 22 Trade Ltd.</strong>{' '}
+                                            <strong>Robot 44 Trade Ltd.</strong>{' '}
                                             exclusively owns{' '}
-                                            <strong>Robot 22 Trade</strong> and
+                                            <strong>Robot 44 Trade</strong> and
                                             we are not affiliated to or
                                             influenced by any other EAs or
                                             robots. Also,{' '}
-                                            <strong>Robot 22 Trade</strong> is
+                                            <strong>Robot 44 Trade</strong> is
                                             not a rebranded system, it Is
                                             utterly our very own creation, based
                                             on our exclusive trading strategy,
@@ -204,7 +204,7 @@ const Faq = () => {
                                             market.
                                         </p>
                                         <p>
-                                            <strong>Robot 22 Trade</strong>{' '}
+                                            <strong>Robot 44 Trade</strong>{' '}
                                             utilizes a completely different and
                                             most powerful strategy to help you
                                             thrive towards more and more profit
@@ -219,7 +219,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            How may I Buy Robot 22 Trade?
+                                            How may I Buy Robot 44 Trade?
                                         </span>
                                     </div>
                                 </div>
@@ -235,7 +235,7 @@ const Faq = () => {
                                             purchase for any plan of your
                                             choice, then contact our support on
                                             live chat or via email to claim your
-                                            robot 22 trade package.
+                                            robot 44 trade package.
                                         </p>
                                     </div>
                                 </div>
@@ -262,7 +262,7 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             No, you cannot pay in instalments.
-                                            Robot 22 Trade is a one-time
+                                            Robot 44 Trade is a one-time
                                             purchase and it is required to pay
                                             the full amount at once.
                                         </p>
@@ -284,7 +284,7 @@ const Faq = () => {
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             How to activate the License of Robot
-                                            22 Trade Robot after buying it?
+                                            44 Trade Robot after buying it?
                                         </span>
                                     </div>
                                 </div>
@@ -333,7 +333,7 @@ const Faq = () => {
                                                         target='_blank'
                                                         rel='noopener'
                                                     >
-                                                        robot44trade.com/index.php
+                                                        robot44trade.com
                                                     </a>
                                                 </span>
                                             </strong>
@@ -360,7 +360,7 @@ const Faq = () => {
                                             There are only <strong>6</strong>{' '}
                                             types of pricing plans available
                                             with each{' '}
-                                            <strong>Robot 22 Trade</strong>’s
+                                            <strong>Robot 44 Trade</strong>’s
                                             purchase. We do not entertain any
                                             custom requests. For example – If
                                             you want <strong>30</strong> live
@@ -379,7 +379,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            What will I get in Robot 22 Trade’s
+                                            What will I get in Robot 44 Trade’s
                                             package?
                                         </span>
                                     </div>
@@ -388,7 +388,7 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             On purchase, you will get your Tbot
-                                            Software Robot 22 Trade, and money
+                                            Software Robot 44 Trade, and money
                                             back guarantee (which is subjected
                                             to our terms and conditions). If
                                             submitted wrong information in the
@@ -415,7 +415,7 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            Robot 22 Trade comes with 3-days
+                                            Robot 44 Trade comes with 3-days
                                             money refund policy. We make the
                                             prompt refund, if any user is not
                                             satisfied with our product. However,
@@ -436,7 +436,7 @@ const Faq = () => {
                                                 to Friday
                                             </li>
                                             <li>
-                                                16 PM to <strong>22</strong> PM
+                                                16 PM to <strong>44</strong> PM
                                                 – Saturday to Sunday
                                             </li>
                                         </ul>
@@ -488,7 +488,7 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 22 Trade</strong> is
+                                            <strong>Robot 44 Trade</strong> is
                                             capable to estimate the sudden
                                             market changes and perform
                                             accordingly. You need not to shut
@@ -511,7 +511,7 @@ const Faq = () => {
                                     <div className='iconLeft'>
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
-                                            Is Robot 22 Trade an Arbitrage or
+                                            Is Robot 44 Trade an Arbitrage or
                                             Martingale system?
                                         </span>
                                     </div>
@@ -543,7 +543,7 @@ const Faq = () => {
                                 <div className='content'>
                                     <div className='textBlock'>
                                         <p>
-                                            <strong>Robot 22 Trade</strong> is
+                                            <strong>Robot 44 Trade</strong> is
                                             NOT related or similar to any other
                                             robot, available in the market. Here
                                             are our live performance and user
@@ -558,7 +558,7 @@ const Faq = () => {
                                             have the knowledge of our EA’s
                                             strategy, are making the false
                                             claims on reputed forums/websites
-                                            about Robot 22 Trade. We strongly
+                                            about Robot 44 Trade. We strongly
                                             condemn those all comments and
                                             irresponsible conclusions, coming
                                             from the knobs of FOREX Trading.
@@ -600,7 +600,7 @@ const Faq = () => {
                                         <span className='icon-faq gradTxt'></span>
                                         <span className='data'>
                                             What if I am completely naïve to
-                                            trading FOREX? Should I buy Robot 22
+                                            trading FOREX? Should I buy Robot 44
                                             Trade?
                                         </span>
                                     </div>
@@ -615,7 +615,7 @@ const Faq = () => {
                                             learning and researching on Forex or
                                             spending a huge time monitoring the
                                             charts on your computer screen,{' '}
-                                            <strong>Robot 22 Trade</strong> will
+                                            <strong>Robot 44 Trade</strong> will
                                             do manage everything&nbsp; in well
                                             professional manner for you.
                                         </p>
@@ -707,7 +707,7 @@ const Faq = () => {
                                     <div className='textBlock'>
                                         <p>
                                             To justify{' '}
-                                            <strong>Robot 22 Trade</strong>’s
+                                            <strong>Robot 44 Trade</strong>’s
                                             efficiency, we’ve configured dozens
                                             of live trading accounts with
                                             verified track record and privileges
@@ -802,7 +802,7 @@ const Faq = () => {
                                         <span className='data'>
                                             What to do if I want to become your
                                             affiliate? Why should I promote
-                                            Robot 22 Trade?
+                                            Robot 44 Trade?
                                         </span>
                                     </div>
                                 </div>
