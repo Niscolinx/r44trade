@@ -26,6 +26,7 @@ import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
 import Input from '../main/Input'
+import input from '../main/Input'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
@@ -42,7 +43,7 @@ function Layout(props) {
 
          if(input.target.id === 'calc_plan'){
 
-            console.log('the calc plan')
+            console.log('the calc plan', typeof input.target.value)
              switch (input.target.value) {
                  case value:
                      
