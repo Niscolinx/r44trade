@@ -9,6 +9,11 @@ const ContactUs = (props) => {
     const [message, setMessage] = useState('')
     const [name, setName] = useState('')
 
+
+    const inputHandler = (input) => {
+        console.log('the input', input.type, input)
+    }
+
     return (
         <>
             <div
@@ -99,6 +104,7 @@ const ContactUs = (props) => {
                                     <div className='formBlockLight'>
                                         <label for='name'>Your name:</label>
                                         <input
+                                        onChange={inputHandler}
                                             type='text'
                                             name='name'
                                             value=''
@@ -109,6 +115,8 @@ const ContactUs = (props) => {
                                     <div className='formBlockLight'>
                                         <label for='mail'>Your e-mail:</label>
                                         <input
+                                                                                onChange={inputHandler}
+
                                             type='text'
                                             name='email'
                                             value=''
@@ -119,7 +127,8 @@ const ContactUs = (props) => {
                             <div className='item'>
                                 <div className='formBlockLight'>
                                     <label for=''>Message:</label>
-                                    <textarea name='message'></textarea>
+                                    <textarea name='message'                                         onChange={inputHandler}
+></textarea>
                                 </div>
                             </div>
                             <button
