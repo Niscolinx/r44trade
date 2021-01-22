@@ -36,11 +36,13 @@ function Layout(props) {
 
         if(input.target.id === 'calc_amount')
 
+        console.log('the calc amount')
          setCalcNum(input.target.value) 
          }
 
          if(input.target.id === 'calc_plan'){
 
+            console.log('the calc plan')
              switch (input.target.value) {
                  case value:
                      
