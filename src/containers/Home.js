@@ -60,6 +60,8 @@ function Layout(props) {
             }
 
 
+            setCalcProfit(calcPercent)
+
         }
     }
 
