@@ -1,0 +1,495 @@
+0000000000000000000000000000000000000000 83fdb9c54ee9e76dd2e2de1bd4ef90de1e46b679 Igboanugwo Collins <munisco12@gmail.com> 1610604879 +0100	commit (initial): Initialize project using Create React App
+83fdb9c54ee9e76dd2e2de1bd4ef90de1e46b679 a00ac3af0390bf864fd735868da09dfea9f459d9 Igboanugwo Collins <munisco12@gmail.com> 1610607282 +0100	commit: initial set up
+a00ac3af0390bf864fd735868da09dfea9f459d9 0000000000000000000000000000000000000000 Igboanugwo Collins <munisco12@gmail.com> 1610607303 +0100	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 a00ac3af0390bf864fd735868da09dfea9f459d9 Igboanugwo Collins <munisco12@gmail.com> 1610607303 +0100	Branch: renamed refs/heads/master to refs/heads/main
+a00ac3af0390bf864fd735868da09dfea9f459d9 a00ac3af0390bf864fd735868da09dfea9f459d9 Igboanugwo Collins <munisco12@gmail.com> 1610607345 +0100	checkout: moving from main to master
+a00ac3af0390bf864fd735868da09dfea9f459d9 fb0c3820bd976be8a1f3daeac1af1c3a90dd3b9b Igboanugwo Collins <munisco12@gmail.com> 1610607462 +0100	commit: setting up from my created boilerplate
+fb0c3820bd976be8a1f3daeac1af1c3a90dd3b9b 1e805ea3d4c79ed750545ca7253e928c8675cc6f Igboanugwo Collins <munisco12@gmail.com> 1610607545 +0100	commit: setting up from my created boilerplate
+1e805ea3d4c79ed750545ca7253e928c8675cc6f 07b5e34cdcb15b4ab3e014bd3d9e7860aef6d965 Igboanugwo Collins <munisco12@gmail.com> 1610607614 +0100	commit: setting up from my created boilerplate
+07b5e34cdcb15b4ab3e014bd3d9e7860aef6d965 3c1c3c7611c8c655d6d92dd167de3a71a666c2b4 Igboanugwo Collins <munisco12@gmail.com> 1610608145 +0100	commit: Done with the boilerplate setup
+3c1c3c7611c8c655d6d92dd167de3a71a666c2b4 382c5d2c8800ab239a29d7477ff311eb52611af8 Igboanugwo Collins <munisco12@gmail.com> 1610608471 +0100	commit: Done with the boilerplate setup
+382c5d2c8800ab239a29d7477ff311eb52611af8 b488fb5a9ba7c3d307555eeafab02adc7b34f154 Igboanugwo Collins <munisco12@gmail.com> 1610608882 +0100	commit: Working on the home page
+b488fb5a9ba7c3d307555eeafab02adc7b34f154 1890ed82d9f9da3bde8d4737099ebd1f7dba6520 Igboanugwo Collins <munisco12@gmail.com> 1610610358 +0100	commit: Working on the home page
+1890ed82d9f9da3bde8d4737099ebd1f7dba6520 12abac4cdfca8c4675aa9989209cc28039b2ab69 Igboanugwo Collins <munisco12@gmail.com> 1610610803 +0100	commit: Working on the home page
+12abac4cdfca8c4675aa9989209cc28039b2ab69 3f8d20f5b571de2be66270f0373bce4488255b99 Igboanugwo Collins <munisco12@gmail.com> 1610610878 +0100	commit: Working on the home page
+3f8d20f5b571de2be66270f0373bce4488255b99 738eb1fdc28d6af544aee1836425c432969b2490 Igboanugwo Collins <munisco12@gmail.com> 1610610966 +0100	commit: Working on the home page
+738eb1fdc28d6af544aee1836425c432969b2490 2fd44130d4a19f2d127cfa3a364c5223b3fcc4c4 Igboanugwo Collins <munisco12@gmail.com> 1610611869 +0100	commit: Working on the home page
+2fd44130d4a19f2d127cfa3a364c5223b3fcc4c4 340270522eeacf7610f770068f743339c9ba812b Igboanugwo Collins <munisco12@gmail.com> 1610612716 +0100	commit: Working on the home page
+340270522eeacf7610f770068f743339c9ba812b 7f39e94613a3a872eec353da38174787642483bd Igboanugwo Collins <munisco12@gmail.com> 1610612759 +0100	commit: Working on the home page
+7f39e94613a3a872eec353da38174787642483bd 284859f45ae208071294458f3f0730016e8f49a5 Igboanugwo Collins <munisco12@gmail.com> 1610612812 +0100	commit: Working on the home page
+284859f45ae208071294458f3f0730016e8f49a5 e7d06799a6c481dcf51840ae9be985ec75023957 Igboanugwo Collins <munisco12@gmail.com> 1610612827 +0100	commit: Working on the home page
+e7d06799a6c481dcf51840ae9be985ec75023957 e7213a4a4fb265a1b72e7c89bdf06e1c60831200 Igboanugwo Collins <munisco12@gmail.com> 1610612864 +0100	commit: Working on the home page
+e7213a4a4fb265a1b72e7c89bdf06e1c60831200 4a4b5dfd63d53fd8c118da6feb8b59a362d73c54 Igboanugwo Collins <munisco12@gmail.com> 1610612900 +0100	commit: Working on the home page
+4a4b5dfd63d53fd8c118da6feb8b59a362d73c54 cde31525787e35a728235c3d3a0762b8563a16dd Igboanugwo Collins <munisco12@gmail.com> 1610613345 +0100	commit: Added new images
+cde31525787e35a728235c3d3a0762b8563a16dd b695699b6400e6854b45d86b2cd8c72a88fc1073 Igboanugwo Collins <munisco12@gmail.com> 1610613650 +0100	commit: Working on add the assets
+b695699b6400e6854b45d86b2cd8c72a88fc1073 f9ef72a1f4fe3e8a2fd77994dd7f0cf2807c67ee Igboanugwo Collins <munisco12@gmail.com> 1610633597 +0100	commit: Working on the homepage
+f9ef72a1f4fe3e8a2fd77994dd7f0cf2807c67ee 1b888716a4a8a325498fce7209350a0ecdcd8665 Igboanugwo Collins <munisco12@gmail.com> 1610633770 +0100	commit: Working on the homepage
+1b888716a4a8a325498fce7209350a0ecdcd8665 7197b55a4679e3dd389468d285244fd001eff459 Igboanugwo Collins <munisco12@gmail.com> 1610633896 +0100	commit: Working on the homepage
+7197b55a4679e3dd389468d285244fd001eff459 fc8abbeaba4f751a05b3c39790e61b51d3adeeb9 Igboanugwo Collins <munisco12@gmail.com> 1610634021 +0100	commit: working on the home page
+fc8abbeaba4f751a05b3c39790e61b51d3adeeb9 0ea02551bb201c9afe059f734c84686b9154b622 Igboanugwo Collins <munisco12@gmail.com> 1610634581 +0100	commit: working on the home page
+0ea02551bb201c9afe059f734c84686b9154b622 b3b7979359ab1c7a7e2d3feb829ef18acc784645 Igboanugwo Collins <munisco12@gmail.com> 1610634685 +0100	commit: working on the home page
+b3b7979359ab1c7a7e2d3feb829ef18acc784645 f959338f3830275d34a241a85d3b8c3fc0efc4f7 Igboanugwo Collins <munisco12@gmail.com> 1610635714 +0100	commit: working on the home page
+f959338f3830275d34a241a85d3b8c3fc0efc4f7 ed09e24a49f4030df41b9b9304c58e30aa5f5179 Igboanugwo Collins <munisco12@gmail.com> 1610635878 +0100	commit: working on the home page
+ed09e24a49f4030df41b9b9304c58e30aa5f5179 a7e17ce057a9d2471ca35d003dde49b815e889fc Igboanugwo Collins <munisco12@gmail.com> 1610636043 +0100	commit: working on the home page
+a7e17ce057a9d2471ca35d003dde49b815e889fc 6d15ce0530b789d869d4b7c3c3ef70797813e2b7 Igboanugwo Collins <munisco12@gmail.com> 1610636110 +0100	commit: working on the home page
+6d15ce0530b789d869d4b7c3c3ef70797813e2b7 b8eca3ae331d91f3b41dd8574315a4d358c5afbd Igboanugwo Collins <munisco12@gmail.com> 1610636221 +0100	commit: working on the home page
+b8eca3ae331d91f3b41dd8574315a4d358c5afbd 79c6bba0001ee2bf3eeaccb59031565b06f376ec Igboanugwo Collins <munisco12@gmail.com> 1610636253 +0100	commit: working on the home page
+79c6bba0001ee2bf3eeaccb59031565b06f376ec 6c895d84a396f0d6c3ccefbaa549b6d528187a91 Igboanugwo Collins <munisco12@gmail.com> 1610636428 +0100	commit: working on the home page
+6c895d84a396f0d6c3ccefbaa549b6d528187a91 b1a4e4e8b5655fe7e530d040e64d108fc221d20d Igboanugwo Collins <munisco12@gmail.com> 1610636527 +0100	commit: working on the home page
+b1a4e4e8b5655fe7e530d040e64d108fc221d20d 151a396afee626093fe33258641dea801eca86bd Igboanugwo Collins <munisco12@gmail.com> 1610636663 +0100	commit: working on the home page
+151a396afee626093fe33258641dea801eca86bd 57633c1aaade1d3a7735ab76bab0e49ba86e8355 Igboanugwo Collins <munisco12@gmail.com> 1610637243 +0100	commit: working on the home page
+57633c1aaade1d3a7735ab76bab0e49ba86e8355 8bae6d7a41861c7824f0acb524e2eb4102271adb Igboanugwo Collins <munisco12@gmail.com> 1610637336 +0100	commit: working on the home page
+8bae6d7a41861c7824f0acb524e2eb4102271adb bede9ffd70c5fcfc6e66a1ab73e9a24ba76dc93c Igboanugwo Collins <munisco12@gmail.com> 1610637484 +0100	commit: working on the home page
+bede9ffd70c5fcfc6e66a1ab73e9a24ba76dc93c 30c6c598b555e19d5bb8923a0338237791b1d784 Igboanugwo Collins <munisco12@gmail.com> 1610637576 +0100	commit: working on the home page
+30c6c598b555e19d5bb8923a0338237791b1d784 f086939b1066142b6a4dd1c069406f0cf34f5760 Igboanugwo Collins <munisco12@gmail.com> 1610637637 +0100	commit: working on the home page
+f086939b1066142b6a4dd1c069406f0cf34f5760 dd1af9f26296f0ce5431dca7a471902a9d1040e4 Igboanugwo Collins <munisco12@gmail.com> 1610637708 +0100	commit: working on the home page
+dd1af9f26296f0ce5431dca7a471902a9d1040e4 e95ae30c8c67803d242dd9d5d8474f395200c412 Igboanugwo Collins <munisco12@gmail.com> 1610637731 +0100	commit: working on the home page
+e95ae30c8c67803d242dd9d5d8474f395200c412 682d85d00c2504f91b2c6ed05c079be3b87c7c43 Igboanugwo Collins <munisco12@gmail.com> 1610637763 +0100	commit: working on the home page
+682d85d00c2504f91b2c6ed05c079be3b87c7c43 56a4f3407506792d40f68fd0b67569a88673fb4b Igboanugwo Collins <munisco12@gmail.com> 1610637947 +0100	commit: working on the home page
+56a4f3407506792d40f68fd0b67569a88673fb4b 69cd4b2f17a752a8abd5b28f2c04aa8b9f40460b Igboanugwo Collins <munisco12@gmail.com> 1610638054 +0100	commit: working on the home page
+69cd4b2f17a752a8abd5b28f2c04aa8b9f40460b 406c22bc0662f1900860e486303c30ec3a4143ad Igboanugwo Collins <munisco12@gmail.com> 1610638114 +0100	commit: working on the home page
+406c22bc0662f1900860e486303c30ec3a4143ad a06b7678609ada13c582e97bd54ea8ef99583904 Igboanugwo Collins <munisco12@gmail.com> 1610638219 +0100	commit: working on the home page
+a06b7678609ada13c582e97bd54ea8ef99583904 dff9c3866b8b4df02c7a05c49aa0889d71d6fa37 Igboanugwo Collins <munisco12@gmail.com> 1610638623 +0100	commit: Adding the css
+dff9c3866b8b4df02c7a05c49aa0889d71d6fa37 605e04e74fa3b0be377f659a60857704995ba1cf Igboanugwo Collins <munisco12@gmail.com> 1610638644 +0100	commit: Adding the css
+605e04e74fa3b0be377f659a60857704995ba1cf 7d76a4b644f3976de450bfeb38e702a9471b214a Igboanugwo Collins <munisco12@gmail.com> 1610640003 +0100	commit: Adding the css
+7d76a4b644f3976de450bfeb38e702a9471b214a c6bf23248786b662835f53c951099d145440dc7b Igboanugwo Collins <munisco12@gmail.com> 1610640349 +0100	commit: Adding the css
+c6bf23248786b662835f53c951099d145440dc7b 550871a52f953cb4239f9028ea13149c47d6dd2f Igboanugwo Collins <munisco12@gmail.com> 1610640976 +0100	commit: Adding the css
+550871a52f953cb4239f9028ea13149c47d6dd2f 85b83dbf8db12418452f71a128991ac4c7e06010 Igboanugwo Collins <munisco12@gmail.com> 1610654866 +0100	commit: Adding the css
+85b83dbf8db12418452f71a128991ac4c7e06010 7c0980afa60ab1a03d6b26d94030ba11fadafee3 Igboanugwo Collins <munisco12@gmail.com> 1610658638 +0100	commit: working on css files
+7c0980afa60ab1a03d6b26d94030ba11fadafee3 decbd6a6d8c5adf6d3bf55fc04110e960285b016 Igboanugwo Collins <munisco12@gmail.com> 1610658744 +0100	commit: working on css files
+decbd6a6d8c5adf6d3bf55fc04110e960285b016 d61bdd1218bfcf8884f772e8c765f25ff509be2a Igboanugwo Collins <munisco12@gmail.com> 1610659037 +0100	commit: working on css files
+d61bdd1218bfcf8884f772e8c765f25ff509be2a 77a6289f9f32932b45162e6b41ff4afd699e6a86 Igboanugwo Collins <munisco12@gmail.com> 1610659564 +0100	commit: working on css files
+77a6289f9f32932b45162e6b41ff4afd699e6a86 f433f74094c4ae0f3c78f8d9737ce39a4c9b6209 Igboanugwo Collins <munisco12@gmail.com> 1610659608 +0100	commit: working on css files
+f433f74094c4ae0f3c78f8d9737ce39a4c9b6209 e35a77e2efbd9dfbdf98723f30cffbb3ffca5cea Igboanugwo Collins <munisco12@gmail.com> 1610659677 +0100	commit: working on css files
+e35a77e2efbd9dfbdf98723f30cffbb3ffca5cea b4e4cd3c395d5855e0c71cc65eba0e8a216ea639 Igboanugwo Collins <munisco12@gmail.com> 1610696732 +0100	commit: Finishing up the layout of the home page
+b4e4cd3c395d5855e0c71cc65eba0e8a216ea639 b090ba27b43ba3584ff2029852390247743c964c Igboanugwo Collins <munisco12@gmail.com> 1610696994 +0100	commit: Finishing up the layout of the home page
+b090ba27b43ba3584ff2029852390247743c964c bdae06a505fc8946f2e7f8f66d6760e9ac55528d Igboanugwo Collins <munisco12@gmail.com> 1610697279 +0100	commit: Working on the homepage assets
+bdae06a505fc8946f2e7f8f66d6760e9ac55528d ea1a5f997a3887376234110c77887ba0da7dcf42 Igboanugwo Collins <munisco12@gmail.com> 1610697292 +0100	commit: Working on the homepage assets
+ea1a5f997a3887376234110c77887ba0da7dcf42 ad987f220d1f4cd1d2c6ede2ef42040a593b7bcc Igboanugwo Collins <munisco12@gmail.com> 1610697334 +0100	commit: Working on the homepage assets
+ad987f220d1f4cd1d2c6ede2ef42040a593b7bcc f66227408e2f5f2a530afc9df80f2b4d0853b6f2 Igboanugwo Collins <munisco12@gmail.com> 1610697377 +0100	commit: Working on the homepage assets
+f66227408e2f5f2a530afc9df80f2b4d0853b6f2 0290aa5eb2f6713cd7471b8199abfb54581c66be Igboanugwo Collins <munisco12@gmail.com> 1610698289 +0100	commit: Working on the homepage assets
+0290aa5eb2f6713cd7471b8199abfb54581c66be 6f97e23a3e9a813c58e2063f388cafef1fb7cc9f Igboanugwo Collins <munisco12@gmail.com> 1610698313 +0100	commit: Working on the homepage assets
+6f97e23a3e9a813c58e2063f388cafef1fb7cc9f f00b9ef845cdfd42f23962f76ed314085019d410 Igboanugwo Collins <munisco12@gmail.com> 1610698687 +0100	commit: Working on the homepage assets
+f00b9ef845cdfd42f23962f76ed314085019d410 0477f119c5ab1aca18e519102733f8286eaa02c1 Igboanugwo Collins <munisco12@gmail.com> 1610699113 +0100	commit: Working on the homepage assets
+0477f119c5ab1aca18e519102733f8286eaa02c1 57dc7f9bdeeed60598cd090c54d4b1211e84f754 Igboanugwo Collins <munisco12@gmail.com> 1610699387 +0100	commit: Added the icons
+57dc7f9bdeeed60598cd090c54d4b1211e84f754 6c8d12a959d7d57207077a5466e1ab6e10b5ce13 Igboanugwo Collins <munisco12@gmail.com> 1610699459 +0100	commit: Added the icons
+6c8d12a959d7d57207077a5466e1ab6e10b5ce13 95f6129c3cff94d8c0d352ff75f0404c3339b50c Igboanugwo Collins <munisco12@gmail.com> 1610699793 +0100	commit: Added the icons
+95f6129c3cff94d8c0d352ff75f0404c3339b50c 7450fa2d64cc352b7cacf46cecb6b9667691c031 Igboanugwo Collins <munisco12@gmail.com> 1610700019 +0100	commit: Added the icons
+7450fa2d64cc352b7cacf46cecb6b9667691c031 f1f105da151a2f2664314db1953e5928730d7ca2 Igboanugwo Collins <munisco12@gmail.com> 1610700134 +0100	commit: Added the icons
+f1f105da151a2f2664314db1953e5928730d7ca2 b8139094b4b910600815716d7a84db6f516f1875 Igboanugwo Collins <munisco12@gmail.com> 1610700763 +0100	commit: Added the icons
+b8139094b4b910600815716d7a84db6f516f1875 72ee6248fac2447b47295e9c3125335c8fec9000 Igboanugwo Collins <munisco12@gmail.com> 1610723725 +0100	commit: Added the icons
+72ee6248fac2447b47295e9c3125335c8fec9000 97e0aba877136cf61c867333adec8a86e7478b20 Igboanugwo Collins <munisco12@gmail.com> 1610723831 +0100	commit: Added the icons
+97e0aba877136cf61c867333adec8a86e7478b20 c29a75019feae0d7a8012433a13ad2a023ba131d Igboanugwo Collins <munisco12@gmail.com> 1610723900 +0100	commit: Added the icons
+c29a75019feae0d7a8012433a13ad2a023ba131d df8e35827880e5174ac3e69842ef974216159bfe Igboanugwo Collins <munisco12@gmail.com> 1610724114 +0100	commit: Added the icons
+df8e35827880e5174ac3e69842ef974216159bfe ccd0417cf150e2e5dc8ad2faf7c5c5087c1b35b0 Igboanugwo Collins <munisco12@gmail.com> 1610725763 +0100	commit: Added the icons
+ccd0417cf150e2e5dc8ad2faf7c5c5087c1b35b0 179f6877de60d7fdba28009cc8678ff9313bbaf5 Igboanugwo Collins <munisco12@gmail.com> 1610725834 +0100	commit: Added the icons
+179f6877de60d7fdba28009cc8678ff9313bbaf5 db5939ce183eacb7e97200cce44ced866474a32d Igboanugwo Collins <munisco12@gmail.com> 1610775033 +0100	commit: Added the icons
+db5939ce183eacb7e97200cce44ced866474a32d c598cdc97f94b2917005bb474db754acf929f85d Igboanugwo Collins <munisco12@gmail.com> 1610776329 +0100	commit: Added the icons
+c598cdc97f94b2917005bb474db754acf929f85d e97f1cf17b50058e2b9c2a2217961d15ad692028 Igboanugwo Collins <munisco12@gmail.com> 1610776448 +0100	commit: Added the icons
+e97f1cf17b50058e2b9c2a2217961d15ad692028 d308acfa46bbd2607f6a3a8c364ed4bf82910b13 Igboanugwo Collins <munisco12@gmail.com> 1610776653 +0100	commit: Added the icons
+d308acfa46bbd2607f6a3a8c364ed4bf82910b13 65f7f22c0916da0d189d36caa025a4251112d17a Igboanugwo Collins <munisco12@gmail.com> 1610776988 +0100	commit: Added the icons
+65f7f22c0916da0d189d36caa025a4251112d17a d9ce9dc6a1d7fcc4bfe711d81ca6934fe8096f7d Igboanugwo Collins <munisco12@gmail.com> 1610777031 +0100	commit: Added the icons
+d9ce9dc6a1d7fcc4bfe711d81ca6934fe8096f7d 866b909480e44908233a0f4764781b6763e522f1 Igboanugwo Collins <munisco12@gmail.com> 1610777387 +0100	commit: Added the icons
+866b909480e44908233a0f4764781b6763e522f1 a105e5edc97164f28549a4c5e14fc12214f28362 Igboanugwo Collins <munisco12@gmail.com> 1610777626 +0100	commit: Added the icons
+a105e5edc97164f28549a4c5e14fc12214f28362 0e842c34a4d22552edfa3748fef62387b9d2a5fa Igboanugwo Collins <munisco12@gmail.com> 1610778241 +0100	commit: Added the icons
+0e842c34a4d22552edfa3748fef62387b9d2a5fa 337f87a4d1a3a217da34256934e3159323a62bc1 Igboanugwo Collins <munisco12@gmail.com> 1610778367 +0100	commit: Added the icons
+337f87a4d1a3a217da34256934e3159323a62bc1 f84b531657c6897118d8728f180e22712949a613 Igboanugwo Collins <munisco12@gmail.com> 1610778635 +0100	commit: Added the icons
+f84b531657c6897118d8728f180e22712949a613 97a33cbc130accce84e7e77d1c14a09b5095b273 Igboanugwo Collins <munisco12@gmail.com> 1610778762 +0100	commit: Added the icons
+97a33cbc130accce84e7e77d1c14a09b5095b273 21d61668666abf41010eff48fc1c11ab7028381a Igboanugwo Collins <munisco12@gmail.com> 1610778837 +0100	commit: Added the icons
+21d61668666abf41010eff48fc1c11ab7028381a 4e59058ebe36ed2bb219aba38672cefb0c6969bb Igboanugwo Collins <munisco12@gmail.com> 1610778886 +0100	commit: Added the icons
+4e59058ebe36ed2bb219aba38672cefb0c6969bb 5d8722c7b23b1d18ff9cdc342d1868c5dff1526a Igboanugwo Collins <munisco12@gmail.com> 1610779206 +0100	commit: Added the icons
+5d8722c7b23b1d18ff9cdc342d1868c5dff1526a f00e47c5455a78e07e6d2621020f94c9fc9b1a9a Igboanugwo Collins <munisco12@gmail.com> 1610779288 +0100	commit: Added the icons
+f00e47c5455a78e07e6d2621020f94c9fc9b1a9a 6787a3a38b07cad1872fd1c36a9eaf05f9972320 Igboanugwo Collins <munisco12@gmail.com> 1610779731 +0100	commit: Added the chart in the homepage
+6787a3a38b07cad1872fd1c36a9eaf05f9972320 e9f2736d9f1de3b27f3354f1932bbfd8c5f4e8e1 Igboanugwo Collins <munisco12@gmail.com> 1610780054 +0100	commit: Added the icons
+e9f2736d9f1de3b27f3354f1932bbfd8c5f4e8e1 c61913ea7d85ffd153fb40891e8c05a236d5ea59 Igboanugwo Collins <munisco12@gmail.com> 1610780146 +0100	commit: Added the icons
+c61913ea7d85ffd153fb40891e8c05a236d5ea59 fa78706e05fcae67f33d5c7a3b1aaebdbf09d1db Igboanugwo Collins <munisco12@gmail.com> 1610780307 +0100	commit: Added the icons
+fa78706e05fcae67f33d5c7a3b1aaebdbf09d1db a81a106fbb11f6b489c5dd021ea1831b0fb9b3ff Igboanugwo Collins <munisco12@gmail.com> 1610780556 +0100	commit: Added the icons
+a81a106fbb11f6b489c5dd021ea1831b0fb9b3ff 91d6828aaa30fba83f90fcc49cb98dd113d5866b Igboanugwo Collins <munisco12@gmail.com> 1610780577 +0100	commit: Added the icons
+91d6828aaa30fba83f90fcc49cb98dd113d5866b a7b06be4b6255d346a7c7d90b4e6d2fabec7d294 Igboanugwo Collins <munisco12@gmail.com> 1610780646 +0100	commit: Added the icons
+a7b06be4b6255d346a7c7d90b4e6d2fabec7d294 c954add21ac5707b5f02ed7311ee25ae2764ba8f Igboanugwo Collins <munisco12@gmail.com> 1610782198 +0100	commit: Added the icons
+c954add21ac5707b5f02ed7311ee25ae2764ba8f 51036c3268d4c80e489e8cc251fd810c0b695856 Igboanugwo Collins <munisco12@gmail.com> 1610782565 +0100	commit: Added the icons
+51036c3268d4c80e489e8cc251fd810c0b695856 d793bd18a4b896a3af444a5401c7ed6b5982271f Igboanugwo Collins <munisco12@gmail.com> 1610782831 +0100	commit: Added the icons
+d793bd18a4b896a3af444a5401c7ed6b5982271f f2180f3f078dc7e01ad7fb28c58aaa38f5d493f1 Igboanugwo Collins <munisco12@gmail.com> 1610782892 +0100	commit: Added the icons
+f2180f3f078dc7e01ad7fb28c58aaa38f5d493f1 35ef51d928853f631803f116c720a0a655ff51e3 Igboanugwo Collins <munisco12@gmail.com> 1610783223 +0100	commit: Added the icons
+35ef51d928853f631803f116c720a0a655ff51e3 87bf60d030bfcf7918e0922c0d4578f2c19669e4 Igboanugwo Collins <munisco12@gmail.com> 1610783347 +0100	commit: Added the icons
+87bf60d030bfcf7918e0922c0d4578f2c19669e4 2f7e074a5f2d145ec595f4a00e341785751a085a Igboanugwo Collins <munisco12@gmail.com> 1610783425 +0100	commit: Added the icons
+2f7e074a5f2d145ec595f4a00e341785751a085a 312cc4ea98f71031f99750cf0574133b84ef2ac6 Igboanugwo Collins <munisco12@gmail.com> 1610783673 +0100	commit: Added the icons
+312cc4ea98f71031f99750cf0574133b84ef2ac6 0a46fc787d2b80cd39bd3ee9d4dce465e3451d2e Igboanugwo Collins <munisco12@gmail.com> 1610783762 +0100	commit: Added the icons
+0a46fc787d2b80cd39bd3ee9d4dce465e3451d2e f5966d900e080afdc72df584672da54321131739 Igboanugwo Collins <munisco12@gmail.com> 1610783828 +0100	commit: Added the icons
+f5966d900e080afdc72df584672da54321131739 c9900df9dfd4b82ef8c985e070a504a1c0a10690 Igboanugwo Collins <munisco12@gmail.com> 1610783861 +0100	commit: Added the icons
+c9900df9dfd4b82ef8c985e070a504a1c0a10690 ffa927b9c97f1e67eb668e708808072972db7ce9 Igboanugwo Collins <munisco12@gmail.com> 1610783980 +0100	commit: Added the icons
+ffa927b9c97f1e67eb668e708808072972db7ce9 1fda8832cff25920b65a27c45c1a4250afa3ac5f Igboanugwo Collins <munisco12@gmail.com> 1610784053 +0100	commit: Added the icons
+1fda8832cff25920b65a27c45c1a4250afa3ac5f cef703e40e7d7e14ea6b9d65713eb75844b6f11c Igboanugwo Collins <munisco12@gmail.com> 1610784451 +0100	commit: Added the icons
+cef703e40e7d7e14ea6b9d65713eb75844b6f11c 3de946b7e39dc70110231d2979bfeb3911d924f6 Igboanugwo Collins <munisco12@gmail.com> 1610784510 +0100	commit: Added the icons
+3de946b7e39dc70110231d2979bfeb3911d924f6 a6b165534c5c9198ae2bdaf814d90b38032129ed Igboanugwo Collins <munisco12@gmail.com> 1610784550 +0100	commit: Added the icons
+a6b165534c5c9198ae2bdaf814d90b38032129ed 0df993178b3fc5ac888645cb7a8849e448b9bdcf Igboanugwo Collins <munisco12@gmail.com> 1610784569 +0100	commit: Added the icons
+0df993178b3fc5ac888645cb7a8849e448b9bdcf 84901a943475132664a713a4a975d9946c1ed445 Igboanugwo Collins <munisco12@gmail.com> 1610784624 +0100	commit: Added the icons
+84901a943475132664a713a4a975d9946c1ed445 eac0f8329df208e5af49c8ec464f0c840dd503cb Igboanugwo Collins <munisco12@gmail.com> 1610784733 +0100	commit: Added the icons
+eac0f8329df208e5af49c8ec464f0c840dd503cb 042e835acb19f7cf16f20a92a58651e964d2345c Igboanugwo Collins <munisco12@gmail.com> 1610784764 +0100	commit: Added the icons
+042e835acb19f7cf16f20a92a58651e964d2345c 388b0b8b8fbc6438d2de1d983c242148aef52506 Igboanugwo Collins <munisco12@gmail.com> 1610784827 +0100	commit: Added the icons
+388b0b8b8fbc6438d2de1d983c242148aef52506 c61435f841d748aa692a72ab465ebddb06f2243b Igboanugwo Collins <munisco12@gmail.com> 1610784902 +0100	commit: Added the icons
+c61435f841d748aa692a72ab465ebddb06f2243b 311cb678c0a662f9d8b9b12c38636840afc8f482 Igboanugwo Collins <munisco12@gmail.com> 1610785036 +0100	commit: Added the icons
+311cb678c0a662f9d8b9b12c38636840afc8f482 7c725ffad65e526cb21ca5ff6de9658adefcb0ad Igboanugwo Collins <munisco12@gmail.com> 1610785073 +0100	commit: Added the icons
+7c725ffad65e526cb21ca5ff6de9658adefcb0ad cbb2652a6b7e80f467abc3757a4503265c342242 Igboanugwo Collins <munisco12@gmail.com> 1610785116 +0100	commit: Added the icons
+cbb2652a6b7e80f467abc3757a4503265c342242 34c2a381b0c17fbc756a12534d60ef5c2206a4be Igboanugwo Collins <munisco12@gmail.com> 1610785367 +0100	commit: Added the icons
+34c2a381b0c17fbc756a12534d60ef5c2206a4be e366f970d3aa84906b0b087177df5cd9cddd301f Igboanugwo Collins <munisco12@gmail.com> 1610785490 +0100	commit: Added the icons
+e366f970d3aa84906b0b087177df5cd9cddd301f 38c6b9ff3e5b8ef8bf09c33073b21622381408cd Igboanugwo Collins <munisco12@gmail.com> 1610785562 +0100	commit: Added the icons
+38c6b9ff3e5b8ef8bf09c33073b21622381408cd 7ec6f62ee05729a84d75425d36951e466fc1c3c0 Igboanugwo Collins <munisco12@gmail.com> 1610785620 +0100	commit: Added the icons
+7ec6f62ee05729a84d75425d36951e466fc1c3c0 f762883191ace281752b1540778ca7036678909e Igboanugwo Collins <munisco12@gmail.com> 1610786023 +0100	commit: Added the icons
+f762883191ace281752b1540778ca7036678909e 3597b7329eb476b3203b085972d6bd9e482b36dc Igboanugwo Collins <munisco12@gmail.com> 1610786207 +0100	commit: Added the icons
+3597b7329eb476b3203b085972d6bd9e482b36dc 07cf4b9dbf313561f2561b059d60555ff2f0a560 Igboanugwo Collins <munisco12@gmail.com> 1610786347 +0100	commit: Added the icons
+07cf4b9dbf313561f2561b059d60555ff2f0a560 9420dcf645b283720958126c3677f8731bef846b Igboanugwo Collins <munisco12@gmail.com> 1610786651 +0100	commit: Added the icons
+9420dcf645b283720958126c3677f8731bef846b c43e7e904ba8ee7a471d139f4aa96e0eaddceb0e Igboanugwo Collins <munisco12@gmail.com> 1610786716 +0100	commit: Added the icons
+c43e7e904ba8ee7a471d139f4aa96e0eaddceb0e 92b5b8ca6ead708b16aa9af366ae8043da1dcd9f Igboanugwo Collins <munisco12@gmail.com> 1610786737 +0100	commit: Added the icons
+92b5b8ca6ead708b16aa9af366ae8043da1dcd9f bdfd285cf9f5cc5545901a0f6de21d2550d8b996 Igboanugwo Collins <munisco12@gmail.com> 1610786807 +0100	commit: Added the icons
+bdfd285cf9f5cc5545901a0f6de21d2550d8b996 f514f4e1ddbfe90f281bde34fe59db138e6761f1 Igboanugwo Collins <munisco12@gmail.com> 1610787447 +0100	commit: Working on the about page
+f514f4e1ddbfe90f281bde34fe59db138e6761f1 92afb7eda124fe349f53f02ec32e06804297f6a6 Igboanugwo Collins <munisco12@gmail.com> 1610787520 +0100	commit: working on the header
+92afb7eda124fe349f53f02ec32e06804297f6a6 585b451ed1faa930e65100ca38b761dbe7dc8d36 Igboanugwo Collins <munisco12@gmail.com> 1610787662 +0100	commit: working on the header
+585b451ed1faa930e65100ca38b761dbe7dc8d36 d1f1127c768edffa0acaca248ff9bd017585ba42 Igboanugwo Collins <munisco12@gmail.com> 1610787772 +0100	commit: working on the header
+d1f1127c768edffa0acaca248ff9bd017585ba42 8798eca0c1eeff27197032fde726e4c76cc7fd6b Igboanugwo Collins <munisco12@gmail.com> 1610789455 +0100	commit: working on the header
+8798eca0c1eeff27197032fde726e4c76cc7fd6b 61ae701ff0f3d752004b2a6f6bce640e020da1f4 Igboanugwo Collins <munisco12@gmail.com> 1610789509 +0100	commit: working on the header
+61ae701ff0f3d752004b2a6f6bce640e020da1f4 4b44f047e4b469d08885419ecfcbe1984ae49c6c Igboanugwo Collins <munisco12@gmail.com> 1610789526 +0100	commit: working on the header
+4b44f047e4b469d08885419ecfcbe1984ae49c6c ab5dba45ddccdfe86144d9a7adb3b68be4513551 Igboanugwo Collins <munisco12@gmail.com> 1610789632 +0100	commit: working on the header
+ab5dba45ddccdfe86144d9a7adb3b68be4513551 810468806620b3e78681c0fafb867c8f1d3794dd Igboanugwo Collins <munisco12@gmail.com> 1610789881 +0100	commit: working on the header
+810468806620b3e78681c0fafb867c8f1d3794dd 54bf670dabad9d7ad9f8f5a4434e146b9bbcc35f Igboanugwo Collins <munisco12@gmail.com> 1610790095 +0100	commit: working on the header
+54bf670dabad9d7ad9f8f5a4434e146b9bbcc35f d3190b7f9f23a38f389eeafe670fe87ab263ce15 Igboanugwo Collins <munisco12@gmail.com> 1610790153 +0100	commit: working on the header
+d3190b7f9f23a38f389eeafe670fe87ab263ce15 feb712ef59cb0336fb610fdb0231499ca98ee542 Igboanugwo Collins <munisco12@gmail.com> 1610790183 +0100	commit: working on the header
+feb712ef59cb0336fb610fdb0231499ca98ee542 eebc197c9575fdbd5b83fab0f757a635f35d9518 Igboanugwo Collins <munisco12@gmail.com> 1610790272 +0100	commit: working on the header
+eebc197c9575fdbd5b83fab0f757a635f35d9518 b5f4c320a7006fbd67dfdbdaf07a655ff8c6586d Igboanugwo Collins <munisco12@gmail.com> 1610790454 +0100	commit: working on the header
+b5f4c320a7006fbd67dfdbdaf07a655ff8c6586d 7c925d7277de2adc6b602880b210d65a0083e312 Igboanugwo Collins <munisco12@gmail.com> 1610790469 +0100	commit: working on the header
+7c925d7277de2adc6b602880b210d65a0083e312 5786cc37015f8bb4755306c83f7a3e6cd20985d7 Igboanugwo Collins <munisco12@gmail.com> 1610790639 +0100	commit: working on the header
+5786cc37015f8bb4755306c83f7a3e6cd20985d7 431bdebbe7dd210b32a84460ce95dc34b09500e1 Igboanugwo Collins <munisco12@gmail.com> 1610790671 +0100	commit: working on the header
+431bdebbe7dd210b32a84460ce95dc34b09500e1 2f4d81a9994427338854256a6df7de4ad1aec296 Igboanugwo Collins <munisco12@gmail.com> 1610790779 +0100	commit: working on the header
+2f4d81a9994427338854256a6df7de4ad1aec296 cfa58da4823ec319adf8d54dbb316bd31a3c6fd8 Igboanugwo Collins <munisco12@gmail.com> 1610790922 +0100	commit: working on the header
+cfa58da4823ec319adf8d54dbb316bd31a3c6fd8 8f9cac63f94ae51fa55fd3c54a6fbb0d12296374 Igboanugwo Collins <munisco12@gmail.com> 1610790987 +0100	commit: working on the header
+8f9cac63f94ae51fa55fd3c54a6fbb0d12296374 d5882f19a67e7240879da8eec16a08868edc0142 Igboanugwo Collins <munisco12@gmail.com> 1610791018 +0100	commit: working on the about page
+d5882f19a67e7240879da8eec16a08868edc0142 337f96a98711d77939e5d6c61c00be2c350af499 Igboanugwo Collins <munisco12@gmail.com> 1610791055 +0100	commit: working on the about page
+337f96a98711d77939e5d6c61c00be2c350af499 6a1364ee07ff912a7bad7fce55df74eebb5957f9 Igboanugwo Collins <munisco12@gmail.com> 1610791171 +0100	commit: working on the about page
+6a1364ee07ff912a7bad7fce55df74eebb5957f9 498c04cad6283f716f21ae6ce9b971b9425d613e Igboanugwo Collins <munisco12@gmail.com> 1610791370 +0100	commit: working on the about page
+498c04cad6283f716f21ae6ce9b971b9425d613e 9d4708ee1d992682779c477af856e30165e537b6 Igboanugwo Collins <munisco12@gmail.com> 1610791415 +0100	commit: working on the about page
+9d4708ee1d992682779c477af856e30165e537b6 3c5ee1f3905651fcf17359976d2789f23bb2bc2c Igboanugwo Collins <munisco12@gmail.com> 1610791520 +0100	commit: working on the about page
+3c5ee1f3905651fcf17359976d2789f23bb2bc2c d532e9299112b282dc71c2cd25e9d478e8c17221 Igboanugwo Collins <munisco12@gmail.com> 1610791610 +0100	commit: working on the about page
+d532e9299112b282dc71c2cd25e9d478e8c17221 0a7e2c7808a332d90f777e29fa0d945e8352ac42 Igboanugwo Collins <munisco12@gmail.com> 1610791682 +0100	commit: working on the about page
+0a7e2c7808a332d90f777e29fa0d945e8352ac42 641d9227288350818c37ff7c5db4280b1cab25d4 Igboanugwo Collins <munisco12@gmail.com> 1610791902 +0100	commit: working on the about page
+641d9227288350818c37ff7c5db4280b1cab25d4 c48d91529321414339ada35aec0b8cb1c84750d1 Igboanugwo Collins <munisco12@gmail.com> 1610792014 +0100	commit: working on the about page
+c48d91529321414339ada35aec0b8cb1c84750d1 9bc69d82ec1ede9577625e9dd4da6fd0bcfb2dff Igboanugwo Collins <munisco12@gmail.com> 1610792077 +0100	commit: working on the about page
+9bc69d82ec1ede9577625e9dd4da6fd0bcfb2dff 8bbdb0b552ea6f75aec2bfe9c8d4d0f0c98d4a25 Igboanugwo Collins <munisco12@gmail.com> 1610792804 +0100	commit: working on the about page
+8bbdb0b552ea6f75aec2bfe9c8d4d0f0c98d4a25 bea2278cd8457893ee679da2b00e62245774bf85 Igboanugwo Collins <munisco12@gmail.com> 1610792875 +0100	commit: working on the about page
+bea2278cd8457893ee679da2b00e62245774bf85 69df3401d8fd2d409487a3350db9fabb76fa5d40 Igboanugwo Collins <munisco12@gmail.com> 1610793033 +0100	commit: working on the about page
+69df3401d8fd2d409487a3350db9fabb76fa5d40 ee34ccf1e6fbf5822bd181bf38b01c54b6bfbc55 Igboanugwo Collins <munisco12@gmail.com> 1610793112 +0100	commit: working on the about page
+ee34ccf1e6fbf5822bd181bf38b01c54b6bfbc55 11c4b0fb8e3c4e9c17c40f4682150ea9b1f87a9b Igboanugwo Collins <munisco12@gmail.com> 1610793155 +0100	commit: working on the about page
+11c4b0fb8e3c4e9c17c40f4682150ea9b1f87a9b 6d58e15b062dd9ce000e06c364b9308dccab8ceb Igboanugwo Collins <munisco12@gmail.com> 1610793173 +0100	commit: working on the about page
+6d58e15b062dd9ce000e06c364b9308dccab8ceb 16f0bcc0db35207b5be49af5732ea5f5b9f0ab07 Igboanugwo Collins <munisco12@gmail.com> 1610793481 +0100	commit: Working on the topreward page
+16f0bcc0db35207b5be49af5732ea5f5b9f0ab07 69261830b22390d829f702a23fe9421c52f15144 Igboanugwo Collins <munisco12@gmail.com> 1610793569 +0100	commit: Working on the topreward page
+69261830b22390d829f702a23fe9421c52f15144 28a708dd2a84cc89832b7eb1a61f2a7ff6b646c9 Igboanugwo Collins <munisco12@gmail.com> 1610793585 +0100	commit: Working on the topreward page
+28a708dd2a84cc89832b7eb1a61f2a7ff6b646c9 4c40222fda57722b9398922101b0c522a00a589e Igboanugwo Collins <munisco12@gmail.com> 1610793632 +0100	commit: Working on the topreward page
+4c40222fda57722b9398922101b0c522a00a589e 7d97b861b7231a311f839b03d0f5908cd8081891 Igboanugwo Collins <munisco12@gmail.com> 1610793671 +0100	commit: Working on the topreward page
+7d97b861b7231a311f839b03d0f5908cd8081891 c360d15eb794f16ad8eed06ce35c067c66ce56f7 Igboanugwo Collins <munisco12@gmail.com> 1610793699 +0100	commit: Working on the topreward page
+c360d15eb794f16ad8eed06ce35c067c66ce56f7 83add35998e37fc419bb677183df608ba3eac379 Igboanugwo Collins <munisco12@gmail.com> 1610793731 +0100	commit: Working on the topreward page
+83add35998e37fc419bb677183df608ba3eac379 eb7f09f4bd17aa5ebc2e036213cfcc8a7434745f Igboanugwo Collins <munisco12@gmail.com> 1610793903 +0100	commit: Working on the topreward page
+eb7f09f4bd17aa5ebc2e036213cfcc8a7434745f 305025f8899cafc322898a0fc6186e49e2c60b52 Igboanugwo Collins <munisco12@gmail.com> 1610794013 +0100	commit: Working on the topreward page
+305025f8899cafc322898a0fc6186e49e2c60b52 e7d4ea4ead03c74f541eb145da707e9a0c58ecf1 Igboanugwo Collins <munisco12@gmail.com> 1610794114 +0100	commit: Working on the topreward page
+e7d4ea4ead03c74f541eb145da707e9a0c58ecf1 49c06e88a73023c527a568b6580bd17331a2a6e3 Igboanugwo Collins <munisco12@gmail.com> 1610794168 +0100	commit: Working on the topreward page
+49c06e88a73023c527a568b6580bd17331a2a6e3 6e2b6f1ca50c1e9bd45697d05e23e51e5f0b3f61 Igboanugwo Collins <munisco12@gmail.com> 1610794182 +0100	commit: Working on the topreward page
+6e2b6f1ca50c1e9bd45697d05e23e51e5f0b3f61 01b2b8c5c3a950796881ea6c12c60ea53b6057f0 Igboanugwo Collins <munisco12@gmail.com> 1610794197 +0100	commit: Working on the topreward page
+01b2b8c5c3a950796881ea6c12c60ea53b6057f0 2ffe1963da8de6c7e47122109ea1ffcb715f430c Igboanugwo Collins <munisco12@gmail.com> 1610794274 +0100	commit: Working on the topreward page
+2ffe1963da8de6c7e47122109ea1ffcb715f430c 9a019173358ff5bcf815de6da29ad2d51ee548e3 Igboanugwo Collins <munisco12@gmail.com> 1610794307 +0100	commit: Working on the topreward page
+9a019173358ff5bcf815de6da29ad2d51ee548e3 2e732578b6340fe69d7397cc90d30c1886d1c8f7 Igboanugwo Collins <munisco12@gmail.com> 1610794474 +0100	commit: Working on the topreward page
+2e732578b6340fe69d7397cc90d30c1886d1c8f7 075206d21d6cb06492e6e615585c786f7c648d52 Igboanugwo Collins <munisco12@gmail.com> 1610794921 +0100	commit: Working on the topreward page
+075206d21d6cb06492e6e615585c786f7c648d52 b42d03676ee4d8047825cffcd6af1fec25be7073 Igboanugwo Collins <munisco12@gmail.com> 1610795153 +0100	commit: Done with top reward page now working on pricing page
+b42d03676ee4d8047825cffcd6af1fec25be7073 95ec6a735f14e6ac0ff1ca2a30723d9d14746423 Igboanugwo Collins <munisco12@gmail.com> 1610795195 +0100	commit: Done with top reward page now working on pricing page
+95ec6a735f14e6ac0ff1ca2a30723d9d14746423 f06ba00e2737a1217c63c0146edd0f5448b6aa47 Igboanugwo Collins <munisco12@gmail.com> 1610795245 +0100	commit: Done with top reward page now working on pricing page
+f06ba00e2737a1217c63c0146edd0f5448b6aa47 6aa60afab16cfa909f28be483aec47c011211578 Igboanugwo Collins <munisco12@gmail.com> 1610795271 +0100	commit: Done with top reward page now working on pricing page
+6aa60afab16cfa909f28be483aec47c011211578 45cabc9bfb98501b0261d92eda3d7b15b39c7c18 Igboanugwo Collins <munisco12@gmail.com> 1610795405 +0100	commit: Done with top reward page now working on pricing page
+45cabc9bfb98501b0261d92eda3d7b15b39c7c18 4e53aaafcd804b81d83661c54fed4d4a096beff7 Igboanugwo Collins <munisco12@gmail.com> 1610795621 +0100	commit: Working on pricing page
+4e53aaafcd804b81d83661c54fed4d4a096beff7 6f98d59c251ff657ae648d52819cc1deb6a822a0 Igboanugwo Collins <munisco12@gmail.com> 1610795699 +0100	commit: Working on pricing page
+6f98d59c251ff657ae648d52819cc1deb6a822a0 0776b73ca5cec8c930ea661a5aa22ce8bf611363 Igboanugwo Collins <munisco12@gmail.com> 1610795892 +0100	commit: Working on pricing page
+0776b73ca5cec8c930ea661a5aa22ce8bf611363 44e57fbd333d8638d110c027816899b225809a60 Igboanugwo Collins <munisco12@gmail.com> 1610795985 +0100	commit: Working on pricing page
+44e57fbd333d8638d110c027816899b225809a60 84b9d7317aecaee18bfe6a81a7388c85533c30a4 Igboanugwo Collins <munisco12@gmail.com> 1610796033 +0100	commit: Working on pricing page
+84b9d7317aecaee18bfe6a81a7388c85533c30a4 ab8d4838506a9cc12bb569bfbca813ce3e05ca68 Igboanugwo Collins <munisco12@gmail.com> 1610796063 +0100	commit: Working on pricing page
+ab8d4838506a9cc12bb569bfbca813ce3e05ca68 6e78072ab1903d04663b94fd2679d57f155664b1 Igboanugwo Collins <munisco12@gmail.com> 1610796262 +0100	commit: Working on pricing page
+6e78072ab1903d04663b94fd2679d57f155664b1 7750570a62b183417010e2f4228479ad28fb67d3 Igboanugwo Collins <munisco12@gmail.com> 1610796686 +0100	commit: Adding images to the price
+7750570a62b183417010e2f4228479ad28fb67d3 bdb48a992d289286a995a0afccf20704da19f6a1 Igboanugwo Collins <munisco12@gmail.com> 1610796930 +0100	commit: Adding images to the price
+bdb48a992d289286a995a0afccf20704da19f6a1 6185a0d49beb4a4272ce7f85c10384aa42bc73dc Igboanugwo Collins <munisco12@gmail.com> 1610797224 +0100	commit: Adding images to the price
+6185a0d49beb4a4272ce7f85c10384aa42bc73dc 792f2628b0fe7773f0b0491d2ff8139703634779 Igboanugwo Collins <munisco12@gmail.com> 1610797662 +0100	commit: Adding images to the price
+792f2628b0fe7773f0b0491d2ff8139703634779 018303133d29889b59fef430e1be3bd511d502ff Igboanugwo Collins <munisco12@gmail.com> 1610797929 +0100	commit: Adding images to the price
+018303133d29889b59fef430e1be3bd511d502ff 8c42ba1feeacf27a2fc9428c8498e7665523d215 Igboanugwo Collins <munisco12@gmail.com> 1610798053 +0100	commit: Adding images to the price
+8c42ba1feeacf27a2fc9428c8498e7665523d215 036705c8c08e50611e310c7f8b24ea92a6c02266 Igboanugwo Collins <munisco12@gmail.com> 1610798524 +0100	commit: Working on pricing
+036705c8c08e50611e310c7f8b24ea92a6c02266 c8c37050a9899684ca74d95c1351cb89587a4156 Igboanugwo Collins <munisco12@gmail.com> 1610800523 +0100	commit: Fixed the bug on pricing page
+c8c37050a9899684ca74d95c1351cb89587a4156 e4c63fdb001c706f5f7aa5e19fcb1617dd6a3f55 Igboanugwo Collins <munisco12@gmail.com> 1610800558 +0100	commit: Fixed the bug on pricing page
+e4c63fdb001c706f5f7aa5e19fcb1617dd6a3f55 a02929369bbf4f252326414b3308f9b63fd5bad2 Igboanugwo Collins <munisco12@gmail.com> 1610800743 +0100	commit: Fixed the bug on pricing page
+a02929369bbf4f252326414b3308f9b63fd5bad2 de80df2bf6e25b1895c116c28bf76dd862996966 Igboanugwo Collins <munisco12@gmail.com> 1610800825 +0100	commit: Fixed the bug on pricing page
+de80df2bf6e25b1895c116c28bf76dd862996966 8556d9b867874c4f2d195d002b9e28e91fd23033 Igboanugwo Collins <munisco12@gmail.com> 1610800854 +0100	commit: Fixed the bug on pricing page
+8556d9b867874c4f2d195d002b9e28e91fd23033 30423224dbb4476a78f385a3e8642ba8d33675f9 Igboanugwo Collins <munisco12@gmail.com> 1610800978 +0100	commit: Working on testimonies page
+30423224dbb4476a78f385a3e8642ba8d33675f9 c96d3f9401fac9ad034fb8091bb6c322d764b890 Igboanugwo Collins <munisco12@gmail.com> 1610820941 +0100	commit: working on the testimonies
+c96d3f9401fac9ad034fb8091bb6c322d764b890 521434a66167420dac4e0098aba7f656a626c62d Igboanugwo Collins <munisco12@gmail.com> 1610821121 +0100	commit: working on the testimonies
+521434a66167420dac4e0098aba7f656a626c62d ae396c0bff62965afae67c0b19406d0c780586d7 Igboanugwo Collins <munisco12@gmail.com> 1610821374 +0100	commit: working on the testimonies
+ae396c0bff62965afae67c0b19406d0c780586d7 47cab11a3042d1abb2ec9b0ea2c4fa3ed846b163 Igboanugwo Collins <munisco12@gmail.com> 1610821955 +0100	commit: working on the testimonies
+47cab11a3042d1abb2ec9b0ea2c4fa3ed846b163 5936a6edf7d7d89a19a962f73bb12ad878d52806 Igboanugwo Collins <munisco12@gmail.com> 1610828633 +0100	commit: Working on the contact us page
+5936a6edf7d7d89a19a962f73bb12ad878d52806 6d2d8d1bbfaac7c2f72b1e55fe01ebc125ba9fe4 Igboanugwo Collins <munisco12@gmail.com> 1610828669 +0100	commit: Working on the contact us page
+6d2d8d1bbfaac7c2f72b1e55fe01ebc125ba9fe4 98248ffc67386d826639030855bf3c996969fab0 Igboanugwo Collins <munisco12@gmail.com> 1610828778 +0100	commit: Working on the contact us page
+98248ffc67386d826639030855bf3c996969fab0 0456c5525b92d296ecf7af1043d8697e0c477ea1 Igboanugwo Collins <munisco12@gmail.com> 1610830134 +0100	commit: Working on the contact page
+0456c5525b92d296ecf7af1043d8697e0c477ea1 c8d854cf8fb7ccac5cc08335f1783c9b128e6c33 Igboanugwo Collins <munisco12@gmail.com> 1610833026 +0100	commit: Working on the contact page
+c8d854cf8fb7ccac5cc08335f1783c9b128e6c33 16c259b6ae622840e65f3b5b1032897648e98994 Igboanugwo Collins <munisco12@gmail.com> 1610833146 +0100	commit: Working on the contact page
+16c259b6ae622840e65f3b5b1032897648e98994 2712152fe556ee4cdb14625111b544bfe6a8a460 Igboanugwo Collins <munisco12@gmail.com> 1610833209 +0100	commit: Working on the contact page
+2712152fe556ee4cdb14625111b544bfe6a8a460 39cffdaa56abd56778f72cb6c1506494f5d59d03 Igboanugwo Collins <munisco12@gmail.com> 1610833233 +0100	commit: Working on the contact page
+39cffdaa56abd56778f72cb6c1506494f5d59d03 281e1e84d67ed8fabfafd0a0fbfd6eaa2e7ac55c Igboanugwo Collins <munisco12@gmail.com> 1610833272 +0100	commit: Working on the contact page
+281e1e84d67ed8fabfafd0a0fbfd6eaa2e7ac55c e2dd79a6839c4baa26a5e3291726a553675f8d8a Igboanugwo Collins <munisco12@gmail.com> 1610833316 +0100	commit: Working on the contact page
+e2dd79a6839c4baa26a5e3291726a553675f8d8a 667e96b25877cf684db20475f61e1621fd47631e Igboanugwo Collins <munisco12@gmail.com> 1610833518 +0100	commit: Done with contact us page
+667e96b25877cf684db20475f61e1621fd47631e 64272e63c0776ec253f0a7fedaa41fa11afbcdf4 Igboanugwo Collins <munisco12@gmail.com> 1610833632 +0100	commit: Done with contact us page
+64272e63c0776ec253f0a7fedaa41fa11afbcdf4 d02f35c1754e02e6658af9bcda44e6a809bb5f78 Igboanugwo Collins <munisco12@gmail.com> 1610833670 +0100	commit: Done with contact us page
+d02f35c1754e02e6658af9bcda44e6a809bb5f78 ac6f4874a6cc415cb4f3be015d31f26ab483f7a2 Igboanugwo Collins <munisco12@gmail.com> 1610834138 +0100	commit: Done with contact us page
+ac6f4874a6cc415cb4f3be015d31f26ab483f7a2 a9169ada1265d68899775706e30b31a51e8b348b Igboanugwo Collins <munisco12@gmail.com> 1610834148 +0100	commit: Done with contact us page
+a9169ada1265d68899775706e30b31a51e8b348b 3d0b3996d063ddc1436d4aba73d2ee30acbde3c7 Igboanugwo Collins <munisco12@gmail.com> 1610834167 +0100	commit: Done with contact us page
+3d0b3996d063ddc1436d4aba73d2ee30acbde3c7 422e9b26a896786a4d250cf341e0d3ed5380dbc3 Igboanugwo Collins <munisco12@gmail.com> 1610834414 +0100	commit: Done with contact us page
+422e9b26a896786a4d250cf341e0d3ed5380dbc3 1ec96f6e60fd179b764a94f546a0487906040496 Igboanugwo Collins <munisco12@gmail.com> 1610834481 +0100	commit: Done with contact us page
+1ec96f6e60fd179b764a94f546a0487906040496 c26cfe8c4af03fc0eb63ca2c6343205bf2b030d8 Igboanugwo Collins <munisco12@gmail.com> 1610834567 +0100	commit: Done with contact us page
+c26cfe8c4af03fc0eb63ca2c6343205bf2b030d8 2d40ded8eb880174d6840652e9f26965a02bdc2a Igboanugwo Collins <munisco12@gmail.com> 1610865034 +0100	commit: working on login
+2d40ded8eb880174d6840652e9f26965a02bdc2a 2d59455d8dcfdc8fd454670c2645707349d16bdf Igboanugwo Collins <munisco12@gmail.com> 1610865136 +0100	commit: working on login
+2d59455d8dcfdc8fd454670c2645707349d16bdf 91ffb625b18d814e3d26d3b29583587d14b5eb2e Igboanugwo Collins <munisco12@gmail.com> 1610865703 +0100	commit: working on login
+91ffb625b18d814e3d26d3b29583587d14b5eb2e a8619da7f0bec126a4700c37439f08c48605790a Igboanugwo Collins <munisco12@gmail.com> 1610865857 +0100	commit: working on login
+a8619da7f0bec126a4700c37439f08c48605790a 0cf511424cfbf4ba01e0914236e1f730519aee7b Igboanugwo Collins <munisco12@gmail.com> 1610865957 +0100	commit: working on login
+0cf511424cfbf4ba01e0914236e1f730519aee7b c6db31a2e9c8dd083c345ff240676c85d2f7aac5 Igboanugwo Collins <munisco12@gmail.com> 1610866020 +0100	commit: working on login
+c6db31a2e9c8dd083c345ff240676c85d2f7aac5 42faff8bc69334c044f09cf983eba70c924aee5c Igboanugwo Collins <munisco12@gmail.com> 1610866074 +0100	commit: working on login
+42faff8bc69334c044f09cf983eba70c924aee5c 5684a89eead90c56e5ee1528ce5469b7334a79d6 Igboanugwo Collins <munisco12@gmail.com> 1610866110 +0100	commit: working on login
+5684a89eead90c56e5ee1528ce5469b7334a79d6 cfbcd524fc76c6755eca1a686c5835975e2b60c9 Igboanugwo Collins <munisco12@gmail.com> 1610866175 +0100	commit: working on login
+cfbcd524fc76c6755eca1a686c5835975e2b60c9 8ae4a9a471f44d82eb9988e152e7eb14e912d0ab Igboanugwo Collins <munisco12@gmail.com> 1610866191 +0100	commit: working on login
+8ae4a9a471f44d82eb9988e152e7eb14e912d0ab 1d32b982c095b2760814947062ab769ecabd010b Igboanugwo Collins <munisco12@gmail.com> 1610866234 +0100	commit: working on login
+1d32b982c095b2760814947062ab769ecabd010b 9807a7d2f793149a7f1c9eb30183a67ac6a50540 Igboanugwo Collins <munisco12@gmail.com> 1610866450 +0100	commit: working on login
+9807a7d2f793149a7f1c9eb30183a67ac6a50540 190cdcbdc17b36f1ba3356f0dd6615db01906aae Igboanugwo Collins <munisco12@gmail.com> 1610866499 +0100	commit: working on login
+190cdcbdc17b36f1ba3356f0dd6615db01906aae ab51d20f718a99e5f9c661607f96b3cdb615fe28 Igboanugwo Collins <munisco12@gmail.com> 1610866530 +0100	commit: working on login
+ab51d20f718a99e5f9c661607f96b3cdb615fe28 8285d33cb290a3e85fc329fbeb33c16580ebacb1 Igboanugwo Collins <munisco12@gmail.com> 1610889355 +0100	commit: working on the login
+8285d33cb290a3e85fc329fbeb33c16580ebacb1 00423d23a906f7ba2696e7d2b76cb0cfbb69016c Igboanugwo Collins <munisco12@gmail.com> 1610889591 +0100	commit: working on the login
+00423d23a906f7ba2696e7d2b76cb0cfbb69016c b5a216e4ed1ea0fef86b6bb8d02759f919539334 Igboanugwo Collins <munisco12@gmail.com> 1610889852 +0100	commit: working on the login
+b5a216e4ed1ea0fef86b6bb8d02759f919539334 04db1e97c9907eb970f9602d80cdbc86b65ddf3b Igboanugwo Collins <munisco12@gmail.com> 1610890099 +0100	commit: working on the signup
+04db1e97c9907eb970f9602d80cdbc86b65ddf3b 9d7e680be68f0b9b6e400f1e8e9af1f889b40644 Igboanugwo Collins <munisco12@gmail.com> 1610890162 +0100	commit: working on the signup
+9d7e680be68f0b9b6e400f1e8e9af1f889b40644 b9efe86bc41404d4ccb214d0342667d26f59cd0f Igboanugwo Collins <munisco12@gmail.com> 1610891168 +0100	commit: working on the signup
+b9efe86bc41404d4ccb214d0342667d26f59cd0f aa6e8b248998dd92636a3c233a427d3ce948a992 Igboanugwo Collins <munisco12@gmail.com> 1610891194 +0100	commit: working on the signup
+aa6e8b248998dd92636a3c233a427d3ce948a992 0f988a23283db278fac71a7e6e1076f1250b85cb Igboanugwo Collins <munisco12@gmail.com> 1610891252 +0100	commit: working on the signup
+0f988a23283db278fac71a7e6e1076f1250b85cb 9073a235d7cbe80eccd8cf0406142825fae48812 Igboanugwo Collins <munisco12@gmail.com> 1610891295 +0100	commit: working on the signup
+9073a235d7cbe80eccd8cf0406142825fae48812 35723a35553b57c235fefcb0fd7240ae0ebf6344 Igboanugwo Collins <munisco12@gmail.com> 1610891368 +0100	commit: working on the signup
+35723a35553b57c235fefcb0fd7240ae0ebf6344 11efd7bc360b5a7af0808ff697dfd69d8f935c32 Igboanugwo Collins <munisco12@gmail.com> 1610891446 +0100	commit: working on the signup
+11efd7bc360b5a7af0808ff697dfd69d8f935c32 9a6da6d396b6c1155b1c248c9778891b8e8a15b0 Igboanugwo Collins <munisco12@gmail.com> 1610891558 +0100	commit: working on the signup
+9a6da6d396b6c1155b1c248c9778891b8e8a15b0 90ab8f241bf8403beecc3ca216403ae1c695d97d Igboanugwo Collins <munisco12@gmail.com> 1610891927 +0100	commit: working on the signup
+90ab8f241bf8403beecc3ca216403ae1c695d97d da16670e48126f652f7d78213857c5defd1624c8 Igboanugwo Collins <munisco12@gmail.com> 1610891959 +0100	commit: working on the signup
+da16670e48126f652f7d78213857c5defd1624c8 b6d91470cf5a0ff0745cc226cb7e9c4ceef4ba54 Igboanugwo Collins <munisco12@gmail.com> 1610892057 +0100	commit: working on the signup
+b6d91470cf5a0ff0745cc226cb7e9c4ceef4ba54 fdb006995d7fffc3f7a6b4fbacb967dc8d5ba15c Igboanugwo Collins <munisco12@gmail.com> 1610892114 +0100	commit: working on the signup
+fdb006995d7fffc3f7a6b4fbacb967dc8d5ba15c 5c90389a8945867ba42dbda6672e000c211c418a Igboanugwo Collins <munisco12@gmail.com> 1610892248 +0100	commit: working on the signup
+5c90389a8945867ba42dbda6672e000c211c418a 79a5d6f4dfe6bee35272facb84b48e561a2796bf Igboanugwo Collins <munisco12@gmail.com> 1610892344 +0100	commit: working on the signup
+79a5d6f4dfe6bee35272facb84b48e561a2796bf 72fe1652775fbecd9ccb9a685257d7dd5bf4b050 Igboanugwo Collins <munisco12@gmail.com> 1610892592 +0100	commit: working on the signup
+72fe1652775fbecd9ccb9a685257d7dd5bf4b050 c57909b5c375006ba1070ff059f686fa71ca052b Igboanugwo Collins <munisco12@gmail.com> 1610892676 +0100	commit: working on the signup
+c57909b5c375006ba1070ff059f686fa71ca052b 9edb2cf54e2aa581b99323126343a0fb3ab9fa32 Igboanugwo Collins <munisco12@gmail.com> 1610896439 +0100	commit: working on the signup
+9edb2cf54e2aa581b99323126343a0fb3ab9fa32 a35a378614aff05442c4b3904a19d5d4dd39383c Igboanugwo Collins <munisco12@gmail.com> 1610896488 +0100	commit: working on the signup
+a35a378614aff05442c4b3904a19d5d4dd39383c cce8bc50ab989b2b6332b1fb351b10d7e91b5e55 Igboanugwo Collins <munisco12@gmail.com> 1610896803 +0100	commit: working on the signup
+cce8bc50ab989b2b6332b1fb351b10d7e91b5e55 1fb8aa45e6e7547bb9614e903b236cb5a619e491 Igboanugwo Collins <munisco12@gmail.com> 1610896929 +0100	commit: working on the signup
+1fb8aa45e6e7547bb9614e903b236cb5a619e491 866fe07dd56173d46bb787ff08686c5a2b185a71 Igboanugwo Collins <munisco12@gmail.com> 1610896985 +0100	commit: working on the signup
+866fe07dd56173d46bb787ff08686c5a2b185a71 6c7c4aea04ea5dc3a5e1c9575e1b51f441406e47 Igboanugwo Collins <munisco12@gmail.com> 1610897041 +0100	commit: working on the signup
+6c7c4aea04ea5dc3a5e1c9575e1b51f441406e47 4833d6e02a1f200996bb661b1a3caa4ae6a49547 Igboanugwo Collins <munisco12@gmail.com> 1610897110 +0100	commit: working on the signup
+4833d6e02a1f200996bb661b1a3caa4ae6a49547 83707e30df63da5f3cbc06830bb33457d5bd88cf Igboanugwo Collins <munisco12@gmail.com> 1610897161 +0100	commit: working on the signup
+83707e30df63da5f3cbc06830bb33457d5bd88cf 1d930e2bf1a7182771ada5729c64e3b8633aade3 Igboanugwo Collins <munisco12@gmail.com> 1610897202 +0100	commit: working on the signup
+1d930e2bf1a7182771ada5729c64e3b8633aade3 cdde7a05977d461e02492abd6c30b9dff6dffee6 Igboanugwo Collins <munisco12@gmail.com> 1610897655 +0100	commit: working on the signup
+cdde7a05977d461e02492abd6c30b9dff6dffee6 8923245e1c5e624e828457047cd6772ed8beeeb2 Igboanugwo Collins <munisco12@gmail.com> 1610898361 +0100	commit: working on the signup
+8923245e1c5e624e828457047cd6772ed8beeeb2 3560d647ceebf81a2f0b3591e17a91570fdc5263 Igboanugwo Collins <munisco12@gmail.com> 1610898497 +0100	commit: working on the signup
+3560d647ceebf81a2f0b3591e17a91570fdc5263 ec8c793f9486e8a9c826570a5ba08a3aa3977309 Igboanugwo Collins <munisco12@gmail.com> 1610898716 +0100	commit: working on the signup
+ec8c793f9486e8a9c826570a5ba08a3aa3977309 9a37ab8f9f975d701dd34e072424bd8aace257e9 Igboanugwo Collins <munisco12@gmail.com> 1610899792 +0100	commit: working on the signup
+9a37ab8f9f975d701dd34e072424bd8aace257e9 eee79c4a69d4dae5116bb6475ab7b9294f71c28e Igboanugwo Collins <munisco12@gmail.com> 1610899846 +0100	commit: working on the signup
+eee79c4a69d4dae5116bb6475ab7b9294f71c28e 1098922942ecc8ed622c10b26e214494e2c4883d Igboanugwo Collins <munisco12@gmail.com> 1610912425 +0100	commit: working on the signup
+1098922942ecc8ed622c10b26e214494e2c4883d f82df010efd8c9bbd70aa148a1bbe220e131cfe1 Igboanugwo Collins <munisco12@gmail.com> 1610912483 +0100	commit: working on the signup
+f82df010efd8c9bbd70aa148a1bbe220e131cfe1 99e2ac260e3a08ae6291c130358ecd712023bf54 Igboanugwo Collins <munisco12@gmail.com> 1610913628 +0100	commit: working on the signup
+99e2ac260e3a08ae6291c130358ecd712023bf54 f8c145e1e2714e56953fd52c599722c3b87a45a3 Igboanugwo Collins <munisco12@gmail.com> 1610914107 +0100	commit: working on the signup
+f8c145e1e2714e56953fd52c599722c3b87a45a3 a1c64d9864c53383cc83a8418f7446bb19c2f8e4 Igboanugwo Collins <munisco12@gmail.com> 1610914628 +0100	commit: working on the signup
+a1c64d9864c53383cc83a8418f7446bb19c2f8e4 b8f9b72ca46d69ce2b43d82e7e29d771b46cd07c Igboanugwo Collins <munisco12@gmail.com> 1610915949 +0100	commit: working on the signup
+b8f9b72ca46d69ce2b43d82e7e29d771b46cd07c 0009edb4baf969dc00a00ff17d891a8c43c3814a Igboanugwo Collins <munisco12@gmail.com> 1610916067 +0100	commit: working on the signup
+0009edb4baf969dc00a00ff17d891a8c43c3814a f999ec8e7eb027170432b53e40f8f0e22436e1df Igboanugwo Collins <munisco12@gmail.com> 1610916293 +0100	commit: working on the signup
+f999ec8e7eb027170432b53e40f8f0e22436e1df 716eb6c126bdd93aa33fa3742794741a2a1930f3 Igboanugwo Collins <munisco12@gmail.com> 1610916381 +0100	commit: working on the signup
+716eb6c126bdd93aa33fa3742794741a2a1930f3 90df3e39f8c83feadd71d5602b49bb41ed785ca5 Igboanugwo Collins <munisco12@gmail.com> 1610916468 +0100	commit: working on the signup
+90df3e39f8c83feadd71d5602b49bb41ed785ca5 4386672d96d96208a313fa97dd62f7005ed26752 Igboanugwo Collins <munisco12@gmail.com> 1610916476 +0100	commit: working on the signup
+4386672d96d96208a313fa97dd62f7005ed26752 7426167ced7eec0603f96fa3802df11afebd374d Igboanugwo Collins <munisco12@gmail.com> 1610916551 +0100	commit: working on the signup
+7426167ced7eec0603f96fa3802df11afebd374d 35b5db5c6a1e008b2929fbab5cbb1f487a1780ed Igboanugwo Collins <munisco12@gmail.com> 1610916571 +0100	commit: working on the signup
+35b5db5c6a1e008b2929fbab5cbb1f487a1780ed 7a3636c700f79a689b4604095034e860a2159f15 Igboanugwo Collins <munisco12@gmail.com> 1610916882 +0100	commit: working on the signup
+7a3636c700f79a689b4604095034e860a2159f15 317d742d19b4e4c5fd9ee132bd212fbf31cb2a78 Igboanugwo Collins <munisco12@gmail.com> 1610939448 +0100	commit: working on the signup
+317d742d19b4e4c5fd9ee132bd212fbf31cb2a78 1c5825365aa5aefb06441e9a2987c0a6d5311f03 Igboanugwo Collins <munisco12@gmail.com> 1610940062 +0100	commit: working on the signup
+1c5825365aa5aefb06441e9a2987c0a6d5311f03 a3bf7eca6afac8d5cb6749ed2b93894590b621b0 Igboanugwo Collins <munisco12@gmail.com> 1610940160 +0100	commit: working on the signup
+a3bf7eca6afac8d5cb6749ed2b93894590b621b0 a35b8de097ba4ef191ff7f6a5fc3df2d238026bb Igboanugwo Collins <munisco12@gmail.com> 1610940184 +0100	commit: working on the signup
+a35b8de097ba4ef191ff7f6a5fc3df2d238026bb 781e556295b23f3bef052ccfdef5fc0f778c926c Igboanugwo Collins <munisco12@gmail.com> 1610940201 +0100	commit: working on the signup
+781e556295b23f3bef052ccfdef5fc0f778c926c ba3559198e701e4d556122ccaa9106aee362d926 Igboanugwo Collins <munisco12@gmail.com> 1610940229 +0100	commit: working on the signup
+ba3559198e701e4d556122ccaa9106aee362d926 f9493feda52c0ea189dcf2d81a740b85fe076135 Igboanugwo Collins <munisco12@gmail.com> 1610940373 +0100	commit: working on the signup
+f9493feda52c0ea189dcf2d81a740b85fe076135 2bfbbc91e168af6f88645565f28cedcd0beead0d Igboanugwo Collins <munisco12@gmail.com> 1610940489 +0100	commit: working on the signup
+2bfbbc91e168af6f88645565f28cedcd0beead0d 6ce5335feefe1edf2e38be0469389ca61e460478 Igboanugwo Collins <munisco12@gmail.com> 1610940563 +0100	commit: working on the signup
+6ce5335feefe1edf2e38be0469389ca61e460478 b5a5e063afb424cfa411157b3c5efc4ba57cbc9b Igboanugwo Collins <munisco12@gmail.com> 1610940673 +0100	commit: working on the signup
+b5a5e063afb424cfa411157b3c5efc4ba57cbc9b 49196b92927173e5c2cf3333ec59a8e40030656b Igboanugwo Collins <munisco12@gmail.com> 1610940905 +0100	commit: working on the signup
+49196b92927173e5c2cf3333ec59a8e40030656b ef11b07b12cf01c06db483e2197a5b686cecc65c Igboanugwo Collins <munisco12@gmail.com> 1610941039 +0100	commit: working on the signup
+ef11b07b12cf01c06db483e2197a5b686cecc65c b96181dfb7a1bcff4ccc432204f6555e527e3b2d Igboanugwo Collins <munisco12@gmail.com> 1610941346 +0100	commit: working on the signup
+b96181dfb7a1bcff4ccc432204f6555e527e3b2d 9d8a3bc654029360e3442a97863d58bbda93c7d9 Igboanugwo Collins <munisco12@gmail.com> 1610941569 +0100	commit: working on the signup
+9d8a3bc654029360e3442a97863d58bbda93c7d9 7ea481581cbab7563d1dda85ae1a2c279d1ce41a Igboanugwo Collins <munisco12@gmail.com> 1610942757 +0100	commit: working on the signup
+7ea481581cbab7563d1dda85ae1a2c279d1ce41a 887fe27479f62b72b38354a43be7c58787b6ce2e Igboanugwo Collins <munisco12@gmail.com> 1610942902 +0100	commit: working on the signup
+887fe27479f62b72b38354a43be7c58787b6ce2e 49f7fe51e4ae9445813012c220cebc7fd0dd22ac Igboanugwo Collins <munisco12@gmail.com> 1610942919 +0100	commit: working on the signup
+49f7fe51e4ae9445813012c220cebc7fd0dd22ac b4a72cc12576df8684612280fe2457183da0668c Igboanugwo Collins <munisco12@gmail.com> 1610943831 +0100	commit: working on the signup
+b4a72cc12576df8684612280fe2457183da0668c 3ea6b84d8c7eab16641b8f46a49d3d1691d1724f Igboanugwo Collins <munisco12@gmail.com> 1610943878 +0100	commit: working on the signup
+3ea6b84d8c7eab16641b8f46a49d3d1691d1724f 01ee7658786914d00fbb67388b9f4167d7fe6d6a Igboanugwo Collins <munisco12@gmail.com> 1610944034 +0100	commit: working on the signup
+01ee7658786914d00fbb67388b9f4167d7fe6d6a f9b16d006627fd6e004e8c7fa0a89a899e61a7f4 Igboanugwo Collins <munisco12@gmail.com> 1610945260 +0100	commit: working on the signup
+f9b16d006627fd6e004e8c7fa0a89a899e61a7f4 dd0a56566113f38e070fa4f9a6fbeb69d5e78fd3 Igboanugwo Collins <munisco12@gmail.com> 1610945306 +0100	commit: working on the signup
+dd0a56566113f38e070fa4f9a6fbeb69d5e78fd3 ee17c5eea69f6f5a18c23b3a8177d41bcb975306 Igboanugwo Collins <munisco12@gmail.com> 1610945377 +0100	commit: working on the signup
+ee17c5eea69f6f5a18c23b3a8177d41bcb975306 1812b41f8c11c5dfa92472f64008957fe5c6c597 Igboanugwo Collins <munisco12@gmail.com> 1610951782 +0100	commit: working on the signup
+1812b41f8c11c5dfa92472f64008957fe5c6c597 bbbe5cbb30cc5f37f842fa7cc2cf56fe51b706e7 Igboanugwo Collins <munisco12@gmail.com> 1610985994 +0100	commit: Adding icons
+bbbe5cbb30cc5f37f842fa7cc2cf56fe51b706e7 90ef09aed66d77c5d7cdfb95c28e2436e2b8ae8e Igboanugwo Collins <munisco12@gmail.com> 1610986150 +0100	commit: Adding icons
+90ef09aed66d77c5d7cdfb95c28e2436e2b8ae8e 6809a787d2d6a4dc71e0b4a21e6623a9f6c0af2c Igboanugwo Collins <munisco12@gmail.com> 1610986244 +0100	commit: Adding icons
+6809a787d2d6a4dc71e0b4a21e6623a9f6c0af2c 09f9d67c4c28d748bdbb578e53ebdfd625bc9c9f Igboanugwo Collins <munisco12@gmail.com> 1610986278 +0100	commit: Adding icons
+09f9d67c4c28d748bdbb578e53ebdfd625bc9c9f e748593295cd83068370145d62a46e329cafd353 Igboanugwo Collins <munisco12@gmail.com> 1610986347 +0100	commit: Adding icons
+e748593295cd83068370145d62a46e329cafd353 42c5da4968773cccb23b61895ac9a9812a00c1dd Igboanugwo Collins <munisco12@gmail.com> 1610986460 +0100	commit: Adding icons
+42c5da4968773cccb23b61895ac9a9812a00c1dd dd8920c09c3bf8c0ee0023a5efafbb9b918eca34 Igboanugwo Collins <munisco12@gmail.com> 1610986649 +0100	commit: Adding icons
+dd8920c09c3bf8c0ee0023a5efafbb9b918eca34 97fe9464c22be38587eb5d07d578eb5bbd7c7511 Igboanugwo Collins <munisco12@gmail.com> 1611031488 +0100	commit: working on the signup
+97fe9464c22be38587eb5d07d578eb5bbd7c7511 41206b6a751ad0c18984488b741030cff669913d Igboanugwo Collins <munisco12@gmail.com> 1611041602 +0100	commit: Working on the signup
+41206b6a751ad0c18984488b741030cff669913d ecfcd142f814b287f2f27399cf2ce34a3db01b80 Igboanugwo Collins <munisco12@gmail.com> 1611041672 +0100	commit: Working on the signup
+ecfcd142f814b287f2f27399cf2ce34a3db01b80 efdc619953c8b8e64891a48a1fd7d44b92db51aa Igboanugwo Collins <munisco12@gmail.com> 1611045840 +0100	commit: Working on the signup
+efdc619953c8b8e64891a48a1fd7d44b92db51aa d550c745f05336480fa6b99790339c1e2df77d3e Igboanugwo Collins <munisco12@gmail.com> 1611045896 +0100	commit: Working on the signup
+d550c745f05336480fa6b99790339c1e2df77d3e 1988f1b74c8e4b48525857efb2d08ebbb324752e Igboanugwo Collins <munisco12@gmail.com> 1611045925 +0100	commit: Working on the signup
+1988f1b74c8e4b48525857efb2d08ebbb324752e 31277195bd498eccc347d1522f4185490fa75a0c Igboanugwo Collins <munisco12@gmail.com> 1611063687 +0100	commit: working on signup
+31277195bd498eccc347d1522f4185490fa75a0c bfbe8248f214cf0b7f5330cfe53a96a222d1667d Igboanugwo Collins <munisco12@gmail.com> 1611064184 +0100	commit: Setting up invest button
+bfbe8248f214cf0b7f5330cfe53a96a222d1667d 85e9a410a572ee52cbce156f29c742d4d07ce659 Igboanugwo Collins <munisco12@gmail.com> 1611064620 +0100	commit: Setting up invest button
+85e9a410a572ee52cbce156f29c742d4d07ce659 6e7f59786d59e635b4c1661349f209adcdf4e0af Igboanugwo Collins <munisco12@gmail.com> 1611064781 +0100	commit: Setting up invest button
+6e7f59786d59e635b4c1661349f209adcdf4e0af 91f879f6fe1bb37a61f49a44a3cde931a031cc26 Igboanugwo Collins <munisco12@gmail.com> 1611065058 +0100	commit: Setting up invest button
+91f879f6fe1bb37a61f49a44a3cde931a031cc26 96680754c564ebaa6876e71f711b03796eca3b86 Igboanugwo Collins <munisco12@gmail.com> 1611065293 +0100	commit: Setting up invest button
+96680754c564ebaa6876e71f711b03796eca3b86 21cb7d11cb4c1c0624088218932b937e58bceb7d Igboanugwo Collins <munisco12@gmail.com> 1611065504 +0100	commit: Setting up invest button
+21cb7d11cb4c1c0624088218932b937e58bceb7d c291e299e01845207085d6f79a4a7a2a06ed91de Igboanugwo Collins <munisco12@gmail.com> 1611065580 +0100	commit: Setting up invest button
+c291e299e01845207085d6f79a4a7a2a06ed91de ea2a203f345a312f5d2e12540a751c1912d6c3cd Igboanugwo Collins <munisco12@gmail.com> 1611065782 +0100	commit: Setting up invest button
+ea2a203f345a312f5d2e12540a751c1912d6c3cd 0fdab895aa296d4e2bbba0ef69da049541d74732 Igboanugwo Collins <munisco12@gmail.com> 1611066388 +0100	commit: Setting up invest button
+0fdab895aa296d4e2bbba0ef69da049541d74732 e1880250292423e165ffee6285bdefab3c4db326 Igboanugwo Collins <munisco12@gmail.com> 1611066572 +0100	commit: Setting up invest button
+e1880250292423e165ffee6285bdefab3c4db326 cacdca11246ac9677b1e58d6696d1251347be07b Igboanugwo Collins <munisco12@gmail.com> 1611067191 +0100	commit: Setting up invest button
+cacdca11246ac9677b1e58d6696d1251347be07b 4491add9fa7d51d06a5f7a07b988041a9619aed9 Igboanugwo Collins <munisco12@gmail.com> 1611067514 +0100	commit: Setting up invest button
+4491add9fa7d51d06a5f7a07b988041a9619aed9 ef20dfd3888a5b47831d67ed32ee82134ed2ee12 Igboanugwo Collins <munisco12@gmail.com> 1611068946 +0100	commit: Setting up invest button
+ef20dfd3888a5b47831d67ed32ee82134ed2ee12 755df4b65d631915c24b3646b90a0bb9eb424a8e Igboanugwo Collins <munisco12@gmail.com> 1611069435 +0100	commit: Setting up invest button
+755df4b65d631915c24b3646b90a0bb9eb424a8e e287951423df0da95f1302c66417ffdcb8a1bdd4 Igboanugwo Collins <munisco12@gmail.com> 1611070086 +0100	commit: Setting up invest button
+e287951423df0da95f1302c66417ffdcb8a1bdd4 fcafd16bb87cb68ed4f26ffbadcbb67b73aaccd0 Igboanugwo Collins <munisco12@gmail.com> 1611070170 +0100	commit: Setting up invest button
+fcafd16bb87cb68ed4f26ffbadcbb67b73aaccd0 0e3c8874b963686cc8159191380942e89b389a1b Igboanugwo Collins <munisco12@gmail.com> 1611070240 +0100	commit: Setting up invest button
+0e3c8874b963686cc8159191380942e89b389a1b 5f9d6efa6bd6f4a0e07754a8e52b5e3b44a069ce Igboanugwo Collins <munisco12@gmail.com> 1611070295 +0100	commit: Setting up invest button
+5f9d6efa6bd6f4a0e07754a8e52b5e3b44a069ce 6d7a80d7821ea3f7a4462f1611e6c8db7a612e3b Igboanugwo Collins <munisco12@gmail.com> 1611070546 +0100	commit: Setting up invest button
+6d7a80d7821ea3f7a4462f1611e6c8db7a612e3b a31b33ba574f57d81c874f3369a44cfa1ee0b788 Igboanugwo Collins <munisco12@gmail.com> 1611070954 +0100	commit: Setting up invest button
+a31b33ba574f57d81c874f3369a44cfa1ee0b788 21b6b21764e015a6e08536a50d7202fc622e95e3 Igboanugwo Collins <munisco12@gmail.com> 1611071550 +0100	commit: Setting up invest button
+21b6b21764e015a6e08536a50d7202fc622e95e3 4b3b3973f35514b2e98ddebd3c672fa195700cf2 Igboanugwo Collins <munisco12@gmail.com> 1611072628 +0100	commit: Setting up invest button
+4b3b3973f35514b2e98ddebd3c672fa195700cf2 7a31de76f79e862eefb702483b2045f0ae02960d Igboanugwo Collins <munisco12@gmail.com> 1611072733 +0100	commit: Setting up invest button
+7a31de76f79e862eefb702483b2045f0ae02960d 1af0cec8e54386584484237653db8ad2ae11dc19 Igboanugwo Collins <munisco12@gmail.com> 1611072830 +0100	commit: Setting up invest button
+1af0cec8e54386584484237653db8ad2ae11dc19 ebf74e83535ffbb85083d4111bcae9e8aec37653 Igboanugwo Collins <munisco12@gmail.com> 1611132082 +0100	commit: Finished solving the investment calculator
+ebf74e83535ffbb85083d4111bcae9e8aec37653 dfff9617e7605c8cb2b7d651d873a5f876ef515e Igboanugwo Collins <munisco12@gmail.com> 1611134033 +0100	commit: Finished solving the investment calculator
+dfff9617e7605c8cb2b7d651d873a5f876ef515e 9045b49f33c3b6ab398f7f41356259ea31036487 Igboanugwo Collins <munisco12@gmail.com> 1611134307 +0100	commit: Cleared the investor calculator
+9045b49f33c3b6ab398f7f41356259ea31036487 5f5d19097c146005d1880c9063ab471110c0b38e Igboanugwo Collins <munisco12@gmail.com> 1611206143 +0100	commit: Cleared the investor calculator
+5f5d19097c146005d1880c9063ab471110c0b38e 2b4d8f9730d10842f149caf8aad1c45363834c91 Igboanugwo Collins <munisco12@gmail.com> 1611206174 +0100	commit: Cleared the investor calculator
+2b4d8f9730d10842f149caf8aad1c45363834c91 ca1afbede5b3abbc1ab6ea2f91a14ae9f09fda8e Igboanugwo Collins <munisco12@gmail.com> 1611209137 +0100	commit: Working on the signup
+ca1afbede5b3abbc1ab6ea2f91a14ae9f09fda8e 476fb58e4c75708e2b97ea74a07293c4d4bc4a5a Igboanugwo Collins <munisco12@gmail.com> 1611209544 +0100	commit: Working on the signup
+476fb58e4c75708e2b97ea74a07293c4d4bc4a5a 5f9a3c418c63d845b917e5050f7a1cddd049a6f9 Igboanugwo Collins <munisco12@gmail.com> 1611209702 +0100	commit: Sendind data to the backend
+5f9a3c418c63d845b917e5050f7a1cddd049a6f9 72224208ee6b7e788cc1518bebbb9ed363fc4b32 Igboanugwo Collins <munisco12@gmail.com> 1611209740 +0100	commit: Sendind data to the backend
+72224208ee6b7e788cc1518bebbb9ed363fc4b32 7158be94b50c1fbdea5fdfae634989d981664f50 Igboanugwo Collins <munisco12@gmail.com> 1611210605 +0100	commit: Added the backend api
+7158be94b50c1fbdea5fdfae634989d981664f50 5b358ce23d38dc7bfd79f8b0d773c9fde75049a4 Igboanugwo Collins <munisco12@gmail.com> 1611211002 +0100	commit: Added the backend api
+5b358ce23d38dc7bfd79f8b0d773c9fde75049a4 4105d5df03fac1f622e7af0e94d308e263b414c3 Igboanugwo Collins <munisco12@gmail.com> 1611211219 +0100	commit: Added the backend api
+4105d5df03fac1f622e7af0e94d308e263b414c3 944f2fb1a8aec6db94c0e6a241b650e829b766a3 Igboanugwo Collins <munisco12@gmail.com> 1611211349 +0100	commit: Added the backend api
+944f2fb1a8aec6db94c0e6a241b650e829b766a3 ec91ec7882e09af8509c702552373cf0874ece17 Igboanugwo Collins <munisco12@gmail.com> 1611211444 +0100	commit: Added the backend api
+ec91ec7882e09af8509c702552373cf0874ece17 752fda8305c61a27dc42d5868e51ee1006b4923e Igboanugwo Collins <munisco12@gmail.com> 1611211639 +0100	commit: Added the backend api
+752fda8305c61a27dc42d5868e51ee1006b4923e ec3b04b185d46feb594a99f5f8ab1ee55598412e Igboanugwo Collins <munisco12@gmail.com> 1611211769 +0100	commit: Added the backend api
+ec3b04b185d46feb594a99f5f8ab1ee55598412e 34dbd9a50beb7115b2991c30f579b5c4417325d2 Igboanugwo Collins <munisco12@gmail.com> 1611212024 +0100	commit: Added the backend api
+34dbd9a50beb7115b2991c30f579b5c4417325d2 ce9834d4a83f345bd9f08804bd4aa3e7f5776c55 Igboanugwo Collins <munisco12@gmail.com> 1611212832 +0100	commit: working on forgot password
+ce9834d4a83f345bd9f08804bd4aa3e7f5776c55 1930d5e302d37df45e324bfc3c05a4721b30af95 Igboanugwo Collins <munisco12@gmail.com> 1611212964 +0100	commit: working on forgot password
+1930d5e302d37df45e324bfc3c05a4721b30af95 bc5103c98eae3d488d0ed39f03d071a50ee14830 Igboanugwo Collins <munisco12@gmail.com> 1611213070 +0100	commit: working on forgot password
+bc5103c98eae3d488d0ed39f03d071a50ee14830 eb56cb7a7f2d7199bb9a775aed8193a47a670390 Igboanugwo Collins <munisco12@gmail.com> 1611213101 +0100	commit: working on forgot password
+eb56cb7a7f2d7199bb9a775aed8193a47a670390 ed09ab50b2d5dc67528239fb551c8b9834a9e884 Igboanugwo Collins <munisco12@gmail.com> 1611213216 +0100	commit: working on forgot password
+ed09ab50b2d5dc67528239fb551c8b9834a9e884 10a69de14426adde1d9b89b208fa51644b2089e4 Igboanugwo Collins <munisco12@gmail.com> 1611213241 +0100	commit: working on forgot password
+10a69de14426adde1d9b89b208fa51644b2089e4 27f8297e017bb3ae6798fe20190e44c4e77ab6c7 Igboanugwo Collins <munisco12@gmail.com> 1611213321 +0100	commit: working on forgot password
+27f8297e017bb3ae6798fe20190e44c4e77ab6c7 7f91334be91c1e76f3a2e8c7650866ce938ab452 Igboanugwo Collins <munisco12@gmail.com> 1611213430 +0100	commit: working on forgot password
+7f91334be91c1e76f3a2e8c7650866ce938ab452 2dc657576ba08d8a6aca6c3320e2580e01616997 Igboanugwo Collins <munisco12@gmail.com> 1611213592 +0100	commit: working on forgot password
+2dc657576ba08d8a6aca6c3320e2580e01616997 949ee772b6236fc6dcd657764d338b66ad5f9b5d Igboanugwo Collins <munisco12@gmail.com> 1611213635 +0100	commit: working on forgot password
+949ee772b6236fc6dcd657764d338b66ad5f9b5d b33d3279bb2dabdd8a2eff4108691c397ddde7e1 Igboanugwo Collins <munisco12@gmail.com> 1611213780 +0100	commit: working on forgot password
+b33d3279bb2dabdd8a2eff4108691c397ddde7e1 983ce8ea69c51b06d331293904bccd9107673ca9 Igboanugwo Collins <munisco12@gmail.com> 1611213811 +0100	commit: working on forgot password
+983ce8ea69c51b06d331293904bccd9107673ca9 6d40cd6a87bb739ef69963e35468a5cb037fd1e1 Igboanugwo Collins <munisco12@gmail.com> 1611213830 +0100	commit: working on forgot password
+6d40cd6a87bb739ef69963e35468a5cb037fd1e1 9ff68d895dd18862ea6e95ed6222d0769f34b99c Igboanugwo Collins <munisco12@gmail.com> 1611213867 +0100	commit: working on forgot password
+9ff68d895dd18862ea6e95ed6222d0769f34b99c f45b32dc90faa8587d30ee9dfe3a6732d5cc4785 Igboanugwo Collins <munisco12@gmail.com> 1611214227 +0100	commit: working on forgot password
+f45b32dc90faa8587d30ee9dfe3a6732d5cc4785 cd7001a8e62608b9d63809b0da6ef15f79a3f9b5 Igboanugwo Collins <munisco12@gmail.com> 1611236072 +0100	commit: working on forgot password
+cd7001a8e62608b9d63809b0da6ef15f79a3f9b5 bd13122ec06a72881521f0d9d0fd985857db036c Igboanugwo Collins <munisco12@gmail.com> 1611236256 +0100	commit: working on forgot password
+bd13122ec06a72881521f0d9d0fd985857db036c 846754aeb3768e02dc1048ecddb6b797541ea9e3 Igboanugwo Collins <munisco12@gmail.com> 1611236310 +0100	commit: working on forgot password
+846754aeb3768e02dc1048ecddb6b797541ea9e3 c842df9449724fdae15757ef8a810de2da4af9f4 Igboanugwo Collins <munisco12@gmail.com> 1611236335 +0100	commit: working on forgot password
+c842df9449724fdae15757ef8a810de2da4af9f4 785ee73791d69840e7a9a6977d43ff875b3e4156 Igboanugwo Collins <munisco12@gmail.com> 1611236397 +0100	commit: working on forgot password
+785ee73791d69840e7a9a6977d43ff875b3e4156 54aa9a84ee2277da9b96c388cff7141c58ede47a Igboanugwo Collins <munisco12@gmail.com> 1611236480 +0100	commit: working on forgot password
+54aa9a84ee2277da9b96c388cff7141c58ede47a 204f23e566449c9574bd050305f710539b5a9652 Igboanugwo Collins <munisco12@gmail.com> 1611236819 +0100	commit: working on forgot password
+204f23e566449c9574bd050305f710539b5a9652 e8c21f124b23f193da05b5a3cb10f3efb64ad4b8 Igboanugwo Collins <munisco12@gmail.com> 1611236959 +0100	commit: working on forgot password
+e8c21f124b23f193da05b5a3cb10f3efb64ad4b8 3e846877a2136d1f7685c0d2547d1844b2459dbb Igboanugwo Collins <munisco12@gmail.com> 1611237046 +0100	commit: working on forgot password
+3e846877a2136d1f7685c0d2547d1844b2459dbb a10a365e3de34ddc33edec5c575cc7098577d886 Igboanugwo Collins <munisco12@gmail.com> 1611237147 +0100	commit: working on forgot password
+a10a365e3de34ddc33edec5c575cc7098577d886 2a896259197a0fa81f9b16c311010167c7e7af22 Igboanugwo Collins <munisco12@gmail.com> 1611237224 +0100	commit: working on forgot password
+2a896259197a0fa81f9b16c311010167c7e7af22 48c666296007dd4458ee4c4788773878f5c00d29 Igboanugwo Collins <munisco12@gmail.com> 1611237383 +0100	commit: working on forgot password
+48c666296007dd4458ee4c4788773878f5c00d29 a9ba7c9323d70d152adb67f9da17b0131fc10fff Igboanugwo Collins <munisco12@gmail.com> 1611237506 +0100	commit: working on forgot password
+a9ba7c9323d70d152adb67f9da17b0131fc10fff ec83747ad9f2868a5bd99d7e450a8f14c4dbb011 Igboanugwo Collins <munisco12@gmail.com> 1611237582 +0100	commit: working on forgot password
+ec83747ad9f2868a5bd99d7e450a8f14c4dbb011 605566c9ee4be7e5ed5c7419fc86d9aefaab7bb5 Igboanugwo Collins <munisco12@gmail.com> 1611237667 +0100	commit: working on forgot password
+605566c9ee4be7e5ed5c7419fc86d9aefaab7bb5 f2d17dba715d1236a7a4629eea871a19ee99cd46 Igboanugwo Collins <munisco12@gmail.com> 1611237747 +0100	commit: Renamed the register routes to signup
+f2d17dba715d1236a7a4629eea871a19ee99cd46 084068fd44ce4ce5ada1e0dd1c7c3f8cd0340bca Igboanugwo Collins <munisco12@gmail.com> 1611237828 +0100	commit: Renamed the register routes to signup
+084068fd44ce4ce5ada1e0dd1c7c3f8cd0340bca c26eb2707e59967b70928e617295faec99715e92 Igboanugwo Collins <munisco12@gmail.com> 1611237896 +0100	commit: Renamed the register routes to signup
+c26eb2707e59967b70928e617295faec99715e92 e0eb3e0b58a0ad02416c960b1d2fb21e7c8cba12 Igboanugwo Collins <munisco12@gmail.com> 1611237965 +0100	commit: Renamed the register routes to signup
+e0eb3e0b58a0ad02416c960b1d2fb21e7c8cba12 5e36c833f0d13379f69540b6191a75fe444c1701 Igboanugwo Collins <munisco12@gmail.com> 1611238077 +0100	commit: Renamed the register routes to signup
+5e36c833f0d13379f69540b6191a75fe444c1701 c6d8926c5bc3a5d13694f6aebe098e7d27be6ca1 Igboanugwo Collins <munisco12@gmail.com> 1611238358 +0100	commit: Renamed the register routes to signup
+c6d8926c5bc3a5d13694f6aebe098e7d27be6ca1 c1dfc4a5478075905009c3c5b17c6d219de90e23 Igboanugwo Collins <munisco12@gmail.com> 1611238394 +0100	commit: Renamed the register routes to signup
+c1dfc4a5478075905009c3c5b17c6d219de90e23 b7efc87a128cf375ff9bbe012fd0c2bfbab809c9 Igboanugwo Collins <munisco12@gmail.com> 1611238468 +0100	commit: Renamed the register routes to signup
+b7efc87a128cf375ff9bbe012fd0c2bfbab809c9 d02b1a7f68803c0eac248c999a9892a235a255d7 Igboanugwo Collins <munisco12@gmail.com> 1611238514 +0100	commit: Renamed the register routes to signup
+d02b1a7f68803c0eac248c999a9892a235a255d7 93b26979a7363463dceeea44c693e788ace0d9fa Igboanugwo Collins <munisco12@gmail.com> 1611238550 +0100	commit: Renamed the register routes to signup
+93b26979a7363463dceeea44c693e788ace0d9fa 05cad1e575952d87713b3c47e41535b66c3b6c0d Igboanugwo Collins <munisco12@gmail.com> 1611238612 +0100	commit: Renamed the register routes to signup
+05cad1e575952d87713b3c47e41535b66c3b6c0d 5f21def66e18d43b4a487ce318652cb7ede87fea Igboanugwo Collins <munisco12@gmail.com> 1611238677 +0100	commit: Renamed the register routes to signup
+5f21def66e18d43b4a487ce318652cb7ede87fea ac0f20edb8379b3264ceda40d996384ab4701160 Igboanugwo Collins <munisco12@gmail.com> 1611238876 +0100	commit: Renamed the register routes to signup
+ac0f20edb8379b3264ceda40d996384ab4701160 5736cff6b9b6782d7986759dcd4e7cb8cdce1060 Igboanugwo Collins <munisco12@gmail.com> 1611238908 +0100	commit: Renamed the register routes to signup
+5736cff6b9b6782d7986759dcd4e7cb8cdce1060 ff9a7d683393bbeac4bbd23991a4445145e1e789 Igboanugwo Collins <munisco12@gmail.com> 1611238959 +0100	commit: Renamed the register routes to signup
+ff9a7d683393bbeac4bbd23991a4445145e1e789 19a2332a2519a74085aa70a7f880565a39880d3a Igboanugwo Collins <munisco12@gmail.com> 1611239050 +0100	commit: Renamed the register routes to signup
+19a2332a2519a74085aa70a7f880565a39880d3a 3a6edf92a7ed9f23e3bcec81b9fc38f17c836ae2 Igboanugwo Collins <munisco12@gmail.com> 1611239086 +0100	commit: Renamed the register routes to signup
+3a6edf92a7ed9f23e3bcec81b9fc38f17c836ae2 31d1a60f7c8539f678e090acfd9e73858ce5462f Igboanugwo Collins <munisco12@gmail.com> 1611239450 +0100	commit: Renamed the register routes to signup
+31d1a60f7c8539f678e090acfd9e73858ce5462f 45d0d481fa78e550088074a12c44ffd744cf5e5d Igboanugwo Collins <munisco12@gmail.com> 1611239496 +0100	commit: Renamed the register routes to signup
+45d0d481fa78e550088074a12c44ffd744cf5e5d b895a874cbbb186fdc9251da95a04bf3caba4bd2 Igboanugwo Collins <munisco12@gmail.com> 1611239956 +0100	commit: Renamed the register routes to signup
+b895a874cbbb186fdc9251da95a04bf3caba4bd2 3a1fa7411d4a9d80608a77cfb71274534b5aab7a Igboanugwo Collins <munisco12@gmail.com> 1611244681 +0100	commit: Renamed the register routes to signup
+3a1fa7411d4a9d80608a77cfb71274534b5aab7a 9cf52f1a9b534eeb926d7576f6f484d2d5567b54 Igboanugwo Collins <munisco12@gmail.com> 1611244767 +0100	commit: Renamed the register routes to signup
+9cf52f1a9b534eeb926d7576f6f484d2d5567b54 0e985958b670a33528ea22e55da9c7f2f842ad72 Igboanugwo Collins <munisco12@gmail.com> 1611244830 +0100	commit: Renamed the register routes to signup
+0e985958b670a33528ea22e55da9c7f2f842ad72 1871cb6836dd6493d3aa63f9d919323db1f2b059 Igboanugwo Collins <munisco12@gmail.com> 1611244847 +0100	commit: Renamed the register routes to signup
+1871cb6836dd6493d3aa63f9d919323db1f2b059 eebaa32d94f080c64b3ee7683bb8db1c4844ce43 Igboanugwo Collins <munisco12@gmail.com> 1611244888 +0100	commit: Renamed the register routes to signup
+eebaa32d94f080c64b3ee7683bb8db1c4844ce43 1f529595e48f69a8dc4e9e918909b78ff677d231 Igboanugwo Collins <munisco12@gmail.com> 1611244905 +0100	commit: Renamed the register routes to signup
+1f529595e48f69a8dc4e9e918909b78ff677d231 bc5c8075ea6c0e2f85aba5b39489a3f51e478b13 Igboanugwo Collins <munisco12@gmail.com> 1611245008 +0100	commit: Renamed the register routes to signup
+bc5c8075ea6c0e2f85aba5b39489a3f51e478b13 80d527753d7805edb206f8847b9e6d053d62c3bb Igboanugwo Collins <munisco12@gmail.com> 1611245179 +0100	commit: Renamed the register routes to signup
+80d527753d7805edb206f8847b9e6d053d62c3bb ce5a62596505180bed0ba038b008af65b416a7cd Igboanugwo Collins <munisco12@gmail.com> 1611245272 +0100	commit: Renamed the register routes to signup
+ce5a62596505180bed0ba038b008af65b416a7cd 8442a64bf0b975d14d1d878fc6f3dc0a4fd84421 Igboanugwo Collins <munisco12@gmail.com> 1611245302 +0100	commit: Renamed the register routes to signup
+8442a64bf0b975d14d1d878fc6f3dc0a4fd84421 1b553b46ab2e3ac24b625082b05f32fa8d1c56c7 Igboanugwo Collins <munisco12@gmail.com> 1611245725 +0100	commit: Renamed the register routes to signup
+1b553b46ab2e3ac24b625082b05f32fa8d1c56c7 7432759ff84e4c459726a3b5bf3c17166c2a8731 Igboanugwo Collins <munisco12@gmail.com> 1611245745 +0100	commit: Renamed the register routes to signup
+7432759ff84e4c459726a3b5bf3c17166c2a8731 14830ee65710d5acc28890611b26cd859dba3cf4 Igboanugwo Collins <munisco12@gmail.com> 1611245835 +0100	commit: Renamed the register routes to signup
+14830ee65710d5acc28890611b26cd859dba3cf4 cf1830b8bd85fe2b729e9ba3834524929d79f68d Igboanugwo Collins <munisco12@gmail.com> 1611246228 +0100	commit: Renamed the register routes to signup
+cf1830b8bd85fe2b729e9ba3834524929d79f68d c9a6102382e2a1a1c0ab7f1fdc138b5b8f06474b Igboanugwo Collins <munisco12@gmail.com> 1611246366 +0100	commit: Renamed the register routes to signup
+c9a6102382e2a1a1c0ab7f1fdc138b5b8f06474b 67bc7ee3906506fc3f73ccdc6946dcb8db56983d Igboanugwo Collins <munisco12@gmail.com> 1611246406 +0100	commit: Renamed the register routes to signup
+67bc7ee3906506fc3f73ccdc6946dcb8db56983d 4b24630be639442cdaf86a012ec715a46dc88186 Igboanugwo Collins <munisco12@gmail.com> 1611246582 +0100	commit: Renamed the register routes to signup
+4b24630be639442cdaf86a012ec715a46dc88186 cb8191bd69e7a776edb59bd0ed3707b3c81b4c00 Igboanugwo Collins <munisco12@gmail.com> 1611246662 +0100	commit: Renamed the register routes to signup
+cb8191bd69e7a776edb59bd0ed3707b3c81b4c00 1a6f3e2f85ba80dd82f5d177190b466640a74ca0 Igboanugwo Collins <munisco12@gmail.com> 1611291891 +0100	commit: working on income calculator
+1a6f3e2f85ba80dd82f5d177190b466640a74ca0 db4b85e779fd8536a4fde97741acef3e5479672c Igboanugwo Collins <munisco12@gmail.com> 1611292233 +0100	commit: working on income calculator
+db4b85e779fd8536a4fde97741acef3e5479672c 69f3f1952ca14de19b01265924e11c210d96ef52 Igboanugwo Collins <munisco12@gmail.com> 1611292342 +0100	commit: working on income calculator
+69f3f1952ca14de19b01265924e11c210d96ef52 d06d6540727a58084e0d1dcf3823dbf0a1b544bb Igboanugwo Collins <munisco12@gmail.com> 1611292716 +0100	commit: working on income calculator
+d06d6540727a58084e0d1dcf3823dbf0a1b544bb b2c83218ffbeb877c7b6bde252035074186b157a Igboanugwo Collins <munisco12@gmail.com> 1611292937 +0100	commit: working on income calculator
+b2c83218ffbeb877c7b6bde252035074186b157a 5225beec9478357327d18899a2c05b9013dde6fa Igboanugwo Collins <munisco12@gmail.com> 1611293285 +0100	commit: working on income calculator
+5225beec9478357327d18899a2c05b9013dde6fa da24dfa19f1894e3ef6912c28b5a68e4c444196e Igboanugwo Collins <munisco12@gmail.com> 1611293385 +0100	commit: working on income calculator
+da24dfa19f1894e3ef6912c28b5a68e4c444196e 5411a9a4eed1338a84893a39dd7fda8fc35a3a55 Igboanugwo Collins <munisco12@gmail.com> 1611293592 +0100	commit: working on income calculator
+5411a9a4eed1338a84893a39dd7fda8fc35a3a55 82fa5377ea70e2af92cac93d1f84266a427db447 Igboanugwo Collins <munisco12@gmail.com> 1611293719 +0100	commit: working on income calculator
+82fa5377ea70e2af92cac93d1f84266a427db447 a92415e371ed762a660c84b817422bfb31c6473f Igboanugwo Collins <munisco12@gmail.com> 1611294074 +0100	commit: working on income calculator
+a92415e371ed762a660c84b817422bfb31c6473f 6cc3e0cd006f8911926b5ea06f95a6290ed1c906 Igboanugwo Collins <munisco12@gmail.com> 1611294475 +0100	commit: working on income calculator
+6cc3e0cd006f8911926b5ea06f95a6290ed1c906 345f775918117b3f8184a9056857f237805ee377 Igboanugwo Collins <munisco12@gmail.com> 1611294937 +0100	commit: working on income calculator
+345f775918117b3f8184a9056857f237805ee377 a990123ce9511024e141f20f7140c618729a9638 Igboanugwo Collins <munisco12@gmail.com> 1611295048 +0100	commit: working on income calculator
+a990123ce9511024e141f20f7140c618729a9638 25d27d6f952bc5c68ad63a5043b63544ef05b8da Igboanugwo Collins <munisco12@gmail.com> 1611295114 +0100	commit: working on income calculator
+25d27d6f952bc5c68ad63a5043b63544ef05b8da 5d0b2c3b2a20a7b712b5b63919277def08d5a2b5 Igboanugwo Collins <munisco12@gmail.com> 1611295131 +0100	commit: working on income calculator
+5d0b2c3b2a20a7b712b5b63919277def08d5a2b5 fa4b84e385eec08a069be2a83e717dfd6df03962 Igboanugwo Collins <munisco12@gmail.com> 1611295165 +0100	commit: working on income calculator
+fa4b84e385eec08a069be2a83e717dfd6df03962 d7b7cb9f7982db11f0b6f6352ca0410b12dfd76a Igboanugwo Collins <munisco12@gmail.com> 1611295208 +0100	commit: working on income calculator
+d7b7cb9f7982db11f0b6f6352ca0410b12dfd76a c94ef5ec2d98ab03d4dc51ed0140e77a1cd70606 Igboanugwo Collins <munisco12@gmail.com> 1611295814 +0100	commit: working on income calculator
+c94ef5ec2d98ab03d4dc51ed0140e77a1cd70606 dbc2c0d68a2fd2d6626e8e7614e44d1d65784ce1 Igboanugwo Collins <munisco12@gmail.com> 1611296576 +0100	commit: working on income calculator
+dbc2c0d68a2fd2d6626e8e7614e44d1d65784ce1 01bc491725ed749ecc92723fe5175ee66fa7b869 Igboanugwo Collins <munisco12@gmail.com> 1611296640 +0100	commit: working on income calculator
+01bc491725ed749ecc92723fe5175ee66fa7b869 6e37cd492960e73c982864f60cd88a11066c66d3 Igboanugwo Collins <munisco12@gmail.com> 1611296766 +0100	commit: working on income calculator
+6e37cd492960e73c982864f60cd88a11066c66d3 834f1574c5222c2657f29b50432953762fc1dcad Igboanugwo Collins <munisco12@gmail.com> 1611296905 +0100	commit: working on income calculator
+834f1574c5222c2657f29b50432953762fc1dcad 3a31fb458fd4b6f04b1f3a08190d6c968b5bbd26 Igboanugwo Collins <munisco12@gmail.com> 1611296939 +0100	commit: working on income calculator
+3a31fb458fd4b6f04b1f3a08190d6c968b5bbd26 6f28c70241e6d5dc1934b640564bf83106919ce6 Igboanugwo Collins <munisco12@gmail.com> 1611296988 +0100	commit: working on income calculator
+6f28c70241e6d5dc1934b640564bf83106919ce6 cea9550c8246d16e37015d13acb2a1e8714f1f89 Igboanugwo Collins <munisco12@gmail.com> 1611297013 +0100	commit: working on income calculator
+cea9550c8246d16e37015d13acb2a1e8714f1f89 6ea291051eacb05003b1e3fb7743074329bb093e Igboanugwo Collins <munisco12@gmail.com> 1611297207 +0100	commit: working on income calculator
+6ea291051eacb05003b1e3fb7743074329bb093e 6559111e4a027cfe25546561870cd4b4d2a613c5 Igboanugwo Collins <munisco12@gmail.com> 1611297310 +0100	commit: working on income calculator
+6559111e4a027cfe25546561870cd4b4d2a613c5 6cb445a55cca11b9c080616186360b8b261a6a82 Igboanugwo Collins <munisco12@gmail.com> 1611297820 +0100	commit: working on income calculator
+6cb445a55cca11b9c080616186360b8b261a6a82 eb2ec6acb01af3587a035ac94b8a562ad55da73a Igboanugwo Collins <munisco12@gmail.com> 1611297932 +0100	commit: working on income calculator
+eb2ec6acb01af3587a035ac94b8a562ad55da73a 628bf48f5cf387c6fe5dfa4a63c8122985e59740 Igboanugwo Collins <munisco12@gmail.com> 1611298001 +0100	commit: working on income calculator
+628bf48f5cf387c6fe5dfa4a63c8122985e59740 8af763c84f149369ca8cef8ec40abbf091550c44 Igboanugwo Collins <munisco12@gmail.com> 1611298167 +0100	commit: working on income calculator
+8af763c84f149369ca8cef8ec40abbf091550c44 0b7b2dc2ad156a21b78a177a4f28bfd04fb6037c Igboanugwo Collins <munisco12@gmail.com> 1611298213 +0100	commit: working on income calculator
+0b7b2dc2ad156a21b78a177a4f28bfd04fb6037c e330392ac3579d3e1db14545ae6eb13c0d48a985 Igboanugwo Collins <munisco12@gmail.com> 1611298413 +0100	commit: working on income calculator
+e330392ac3579d3e1db14545ae6eb13c0d48a985 2e469185781cf53dc2c8279ba0adc5303d9ff013 Igboanugwo Collins <munisco12@gmail.com> 1611298777 +0100	commit: working on income calculator
+2e469185781cf53dc2c8279ba0adc5303d9ff013 2140f7d986002977f4de549c62cdd96ca7be50fe Igboanugwo Collins <munisco12@gmail.com> 1611298989 +0100	commit: working on income calculator
+2140f7d986002977f4de549c62cdd96ca7be50fe 31bd671cfcf28d4c55116c8de93a76f4e6116677 Igboanugwo Collins <munisco12@gmail.com> 1611299076 +0100	commit: working on income calculator
+31bd671cfcf28d4c55116c8de93a76f4e6116677 f1516a64a9b10f832145ce06058e6324c519cac0 Igboanugwo Collins <munisco12@gmail.com> 1611299088 +0100	commit: working on income calculator
+f1516a64a9b10f832145ce06058e6324c519cac0 653f636347eee272ee6394ac97612d165e505dd8 Igboanugwo Collins <munisco12@gmail.com> 1611299324 +0100	commit: working on income calculator
+653f636347eee272ee6394ac97612d165e505dd8 01f3a6dc51df4d24550eb2e4ae0c0ebbe1e53872 Igboanugwo Collins <munisco12@gmail.com> 1611299465 +0100	commit: working on income calculator
