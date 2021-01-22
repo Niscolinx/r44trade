@@ -22,6 +22,9 @@ const ContactUs = (props) => {
             setEmail(inputValue)
         }
 
+        if(inputName === 'message'){
+            setMessage(inputValue)
+        }
     }
 
     return (
