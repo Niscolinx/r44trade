@@ -33,31 +33,33 @@ function Layout(props) {
     const [calcSelect, setCalcSelect] = useState()
 
     const inputChangeHandler = (input, event) => {
+        if (input.target.id === 'calc_amount') {
+            setCalcNum(input.target.value)
+        }
 
-
-        if(input.target.id === 'calc_amount'){
-
-         setCalcNum(input.target.value) 
-         }
-
-
-
-         if(input.target.id === 'calc_plan'){
-
+        if (input.target.id === 'calc_plan') {
             console.log('the calc plan', typeof input.target.value)
 
-            let calPercent;
-            if(input.target.value === '10'){
-               calPercent = calcNum * 0.1
+            let calPercent
+            if (input.target.value === '10') {
+                calPercent = calcNum * 0.1
             }
-            if(input.target.value === '20'){}
-            if(input.target.value === '30'){}
-            if(input.target.value === '40'){}
-            if(input.target.value === '60'){}
-            if(input.target.value === '80'){}
-           
-         }
-
+            if (input.target.value === '20') {
+                calPercent = calcNum * 0.2
+            }
+            if (input.target.value === '30') {
+                calPercent = calcNum * 0.3
+            }
+            if (input.target.value === '40') {
+                calPercent = calcNum * 0.4
+            }
+            if (input.target.value === '60') {
+                calPercent = calcNum * 0.6
+            }
+            if (input.target.value === '80') {
+                calPercent = calcNum * 0.8
+            }
+        }
     }
 
     const handleIncomeCalculation = (e) => {
