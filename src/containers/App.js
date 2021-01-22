@@ -144,7 +144,8 @@ function App(props) {
 const mapStateToProps = (state) => {
     return {
         siteOwner: state.auth.siteOwner,
-        auth: state.auth.tokenId,
+        //auth: state.auth.tokenId,
+        auth: 'kjfdkslfands'
     }
 }
 
