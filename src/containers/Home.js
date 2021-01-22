@@ -41,22 +41,22 @@ function Layout(props) {
             let calcPercent = 0;
             if (input.target.value === '10') {
                 console.log('the value is', 10)
-                return calcPercent = calcNum * 0.1
+                calcPercent = calcNum * 0.1
             }
             if (input.target.value === '20') {
-                return calcPercent = calcNum * 0.2
+                calcPercent = calcNum * 0.2
             }
             if (input.target.value === '30') {
-               return calcPercent = calcNum * 0.3
+               calcPercent = calcNum * 0.3
             }
             if (input.target.value === '40') {
-               return calcPercent = calcNum * 0.4
+               calcPercent = calcNum * 0.4
             }
             if (input.target.value === '60') {
-               return calcPercent = calcNum * 0.6
+               calcPercent = calcNum * 0.6
             }
             if (input.target.value === '80') {
-               return calcPercent = calcNum * 0.8
+               calcPercent = calcNum * 0.8
             }
 
             console.log('calc_plan', calcPercent)
