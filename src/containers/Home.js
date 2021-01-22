@@ -737,7 +737,7 @@ const handleIncomeCalculation = (e) => {
                                     className='enterNum'
                                     type='number'
                                     min='20'
-                                    max='199'
+                                    max='99999'
                                     id='calc_amount'
                                     onChange={inputChangeHandler}
                                     value={calcNum}
