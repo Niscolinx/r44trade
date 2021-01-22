@@ -112,10 +112,14 @@
             }
         }
 
-        &__1{
-            background-color: red;
-        }
     }
 
+    &-dashboard__1{
+
+        background: green;
+        &__1{
+            background: red;
+        }
+    }
     
 }
