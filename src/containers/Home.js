@@ -42,6 +42,15 @@ function Layout(props) {
          setCalcNum(input.target.value) 
          }
 
+        switch (input.target.id === 'calc_plan') {
+            case value:
+                
+                break;
+        
+            default:
+                break;
+        }
+
     }
 
     const handleIncomeCalculation = (e) => {
