@@ -32,13 +32,16 @@ function Layout(props) {
     const [calcSelect, setCalcSelect] = useState()
 
     const inputChangeHandler = (input, event) => {
-        console.log('the input is', input, input.target)
+        console.log('the input is', input, input.target.id)
         console.log('event phase', input.eventPhase)
         console.log('type', input.type)
 
 
 
-        setCalcNum(input.target.value)
+        if(input.target.id === 'calc_amount')
+         setCalcNum(input.target.value) 
+         }
+
     }
 
     const handleIncomeCalculation = (e) => {
