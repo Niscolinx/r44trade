@@ -27,16 +27,11 @@ function PlansDashboard() {
                             <li className='plan-dashboard__list-item'>
                                 After{' '}
                                 <span className='plan-dashboard__list-item--span'>
-                                    24
+                                    48
                                 </span>{' '}
                                 Hours
                             </li>
-                            <li className='plan-dashboard__list-item'>
-                                <span className='plan-dashboard__list-item--span'>
-                                    20%
-                                </span>{' '}
-                                Services Uptime
-                            </li>
+                    
                             <li className='plan-dashboard__list-item'>
                                 <span className='plan-dashboard__list-item--span'>
                                     24/7
@@ -46,7 +41,7 @@ function PlansDashboard() {
                             <li className='plan-dashboard__list-item'>
                                 minimum -{' '}
                                 <span className='plan-dashboard__list-item--span'>
-                                    $30
+                                    $50
                                 </span>
                             </li>
                             <li className='plan-dashboard__list-item'>
