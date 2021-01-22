@@ -31,53 +31,16 @@ import Input from '../main/Input'
 
 
 function Layout(props) {
-     const [state, setState] = useState({
-         loginForm: {
-             email: {
-                 value: '',
-                 valid: false,
-                 touched: false,
-             },
-             password: {
-                 value: '',
-                 valid: false,
-                 touched: false,
-             },
-         },
-     })
-const inputChangeHandler = (input, value) => {
-    setState((prevState) => {
-        let isValid = true
-        for (const validator of prevState.loginForm[input].validators) {
-            isValid = isValid && validator(value)
-        }
+     
+    const [calcNum, setCalcNum] = useState(20)
+    const [calcSelect, setCalcSelect] = useState()
 
-        const updatedForm = {
-            ...prevState.loginForm,
-            [input]: {
-                ...prevState.loginForm[input],
-                valid: isValid,
-                value: value,
-                touched: true,
-            },
-        }
-        let formIsValid = true
-        for (const inputName in updatedForm) {
-            if (
-                inputName !== 'formIsValid' &&
-                inputName !== '[object Object]'
-            ) {
-                formIsValid = formIsValid && updatedForm[inputName].valid
-            }
-        }
-        return {
-            loginForm: updatedForm,
-            formIsValid: formIsValid,
-        }
-    })
+const inputChangeHandler = (input) => {
+
+    console.log('the input is', input.target.value)
+    
 }
 
-const inputBlurHandler = (input) => {}
 
 const handleIncomeCalculation = (e) => {
     e.preventDefault()
@@ -773,21 +736,12 @@ const handleIncomeCalculation = (e) => {
                                     type='number'
                                     min='20'
                                     max='199'
-                                    value='20'
                                     id='calc_amount'
-                                />
-                                <Input
-                                    id='password'
-                                    type='password'
-                                    control='input'
-                                    minLength={6}
                                     onChange={inputChangeHandler}
                                     value={state.loginForm['password'].value}
-                                    valid={state.loginForm['password'].valid}
-                                    touched={
-                                        state.loginForm['password'].touched
-                                    }
+
                                 />
+                               
                             </div>
                             <div className='formBlockLight'>
                                 <label for='calc_plan'>Choosing of plan:</label>
