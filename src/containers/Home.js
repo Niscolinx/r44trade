@@ -752,7 +752,7 @@ const handleIncomeCalculation = (e) => {
                                     onChange={inputChangeHandler}
                                 >
                                     <option
-                                        value='1'
+                                        value='10'
                                         data-min='50'
                                         data-max='199'
                                         data-perc='110'
@@ -762,7 +762,7 @@ const handleIncomeCalculation = (e) => {
                                         10% After 48 hours
                                     </option>
                                     <option
-                                        value='2'
+                                        value='20'
                                         data-min='200'
                                         data-max='499'
                                         data-perc='120'
@@ -771,7 +771,7 @@ const handleIncomeCalculation = (e) => {
                                         20% after 4 work Days{' '}
                                     </option>
                                     <option
-                                        value='3'
+                                        value='30'
                                         data-min='500'
                                         data-max='999'
                                         data-perc='130'
@@ -780,7 +780,7 @@ const handleIncomeCalculation = (e) => {
                                         30% after 6 work Days{' '}
                                     </option>
                                     <option
-                                        value='4'
+                                        value='40'
                                         data-min='1000'
                                         data-max='4999'
                                         data-perc='140'
@@ -789,7 +789,7 @@ const handleIncomeCalculation = (e) => {
                                         40% after 8 work Days
                                     </option>
                                     <option
-                                        value='3'
+                                        value='60'
                                         data-min='5000'
                                         data-max='9999'
                                         data-perc='160'
@@ -798,7 +798,7 @@ const handleIncomeCalculation = (e) => {
                                         60% after 10 work Days{' '}
                                     </option>
                                     <option
-                                        value='4'
+                                        value='80'
                                         data-min='10000'
                                         data-max='100000000'
                                         data-perc='180'
