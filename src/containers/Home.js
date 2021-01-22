@@ -37,22 +37,25 @@ function Layout(props) {
 
         if(input.target.id === 'calc_amount'){
 
-        console.log('the calc amount')
          setCalcNum(input.target.value) 
          }
+
+
 
          if(input.target.id === 'calc_plan'){
 
             console.log('the calc plan', typeof input.target.value)
-             switch (input.target.value) {
-                 case '10':
-                      console.log('10%');
-                     break;
-                case '20': console.log('20%')
-                break;
-                 default:
-                     break;
-             }
+
+            let calPercent;
+            if(input.target.value === '10'){
+               calPercent = calcNum * 0.1
+            }
+            if(input.target.value === '20'){}
+            if(input.target.value === '30'){}
+            if(input.target.value === '40'){}
+            if(input.target.value === '60'){}
+            if(input.target.value === '80'){}
+           
          }
 
     }
