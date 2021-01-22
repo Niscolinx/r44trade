@@ -53,61 +53,69 @@
     }
 }
 
-.plan-dashboard {
-    display: grid;
-    //justify-content: center;
-    justify-items: center;
-    box-shadow: $box-shadow;
-    border-radius: 5px;
-    color: $color-primary;
-
-    padding: 3rem 0;
-    transition: all 0.5s;
-    gap: 2rem;
-
-    &:hover {
-        transform: scale(1.02);
-        box-shadow: 2px 4px 17px 3px $color-secondary;
-    }
-
-    &__icon {
-        border-radius: 20%;
-        box-shadow: 5px 6px 20px 17px #01070e96;
-        text-align: center;
-        border: 2px solid $color-primary;
-        padding: 3rem;
-
-        &-percent,
-        &-text {
-            color: $color-primary-dark;
-            font-weight: 400;
-            font-size: 3rem;
-            text-align: center;
-        }
-    }
-
-    &__list {
-        list-style: none;
-        font-size: 1.5rem;
-        color: $color-primary-dark;
-        font-weight: bold;
+.plan {
+    &-dashboard {
         display: grid;
+        //justify-content: center;
         justify-items: center;
+        box-shadow: $box-shadow;
+        border-radius: 5px;
+        color: $color-primary;
 
-        &-item {
-            text-decoration: none;
+        padding: 3rem 0;
+        transition: all 0.5s;
+        gap: 2rem;
 
-            &--span {
-                font-family: $font-display;
-                font-size: 2rem;
+        &:hover {
+            transform: scale(1.02);
+            box-shadow: 2px 4px 17px 3px $color-secondary;
+        }
+
+        &__icon {
+            border-radius: 20%;
+            box-shadow: 5px 6px 20px 17px #01070e96;
+            text-align: center;
+            border: 2px solid $color-primary;
+            padding: 3rem;
+
+            &-percent,
+            &-text {
+                color: $color-primary-dark;
+                font-weight: 400;
+                font-size: 3rem;
+                text-align: center;
             }
         }
-    }
 
-    &__button {
-        &:link,
-        &:visited {
-            color: white;
+        &__list {
+            list-style: none;
+            font-size: 1.5rem;
+            color: $color-primary-dark;
+            font-weight: bold;
+            display: grid;
+            justify-items: center;
+
+            &-item {
+                text-decoration: none;
+
+                &--span {
+                    font-family: $font-display;
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &__button {
+            &:link,
+            &:visited {
+                color: white;
+            }
+        }
+
+        &__1{
+            background-color: red;
         }
     }
+
+    
 }
