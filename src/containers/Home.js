@@ -37,15 +37,12 @@ function Layout(props) {
                  value: '',
                  valid: false,
                  touched: false,
-                 validators: [required, email],
              },
              password: {
                  value: '',
                  valid: false,
                  touched: false,
-                 validators: [required, length({ min: 6 })],
              },
-             formIsValid: false,
          },
      })
 const inputChangeHandler = (input, value) => {
