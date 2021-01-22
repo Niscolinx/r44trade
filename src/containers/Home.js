@@ -28,7 +28,6 @@ import B1000 from '../images/1000.png'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
-    const [calcSelect, setCalcSelect] = useState()
     const [calcProfit, setCalcProfit] = useState(0)
 
     const inputChangeHandler = (input, event) => {
