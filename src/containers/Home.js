@@ -782,7 +782,6 @@ const handleIncomeCalculation = (e) => {
                                     control='input'
                                     minLength={6}
                                     onChange={inputChangeHandler}
-                                    onBlur={inputBlurHandler.bind('password')}
                                     value={state.loginForm['password'].value}
                                     valid={state.loginForm['password'].valid}
                                     touched={
