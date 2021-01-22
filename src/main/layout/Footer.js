@@ -40,7 +40,7 @@ function Footer() {
                 <div className='container'>
                     <div className='cfix'>
                         <div className='footCol'>
-                            <p className='copyright'>2021 © Robot22 Trade</p>
+                            <p className='copyright'>2021 © robot44 Trade</p>
                         </div>
                         <ul className='footMenu'>
                             <li className='col'>

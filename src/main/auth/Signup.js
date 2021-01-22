@@ -16,7 +16,6 @@ import LogRegBg from '../../images/logreg_bg.jpg'
 import Logo from '../../images/logos.png'
 
 const Signup = (props) => {
-
     const [state, setState] = useState({
         signupForm: {
             fullname: {
@@ -85,7 +84,6 @@ const Signup = (props) => {
             })
         }
     }, [props])
-
 
     const inputChangeHandler = (input, value) => {
         setState((prevState) => {
@@ -360,7 +358,6 @@ const Signup = (props) => {
                                                 </span>
                                             </div>
 
-                      
                                             <div class='agree'>
                                                 <input
                                                     required
@@ -495,7 +492,6 @@ const Signup = (props) => {
                                         </div>
                                     </div>
                                 </form>
-                               
                             </Auth>
                         </div>
                     </div>
@@ -505,7 +501,7 @@ const Signup = (props) => {
                         style={{ display: 'none' }}
                     >
                         <p class='copy tCell middle left'>
-                            © 2021 Robot22 Trade. All rights reserved.
+                            © 2021 robot44 Trade. All rights reserved.
                         </p>
                     </div>
                     <div class='circleBg'>
