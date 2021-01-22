@@ -35,6 +35,7 @@ function Layout(props) {
             setCalcNum(input.target.value)
 
             const selectInputValue = input.target['choosePlan'].value
+            console.log('the select value', selectInputValue)
             setCalcProfit()
         }
 
