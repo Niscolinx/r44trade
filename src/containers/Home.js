@@ -37,7 +37,6 @@ function Layout(props) {
         }
 
         if (input.target.id === 'calc_plan') {
-            console.log('the calc plan', typeof input.target.value)
 
             let calcPercent = 0;
             if (input.target.value === '10') {
