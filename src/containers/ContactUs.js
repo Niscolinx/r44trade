@@ -89,7 +89,7 @@ const ContactUs = (props) => {
                 <div className='containerSM'>
                     <span className='captionDark center'>contact form</span>
                     <div className='wrap'>
-                        <form method='post' name='mainform'>
+                        <form>
                             <div className='row bigPadd'>
                                 <div className='item col6'>
                                     <div className='formBlockLight'>
@@ -124,7 +124,7 @@ const ContactUs = (props) => {
                             >
                                 send
                             </button>
-                        </form>{' '}
+                        </form>
                     </div>
                 </div>
             </div>
