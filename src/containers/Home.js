@@ -31,11 +31,13 @@ function Layout(props) {
     const [calcProfit, setCalcProfit] = useState(22)
 
     const inputChangeHandler = (input, event) => {
+        const selectInputValue = input.target['choosePlan'].value
+        const numInputValue = input.target['inputNum'].value
         if (input.target.id === 'calc_amount') {
             setCalcNum(input.target.value)
 
-            const selectInputValue = input.target['choosePlan'].value
             console.log('the select value', selectInputValue)
+            console.log('the number value', numInputValue)
             setCalcProfit()
         }
 
@@ -758,6 +760,7 @@ function Layout(props) {
                             <div className='formBlockLight'>
                                 <label for='calc_amount'>Amount:</label>
                                 <input
+                                    name='inputNum'
                                     className='enterNum'
                                     type='number'
                                     min='20'
