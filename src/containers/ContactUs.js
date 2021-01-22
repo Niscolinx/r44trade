@@ -11,7 +11,7 @@ const ContactUs = (props) => {
 
 
     const inputHandler = (input) => {
-        console.log('the input', input.target.value)
+        console.log('the input', input.target.name)
     }
 
     return (
