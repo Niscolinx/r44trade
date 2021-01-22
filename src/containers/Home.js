@@ -738,10 +738,8 @@ const handleIncomeCalculation = (e) => {
                                     max='199'
                                     id='calc_amount'
                                     onChange={inputChangeHandler}
-                                    value={state.loginForm['password'].value}
-
+                                    value={calcNum}
                                 />
-                               
                             </div>
                             <div className='formBlockLight'>
                                 <label for='calc_plan'>Choosing of plan:</label>
@@ -749,6 +747,7 @@ const handleIncomeCalculation = (e) => {
                                     name='choosePlan'
                                     id='calc_plan'
                                     className='calc_plan--select'
+                                    onChange={inputChangeHandler}
                                 >
                                     <option
                                         value='1'
