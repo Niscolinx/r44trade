@@ -1,10 +1,14 @@
-import React from 'react'
+import React, (useState) from 'react'
 
 import ContactPageBg from '../images/contact_page_bg.jpg'
 import ContactBg from '../images/contact_bg.jpg'
 import GreyBg from '../images/grey_bg.png'
 
 const ContactUs = (props) => {
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+    const [name, setName] = useState('')
+
     return (
         <>
             <div
