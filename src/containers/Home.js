@@ -37,8 +37,10 @@ function Layout(props) {
 
         if (input.target.id === 'calc_plan') {
 
+            
             let calcPercent = 0;
             if (input.target.value === '10') {
+                console.log('the value is', 10)
                 return calcPercent = calcNum * 0.1
             }
             if (input.target.value === '20') {
@@ -57,6 +59,7 @@ function Layout(props) {
                return calcPercent = calcNum * 0.8
             }
 
+            console.log('calc_plan', calcPercent)
 
             setCalcProfit(calcPercent)
 
