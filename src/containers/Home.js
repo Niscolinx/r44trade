@@ -31,8 +31,8 @@ function Layout(props) {
     const [calcProfit, setCalcProfit] = useState(22)
 
     const inputChangeHandler = (input, event) => {
-        const selectInputValue = input.target['choosePlan'].value
-        const numInputValue = input.target['inputNum'].value
+        const selectInputValue = input.target
+        const numInputValue = input
         if (input.target.id === 'calc_amount') {
             setCalcNum(input.target.value)
 
