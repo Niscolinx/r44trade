@@ -1,12 +1,12 @@
-import React, {useState} from 'react'
-import {Link} from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import { SiEthereum, SiLitecoin } from 'react-icons/si'
-import {RiBitCoinLine} from 'react-icons/ri'
+import { RiBitCoinLine } from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
-import {HiChartBar} from 'react-icons/hi'
-import {AiOutlineFileProtect} from 'react-icons/ai'
-import {MdLocationOn} from 'react-icons/md'
+import { HiChartBar } from 'react-icons/hi'
+import { AiOutlineFileProtect } from 'react-icons/ai'
+import { MdLocationOn } from 'react-icons/md'
 
 import A1 from '../images/A1.png'
 import About_bg from '../images/about_bg.jpg'
@@ -27,28 +27,23 @@ import B1000 from '../images/1000.png'
 
 import Input from '../main/Input'
 
-
-
-
 function Layout(props) {
-     
     const [calcNum, setCalcNum] = useState(20)
     const [calcSelect, setCalcSelect] = useState()
 
-const inputChangeHandler = (input, event) => {
-
-    console.log('the input is', input, event)
-
-    setCalcNum(input.target.value)
-    
-}
+    const inputChangeHandler = (input, event) => {
+        console.log('the input is', input, input.target)
+        console.log('event phase', input.eventPhase)
+        console.log('type', input.type)
 
 
-const handleIncomeCalculation = (e) => {
-    e.preventDefault()
-    
-}
 
+        setCalcNum(input.target.value)
+    }
+
+    const handleIncomeCalculation = (e) => {
+        e.preventDefault()
+    }
 
     return (
         <>
