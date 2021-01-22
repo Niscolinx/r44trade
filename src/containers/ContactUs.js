@@ -107,7 +107,7 @@ const ContactUs = (props) => {
                                         onChange={inputHandler}
                                             type='text'
                                             name='name'
-                                            value=''
+                                            value={name}
                                         />
                                     </div>
                                 </div>
@@ -119,7 +119,7 @@ const ContactUs = (props) => {
 
                                             type='text'
                                             name='email'
-                                            value=''
+                                            value={email}
                                         />
                                     </div>
                                 </div>
@@ -128,6 +128,7 @@ const ContactUs = (props) => {
                                 <div className='formBlockLight'>
                                     <label for=''>Message:</label>
                                     <textarea name='message'                                         onChange={inputHandler}
+                                    value={message}
 ></textarea>
                                 </div>
                             </div>
