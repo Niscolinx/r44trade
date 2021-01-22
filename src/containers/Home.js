@@ -25,8 +25,6 @@ import Grey_bg from '../images/grey_bg.png'
 import profile from '../images/profile.jpg'
 import B1000 from '../images/1000.png'
 
-import Input from '../main/Input'
-import input from '../main/Input'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
@@ -40,24 +38,24 @@ function Layout(props) {
         if (input.target.id === 'calc_plan') {
             console.log('the calc plan', typeof input.target.value)
 
-            let calPercent
+            let calcPercent
             if (input.target.value === '10') {
-                calPercent = calcNum * 0.1
+                return calcPercent = calcNum * 0.1
             }
             if (input.target.value === '20') {
-                calPercent = calcNum * 0.2
+                return calcPercent = calcNum * 0.2
             }
             if (input.target.value === '30') {
-                calPercent = calcNum * 0.3
+               return calcPercent = calcNum * 0.3
             }
             if (input.target.value === '40') {
-                calPercent = calcNum * 0.4
+               return calcPercent = calcNum * 0.4
             }
             if (input.target.value === '60') {
-                calPercent = calcNum * 0.6
+               return calcPercent = calcNum * 0.6
             }
             if (input.target.value === '80') {
-                calPercent = calcNum * 0.8
+               return calcPercent = calcNum * 0.8
             }
         }
     }
