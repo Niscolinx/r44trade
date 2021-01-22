@@ -708,7 +708,6 @@ function Layout(props) {
                 <div className='container'>
                     <div className='cfix'>
                         <form>
-                            
                             <div className='formBlockLight'>
                                 <label for='calc_amount'>Amount:</label>
                                 <input
@@ -718,6 +717,19 @@ function Layout(props) {
                                     max='199'
                                     value='20'
                                     id='calc_amount'
+                                />
+                                <Input
+                                    id='password'
+                                    type='password'
+                                    control='input'
+                                    minLength={6}
+                                    onChange={inputChangeHandler}
+                                    onBlur={inputBlurHandler.bind('password')}
+                                    value={state.loginForm['password'].value}
+                                    valid={state.loginForm['password'].valid}
+                                    touched={
+                                        state.loginForm['password'].touched
+                                    }
                                 />
                             </div>
                             <div className='formBlockLight'>
