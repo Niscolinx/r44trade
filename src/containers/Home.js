@@ -81,14 +81,7 @@ const inputBlurHandler = (input) => {}
 
 const handleIncomeCalculation = (e) => {
     e.preventDefault()
-    if (state.formIsValid) {
-        props.onInitLogin(
-            state.loginForm.email.value,
-            state.loginForm.password.value
-        )
-    } else {
-        setMessage({ error: 'Wrong Input, please check your entries' })
-    }
+    
 }
 
 
@@ -772,7 +765,7 @@ const handleIncomeCalculation = (e) => {
             <div className='planProfit gradBack'>
                 <div className='container'>
                     <div className='cfix'>
-                        <form>
+                        <form onSubmit={handleIncomeCalculation}>
                             <div className='formBlockLight'>
                                 <label for='calc_amount'>Amount:</label>
                                 <input
