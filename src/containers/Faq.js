@@ -623,50 +623,7 @@ const Faq = () => {
                                 </div>
                             </div>
 
-                            <div className='faqItem'>
-                                <div className='head'>
-                                    <div className='iconLeft'>
-                                        <span className='icon-faq gradTxt'></span>
-                                        <span className='data'>
-                                            Do you release updates? Where to
-                                            find the new releases, if there are
-                                            any?
-                                        </span>
-                                    </div>
-                                </div>
-                                <div className='content'>
-                                    <div className='textBlock'>
-                                        <p>
-                                            We believe in the saying, ‘
-                                            <strong>
-                                                A Software is never complete
-                                            </strong>
-                                            ’. So, we keep on refining our
-                                            product continually. Updates are all
-                                            about the changes in the market
-                                            terms or improvement in the strategy
-                                            from time to time. Kindly{' '}
-                                            <span style={{ color: '#0000ff' }}>
-                                                <strong>
-                                                    <a
-                                                        style={{
-                                                            color: '#0000ff',
-                                                        }}
-                                                        href='robot44trade.com/ea-updates/'
-                                                        target='_blank'
-                                                        rel='noopener'
-                                                    >
-                                                        visit this link
-                                                    </a>
-                                                </strong>
-                                            </span>{' '}
-                                            to stay updated on the current and
-                                            past releases.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
+                           
                             <div className='faqItem'>
                                 <div className='head'>
                                     <div className='iconLeft'>
