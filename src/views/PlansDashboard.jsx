@@ -14,7 +14,7 @@ function PlansDashboard() {
             <div className='plans-dashboard'>
                 <div className='plans-dashboard__container'>
                     <div className='plan-dashboard plan-dashboard__1'>
-                        <div className='plan-dashboard__icon'>
+                        <div className='plan-dashboard__icon plan-dashboard__icon1'>
                             <h1 className='heading-1 plan-dashboard__icon-percent'>
                                 10%
                             </h1>
