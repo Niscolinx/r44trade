@@ -28,6 +28,7 @@ import B1000 from '../images/1000.png'
 
 function Layout(props) {
     const [calcNum, setCalcNum] = useState(20)
+    const [selectedValue, setSelectedValue] = useState(0.1)
     const [calcProfit, setCalcProfit] = useState(22)
 
     const inputChangeHandler = (input, event) => {
@@ -48,18 +49,27 @@ function Layout(props) {
             if (input.target.value === '10') {
                 console.log('the value is', 10)
                 calcPercent = calcNum * 0.1
+                setSelectedValue(calcPercent)
             }
             if (input.target.value === '20') {
                 calcPercent = calcNum * 0.2
+                                setSelectedValue(calcPercent)
+
             }
             if (input.target.value === '30') {
                calcPercent = calcNum * 0.3
+                               setSelectedValue(calcPercent)
+
             }
             if (input.target.value === '40') {
                calcPercent = calcNum * 0.4
+                               setSelectedValue(calcPercent)
+
             }
             if (input.target.value === '60') {
                calcPercent = calcNum * 0.6
+                               setSelectedValue(calcPercent)
+
             }
             if (input.target.value === '80') {
                calcPercent = calcNum * 0.8
