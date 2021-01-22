@@ -1,4 +1,4 @@
-import React, (useState) from 'react'
+import React, {useState} from 'react'
 
 import ContactPageBg from '../images/contact_page_bg.jpg'
 import ContactBg from '../images/contact_bg.jpg'
