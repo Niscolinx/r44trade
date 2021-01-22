@@ -5,7 +5,7 @@ import { SiEthereum, SiLitecoin } from 'react-icons/si'
 import { RiBitCoinLine } from 'react-icons/ri'
 import { GiVikingLonghouse } from 'react-icons/gi'
 import { HiChartBar } from 'react-icons/hi'
-import { AiOutlineFileProtect } from 'react-icons/ai'
+import { AiOutlineFileProtect, AiOutlineConsoleSql } from 'react-icons/ai'
 import { MdLocationOn } from 'react-icons/md'
 
 import A1 from '../images/A1.png'
@@ -35,7 +35,7 @@ function Layout(props) {
     const inputChangeHandler = (input, event) => {
 
 
-        if(input.target.id === 'calc_amount')
+        if(input.target.id === 'calc_amount'){
 
         console.log('the calc amount')
          setCalcNum(input.target.value) 
@@ -45,10 +45,11 @@ function Layout(props) {
 
             console.log('the calc plan', typeof input.target.value)
              switch (input.target.value) {
-                 case value:
-                     
+                 case '10':
+                      console.log('10%');
                      break;
-             
+                case '20': console.log('20%')
+                break;
                  default:
                      break;
              }

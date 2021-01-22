@@ -36,8 +36,6 @@ function App(props) {
         if (!ref.current) {
             if (token) {
                 props.onCheckState(token, userId)
-            } else {
-                props.onInitActivities()
             }
         }
         ref.current = true
