@@ -31,21 +31,21 @@ function Layout(props) {
         }
 
         localStorage.setItem('cssLoaded', false)
-        import('bootstrap/dist/css/bootstrap.min.css').then((Baz) => {
-        })
-        import('../assets/css/animate.min.css').then((Baz) => {
-        })
-        import(
-            '../assets/sass/light-bootstrap-dashboard-react.scss?v=1.3.0'
-        ).then((Baz) => {
-        })
-        import('../assets/css/demo.css').then((Baz) => {
-        })
-        const all = import('../assets/css/pe-icon-7-stroke.css').then((Baz) => {
-        })
-        all.finally((result) => {
-            localStorage.setItem('cssLoaded', true)
-        })
+        // import('bootstrap/dist/css/bootstrap.min.css').then((Baz) => {
+        // })
+        // import('../assets/css/animate.min.css').then((Baz) => {
+        // })
+        // import(
+        //     '../assets/sass/light-bootstrap-dashboard-react.scss?v=1.3.0'
+        // ).then((Baz) => {
+        // })
+        // import('../assets/css/demo.css').then((Baz) => {
+        // })
+        // const all = import('../assets/css/pe-icon-7-stroke.css').then((Baz) => {
+        // })
+        // all.finally((result) => {
+        //     localStorage.setItem('cssLoaded', true)
+        // })
 
         toRender = props.children
     } else {
@@ -57,7 +57,7 @@ function Layout(props) {
                 <div className='section-subHeader'>
                     <SubHeader />
                 </div>
-                <main>{props.children}</main>
+                <main className='main'>{props.children}</main>
                 <div className='section-footer'>
                     <Footer />
                 </div>
