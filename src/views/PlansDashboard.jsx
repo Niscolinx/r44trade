@@ -63,7 +63,7 @@ function PlansDashboard() {
                                 </span>
                             </li>
                         </ul>
-                        <button className='button'>
+                        <button className='plan-btn__1'>
                             <Link
                                 to='/admin/plan-order/:plan 1'
                                 className='plan-dashboard__button'
