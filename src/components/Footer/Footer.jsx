@@ -21,7 +21,7 @@ class Footer extends Component {
           </nav>
           <p className="copyright pull-right">
             &copy; {new Date().getFullYear()}{" "}
-COINPERFECTINVESTMENT.COM ALL RIGHTS RESERVED          </p>
+ROBOT44TRADE.COM ALL RIGHTS RESERVED          </p>
         </Grid>
       </footer>
     );
