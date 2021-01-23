@@ -1,11 +1,10 @@
 import React from 'react'
 
-import { SiAdguard} from 'react-icons/si'
+import { SiAdguard } from 'react-icons/si'
 import { BiSupport } from 'react-icons/bi'
 import { AiOutlineAreaChart } from 'react-icons/ai'
 import { MdAccountBalanceWallet, MdPeople } from 'react-icons/md'
-import {CgInternal} from 'react-icons/cg'
-
+import { CgInternal } from 'react-icons/cg'
 
 function WhyChooseUs() {
     return (
@@ -34,7 +33,10 @@ function WhyChooseUs() {
                     <h2 className='whyChooseUs__title'>
                         Experienced Management
                     </h2>
-                    <h3 className='whyChooseUs__text'>coinperfectinvestment.com is managed by a team with years of experience </h3>
+                    <h3 className='whyChooseUs__text'>
+                        robot44trade.com is managed by a team with years of
+                        experience{' '}
+                    </h3>
                 </div>
                 <div className='whyChooseUs__box'>
                     <BiSupport className='whyChooseUs__icon' />

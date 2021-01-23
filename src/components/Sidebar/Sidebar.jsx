@@ -32,7 +32,7 @@ class Sidebar extends Component {
                 id='sidebar'
                 className='sidebar'
                 data-color={this.props.color}
-               data-image={this.props.image}
+                data-image={this.props.image}
             >
                 {this.props.hasImage ? (
                     <div
@@ -41,13 +41,13 @@ class Sidebar extends Component {
                     />
                 ) : null}
                 <div className='logo'>
-                    <img src={logo} alt='logo_image' className='logo-2'/>
-                
+                    <img src={logo} alt='logo_image' className='logo-2' />
+
                     {/* <a
                         href='/admin/dashboard'
                         className='simple-text logo-normal'
                     >
-                        Coinperfectinvestment
+                        robot44trade
                     </a> */}
                 </div>
                 <div className='sidebar-wrapper'>

@@ -15,7 +15,7 @@ export const authSuccessCheck = (auth, token, role, email) => {
         sessionStorage.setItem('userId', auth)
         sessionStorage.setItem('token', token)
 
-        if (email === 'support@coinperfectinvestment.com') {
+        if (email === 'support@robot44trade.com') {
             sessionStorage.setItem('siteOwner', true)
         }
 
@@ -222,7 +222,9 @@ export const initSignup = (authData) => {
 
         console.log('From the schema', data)
 
-        data.bitcoinAccount.value === (null || '') ? console.log('not valid') : console.log('valid')
+        data.bitcoinAccount.value === (null || '')
+            ? console.log('not valid')
+            : console.log('valid')
 
         const graphqlQuery = {
             query: ` mutation { createUser(userData: {
@@ -230,7 +232,7 @@ export const initSignup = (authData) => {
             email: "${data.confirmEmail.value}",
             password: "${data.confirmPassword.value}",
             fullname: "${data.fullname.value}",
-            bitcoinAccount: "${data.bitcoinAccount.value }",
+            bitcoinAccount: "${data.bitcoinAccount.value}",
             ethereumAccount: "${data.ethereumAccount.value}"
            }) {  email username fullname }
          }`,
@@ -260,7 +262,6 @@ export const initSignup = (authData) => {
             })
     }
 }
-
 
 export const initActivities = (token) => {
     return (dispatch) => {

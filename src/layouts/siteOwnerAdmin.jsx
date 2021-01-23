@@ -95,7 +95,7 @@ class Admin extends Component {
             }
         }
         const pathRoute = path.slice(7)
-        return pathRoute ? pathRoute : 'CoinperfectInvestment'
+        return pathRoute ? pathRoute : 'robot44trade'
     }
     handleImageClick = (image) => {
         this.setState({ image: image })
@@ -138,8 +138,8 @@ class Admin extends Component {
             title: <span data-notify='icon' className='pe-7s-gift' />,
             message: (
                 <div>
-                    Welcome to <b>CoinperfectInvestment Dashboard</b> - The most
-                    advanced trading platform
+                    Welcome to <b>robot44trade Dashboard</b> - The most advanced
+                    trading platform
                 </div>
             ),
             level: level,

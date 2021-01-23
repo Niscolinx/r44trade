@@ -42,39 +42,35 @@ function FundAccount(props) {
             currency,
         }
 
-         if (amount === '' || amount === '0') {
-             setMessage('Please enter a value')
-             return setError(true)
-         }
+        if (amount === '' || amount === '0') {
+            setMessage('Please enter a value')
+            return setError(true)
+        }
 
-         if (amount > userAccountBalance) {
-             setMessage('Insufficiant Balance')
-             return setError(true)
-         } else {
-             setMessage(
-                 'Funding sent, Your balance will reflect in your account after we have confirmed it, thanks!! '
-             )
-             setError(false)
+        if (amount > userAccountBalance) {
+            setMessage('Insufficiant Balance')
+            return setError(true)
+        } else {
+            setMessage(
+                'Funding sent, Your balance will reflect in your account after we have confirmed it, thanks!! '
+            )
+            setError(false)
 
-             if (!error) {
-                 amount = Number(amount)
+            if (!error) {
+                amount = Number(amount)
 
-                 props.onInitFundAccount(formData, props.tokenId, props.userId)
-
-                 
-             }
-         }
+                props.onInitFundAccount(formData, props.tokenId, props.userId)
+            }
+        }
     }
 
     useEffect(() => {
         if (props.userData.hasOwnProperty('username')) {
-
             setUserAccountBalance(props.userData.accountBalance)
         }
     }, [props])
 
-        const displayUserFunds = `$${userAccountBalance}`
-
+    const displayUserFunds = `$${userAccountBalance}`
 
     return (
         <div className='fundAccount'>
@@ -148,10 +144,7 @@ function FundAccount(props) {
                     )}
                 </div> */}
                 <div className='fundAccount__form--btn'>
-                    <button
-                        type='submit'
-                        className='button'
-                    >
+                    <button type='submit' className='button'>
                         {props.fundLoading ? 'Loading...' : 'Submit'}
                     </button>
                 </div>
@@ -160,8 +153,8 @@ function FundAccount(props) {
             <div className='fundAccount__form'>
                 <FormGroup className='fundAccount__form--contact'>
                     <FormControl.Static>
-                        Contact management at support@coinperfectinvestment.com
-                        for other payment methods
+                        Contact management at support@robot44trade.com for other
+                        payment methods
                     </FormControl.Static>
                 </FormGroup>
             </div>

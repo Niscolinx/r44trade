@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import Logo from '../../../images/logo.png'
 import Bitcoin from '../../../images/bitcoin.png'
@@ -14,12 +14,20 @@ function Header() {
     return (
         <>
             <img src={Logo} alt='' className='main-header__logo' />
-            <h3 className='heading-3 main-header__text'>Large auctions. Huge profit</h3>
-            <h1 className='heading-1 main-header__title'>Welcome to coinperfectinvestment.com</h1>
+            <h3 className='heading-3 main-header__text'>
+                Large auctions. Huge profit
+            </h3>
+            <h1 className='heading-1 main-header__title'>
+                Welcome to robot44trade.com
+            </h1>
 
             <div className='main-header__cta'>
-                <Link to='/Auth/login' className='button main-header__button'>Sign In</Link>
-                <Link to='/Auth/signup' className='button main-header__button'>Open an account</Link>
+                <Link to='/Auth/login' className='button main-header__button'>
+                    Sign In
+                </Link>
+                <Link to='/Auth/signup' className='button main-header__button'>
+                    Open an account
+                </Link>
             </div>
             <div className='main-header__seen-on'>We Accept</div>
             <div className='main-header__logos'>
