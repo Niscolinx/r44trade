@@ -91,7 +91,8 @@
         &__list {
             list-style: none;
             font-size: 1.5rem;
-            color: $color-primary-dark;
+           // color: $color-primary-dark;
+           color: white;
             font-weight: bold;
             display: grid;
             justify-items: center;
@@ -117,8 +118,8 @@
     &-dashboard {
         &__1 {
             background-image: linear-gradient(
-                    rgba(#0e4779, 0.5),
-                    rgba(12, 9, 22, 0.9)
+                    rgba(#0e4779, 0.7),
+                    rgba(4, 1, 14, 0.9)
                 ),
                 url('../images/A1.png');
             background-repeat: no-repeat;
