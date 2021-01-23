@@ -181,7 +181,38 @@
     &-dashboard__icon1 {
         background: #01284b;
     }
+    &-dashboard__icon2 {
+        background: #01284b;
+    }
     &-btn__1 {
+        background: #01284b;
+        border: none;
+        outline: none;
+        border-radius: 2.3rem;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding: 1.5rem 3.5rem;
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        transition: all 0.2s;
+        font-family: $font-display;
+        
+        
+        &:hover,
+        &:active,
+        &:visited {
+            border: none;
+            outline: none;
+            background-color: darken(#01284b, 5%);
+            text-decoration: none;
+        }
+
+        @media only screen and (max-width: 28em) {
+            padding: 1rem 2rem;
+        }
+    }
+    &-btn__2 {
         background: #01284b;
         border: none;
         outline: none;
