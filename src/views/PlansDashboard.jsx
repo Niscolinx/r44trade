@@ -137,8 +137,8 @@ function PlansDashboard() {
                         </button>
                     </div>
 
-                    <div className='plan-dashboard'>
-                        <div className='plan-dashboard__icon'>
+                    <div className='plan-dashboard plan-dashboard__1'>
+                        <div className='plan-dashboard__icon plan-dashboard__icon1'>
                             <h1 className='heading-1 plan-dashboard__icon-percent'>
                                 75%
                             </h1>
@@ -265,8 +265,8 @@ function PlansDashboard() {
                             </Link>
                         </button>
                     </div>
-                    <div className='plan-dashboard'>
-                        <div className='plan-dashboard__icon'>
+                    <div className='plan-dashboard plan-dashboard__1'>
+                        <div className='plan-dashboard__icon plan-dashboard__icon1'>
                             <h1 className='heading-1 plan-dashboard__icon-percent'>
                                 100%
                             </h1>
