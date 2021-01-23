@@ -80,8 +80,8 @@
 
             &-percent,
             &-text {
-               // color: $color-primary-dark;
-               
+                // color: $color-primary-dark;
+
                 font-weight: 400;
                 font-size: 3rem;
                 text-align: center;
@@ -112,25 +112,29 @@
                 color: white;
             }
         }
-
     }
 
-    &-dashboard{
-
-        &__1{
-            background-image:  linear-gradient(rgba(#0e4779, .5),rgba(12,9,22, .9)), url('../images/A1.png');
+    &-dashboard {
+        &__1 {
+            background-image: linear-gradient(
+                    rgba(#0e4779, 0.5),
+                    rgba(12, 9, 22, 0.9)
+                ),
+                url('../images/A1.png');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
         }
     }
 
-    &-dashboard__icon1{
+    &-dashboard__icon1 {
         background: #01284b;
     }
-    &-btn__1{
+    &-btn__1 {
         background: #01284b;
-
+        border: none;
+        outline: none;
+        padding: 1rem 2rem;
+        border-radius: 2px solid #01284b;
     }
 }
-
