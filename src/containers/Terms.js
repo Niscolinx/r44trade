@@ -27,7 +27,7 @@ function TermsAndConditions() {
                         in this program, and in all the cases your minimal age
                         must be 18 years. robot44trade.com is not available to
                         the general public and is opened only to the qualified
-                        members of robot44trade.com, th use of this site is
+                        members of robot44trade.com, the use of this site is
                         restricted to our members and to individuals personally
                         invited by them. Every deposit is considered to be a
                         private transaction between the robot44trade.com and its
