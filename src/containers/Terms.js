@@ -18,7 +18,7 @@ function TermsAndConditions() {
                 <h1 className='terms__header'> Terms and Conditions</h1>
                 <div className='terms__text'>
                     <p className='terms__primary'>
-                        Please read the following rules carefully before signing
+                        Please read the following rules carefully before igning
                         in.
                     </p>
 
