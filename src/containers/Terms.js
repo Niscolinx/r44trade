@@ -23,7 +23,7 @@ function TermsAndConditions() {
                     </p>
 
                     <p className='terms__secondary'>
-                        You agree to be of legal age in your countr to partake
+                        You agree to be of legal age in your country to partake
                         in this program, and in all the cases your minimal age
                         must be 18 years. robot44trade.com is not available to
                         the general public and is opened only to the qualified
