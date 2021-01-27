@@ -99,55 +99,7 @@ const Login = (props) => {
 
     return (
         <>
-            {/* <Particles
-                className='particles'
-                params={{
-                    particles: {
-                        number: {
-                            value: 20,
-                        },
-                    },
-                }}
-            />
-            <Auth login message={message}>
-                <form onSubmit={handleLogin}>
-                    <Input
-                        id='email'
-                        label='E-Mail'
-                        type='email'
-                        control='input'
-                        onChange={inputChangeHandler}
-                        onBlur={inputBlurHandler.bind('email')}
-                        value={state.loginForm['email'].value}
-                        valid={state.loginForm['email'].valid}
-                        touched={state.loginForm['email'].touched}
-                    />
-                    <Input
-                        id='password'
-                        label='Password'
-                        type='password'
-                        control='input'
-                        minLength={6}
-                        onChange={inputChangeHandler}
-                        onBlur={inputBlurHandler.bind('password')}
-                        value={state.loginForm['password'].value}
-                        valid={state.loginForm['password'].valid}
-                        touched={state.loginForm['password'].touched}
-                    />
-                    <div className='form-btn'>
-                        <Button
-                            design='raised'
-                            type='submit'
-                            loading={props.loading}
-                        >
-                            {props.loading ? 'Loading...' : 'Login'}
-                        </Button>
-                        <Link to='/forgot-password' className='form-btn__link'>
-                            Forgot Password?
-                        </Link>
-                    </div>
-                </form>
-            </Auth> */}
+            
 
             <div class='bodyWrap'>
                 <div
