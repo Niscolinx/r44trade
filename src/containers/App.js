@@ -3,7 +3,7 @@ import React from 'react'
 
 const App = () => {
     return (
-        <div>These files have been moved!! </div>
+        <h1>These files have been moved!! </h1>
     )
 }
 
